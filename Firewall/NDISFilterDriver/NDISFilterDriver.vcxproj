@@ -426,6 +426,7 @@
     <ClCompile Include="filter.c" />
     <ClCompile Include="device.c" />
     <ClCompile Include="flt_dbg.c" />
+    <ClInclude Include="structures.h" />
     <ResourceCompile Include="filter.rc" />
     <ClInclude Include="precomp.h" />
     <ClInclude Include="filter.h" />
