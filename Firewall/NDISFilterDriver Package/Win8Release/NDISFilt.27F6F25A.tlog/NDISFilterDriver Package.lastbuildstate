@@ -1,0 +1,2 @@
+#TargetFrameworkVersion=v4.5:PlatformToolSet=WindowsKernelModeDriver8.1:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit
+Win8 Release|Win32|D:\labs\myFirewall\Firewall\Firewall\|

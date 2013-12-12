@@ -1,0 +1,12 @@
+﻿Build started 08.12.2013 22:24:58.
+     1>Project "D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\NDISFilterDriver.vcxproj" on node 2 (Deploy target(s)).
+     1>DriverTestSign:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\signtool.exe sign /ph /sha1 "3EB241828A1FF4423EAF62BED4404EDAF91791A0" 
+         Done Adding Additional Store
+         Successfully signed: D:\labs\myFirewall\Firewall\Firewall\x64\Win8Debug\NDISFilterDriver.sys
+         
+     1>Done Building Project "D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\NDISFilterDriver.vcxproj" (Deploy target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.06

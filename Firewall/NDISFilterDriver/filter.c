@@ -11,7 +11,7 @@ Abstract:
 --*/
 
 #include "precomp.h"
-
+#include "structures.h"
 #define __FILENUMBER    'PNPF'
 
 // This directive puts the DriverEntry function into the INIT segment of the
@@ -41,6 +41,154 @@ NDIS_FILTER_PARTIAL_CHARACTERISTICS DefaultChars = {
       FilterReturnNetBufferLists
 };
 
+_Use_decl_annotations_
+VOID PrintStatus(ULONG status)
+{
+	switch (status)
+	{
+	case NDIS_STATUS_SUCCESS:
+		DbgPrint("NDIS_STATUS_SUCCESS\n");
+		break;
+	case NDIS_STATUS_INVALID_LENGTH:
+		DbgPrint("NDIS_STATUS_INVALID_LENGTH\n");
+		break;
+	case NDIS_STATUS_RESOURCES:
+		DbgPrint("NDIS_STATUS_RESOURCES\n");
+		break;
+	case NDIS_STATUS_PAUSED:
+		DbgPrint("NDIS_STATUS_PAUSED\n");
+		break;
+	case NDIS_STATUS_SEND_ABORTED:
+		DbgPrint("NDIS_STATUS_SEND_ABORTED\n");
+		break;
+	case NDIS_STATUS_RESET_IN_PROGRESS:
+		DbgPrint("NDIS_STATUS_RESET_IN_PROGRESS\n");
+		break;
+	case NDIS_STATUS_FAILURE:
+		DbgPrint("NDIS_STATUS_FAILURE\n");
+		break;
+	default:
+		DbgPrint("UNKNOWN\n");
+	}
+}
+
+_Use_decl_annotations_
+VOID check(PNET_BUFFER_LIST NetBufferLists)
+{
+	//DbgBreakPoint();
+	//mycode
+	DbgPrint("check\n");
+	PrintStatus(NetBufferLists->Status);
+	PNET_BUFFER NetBuffer = NetBufferLists->FirstNetBuffer;
+	PNDF_ETH_HEADER pEthHeader;
+	PNDF_IPV4_HEADER pIPv4Header;
+	PNDF_IPV6_HEADER pIPv6Header;
+	PNDF_ARP_HEADER pARPHeader;
+	ULONG DataOffset = 0;
+	pEthHeader = (PNDF_ETH_HEADER)NdisGetDataBuffer(NetBuffer, sizeof(NDF_ETH_HEADER), NULL, 1, 0);
+	DbgPrint("eth type: %x mac: src %x-%x-%x-%x-%x-%x dst %x-%x-%x-%x-%x-%x\n", RtlUshortByteSwap(pEthHeader->Type),
+		pEthHeader->Src[0],
+		pEthHeader->Src[1], 
+		pEthHeader->Src[2], 
+		pEthHeader->Src[3], 
+		pEthHeader->Src[4], 
+		pEthHeader->Src[5],
+		pEthHeader->Dst[0],
+		pEthHeader->Dst[1],
+		pEthHeader->Dst[2],
+		pEthHeader->Dst[3],
+		pEthHeader->Dst[4],
+		pEthHeader->Dst[5]);
+	if (pEthHeader->Type == RtlUshortByteSwap(ETHERTYPE_IP4))
+	{
+		//DbgBreakPoint();
+		NdisAdvanceNetBufferDataStart(NetBuffer, sizeof(NDF_ETH_HEADER), FALSE, NULL);
+		DataOffset = sizeof(NDF_ETH_HEADER);
+		pIPv4Header = (PNDF_IPV4_HEADER)NdisGetDataBuffer(NetBuffer, sizeof(NDF_IPV4_HEADER), NULL, 1, 0);
+		DbgPrint("IPv4 src: %d.%d.%d.%d dst: %d.%d.%d.%d\n",
+			pIPv4Header->SrcIp[0],
+			pIPv4Header->SrcIp[1], 
+			pIPv4Header->SrcIp[2], 
+			pIPv4Header->SrcIp[3],
+			pIPv4Header->DstIp[0],
+			pIPv4Header->DstIp[1],
+			pIPv4Header->DstIp[2],
+			pIPv4Header->DstIp[3]);
+		//DbgBreakPoint();
+	}
+	else if (pEthHeader->Type == RtlUshortByteSwap(ETHERTYPE_IP6))
+	{
+		//DbgBreakPoint();
+		NdisAdvanceNetBufferDataStart(NetBuffer, sizeof(NDF_ETH_HEADER), FALSE, NULL);
+		DataOffset = sizeof(NDF_ETH_HEADER);
+		pIPv6Header = (PNDF_IPV6_HEADER)NdisGetDataBuffer(NetBuffer, sizeof(NDF_IPV6_HEADER), NULL, 1, 0);
+		DbgPrint("IPv6 src: %x:%x:%x:%x:%x:%x:%x:%x:%x:%x:%x:%x:%x:%x:%x:%x dst: %x:%x:%x:%x:%x:%x:%x:%x:%x:%x:%x:%x:%x:%x:%x:%x\n",
+			pIPv6Header->SrcAddress[0],
+			pIPv6Header->SrcAddress[1],
+			pIPv6Header->SrcAddress[2],
+			pIPv6Header->SrcAddress[3],
+			pIPv6Header->SrcAddress[4],
+			pIPv6Header->SrcAddress[5],
+			pIPv6Header->SrcAddress[6],
+			pIPv6Header->SrcAddress[7],
+			pIPv6Header->SrcAddress[8],
+			pIPv6Header->SrcAddress[9],
+			pIPv6Header->SrcAddress[10],
+			pIPv6Header->SrcAddress[11],
+			pIPv6Header->SrcAddress[12],
+			pIPv6Header->SrcAddress[13],
+			pIPv6Header->SrcAddress[14],
+			pIPv6Header->SrcAddress[15],
+			pIPv6Header->DstAddress[0],
+			pIPv6Header->DstAddress[1],
+			pIPv6Header->DstAddress[2],
+			pIPv6Header->DstAddress[3],
+			pIPv6Header->DstAddress[4],
+			pIPv6Header->DstAddress[5],
+			pIPv6Header->DstAddress[6],
+			pIPv6Header->DstAddress[7],
+			pIPv6Header->DstAddress[8],
+			pIPv6Header->DstAddress[9],
+			pIPv6Header->DstAddress[10],
+			pIPv6Header->DstAddress[11],
+			pIPv6Header->DstAddress[12],
+			pIPv6Header->DstAddress[13],
+			pIPv6Header->DstAddress[14],
+			pIPv6Header->DstAddress[15]);
+		//DbgBreakPoint();
+	}
+	else if (pEthHeader->Type == RtlUshortByteSwap(ETHERTYPE_ARP))
+	{
+		//DbgBreakPoint();
+		NdisAdvanceNetBufferDataStart(NetBuffer, sizeof(NDF_ETH_HEADER), FALSE, NULL);
+		DataOffset = sizeof(NDF_ETH_HEADER);
+		pARPHeader = (PNDF_ARP_HEADER)NdisGetDataBuffer(NetBuffer, sizeof(NDF_ARP_HEADER), NULL, 1, 0);
+		DbgPrint("arp srcIp: %d.%d.%d.%d dstIp: %d.%d.%d.%d srcMac: %x-%x-%x-%x-%x-%x dstMac: %x-%x-%x-%x-%x-%x\n",
+			pARPHeader->SrcIp[0],
+			pARPHeader->SrcIp[1],
+			pARPHeader->SrcIp[2],
+			pARPHeader->SrcIp[3],
+			pARPHeader->DstIp[0],
+			pARPHeader->DstIp[1],
+			pARPHeader->DstIp[2],
+			pARPHeader->DstIp[3],
+			pARPHeader->SrcMac[0],
+			pARPHeader->SrcMac[1],
+			pARPHeader->SrcMac[2],
+			pARPHeader->SrcMac[3],
+			pARPHeader->SrcMac[4],
+			pARPHeader->SrcMac[5],
+			pARPHeader->DstMac[0],
+			pARPHeader->DstMac[1],
+			pARPHeader->DstMac[2],
+			pARPHeader->DstMac[3],
+			pARPHeader->DstMac[4],
+			pARPHeader->DstMac[5]
+			);
+		//DbgBreakPoint();
+	}
+	//mycode
+}
 
 _Use_decl_annotations_
 NTSTATUS
@@ -1196,6 +1344,8 @@ Return Value:
 
 --*/
 {
+	DbgPrint("FilterSendNetBufferListsComplete\n");
+	check(NetBufferLists);
     PMS_FILTER         pFilter = (PMS_FILTER)FilterModuleContext;
     ULONG              NumOfSendCompletes = 0;
     BOOLEAN            DispatchLevel;
@@ -1242,7 +1392,6 @@ Return Value:
     DEBUGP(DL_TRACE, "<===SendNBLComplete.\n");
 }
 
-
 _Use_decl_annotations_
 VOID
 FilterSendNetBufferLists(
@@ -1272,6 +1421,8 @@ Arguments:
 
 --*/
 {
+	DbgPrint("FilterSendNetBufferLists\n");
+	check(NetBufferLists);
     PMS_FILTER          pFilter = (PMS_FILTER)FilterModuleContext;
     PNET_BUFFER_LIST    CurrNbl;
     BOOLEAN             DispatchLevel;
@@ -1371,6 +1522,8 @@ Arguments:
 
 --*/
 {
+	DbgPrint("FilterReturnNetBufferLists\n");
+	check(NetBufferLists);
     PMS_FILTER          pFilter = (PMS_FILTER)FilterModuleContext;
     PNET_BUFFER_LIST    CurrNbl = NetBufferLists;
     UINT                NumOfNetBufferLists = 0;
@@ -1464,7 +1617,8 @@ N.B.: It is important to check the ReceiveFlags in NDIS_TEST_RECEIVE_CANNOT_PEND
 
 --*/
 {
-
+	DbgPrint("FilterReceiveNetBufferLists\n");
+	check(NetBufferLists);
     PMS_FILTER          pFilter = (PMS_FILTER)FilterModuleContext;
     BOOLEAN             DispatchLevel;
     ULONG               Ref;

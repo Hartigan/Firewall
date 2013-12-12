@@ -1,0 +1,20 @@
+﻿Build started 12.12.2013 23:49:53.
+     1>Project "D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver Package\NDISFilterDriver Package.vcxproj" on node 2 (Deploy target(s)).
+     1>Inf2Cat:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\inf2cat.exe /os:8_x64 /driver:"D:\labs\myFirewall\Firewall\Firewall\x64\Win8Release\NDISFilterDriver Package\\" 
+         .........................
+         Signability test complete.
+         
+         Errors:
+         None
+         
+         Warnings:
+         None
+         
+         Catalog generation complete.
+         D:\labs\myFirewall\Firewall\Firewall\x64\Win8Release\NDISFilterDriver Package\ndisfilterdriver.cat
+     1>Done Building Project "D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver Package\NDISFilterDriver Package.vcxproj" (Deploy target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.15
