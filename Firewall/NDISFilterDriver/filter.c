@@ -114,6 +114,7 @@ VOID check(PNET_BUFFER_LIST NetBufferLists)
 			pIPv4Header->DstIp[1],
 			pIPv4Header->DstIp[2],
 			pIPv4Header->DstIp[3]);
+		NdisRetreatNetBufferDataStart(NetBuffer, sizeof(NDF_ETH_HEADER), 0, NULL);
 		//DbgBreakPoint();
 	}
 	else if (pEthHeader->Type == RtlUshortByteSwap(ETHERTYPE_IP6))
@@ -155,6 +156,7 @@ VOID check(PNET_BUFFER_LIST NetBufferLists)
 			pIPv6Header->DstAddress[13],
 			pIPv6Header->DstAddress[14],
 			pIPv6Header->DstAddress[15]);
+		NdisRetreatNetBufferDataStart(NetBuffer, sizeof(NDF_ETH_HEADER), 0, NULL);
 		//DbgBreakPoint();
 	}
 	else if (pEthHeader->Type == RtlUshortByteSwap(ETHERTYPE_ARP))
@@ -185,6 +187,7 @@ VOID check(PNET_BUFFER_LIST NetBufferLists)
 			pARPHeader->DstMac[4],
 			pARPHeader->DstMac[5]
 			);
+		NdisRetreatNetBufferDataStart(NetBuffer, sizeof(NDF_ETH_HEADER), 0, NULL);
 		//DbgBreakPoint();
 	}
 	//mycode
