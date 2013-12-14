@@ -1,5 +1,8 @@
-#ifndef STRUCTURES
+﻿#ifndef STRUCTURES
 #define STRUCTURES
+
+
+#define IOCTL_FROM_MANAGER CTL_CODE(0x00008000,0x801,METHOD_BUFFERED,FILE_ANY_ACCESS)
 
 #define ETHERTYPE_IP4 0x0800
 #define ETHERTYPE_ARP 0x0806
@@ -47,4 +50,25 @@ typedef struct _NDF_ARP_HEADER
 	UCHAR DstIp[4];
 } NDF_ARP_HEADER, *PNDF_ARP_HEADER;
 
+typedef struct _RULE_IPV4
+{
+	ULONG Id;
+	UCHAR Begin[4];
+	UCHAR End[4];
+	PVOID Next;
+} RULE_IPV4, *PRULE_IPV4;
+
+typedef struct _RULE_IPV6
+{
+	ULONG Id;
+	UCHAR Begin[16];
+	UCHAR End[16];
+	PVOID Next;
+} RULE_IPV6, *PRULE_IPV6;
+
+typedef struct _RULE_ETH
+{
+	ULONG Id;
+	UCHAR Addr[6];
+} RULE_ETH, *PRULE_ETH;
 #endif
