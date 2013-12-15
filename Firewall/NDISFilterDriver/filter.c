@@ -313,7 +313,7 @@ Return Value:
             break;
         }
 		
-        Status = NDISFilterDriverRegisterDevice(&ext);
+		Status = NDISFilterDriverRegisterDevice(&pFilterDeviceExtension);
 
         if (Status != NDIS_STATUS_SUCCESS)
         {
