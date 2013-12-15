@@ -420,7 +420,10 @@ VOID DelIPv4Rule(IN PFILTER_DEVICE_EXTENSION FilterDeviceExtension, IN ULONG Id)
 		{
 			PreviousRule->Next = CurrentRule->Next;
 			ExFreePool(CurrentRule);
+			return;
 		}
+		PreviousRule = CurrentRule;
+		CurrentRule = CurrentRule->Next;
 	}
 }
 
@@ -453,7 +456,10 @@ VOID DelIPv6Rule(IN PFILTER_DEVICE_EXTENSION FilterDeviceExtension, IN ULONG Id)
 		{
 			PreviousRule->Next = CurrentRule->Next;
 			ExFreePool(CurrentRule);
+			return;
 		}
+		PreviousRule = CurrentRule;
+		CurrentRule = CurrentRule->Next;
 	}
 }
 
