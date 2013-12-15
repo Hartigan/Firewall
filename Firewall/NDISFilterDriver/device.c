@@ -5,15 +5,20 @@
 -- */
 
 #include "precomp.h"
+#include "structures.h"
 
 #pragma NDIS_INIT_FUNCTION(NDISFilterDriverRegisterDevice)
 
+VOID AddIPv4Rule(IN PFILTER_DEVICE_EXTENSION FilterDeviceExtension, IN PRULE_IPV4 Rule);
+VOID DelIPv4Rule(IN PFILTER_DEVICE_EXTENSION FilterDeviceExtension, IN ULONG Id);
+VOID AddIPv6Rule(IN PFILTER_DEVICE_EXTENSION FilterDeviceExtension, IN PRULE_IPV6 Rule);
+VOID DelIPv6Rule(IN PFILTER_DEVICE_EXTENSION FilterDeviceExtension, IN ULONG Id);
+VOID ActivateRules(IN PFILTER_DEVICE_EXTENSION FilterDeviceExtension);
+VOID DeactivateRules(IN PFILTER_DEVICE_EXTENSION FilterDeviceExtension);
 
 _IRQL_requires_max_(PASSIVE_LEVEL)
 NDIS_STATUS
-NDISFilterDriverRegisterDevice(
-    VOID
-    )
+NDISFilterDriverRegisterDevice(OUT PFILTER_DEVICE_EXTENSION *Extension)
 {
     NDIS_STATUS            Status = NDIS_STATUS_SUCCESS;
     UNICODE_STRING         DeviceName;
@@ -61,10 +66,15 @@ NDISFilterDriverRegisterDevice(
    
     if (Status == NDIS_STATUS_SUCCESS)
     {
-        FilterDeviceExtension = NdisGetDeviceReservedExtension(DeviceObject);
+		*Extension = FilterDeviceExtension = NdisGetDeviceReservedExtension(DeviceObject);
    
         FilterDeviceExtension->Signature = 'FTDR';
         FilterDeviceExtension->Handle = FilterDriverHandle;
+		PRULES_LISTS FilterRules = ExAllocatePool(PagedPool, sizeof(RULES_LISTS));
+		FilterRules->IsActive = FALSE;
+		FilterRules->FirstRuleIPv4 = NULL;
+		FilterRules->FirstRuleIPv6 = NULL;
+		FilterDeviceExtension->FilterRules = FilterRules;
 
         //
         // Workaround NDIS bug
@@ -137,6 +147,7 @@ NDISFilterDriverDeviceIoControl(
     PIRP                  Irp
     )
 {
+	DbgPrint("NDISFilterDriverDeviceIoControl\n");
     PIO_STACK_LOCATION          IrpSp;
     NTSTATUS                    Status = STATUS_SUCCESS;
     PFILTER_DEVICE_EXTENSION    FilterDeviceExtension;
@@ -169,7 +180,84 @@ NDISFilterDriverDeviceIoControl(
 
     switch (IrpSp->Parameters.DeviceIoControl.IoControlCode)
     {
-
+		case IOCTL_ADD_IPV4_RULE:
+			DbgPrint("IOCTL_ADD_IPV4_RULE BEGIN\n");
+			InputBuffer = Irp->UserBuffer;
+			InputBufferLength = IrpSp->Parameters.DeviceIoControl.InputBufferLength;
+			if (InputBufferLength != sizeof(RULE_IPV4))
+			{
+				Status = NDIS_STATUS_FAILURE;
+				break;
+			}
+			PRULE_IPV4 pRuleIPv4 = ExAllocatePool(NonPagedPool, sizeof(RULE_IPV4));
+			RtlCopyMemory(pRuleIPv4, InputBuffer, InputBufferLength);
+			AddIPv4Rule(FilterDeviceExtension, pRuleIPv4);
+			DbgPrint("IOCTL_ADD_IPV4_RULE END\n");
+			break;
+		case IOCTL_DEL_IPV4_RULE:
+			DbgPrint("IOCTL_DEL_IPV4_RULE BEGIN\n");
+			InputBuffer = Irp->UserBuffer;
+			InputBufferLength = IrpSp->Parameters.DeviceIoControl.InputBufferLength;
+			if (InputBufferLength != sizeof(ULONG))
+			{
+				Status = NDIS_STATUS_FAILURE;
+				break;
+			}
+			ULONG IdIPv4 = *((PULONG)(InputBuffer));
+			DelIPv4Rule(FilterDeviceExtension, IdIPv4);
+			DbgPrint("IOCTL_DEL_IPV4_RULE END\n");
+			break;
+		case IOCTL_ADD_IPV6_RULE:
+			DbgPrint("IOCTL_ADD_IPV6_RULE BEGIN\n");
+			InputBuffer = Irp->UserBuffer;
+			InputBufferLength = IrpSp->Parameters.DeviceIoControl.InputBufferLength;
+			if (InputBufferLength != sizeof(RULE_IPV6))
+			{
+				Status = NDIS_STATUS_FAILURE;
+				break;
+			}
+			PRULE_IPV6 pRuleIPv6 = ExAllocatePool(NonPagedPool, sizeof(RULE_IPV6));
+			RtlCopyMemory(pRuleIPv6, InputBuffer, InputBufferLength);
+			AddIPv6Rule(FilterDeviceExtension, pRuleIPv6);
+			DbgPrint("IOCTL_ADD_IPV6_RULE END\n");
+			break;
+		case IOCTL_DEL_IPV6_RULE:
+			DbgPrint("IOCTL_DEL_IPV6_RULE BEGIN\n");
+			InputBuffer = Irp->UserBuffer;
+			InputBufferLength = IrpSp->Parameters.DeviceIoControl.InputBufferLength;
+			if (InputBufferLength != sizeof(ULONG))
+			{
+				Status = NDIS_STATUS_FAILURE;
+				break;
+			}
+			ULONG IdIPv6 = *((PULONG)(InputBuffer));
+			DelIPv6Rule(FilterDeviceExtension, IdIPv6);
+			DbgPrint("IOCTL_END_IPV6_RULE END\n");
+			break;
+		case IOCTL_ACTIVATE_FILTER:
+			DbgPrint("IOCTL_ACTIVATE_FILTER BEGIN\n");
+			InputBuffer = Irp->UserBuffer;
+			InputBufferLength = IrpSp->Parameters.DeviceIoControl.InputBufferLength;
+			if (InputBufferLength != 0)
+			{
+				Status = NDIS_STATUS_FAILURE;
+				break;
+			}
+			ActivateRules(FilterDeviceExtension);
+			DbgPrint("IOCTL_ACTIVATE_FILTER END\n");
+			break;
+		case IOCTL_DEACTIVATE_FILTER:
+			DbgPrint("IOCTL_DEACTIVATE_FILTER BEGIN\n");
+			InputBuffer = Irp->UserBuffer;
+			InputBufferLength = IrpSp->Parameters.DeviceIoControl.InputBufferLength;
+			if (InputBufferLength != 0)
+			{
+				Status = NDIS_STATUS_FAILURE;
+				break;
+			}
+			DeactivateRules(FilterDeviceExtension);
+			DbgPrint("IOCTL_DEACTIVATE_FILTER END\n");
+			break;
         case IOCTL_FILTER_RESTART_ALL:
             break;
 
@@ -290,6 +378,94 @@ filterFindFilterModule(
    return NULL;
 }
 
+VOID AddIPv4Rule(IN PFILTER_DEVICE_EXTENSION FilterDeviceExtension, IN PRULE_IPV4 Rule)
+{
+	DbgPrint("AddIPv4Rule\n");
+	DbgPrint("Id: %lu Begin:%d.%d.%d.%d End:%d.%d.%d.%d\n",
+		Rule->Id,
+		Rule->Begin[0],
+		Rule->Begin[1],
+		Rule->Begin[2],
+		Rule->Begin[3],
+		Rule->End[0],
+		Rule->End[1],
+		Rule->End[2],
+		Rule->End[3]);
+	PRULES_LISTS RulesLists = FilterDeviceExtension->FilterRules;
+	PRULE_IPV4 List = RulesLists->FirstRuleIPv4;
+	Rule->Next = List;
+	RulesLists->FirstRuleIPv4 = Rule;
+}
 
+VOID DelIPv4Rule(IN PFILTER_DEVICE_EXTENSION FilterDeviceExtension, IN ULONG Id)
+{
+	DbgPrint("DelIPv4Rule\n");
+	DbgPrint("Id: %lu\n",Id);
+	PRULES_LISTS RulesLists = FilterDeviceExtension->FilterRules;
+	PRULE_IPV4 CurrentRule = RulesLists->FirstRuleIPv4;
 
+	if (CurrentRule != NULL && CurrentRule->Id == Id)
+	{
+		RulesLists->FirstRuleIPv4 = CurrentRule->Next;
+		ExFreePool(CurrentRule);
+		return;
+	}
+
+	PRULE_IPV4 PreviousRule = CurrentRule;
+	CurrentRule = CurrentRule->Next;
+
+	while (CurrentRule != NULL)
+	{
+		if (CurrentRule->Id == Id)
+		{
+			PreviousRule->Next = CurrentRule->Next;
+			ExFreePool(CurrentRule);
+		}
+	}
+}
+
+VOID AddIPv6Rule(IN PFILTER_DEVICE_EXTENSION FilterDeviceExtension, IN PRULE_IPV6 Rule)
+{
+	PRULES_LISTS RulesLists = FilterDeviceExtension->FilterRules;
+	PRULE_IPV6 List = RulesLists->FirstRuleIPv6;
+	Rule->Next = List;
+	RulesLists->FirstRuleIPv6 = Rule;
+}
+
+VOID DelIPv6Rule(IN PFILTER_DEVICE_EXTENSION FilterDeviceExtension, IN ULONG Id)
+{
+	PRULES_LISTS RulesLists = FilterDeviceExtension->FilterRules;
+	PRULE_IPV6 CurrentRule = RulesLists->FirstRuleIPv6;
+
+	if (CurrentRule != NULL && CurrentRule->Id == Id)
+	{
+		RulesLists->FirstRuleIPv6 = CurrentRule->Next;
+		ExFreePool(CurrentRule);
+		return;
+	}
+
+	PRULE_IPV6 PreviousRule = CurrentRule;
+	CurrentRule = CurrentRule->Next;
+
+	while (CurrentRule != NULL)
+	{
+		if (CurrentRule->Id == Id)
+		{
+			PreviousRule->Next = CurrentRule->Next;
+			ExFreePool(CurrentRule);
+		}
+	}
+}
+
+VOID ActivateRules(IN PFILTER_DEVICE_EXTENSION FilterDeviceExtension)
+{
+	PRULES_LISTS RulesLists = FilterDeviceExtension->FilterRules;
+	RulesLists->IsActive = TRUE;
+}
+
+VOID DeactivateRules(IN PFILTER_DEVICE_EXTENSION FilterDeviceExtension)
+{
+	PRULES_LISTS RulesLists = FilterDeviceExtension->FilterRules;
+	RulesLists->IsActive = FALSE;
+}
 
