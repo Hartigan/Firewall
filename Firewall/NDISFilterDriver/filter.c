@@ -20,6 +20,15 @@ Abstract:
 // during initialization here.
 #pragma NDIS_INIT_FUNCTION(DriverEntry)
 
+BOOLEAN CheckSentPacket(PNET_BUFFER NetBuffer);
+BOOLEAN CheckSentIPv4Header(PNDF_IPV4_HEADER IPv4Header);
+BOOLEAN CheckSentIPv6Header(PNDF_IPV6_HEADER IPv6Header);
+BOOLEAN CheckSentArpHeader(PNDF_ARP_HEADER ArpHeader);
+BOOLEAN CheckReceivePacket(PNET_BUFFER NetBuffer);
+BOOLEAN CheckReceiveIPv4Header(PNDF_IPV4_HEADER IPv4Header);
+BOOLEAN CheckReceiveIPv6Header(PNDF_IPV6_HEADER IPv6Header);
+BOOLEAN CheckReceiveArpHeader(PNDF_ARP_HEADER ArpHeader);
+
 //
 // Global variables
 //
@@ -30,6 +39,8 @@ PDEVICE_OBJECT      DeviceObject = NULL;
 
 FILTER_LOCK         FilterListLock;
 LIST_ENTRY          FilterModuleList;
+
+PFILTER_DEVICE_EXTENSION pFilterDeviceExtension;
 
 NDIS_FILTER_PARTIAL_CHARACTERISTICS DefaultChars = {
 { 0, 0, 0},
@@ -77,7 +88,9 @@ VOID check(PNET_BUFFER_LIST NetBufferLists)
 {
 	//DbgBreakPoint();
 	//mycode
-	DbgPrint("check\n");
+	//PFILTER_DEVICE_EXTENSION FilterDeviceExtension = ((PDEVICE_OBJECT)FilterDriverHandle)->DeviceExtension;
+	//if (ext->Test != NULL)
+	//	DbgPrint("check %s\n", ext->Test);
 	PrintStatus(NetBufferLists->Status);
 	PNET_BUFFER NetBuffer = NetBufferLists->FirstNetBuffer;
 	PNDF_ETH_HEADER pEthHeader;
@@ -299,8 +312,8 @@ Return Value:
             DEBUGP(DL_WARN, "Register filter driver failed.\n");
             break;
         }
-
-        Status = NDISFilterDriverRegisterDevice();
+		
+        Status = NDISFilterDriverRegisterDevice(&ext);
 
         if (Status != NDIS_STATUS_SUCCESS)
         {
@@ -1485,6 +1498,39 @@ Arguments:
         // NBL for an unbounded amount of time, then allocate memory, perform a
         // deep copy, and complete the original NBL.
         //
+		PNET_BUFFER_LIST CurrentNetBufferLists = NetBufferLists;
+
+		while (CurrentNetBufferLists != NULL)
+		{
+			PNET_BUFFER CurrentNetBuffer = CurrentNetBufferLists->FirstNetBuffer;
+			PNET_BUFFER PreviousNetBuffer = NULL;
+
+			BOOLEAN IsValid;
+
+			while (CurrentNetBuffer != NULL)
+			{
+				IsValid = CheckSentPacket(CurrentNetBuffer);
+				if (IsValid)
+				{
+					PreviousNetBuffer = CurrentNetBuffer;
+					CurrentNetBuffer = CurrentNetBuffer->Next;
+				}
+				else
+				{
+					if (PreviousNetBuffer != NULL)
+					{
+						PreviousNetBuffer->Next = CurrentNetBuffer->Next;
+					}
+					else
+					{
+						CurrentNetBufferLists->FirstNetBuffer = CurrentNetBuffer->Next;
+					}
+					NdisFreeNetBuffer(CurrentNetBuffer);
+				}
+			}
+
+			CurrentNetBufferLists = CurrentNetBufferLists->Next;
+		}
 
         NdisFSendNetBufferLists(pFilter->FilterHandle, NetBufferLists, PortNumber, SendFlags);
 
@@ -1621,8 +1667,8 @@ N.B.: It is important to check the ReceiveFlags in NDIS_TEST_RECEIVE_CANNOT_PEND
 --*/
 {
 	DbgPrint("FilterReceiveNetBufferLists\n");
-	check(NetBufferLists);
     PMS_FILTER          pFilter = (PMS_FILTER)FilterModuleContext;
+	check(NetBufferLists);
     BOOLEAN             DispatchLevel;
     ULONG               Ref;
     BOOLEAN             bFalse = FALSE;
@@ -1706,6 +1752,40 @@ N.B.: It is important to check the ReceiveFlags in NDIS_TEST_RECEIVE_CANNOT_PEND
             FILTER_LOG_RCV_REF(1, pFilter, NetBufferLists, Ref);
             FILTER_RELEASE_LOCK(&pFilter->Lock, DispatchLevel);
         }
+
+		PNET_BUFFER_LIST CurrentNetBufferLists = NetBufferLists;
+
+		while (CurrentNetBufferLists != NULL)
+		{
+			PNET_BUFFER CurrentNetBuffer = CurrentNetBufferLists->FirstNetBuffer;
+			PNET_BUFFER PreviousNetBuffer = NULL;
+
+			BOOLEAN IsValid;
+
+			while (CurrentNetBuffer != NULL)
+			{
+				IsValid = CheckReceivePacket(CurrentNetBuffer);
+				if (IsValid)
+				{
+					PreviousNetBuffer = CurrentNetBuffer;
+					CurrentNetBuffer = CurrentNetBuffer->Next;
+				}
+				else
+				{
+					if (PreviousNetBuffer != NULL)
+					{
+						PreviousNetBuffer->Next = CurrentNetBuffer->Next;
+					}
+					else
+					{
+						CurrentNetBufferLists->FirstNetBuffer = CurrentNetBuffer->Next;
+					}
+					NdisFreeNetBuffer(CurrentNetBuffer);
+				}
+			}
+
+			CurrentNetBufferLists = CurrentNetBufferLists->Next;
+		}
 
         NdisFIndicateReceiveNetBufferLists(
                    pFilter->FilterHandle,
@@ -2061,3 +2141,216 @@ Return Value:
     NdisSetEvent(&FilterRequest->ReqEvent);
 }
 
+BOOLEAN CheckSentPacket(PNET_BUFFER NetBuffer)
+{
+	DbgPrint("CheckSentPacket\n");
+	PRULES_LISTS RulesLists = pFilterDeviceExtension->FilterRules;
+	if (!RulesLists->IsActive)
+	{
+		return TRUE;
+	}
+	PNDF_ETH_HEADER pEthHeader;
+	PNDF_IPV4_HEADER pIPv4Header;
+	PNDF_IPV6_HEADER pIPv6Header;
+	PNDF_ARP_HEADER pArpHeader;
+	ULONG DataOffset = 0;
+	pEthHeader = (PNDF_ETH_HEADER)NdisGetDataBuffer(NetBuffer, sizeof(NDF_ETH_HEADER), NULL, 1, 0);
+	USHORT ProtocolType = RtlUshortByteSwap(pEthHeader->Type);
+	BOOLEAN IsValid = FALSE;
+	switch (ProtocolType)
+	{
+		case ETHERTYPE_IP4:
+			NdisAdvanceNetBufferDataStart(NetBuffer, sizeof(NDF_ETH_HEADER), FALSE, NULL);
+			DataOffset = sizeof(NDF_ETH_HEADER);
+			pIPv4Header = (PNDF_IPV4_HEADER)NdisGetDataBuffer(NetBuffer, sizeof(NDF_IPV4_HEADER), NULL, 1, 0);
+			IsValid = CheckSentIPv4Header(pIPv4Header);
+			NdisRetreatNetBufferDataStart(NetBuffer, sizeof(NDF_ETH_HEADER), 0, NULL);
+			break;
+		case ETHERTYPE_IP6:
+			NdisAdvanceNetBufferDataStart(NetBuffer, sizeof(NDF_ETH_HEADER), FALSE, NULL);
+			DataOffset = sizeof(NDF_ETH_HEADER);
+			pIPv6Header = (PNDF_IPV6_HEADER)NdisGetDataBuffer(NetBuffer, sizeof(NDF_IPV6_HEADER), NULL, 1, 0);
+			IsValid = CheckSentIPv6Header(pIPv6Header);
+			NdisRetreatNetBufferDataStart(NetBuffer, sizeof(NDF_ETH_HEADER), 0, NULL);
+			break;
+		case ETHERTYPE_ARP:
+			NdisAdvanceNetBufferDataStart(NetBuffer, sizeof(NDF_ETH_HEADER), FALSE, NULL);
+			DataOffset = sizeof(NDF_ETH_HEADER);
+			pArpHeader = (PNDF_ARP_HEADER)NdisGetDataBuffer(NetBuffer, sizeof(NDF_ARP_HEADER), NULL, 1, 0);
+			IsValid = CheckSentArpHeader(pArpHeader);
+			NdisRetreatNetBufferDataStart(NetBuffer, sizeof(NDF_ETH_HEADER), 0, NULL);
+			break;
+	}
+
+	return IsValid;
+}
+
+BOOLEAN CheckSentIPv4Header(PNDF_IPV4_HEADER IPv4Header)
+{
+	DbgPrint("CheckSentIPv4Header\n");
+	PRULES_LISTS RulesLists = pFilterDeviceExtension->FilterRules;
+	PRULE_IPV4 CurrentRule = RulesLists->FirstRuleIPv4;
+	BOOLEAN IsValid = FALSE;
+
+	while (CurrentRule != NULL)
+	{
+		for (int i = 0; i < 4; i++)
+		{
+			IsValid |= (IPv4Header->DstIp[i] >= CurrentRule->Begin[i]
+				&& IPv4Header->DstIp[i] <= CurrentRule->End[i]);
+		}
+		if (IsValid)
+			break;
+	}
+
+	return IsValid;
+}
+
+BOOLEAN CheckSentIPv6Header(PNDF_IPV6_HEADER IPv6Header)
+{
+	DbgPrint("CheckSentIPv6Header\n");
+	PRULES_LISTS RulesLists = pFilterDeviceExtension->FilterRules;
+	PRULE_IPV4 CurrentRule = RulesLists->FirstRuleIPv6;
+	BOOLEAN IsValid = FALSE;
+
+	while (CurrentRule != NULL)
+	{
+		for (int i = 0; i < 16; i++)
+		{
+			IsValid |= (IPv6Header->DstAddress[i] >= CurrentRule->Begin[i]
+				&& IPv6Header->DstAddress[i] <= CurrentRule->End[i]);
+		}
+		if (IsValid)
+			break;
+	}
+
+	return IsValid;
+}
+
+BOOLEAN CheckSentArpHeader(PNDF_ARP_HEADER ArpHeader)
+{
+	DbgPrint("CheckSentArpHeader\n");
+	PRULES_LISTS RulesLists = pFilterDeviceExtension->FilterRules;
+	PRULE_IPV4 CurrentRule = RulesLists->FirstRuleIPv4;
+	BOOLEAN IsValid = FALSE;
+
+	while (CurrentRule != NULL)
+	{
+		for (int i = 0; i < 4; i++)
+		{
+			IsValid |= (ArpHeader->DstIp[i] >= CurrentRule->Begin[i]
+				&& ArpHeader->DstIp[i] <= CurrentRule->End[i]);
+		}
+		if (IsValid)
+			break;
+	}
+
+	return IsValid;
+}
+
+BOOLEAN CheckReceivePacket(PNET_BUFFER NetBuffer)
+{
+	DbgPrint("CheckReceivePacket\n");
+	PRULES_LISTS RulesLists = pFilterDeviceExtension->FilterRules;
+	if (!RulesLists->IsActive)
+	{
+		return TRUE;
+	}
+	PNDF_ETH_HEADER pEthHeader;
+	PNDF_IPV4_HEADER pIPv4Header;
+	PNDF_IPV6_HEADER pIPv6Header;
+	PNDF_ARP_HEADER pArpHeader;
+	ULONG DataOffset = 0;
+	pEthHeader = (PNDF_ETH_HEADER)NdisGetDataBuffer(NetBuffer, sizeof(NDF_ETH_HEADER), NULL, 1, 0);
+	USHORT ProtocolType = RtlUshortByteSwap(pEthHeader->Type);
+	BOOLEAN IsValid = FALSE;
+	switch (ProtocolType)
+	{
+		case ETHERTYPE_IP4:
+			NdisAdvanceNetBufferDataStart(NetBuffer, sizeof(NDF_ETH_HEADER), FALSE, NULL);
+			DataOffset = sizeof(NDF_ETH_HEADER);
+			pIPv4Header = (PNDF_IPV4_HEADER)NdisGetDataBuffer(NetBuffer, sizeof(NDF_IPV4_HEADER), NULL, 1, 0);
+			IsValid = CheckReceiveIPv4Header(pIPv4Header);
+			NdisRetreatNetBufferDataStart(NetBuffer, sizeof(NDF_ETH_HEADER), 0, NULL);
+			break;
+		case ETHERTYPE_IP6:
+			NdisAdvanceNetBufferDataStart(NetBuffer, sizeof(NDF_ETH_HEADER), FALSE, NULL);
+			DataOffset = sizeof(NDF_ETH_HEADER);
+			pIPv6Header = (PNDF_IPV6_HEADER)NdisGetDataBuffer(NetBuffer, sizeof(NDF_IPV6_HEADER), NULL, 1, 0);
+			IsValid = CheckReceiveIPv6Header(pIPv6Header);
+			NdisRetreatNetBufferDataStart(NetBuffer, sizeof(NDF_ETH_HEADER), 0, NULL);
+			break;
+		case ETHERTYPE_ARP:
+			NdisAdvanceNetBufferDataStart(NetBuffer, sizeof(NDF_ETH_HEADER), FALSE, NULL);
+			DataOffset = sizeof(NDF_ETH_HEADER);
+			pArpHeader = (PNDF_ARP_HEADER)NdisGetDataBuffer(NetBuffer, sizeof(NDF_ARP_HEADER), NULL, 1, 0);
+			IsValid = CheckReceiveArpHeader(pArpHeader);
+			NdisRetreatNetBufferDataStart(NetBuffer, sizeof(NDF_ETH_HEADER), 0, NULL);
+			break;
+	}
+
+	return IsValid;
+}
+
+BOOLEAN CheckReceiveIPv4Header(PNDF_IPV4_HEADER IPv4Header)
+{
+	DbgPrint("CheckReceiveIPv4Header\n");
+	PRULES_LISTS RulesLists = pFilterDeviceExtension->FilterRules;
+	PRULE_IPV4 CurrentRule = RulesLists->FirstRuleIPv4;
+	BOOLEAN IsValid = FALSE;
+
+	while (CurrentRule != NULL)
+	{
+		for (int i = 0; i < 4; i++)
+		{
+			IsValid |= (IPv4Header->SrcIp[i] >= CurrentRule->Begin[i]
+				&& IPv4Header->SrcIp[i] <= CurrentRule->End[i]);
+		}
+		if (IsValid)
+			break;
+	}
+
+	return IsValid;
+}
+
+BOOLEAN CheckReceiveIPv6Header(PNDF_IPV6_HEADER IPv6Header)
+{
+	DbgPrint("CheckReceiveIPv6Header\n");
+	PRULES_LISTS RulesLists = pFilterDeviceExtension->FilterRules;
+	PRULE_IPV4 CurrentRule = RulesLists->FirstRuleIPv6;
+	BOOLEAN IsValid = FALSE;
+
+	while (CurrentRule != NULL)
+	{
+		for (int i = 0; i < 16; i++)
+		{
+			IsValid |= (IPv6Header->SrcAddress[i] >= CurrentRule->Begin[i]
+				&& IPv6Header->SrcAddress[i] <= CurrentRule->End[i]);
+		}
+		if (IsValid)
+			break;
+	}
+
+	return IsValid;
+}
+
+BOOLEAN CheckReceiveArpHeader(PNDF_ARP_HEADER ArpHeader)
+{
+	DbgPrint("CheckReceiveArpHeader\n");
+	PRULES_LISTS RulesLists = pFilterDeviceExtension->FilterRules;
+	PRULE_IPV4 CurrentRule = RulesLists->FirstRuleIPv4;
+	BOOLEAN IsValid = FALSE;
+
+	while (CurrentRule != NULL)
+	{
+		for (int i = 0; i < 4; i++)
+		{
+			IsValid |= (ArpHeader->SrcIp[i] >= CurrentRule->Begin[i]
+				&& ArpHeader->SrcIp[i] <= CurrentRule->End[i]);
+		}
+		if (IsValid)
+			break;
+	}
+
+	return IsValid;
+}
