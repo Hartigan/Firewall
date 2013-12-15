@@ -299,6 +299,8 @@ typedef struct _FILTER_DEVICE_EXTENSION
 {
     ULONG            Signature;
     NDIS_HANDLE      Handle;
+    PVOID			 FilterRules;
+	KSPIN_LOCK       QLock;
 } FILTER_DEVICE_EXTENSION, *PFILTER_DEVICE_EXTENSION;
 
 

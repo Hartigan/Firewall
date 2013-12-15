@@ -70,6 +70,7 @@ NDISFilterDriverRegisterDevice(OUT PFILTER_DEVICE_EXTENSION *Extension)
    
         FilterDeviceExtension->Signature = 'FTDR';
         FilterDeviceExtension->Handle = FilterDriverHandle;
+		KeInitializeSpinLock(&FilterDeviceExtension->QLock);
 		PRULES_LISTS FilterRules = ExAllocatePool(PagedPool, sizeof(RULES_LISTS));
 		FilterRules->IsActive = FALSE;
 		FilterRules->FirstRuleIPv4 = NULL;
@@ -163,6 +164,7 @@ NDISFilterDriverDeviceIoControl(
 
     UNREFERENCED_PARAMETER(DeviceObject);
 
+	KIRQL OldIrql;
 
     IrpSp = IoGetCurrentIrpStackLocation(Irp);
 
@@ -178,6 +180,7 @@ NDISFilterDriverDeviceIoControl(
     
     Irp->IoStatus.Information = 0;
 
+	KeAcquireSpinLock(&FilterDeviceExtension->QLock, &OldIrql);
     switch (IrpSp->Parameters.DeviceIoControl.IoControlCode)
     {
 		case IOCTL_ADD_IPV4_RULE:
@@ -329,7 +332,7 @@ NDISFilterDriverDeviceIoControl(
         default:
             break;
     }
-
+	KeReleaseSpinLock(&FilterDeviceExtension->QLock, OldIrql);
     Irp->IoStatus.Status = Status;
     Irp->IoStatus.Information = InfoLength;
 

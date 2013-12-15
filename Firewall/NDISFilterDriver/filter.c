@@ -86,11 +86,9 @@ VOID PrintStatus(ULONG status)
 _Use_decl_annotations_
 VOID check(PNET_BUFFER_LIST NetBufferLists)
 {
-	//DbgBreakPoint();
-	//mycode
-	//PFILTER_DEVICE_EXTENSION FilterDeviceExtension = ((PDEVICE_OBJECT)FilterDriverHandle)->DeviceExtension;
-	//if (ext->Test != NULL)
-	//	DbgPrint("check %s\n", ext->Test);
+#ifndef DBG
+	return;
+#endif
 	PrintStatus(NetBufferLists->Status);
 	PNET_BUFFER NetBuffer = NetBufferLists->FirstNetBuffer;
 	PNDF_ETH_HEADER pEthHeader;
@@ -1498,43 +1496,15 @@ Arguments:
         // NBL for an unbounded amount of time, then allocate memory, perform a
         // deep copy, and complete the original NBL.
         //
-		PNET_BUFFER_LIST CurrentNetBufferLists = NetBufferLists;
-
-		while (CurrentNetBufferLists != NULL)
-		{
-			PNET_BUFFER CurrentNetBuffer = CurrentNetBufferLists->FirstNetBuffer;
-			PNET_BUFFER PreviousNetBuffer = NULL;
-
-			BOOLEAN IsValid;
-
-			while (CurrentNetBuffer != NULL)
-			{
-				IsValid = CheckSentPacket(CurrentNetBuffer);
-				if (IsValid)
-				{
-					PreviousNetBuffer = CurrentNetBuffer;
-					CurrentNetBuffer = CurrentNetBuffer->Next;
-				}
-				else
-				{
-					if (PreviousNetBuffer != NULL)
-					{
-						PreviousNetBuffer->Next = CurrentNetBuffer->Next;
-					}
-					else
-					{
-						CurrentNetBufferLists->FirstNetBuffer = CurrentNetBuffer->Next;
-					}
-					NdisFreeNetBuffer(CurrentNetBuffer);
-				}
-			}
-
-			CurrentNetBufferLists = CurrentNetBufferLists->Next;
-		}
-
-        NdisFSendNetBufferLists(pFilter->FilterHandle, NetBufferLists, PortNumber, SendFlags);
-
-
+		
+		KIRQL OldIrql;
+		KeAcquireSpinLock(&pFilterDeviceExtension->QLock, &OldIrql);
+		BOOLEAN IsValid = CheckSentPacket(NetBufferLists->FirstNetBuffer);
+		KeReleaseSpinLock(&pFilterDeviceExtension->QLock, OldIrql);
+		if (IsValid)
+			NdisFSendNetBufferLists(pFilter->FilterHandle, NetBufferLists, PortNumber, SendFlags);
+		else
+			NdisFSendNetBufferListsComplete(pFilter->FilterHandle, NetBufferLists, SendFlags);
     }
     while (bFalse);
 
@@ -1753,46 +1723,20 @@ N.B.: It is important to check the ReceiveFlags in NDIS_TEST_RECEIVE_CANNOT_PEND
             FILTER_RELEASE_LOCK(&pFilter->Lock, DispatchLevel);
         }
 
-		PNET_BUFFER_LIST CurrentNetBufferLists = NetBufferLists;
+		KIRQL OldIrql;
+		KeAcquireSpinLock(&pFilterDeviceExtension->QLock, &OldIrql);
+		BOOLEAN IsValid = CheckReceivePacket(NetBufferLists->FirstNetBuffer);
+		KeReleaseSpinLock(&pFilterDeviceExtension->QLock, OldIrql);
 
-		while (CurrentNetBufferLists != NULL)
-		{
-			PNET_BUFFER CurrentNetBuffer = CurrentNetBufferLists->FirstNetBuffer;
-			PNET_BUFFER PreviousNetBuffer = NULL;
-
-			BOOLEAN IsValid;
-
-			while (CurrentNetBuffer != NULL)
-			{
-				IsValid = CheckReceivePacket(CurrentNetBuffer);
-				if (IsValid)
-				{
-					PreviousNetBuffer = CurrentNetBuffer;
-					CurrentNetBuffer = CurrentNetBuffer->Next;
-				}
-				else
-				{
-					if (PreviousNetBuffer != NULL)
-					{
-						PreviousNetBuffer->Next = CurrentNetBuffer->Next;
-					}
-					else
-					{
-						CurrentNetBufferLists->FirstNetBuffer = CurrentNetBuffer->Next;
-					}
-					NdisFreeNetBuffer(CurrentNetBuffer);
-				}
-			}
-
-			CurrentNetBufferLists = CurrentNetBufferLists->Next;
-		}
-
-        NdisFIndicateReceiveNetBufferLists(
-                   pFilter->FilterHandle,
-                   NetBufferLists,
-                   PortNumber,
-                   NumberOfNetBufferLists,
-                   ReceiveFlags);
+		if (IsValid)
+			NdisFIndicateReceiveNetBufferLists(
+					   pFilter->FilterHandle,
+					   NetBufferLists,
+					   PortNumber,
+					   NumberOfNetBufferLists,
+					   ReceiveFlags);
+		else
+			NdisFReturnNetBufferLists(pFilter->FilterHandle, NetBufferLists, ReceiveFlags);
 
 
         if (NDIS_TEST_RECEIVE_CANNOT_PEND(ReceiveFlags) &&
@@ -2143,7 +2087,9 @@ Return Value:
 
 BOOLEAN CheckSentPacket(PNET_BUFFER NetBuffer)
 {
+#ifdef  DBG
 	DbgPrint("CheckSentPacket\n");
+#endif
 	PRULES_LISTS RulesLists = pFilterDeviceExtension->FilterRules;
 	if (!RulesLists->IsActive)
 	{
@@ -2181,26 +2127,54 @@ BOOLEAN CheckSentPacket(PNET_BUFFER NetBuffer)
 			NdisRetreatNetBufferDataStart(NetBuffer, sizeof(NDF_ETH_HEADER), 0, NULL);
 			break;
 	}
-
+#ifdef  DBG
+	if (IsValid)
+		DbgPrint("VALID\n");
+	else
+		DbgPrint("INVALID\n");
+#endif
 	return IsValid;
 }
 
 BOOLEAN CheckSentIPv4Header(PNDF_IPV4_HEADER IPv4Header)
 {
+#ifdef  DBG
 	DbgPrint("CheckSentIPv4Header\n");
+#endif
 	PRULES_LISTS RulesLists = pFilterDeviceExtension->FilterRules;
 	PRULE_IPV4 CurrentRule = RulesLists->FirstRuleIPv4;
 	BOOLEAN IsValid = FALSE;
 
 	while (CurrentRule != NULL)
 	{
+		BOOLEAN InRange = TRUE;
+#ifdef  DBG
+		DbgPrint("Header %d.%d.%d.%d\n",
+			IPv4Header->DstIp[0],
+			IPv4Header->DstIp[1],
+			IPv4Header->DstIp[2], 
+			IPv4Header->DstIp[3]);
+		DbgPrint("Id: %lu Begin:%d.%d.%d.%d End:%d.%d.%d.%d\n",
+			CurrentRule->Id,
+			CurrentRule->Begin[0],
+			CurrentRule->Begin[1],
+			CurrentRule->Begin[2],
+			CurrentRule->Begin[3],
+			CurrentRule->End[0],
+			CurrentRule->End[1],
+			CurrentRule->End[2],
+			CurrentRule->End[3]);
+#endif
 		for (int i = 0; i < 4; i++)
 		{
-			IsValid |= (IPv4Header->DstIp[i] >= CurrentRule->Begin[i]
-				&& IPv4Header->DstIp[i] <= CurrentRule->End[i]);
+			BOOLEAN tmp1 = (IPv4Header->DstIp[i] >= CurrentRule->Begin[i]);
+			BOOLEAN tmp2 = (IPv4Header->DstIp[i] <= CurrentRule->End[i]);
+			InRange = tmp1 && tmp2;
 		}
+		IsValid = InRange;
 		if (IsValid)
 			break;
+		CurrentRule = CurrentRule->Next;
 	}
 
 	return IsValid;
@@ -2208,20 +2182,26 @@ BOOLEAN CheckSentIPv4Header(PNDF_IPV4_HEADER IPv4Header)
 
 BOOLEAN CheckSentIPv6Header(PNDF_IPV6_HEADER IPv6Header)
 {
+#ifdef  DBG
 	DbgPrint("CheckSentIPv6Header\n");
+#endif
 	PRULES_LISTS RulesLists = pFilterDeviceExtension->FilterRules;
 	PRULE_IPV4 CurrentRule = RulesLists->FirstRuleIPv6;
 	BOOLEAN IsValid = FALSE;
 
 	while (CurrentRule != NULL)
 	{
+		BOOLEAN InRange = TRUE;
 		for (int i = 0; i < 16; i++)
 		{
-			IsValid |= (IPv6Header->DstAddress[i] >= CurrentRule->Begin[i]
-				&& IPv6Header->DstAddress[i] <= CurrentRule->End[i]);
+			BOOLEAN tmp1 = (IPv6Header->DstAddress[i] >= CurrentRule->Begin[i]);
+			BOOLEAN tmp2 = (IPv6Header->DstAddress[i] <= CurrentRule->End[i]);
+			InRange = tmp1 && tmp2;
 		}
+		IsValid = InRange;
 		if (IsValid)
 			break;
+		CurrentRule = CurrentRule->Next;
 	}
 
 	return IsValid;
@@ -2229,20 +2209,26 @@ BOOLEAN CheckSentIPv6Header(PNDF_IPV6_HEADER IPv6Header)
 
 BOOLEAN CheckSentArpHeader(PNDF_ARP_HEADER ArpHeader)
 {
+#ifdef  DBG
 	DbgPrint("CheckSentArpHeader\n");
+#endif
 	PRULES_LISTS RulesLists = pFilterDeviceExtension->FilterRules;
 	PRULE_IPV4 CurrentRule = RulesLists->FirstRuleIPv4;
 	BOOLEAN IsValid = FALSE;
 
 	while (CurrentRule != NULL)
 	{
+		BOOLEAN InRange = TRUE;
 		for (int i = 0; i < 4; i++)
 		{
-			IsValid |= (ArpHeader->DstIp[i] >= CurrentRule->Begin[i]
-				&& ArpHeader->DstIp[i] <= CurrentRule->End[i]);
+			BOOLEAN tmp1 = (ArpHeader->DstIp[i] >= CurrentRule->Begin[i]);
+			BOOLEAN tmp2 = (ArpHeader->DstIp[i] <= CurrentRule->End[i]);
+			InRange = tmp1 && tmp2;
 		}
+		IsValid = InRange;
 		if (IsValid)
 			break;
+		CurrentRule = CurrentRule->Next;
 	}
 
 	return IsValid;
@@ -2250,7 +2236,9 @@ BOOLEAN CheckSentArpHeader(PNDF_ARP_HEADER ArpHeader)
 
 BOOLEAN CheckReceivePacket(PNET_BUFFER NetBuffer)
 {
+#ifdef  DBG
 	DbgPrint("CheckReceivePacket\n");
+#endif
 	PRULES_LISTS RulesLists = pFilterDeviceExtension->FilterRules;
 	if (!RulesLists->IsActive)
 	{
@@ -2288,26 +2276,54 @@ BOOLEAN CheckReceivePacket(PNET_BUFFER NetBuffer)
 			NdisRetreatNetBufferDataStart(NetBuffer, sizeof(NDF_ETH_HEADER), 0, NULL);
 			break;
 	}
-
+#ifdef  DBG
+	if (IsValid)
+		DbgPrint("VALID\n");
+	else
+		DbgPrint("INVALID\n");
+#endif
 	return IsValid;
 }
 
 BOOLEAN CheckReceiveIPv4Header(PNDF_IPV4_HEADER IPv4Header)
 {
+#ifdef  DBG
 	DbgPrint("CheckReceiveIPv4Header\n");
+#endif
 	PRULES_LISTS RulesLists = pFilterDeviceExtension->FilterRules;
 	PRULE_IPV4 CurrentRule = RulesLists->FirstRuleIPv4;
 	BOOLEAN IsValid = FALSE;
 
 	while (CurrentRule != NULL)
 	{
+#ifdef  DBG
+		DbgPrint("Header %d.%d.%d.%d\n",
+			IPv4Header->SrcIp[0],
+			IPv4Header->SrcIp[1],
+			IPv4Header->SrcIp[2],
+			IPv4Header->SrcIp[3]);
+		DbgPrint("Id: %lu Begin:%d.%d.%d.%d End:%d.%d.%d.%d\n",
+			CurrentRule->Id,
+			CurrentRule->Begin[0],
+			CurrentRule->Begin[1],
+			CurrentRule->Begin[2],
+			CurrentRule->Begin[3],
+			CurrentRule->End[0],
+			CurrentRule->End[1],
+			CurrentRule->End[2],
+			CurrentRule->End[3]);
+#endif
+		BOOLEAN InRange = TRUE;
 		for (int i = 0; i < 4; i++)
 		{
-			IsValid |= (IPv4Header->SrcIp[i] >= CurrentRule->Begin[i]
-				&& IPv4Header->SrcIp[i] <= CurrentRule->End[i]);
+			BOOLEAN tmp1 = (IPv4Header->SrcIp[i] >= CurrentRule->Begin[i]);
+			BOOLEAN tmp2 = (IPv4Header->SrcIp[i] <= CurrentRule->End[i]);
+			InRange = tmp1 && tmp2;
 		}
+		IsValid = InRange;
 		if (IsValid)
 			break;
+		CurrentRule = CurrentRule->Next;
 	}
 
 	return IsValid;
@@ -2315,20 +2331,26 @@ BOOLEAN CheckReceiveIPv4Header(PNDF_IPV4_HEADER IPv4Header)
 
 BOOLEAN CheckReceiveIPv6Header(PNDF_IPV6_HEADER IPv6Header)
 {
+#ifdef  DBG
 	DbgPrint("CheckReceiveIPv6Header\n");
+#endif
 	PRULES_LISTS RulesLists = pFilterDeviceExtension->FilterRules;
 	PRULE_IPV4 CurrentRule = RulesLists->FirstRuleIPv6;
 	BOOLEAN IsValid = FALSE;
 
 	while (CurrentRule != NULL)
 	{
+		BOOLEAN InRange = TRUE;
 		for (int i = 0; i < 16; i++)
 		{
-			IsValid |= (IPv6Header->SrcAddress[i] >= CurrentRule->Begin[i]
-				&& IPv6Header->SrcAddress[i] <= CurrentRule->End[i]);
+			BOOLEAN tmp1 = (IPv6Header->SrcAddress[i] >= CurrentRule->Begin[i]);
+			BOOLEAN tmp2 = (IPv6Header->SrcAddress[i] <= CurrentRule->End[i]);
+			InRange = tmp1 && tmp2;
 		}
+		IsValid = InRange;
 		if (IsValid)
 			break;
+		CurrentRule = CurrentRule->Next;
 	}
 
 	return IsValid;
@@ -2336,20 +2358,26 @@ BOOLEAN CheckReceiveIPv6Header(PNDF_IPV6_HEADER IPv6Header)
 
 BOOLEAN CheckReceiveArpHeader(PNDF_ARP_HEADER ArpHeader)
 {
+#ifdef  DBG
 	DbgPrint("CheckReceiveArpHeader\n");
+#endif
 	PRULES_LISTS RulesLists = pFilterDeviceExtension->FilterRules;
 	PRULE_IPV4 CurrentRule = RulesLists->FirstRuleIPv4;
 	BOOLEAN IsValid = FALSE;
 
 	while (CurrentRule != NULL)
 	{
+		BOOLEAN InRange = TRUE;
 		for (int i = 0; i < 4; i++)
 		{
-			IsValid |= (ArpHeader->SrcIp[i] >= CurrentRule->Begin[i]
-				&& ArpHeader->SrcIp[i] <= CurrentRule->End[i]);
+			BOOLEAN tmp1 = (ArpHeader->SrcIp[i] >= CurrentRule->Begin[i]);
+			BOOLEAN tmp2 = (ArpHeader->SrcIp[i] <= CurrentRule->End[i]);
+			InRange = tmp1 && tmp2;
 		}
+		IsValid = InRange;
 		if (IsValid)
 			break;
+		CurrentRule = CurrentRule->Next;
 	}
 
 	return IsValid;
