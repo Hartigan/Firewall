@@ -1,0 +1,229 @@
+0 "?" 0 false ^ Call "OS" "main"
+1 "?" 0 true ^====Auto===== Atomic Continuation
+2 "?" 0 true ^====Auto===== Call "main" "_sdv_init7"
+3 "?" 0 true ^====Auto===== Atomic Continuation
+4 "?" 0 true ^====Auto===== Atomic Assignment
+5 "?" 0 true ^====Auto===== Atomic Assignment
+6 "?" 0 true ^====Auto===== Return
+7 "?" 0 true ^====Auto===== Atomic Continuation
+8 "?" 0 true ^====Auto===== Call "main" "_sdv_init5"
+9 "?" 0 true ^====Auto===== Atomic Continuation
+10 "?" 0 true ^====Auto===== Atomic Continuation
+11 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 75 true ^====Auto===== Atomic Assignment
+12 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 77 true ^====Auto===== Atomic Assignment
+13 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 82 true ^&sdv_ControllerIrp=2745^====Auto===== Atomic Assignment
+14 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 85 true ^&sdv_StartIoIrp=6049^====Auto===== Atomic Assignment
+15 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 89 true ^&sdv_PowerIrp=3229^====Auto===== Atomic Assignment
+16 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 93 true ^&sdv_harnessIrp=9209^====Auto===== Atomic Assignment
+17 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 100 true ^&sdv_other_harnessIrp=2985^====Auto===== Atomic Assignment
+18 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 105 true ^&sdv_IoMakeAssociatedIrp_harnessIrp=8969^====Auto===== Atomic Assignment
+19 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 110 true ^&sdv_IoBuildDeviceIoControlRequest_harnessIrp=7837^====Auto===== Atomic Assignment
+20 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 114 true ^&sdv_harness_IoBuildDeviceIoControlRequest_IoStatusBlock=5433^====Auto===== Atomic Assignment
+21 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 121 true ^&sdv_IoBuildSynchronousFsdRequest_harnessIrp=8077^====Auto===== Atomic Assignment
+22 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 125 true ^&sdv_harness_IoBuildSynchronousFsdRequest_IoStatusBlock=10445^====Auto===== Atomic Assignment
+23 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 129 true ^&sdv_IoBuildAsynchronousFsdRequest_harnessIrp=849^====Auto===== Atomic Assignment
+24 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 133 true ^&sdv_harness_IoBuildAsynchronousFsdRequest_IoStatusBlock=6289^====Auto===== Atomic Assignment
+25 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 138 true ^&sdv_IoInitializeIrp_harnessIrp=8321^====Auto===== Atomic Assignment
+26 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 153 true ^====Auto===== Atomic Assignment
+27 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 196 true ^====Auto===== Atomic Assignment
+28 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 197 true ^====Auto===== Atomic Assignment
+29 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 198 true ^====Auto===== Atomic Assignment
+30 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 199 true ^====Auto===== Atomic Assignment
+31 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 201 true ^====Auto===== Atomic Assignment
+32 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 209 true ^&sdv_kdpc_val3=10461^====Auto===== Atomic Assignment
+33 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 229 true ^&sdv_devobj_fdo=5025^====Auto===== Atomic Assignment
+34 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 232 true ^====Auto===== Atomic Assignment
+35 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 237 true ^&sdv_devobj_pdo=1265^====Auto===== Atomic Assignment
+36 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 241 true ^&sdv_devobj_child_pdo=6301^====Auto===== Atomic Assignment
+37 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 245 true ^&sdv_kinterrupt_val=3469^====Auto===== Atomic Assignment
+38 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 248 true ^&sdv_MapRegisterBase_val=10457^====Auto===== Atomic Assignment
+39 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 252 true ^====Auto===== Atomic Assignment
+40 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 255 true ^====Auto===== Atomic Assignment
+41 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 258 true ^====Auto===== Atomic Assignment
+42 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 264 true ^&sdv_fx_dev_object=7797^====Auto===== Atomic Assignment
+43 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 813 true ^====Auto===== Atomic Assignment
+44 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 814 true ^====Auto===== Atomic Assignment
+45 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 815 true ^====Auto===== Atomic Assignment
+46 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 818 true ^====Auto===== Atomic Assignment
+47 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 829 true ^====Auto===== Atomic Assignment
+48 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 844 true ^====Auto===== Atomic Assignment
+49 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 846 true ^====Auto===== Atomic Assignment
+50 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 860 true ^====Auto===== Atomic Assignment
+51 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 4862 true ^&sdv_devobj_top=9453^====Auto===== Atomic Assignment
+52 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 12374 true ^====Auto===== Atomic Assignment
+53 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 14495 true ^&notused_4p_ContextArea=8317^====Auto===== Atomic Assignment
+54 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 14498 true ^&notused_4p_MiniportInterruptContext=3225^====Auto===== Atomic Assignment
+55 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 14502 true ^&notused_4p_TimerObject=9449^====Auto===== Atomic Assignment
+56 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 17657 true ^====Auto===== Atomic Assignment
+57 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 17690 true ^====Auto===== Atomic Assignment
+58 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 17696 true ^====Auto===== Atomic Assignment
+59 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 17698 true ^====Auto===== Atomic Assignment
+60 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 17701 true ^====Auto===== Atomic Assignment
+61 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 17705 true ^====Auto===== Atomic Assignment
+62 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 17713 true ^====Auto===== Atomic Assignment
+63 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 17714 true ^====Auto===== Atomic Assignment
+64 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 17716 true ^====Auto===== Atomic Assignment
+65 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 17744 true ^====Auto===== Atomic Assignment
+66 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 17746 true ^====Auto===== Atomic Assignment
+67 "?" 0 true ^====Auto===== Return
+68 "?" 0 true ^====Auto===== Atomic Continuation
+69 "?" 0 true ^====Auto===== Call "main" "_sdv_init4"
+70 "?" 0 true ^====Auto===== Atomic Continuation
+71 "?" 0 true ^====Auto===== Atomic Continuation
+72 "?" 0 true ^====Auto===== Return
+73 "?" 0 true ^====Auto===== Atomic Continuation
+74 "?" 0 true ^====Auto===== Call "main" "_sdv_init3"
+75 "?" 0 true ^====Auto===== Atomic Continuation
+76 "?" 0 true ^====Auto===== Atomic Continuation
+77 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c" 37 true ^====Auto===== Atomic Assignment
+78 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c" 38 true ^====Auto===== Atomic Assignment
+79 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c" 45 true ^====Auto===== Atomic Assignment
+80 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c" 45 true ^====Auto===== Atomic Assignment
+81 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c" 45 true ^====Auto===== Atomic Assignment
+82 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c" 45 true ^====Auto===== Atomic Assignment
+83 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c" 45 true ^====Auto===== Atomic Assignment
+84 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c" 45 true ^====Auto===== Atomic Assignment
+85 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c" 45 true ^====Auto===== Atomic Assignment
+86 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c" 45 true ^====Auto===== Atomic Assignment
+87 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c" 45 true ^====Auto===== Atomic Assignment
+88 "?" 0 true ^====Auto===== Return
+89 "?" 0 true ^====Auto===== Atomic Continuation
+90 "?" 0 true ^====Auto===== Call "main" "_sdv_init2"
+91 "?" 0 true ^====Auto===== Atomic Continuation
+92 "?" 0 true ^====Auto===== Atomic Continuation
+93 "?" 0 true ^====Auto===== Return
+94 "?" 0 true ^====Auto===== Atomic Continuation
+95 "?" 0 true ^====Auto===== Call "main" "_sdv_init1"
+96 "?" 0 true ^====Auto===== Atomic Continuation
+97 "?" 0 true ^====Auto===== Atomic Continuation
+98 "?" 0 true ^====Auto===== Return
+99 "?" 0 true ^====Auto===== Atomic Continuation
+100 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 22236 true ^====Auto===== Call "main" "sdv_main_common"
+101 "?" 0 true ^====Auto===== Atomic Continuation
+102 "?" 0 true ^====Auto===== Atomic Continuation
+103 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 17637 true ^arg1=10921^arg2=10909^====Auto===== Call "sdv_main_common" "DriverEntry"
+104 "?" 0 true ^====Auto===== Atomic Continuation
+105 "?" 0 true ^====Auto===== Atomic Continuation
+106 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c" 239 true ^====Auto===== Atomic Assignment
+107 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c" 239 true ^====Auto===== Atomic Assignment
+108 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c" 239 true ^====Auto===== Atomic Assignment
+109 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c" 240 true ^====Auto===== Atomic Assignment
+110 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c" 240 true ^====Auto===== Atomic Assignment
+111 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c" 240 true ^====Auto===== Atomic Assignment
+112 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c" 241 true ^====Auto===== Atomic Assignment
+113 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c" 241 true ^====Auto===== Atomic Assignment
+114 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c" 241 true ^====Auto===== Atomic Assignment
+115 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c" 242 true ^====Auto===== Atomic Assignment
+116 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c" 248 true ^DriverObject=10921^====Auto===== Atomic Assignment
+117 "?" 0 true ^====Auto===== Atomic Continuation
+118 "?" 0 true ^====Auto===== Atomic Assignment
+119 "?" 0 true ^====Auto===== Atomic Assignment
+120 "?" 0 true ^====Auto===== Atomic Assignment
+121 "?" 0 true ^====Auto===== Atomic Assignment
+122 "?" 0 true ^====Auto===== Atomic Assignment
+123 "?" 0 true ^====Auto===== Atomic Assignment
+124 "?" 0 true ^====Auto===== Atomic Assignment
+125 "?" 0 true ^====Auto===== Atomic Assignment
+126 "?" 0 true ^====Auto===== Atomic Assignment
+127 "?" 0 true ^====Auto===== Atomic Assignment
+128 "?" 0 true ^====Auto===== Atomic Assignment
+129 "?" 0 true ^====Auto===== Atomic Assignment
+130 "?" 0 true ^====Auto===== Atomic Assignment
+131 "?" 0 true ^====Auto===== Atomic Assignment
+132 "?" 0 true ^====Auto===== Atomic Assignment
+133 "?" 0 true ^====Auto===== Atomic Assignment
+134 "?" 0 true ^====Auto===== Atomic Assignment
+135 "?" 0 true ^====Auto===== Atomic Assignment
+136 "?" 0 true ^====Auto===== Atomic Assignment
+137 "?" 0 true ^====Auto===== Atomic Assignment
+138 "?" 0 true ^====Auto===== Atomic Assignment
+139 "?" 0 true ^====Auto===== Atomic Assignment
+140 "?" 0 true ^====Auto===== Atomic Assignment
+141 "?" 0 true ^====Auto===== Atomic Assignment
+142 "?" 0 true ^====Auto===== Atomic Assignment
+143 "?" 0 true ^====Auto===== Atomic Assignment
+144 "?" 0 true ^====Auto===== Atomic Assignment
+145 "?" 0 true ^====Auto===== Atomic Assignment
+146 "?" 0 true ^====Auto===== Atomic Assignment
+147 "?" 0 true ^====Auto===== Atomic Assignment
+148 "?" 0 true ^====Auto===== Atomic Assignment
+149 "?" 0 true ^====Auto===== Atomic Assignment
+150 "?" 0 true ^====Auto===== Atomic Assignment
+151 "?" 0 true ^====Auto===== Atomic Assignment
+152 "?" 0 true ^====Auto===== Atomic Assignment
+153 "?" 0 true ^====Auto===== Atomic Assignment
+154 "?" 0 true ^====Auto===== Atomic Assignment
+155 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c" 252 true ^arg2=224^====Auto===== Call "DriverEntry" "sdv_NdisZeroMemory"
+156 "?" 0 true ^====Auto===== Atomic Continuation
+157 "?" 0 true ^====Auto===== Atomic Continuation
+158 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 14638 true ^====Auto===== Return
+159 "?" 0 true ^====Auto===== Atomic Continuation
+160 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c" 253 true ^====Auto===== Atomic Assignment
+161 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c" 254 true ^====Auto===== Atomic Assignment
+162 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c" 256 true ^====Auto===== Atomic Assignment
+163 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c" 260 true ^====Auto===== Atomic Assignment
+164 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c" 261 true ^====Auto===== Atomic Assignment
+165 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c" 262 true ^====Auto===== Atomic Assignment
+166 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c" 263 true ^====Auto===== Atomic Assignment
+167 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c" 264 true ^====Auto===== Atomic Assignment
+168 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c" 266 true ^FriendlyName.Buffer=135^FriendlyName.MaximumLength=82^FriendlyName.Length=80^====Auto===== Atomic Assignment
+169 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c" 267 true ^UniqueName.Buffer=137^UniqueName.MaximumLength=78^UniqueName.Length=76^====Auto===== Atomic Assignment
+170 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c" 268 true ^ServiceName.Buffer=138^ServiceName.MaximumLength=34^ServiceName.Length=32^====Auto===== Atomic Assignment
+171 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c" 276 true ^====Auto===== Atomic Assignment
+172 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c" 277 true ^====Auto===== Atomic Assignment
+173 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c" 278 true ^====Auto===== Atomic Assignment
+174 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c" 279 true ^====Auto===== Atomic Assignment
+175 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c" 280 true ^====Auto===== Atomic Assignment
+176 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c" 281 true ^====Auto===== Atomic Assignment
+177 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c" 282 true ^====Auto===== Atomic Assignment
+178 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c" 283 true ^====Auto===== Atomic Assignment
+179 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c" 284 true ^====Auto===== Atomic Assignment
+180 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c" 286 true ^====Auto===== Atomic Assignment
+181 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c" 287 true ^====Auto===== Atomic Assignment
+182 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c" 288 true ^====Auto===== Atomic Assignment
+183 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c" 289 true ^====Auto===== Atomic Assignment
+184 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c" 290 true ^====Auto===== Atomic Assignment
+185 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c" 291 true ^====Auto===== Atomic Assignment
+186 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c" 292 true ^====Auto===== Atomic Assignment
+187 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c" 293 true ^====Auto===== Atomic Assignment
+188 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c" 295 true ^====Auto===== Atomic Assignment
+189 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c" 297 true ^====Auto===== Atomic Assignment
+190 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c" 302 true ^arg1=238^====Auto===== Call "DriverEntry" "sdv_NdisAllocateSpinLock"
+191 "?" 0 true ^====Auto===== Atomic Continuation
+192 "?" 0 true ^====Auto===== Atomic Continuation
+193 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 16317 true ^====Auto===== Atomic Assignment
+194 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 16319 true ^====Auto===== Return
+195 "?" 0 true ^====Auto===== Atomic Continuation
+196 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c" 304 true ^arg1=797^====Auto===== Call "DriverEntry" "InitializeListHead"
+197 "?" 0 true ^====Auto===== Atomic Continuation
+198 "?" 0 true ^====Auto===== Atomic Continuation
+199 "c:\program files (x86)\windows kits\8.1\include\km\wdm.h" 9304 true ^ListHead=797^====Auto===== Atomic Assignment
+200 "c:\program files (x86)\windows kits\8.1\include\km\wdm.h" 9304 true ^ListHead->Blink=797^====Auto===== Atomic Assignment
+201 "c:\program files (x86)\windows kits\8.1\include\km\wdm.h" 9306 true ^====Auto===== Return
+202 "?" 0 true ^====Auto===== Atomic Continuation
+203 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c" 306 true ^arg2=10921^arg4=805^====Auto===== Call "DriverEntry" "sdv_NdisFRegisterFilterDriver"
+204 "?" 0 true ^====Auto===== Atomic Continuation
+205 "d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c" 15267 true ^arg1=6^====Auto===== Call "sdv_NdisFRegisterFilterDriver" "SLIC_sdv_NdisFRegisterFilterDriver_entry"
+206 "?" 0 true ^====Auto===== Atomic Continuation
+207 "..\..\..\check\Pre_IsLWF\Pre_IsLWF.slic" 20 true ^arg1=6^====Auto===== Call "SLIC_sdv_NdisFRegisterFilterDriver_entry" "SLIC_ABORT_1_0"
+208 "?" 0 true ^====Auto===== Atomic Continuation
+209 "?" 0 true ^caller=6^====Auto===== Atomic Assignment
+210 "?" 0 true ^arg1=2^====Auto===== Call "SLIC_ABORT_1_0" "SLIC_ERROR_ROUTINE"
+211 "?" 0 true ^====Auto===== Atomic Continuation
+212 "?" 0 true ^====Auto===== Atomic Assignment
+213 "?" 0 true ^====Auto===== Return
+214 "?" 0 true ^====Auto===== Atomic Continuation
+215 "?" 0 true ^====Auto===== Return
+216 "?" 0 true ^====Auto===== Atomic Continuation
+217 "?" 0 true ^yogi_error=1^====Auto===== Atomic Conditional
+218 "?" 0 true ^====Auto===== Atomic Continuation
+219 "?" 0 true ^yogi_error=1^====Auto===== Atomic Conditional
+220 "?" 0 true ^====Auto===== Atomic Continuation
+221 "?" 0 true ^yogi_error=1^====Auto===== Atomic Conditional
+222 "?" 0 true ^====Auto===== Atomic Continuation
+223 "?" 0 true ^yogi_error=1^====Auto===== Atomic Conditional
+224 "?" 0 true ^====Auto===== Atomic Continuation
+225 "?" 0 true ^yogi_error=1^====Auto===== Atomic Conditional
+226 "?" 0 true ^yogi_error=1^====Auto===== Atomic Conditional
+227 "?" 0 true ^====Auto===== Return
+Error This is a filter driver

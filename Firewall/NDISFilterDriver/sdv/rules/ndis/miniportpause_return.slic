@@ -1,0 +1,25 @@
+/*
+	Copyright (c) Microsoft Corporation.  All rights reserved.
+
+    Summary:
+    The MiniportPause_Return rule specifies that the MiniportPause callback function should return only NDIS_STATUS_SUCCESS
+    if the pause operation is completed or NDIS_STATUS_PENDING is returned when the miniport driver is in the pausing state.
+    Any other returned status values are invalid.
+	
+	  Description:
+    
+    Related Rule:
+    
+*/
+
+#include "ntddk_slic.h"
+
+
+fun_MINIPORT_PAUSE.exit
+{  
+	if ( !NDIS_SUCCESS($return) && !NDIS_PENDING($return))
+	{
+    abort "MiniportPause cannot return a value different from SUCCESS or PENDING.";
+  }
+}
+

@@ -1,0 +1,57 @@
+#line 1 "D:\\labs\\myFirewall\\Firewall\\Firewall\\NDISFilterDriver\\SDV\\check\\writeerrorlog\\writeerrorlog.h"
+
+#line 1 "C:\\Program Files (x86)\\Windows Kits\\8.1\\TOOLS\\SDV\\rules\\ndis\\sdv-model-common.h"
+
+#line 1 "d:\\labs\\myfirewall\\firewall\\firewall\\ndisfilterdriver\\sdv\\check\\writeerrorlog\\..\\..\\sdv-pre-results.h"
+
+
+
+
+
+
+
+
+
+
+
+#line 3 "C:\\Program Files (x86)\\Windows Kits\\8.1\\TOOLS\\SDV\\rules\\ndis\\sdv-model-common.h"
+
+
+
+#line 7 "C:\\Program Files (x86)\\Windows Kits\\8.1\\TOOLS\\SDV\\rules\\ndis\\sdv-model-common.h"
+  
+#line 9 "C:\\Program Files (x86)\\Windows Kits\\8.1\\TOOLS\\SDV\\rules\\ndis\\sdv-model-common.h"
+
+
+
+#line 13 "C:\\Program Files (x86)\\Windows Kits\\8.1\\TOOLS\\SDV\\rules\\ndis\\sdv-model-common.h"
+  
+#line 15 "C:\\Program Files (x86)\\Windows Kits\\8.1\\TOOLS\\SDV\\rules\\ndis\\sdv-model-common.h"
+
+
+  
+
+
+#line 21 "C:\\Program Files (x86)\\Windows Kits\\8.1\\TOOLS\\SDV\\rules\\ndis\\sdv-model-common.h"
+
+
+
+#line 25 "C:\\Program Files (x86)\\Windows Kits\\8.1\\TOOLS\\SDV\\rules\\ndis\\sdv-model-common.h"
+  
+#line 27 "C:\\Program Files (x86)\\Windows Kits\\8.1\\TOOLS\\SDV\\rules\\ndis\\sdv-model-common.h"
+
+
+
+
+
+#line 33 "C:\\Program Files (x86)\\Windows Kits\\8.1\\TOOLS\\SDV\\rules\\ndis\\sdv-model-common.h"
+
+#line 3 "D:\\labs\\myFirewall\\Firewall\\Firewall\\NDISFilterDriver\\SDV\\check\\writeerrorlog\\writeerrorlog.h"
+
+
+
+#line 7 "D:\\labs\\myFirewall\\Firewall\\Firewall\\NDISFilterDriver\\SDV\\check\\writeerrorlog\\writeerrorlog.h"
+	#pragma message("SDV_NA")
+#line 9 "D:\\labs\\myFirewall\\Firewall\\Firewall\\NDISFilterDriver\\SDV\\check\\writeerrorlog\\writeerrorlog.h"
+#line 10 "D:\\labs\\myFirewall\\Firewall\\Firewall\\NDISFilterDriver\\SDV\\check\\writeerrorlog\\writeerrorlog.h"
+

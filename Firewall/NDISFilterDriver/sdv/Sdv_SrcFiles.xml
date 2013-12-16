@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfSrcFile xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SrcFile>
+    <SDVSourceFilePath xmlns="http://www.microsoft.com/SDV">D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver</SDVSourceFilePath>
+    <SDVSourceFileRelativePath xmlns="http://www.microsoft.com/SDV" />
+    <SrcFileName xmlns="http://www.microsoft.com/SDV">precomp.c</SrcFileName>
+    <SrcFileDestination xmlns="http://www.microsoft.com/SDV" />
+    <SrcFileObjectName xmlns="http://www.microsoft.com/SDV">D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\x64\Win8Release\precomp.obj</SrcFileObjectName>
+    <SrcFileCFlags xmlns="http://www.microsoft.com/SDV"> /c /I.. /I. /I.. /I. /Ix64\Win8Release\ /Zi /nologo /W4 /WX- /Ox /Os /Oy- /D _WIN64 /D _AMD64_ /D AMD64 /D _WIN32_WINNT=0x0602 /D WINVER=0x0602 /D WINNT=1 /D NTDDI_VERSION=0x06020000 /D NDIS_WDM=1 /D NDIS630=1 /D NDIS_WDM=1 /GF /Gm- /Zp8 /GS /Gy /fp:precise /Zc:wchar_t- /Zc:forScope- /GR- /Yc"precomp.h" /Fp"x64\Win8Release\NDISFilterDriver.pch" /Fo"x64\Win8Release\\" /Fd"x64\Win8Release\vc120.pdb" /Gz /wd4603 /wd4627 /wd4986 /wd4987 /wd4996 /wd4201 /wd4214 /FI"C:\Program Files (x86)\Windows Kits\8.1\Include\Shared\warning.h" /errorReport:queue /kernel -cbstring -d2epilogunwind  /d1nodatetime /d1import_no_registry /d2AllowCompatibleILVersions /d2Zi+</SrcFileCFlags>
+    <SDVLineno xmlns="http://www.microsoft.com/SDV">0</SDVLineno>
+    <SdvLibOrder xmlns="http://www.microsoft.com/SDV">0</SdvLibOrder>
+    <SDVIsValid xmlns="http://www.microsoft.com/SDV">true</SDVIsValid>
+    <SDVCPlus xmlns="http://www.microsoft.com/SDV">false</SDVCPlus>
+    <SrcFileExtension xmlns="http://www.microsoft.com/SDV">.c</SrcFileExtension>
+    <SrcFileVersion xmlns="http://www.microsoft.com/SDV" />
+    <SrcFileAuthor xmlns="http://www.microsoft.com/SDV" />
+    <SrcFileOnwer xmlns="http://www.microsoft.com/SDV" />
+    <SrcFileVendor xmlns="http://www.microsoft.com/SDV" />
+    <SrcFileCopyright xmlns="http://www.microsoft.com/SDV" />
+    <BuildType xmlns="http://www.microsoft.com/SDV" />
+    <Include xmlns="http://www.microsoft.com/SDV">D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\;C:\Program Files (x86)\Windows Kits\8.1\Include\km\crt;C:\Program Files (x86)\Windows Kits\8.1\Include\KM;C:\Program Files (x86)\Windows Kits\8.1\Include\shared</Include>
+    <SrcFileRevision xmlns="http://www.microsoft.com/SDV">0</SrcFileRevision>
+    <SrcFileReleased xmlns="http://www.microsoft.com/SDV">false</SrcFileReleased>
+    <SrcFileDateCreated xmlns="http://www.microsoft.com/SDV">2013-12-08T17:28:05.4092109+03:00</SrcFileDateCreated>
+    <SrcFileDateModified xmlns="http://www.microsoft.com/SDV">2013-11-08T16:02:00.5264397+03:00</SrcFileDateModified>
+  </SrcFile>
+  <SrcFile>
+    <SDVSourceFilePath xmlns="http://www.microsoft.com/SDV">D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver</SDVSourceFilePath>
+    <SDVSourceFileRelativePath xmlns="http://www.microsoft.com/SDV" />
+    <SrcFileName xmlns="http://www.microsoft.com/SDV">filter.c</SrcFileName>
+    <SrcFileDestination xmlns="http://www.microsoft.com/SDV" />
+    <SrcFileObjectName xmlns="http://www.microsoft.com/SDV">D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\x64\Win8Release\filter.obj</SrcFileObjectName>
+    <SrcFileCFlags xmlns="http://www.microsoft.com/SDV"> /c /I.. /I. /Ix64\Win8Release\ /Zi /nologo /W4 /WX- /Ox /Os /Oy- /D _WIN64 /D _AMD64_ /D AMD64 /D _WIN32_WINNT=0x0602 /D WINVER=0x0602 /D WINNT=1 /D NTDDI_VERSION=0x06020000 /D NDIS_WDM=1 /D NDIS630=1 /GF /Gm- /Zp8 /GS /Gy /fp:precise /Zc:wchar_t- /Zc:forScope- /GR- /Yu"precomp.h" /Fp"x64\Win8Release\NDISFilterDriver.pch" /Fo"x64\Win8Release\\" /Fd"x64\Win8Release\vc120.pdb" /Gz /wd4603 /wd4627 /wd4986 /wd4987 /wd4996 /wd4201 /wd4214 /FI"C:\Program Files (x86)\Windows Kits\8.1\Include\Shared\warning.h" /errorReport:queue /kernel -cbstring -d2epilogunwind  /d1nodatetime /d1import_no_registry /d2AllowCompatibleILVersions /d2Zi+</SrcFileCFlags>
+    <SDVLineno xmlns="http://www.microsoft.com/SDV">0</SDVLineno>
+    <SdvLibOrder xmlns="http://www.microsoft.com/SDV">0</SdvLibOrder>
+    <SDVIsValid xmlns="http://www.microsoft.com/SDV">true</SDVIsValid>
+    <SDVCPlus xmlns="http://www.microsoft.com/SDV">false</SDVCPlus>
+    <SrcFileExtension xmlns="http://www.microsoft.com/SDV">.c</SrcFileExtension>
+    <SrcFileVersion xmlns="http://www.microsoft.com/SDV" />
+    <SrcFileAuthor xmlns="http://www.microsoft.com/SDV" />
+    <SrcFileOnwer xmlns="http://www.microsoft.com/SDV" />
+    <SrcFileVendor xmlns="http://www.microsoft.com/SDV" />
+    <SrcFileCopyright xmlns="http://www.microsoft.com/SDV" />
+    <BuildType xmlns="http://www.microsoft.com/SDV" />
+    <Include xmlns="http://www.microsoft.com/SDV">D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\;C:\Program Files (x86)\Windows Kits\8.1\Include\km\crt;C:\Program Files (x86)\Windows Kits\8.1\Include\KM;C:\Program Files (x86)\Windows Kits\8.1\Include\shared</Include>
+    <SrcFileRevision xmlns="http://www.microsoft.com/SDV">0</SrcFileRevision>
+    <SrcFileReleased xmlns="http://www.microsoft.com/SDV">false</SrcFileReleased>
+    <SrcFileDateCreated xmlns="http://www.microsoft.com/SDV">2013-12-14T13:42:18.4737393+03:00</SrcFileDateCreated>
+    <SrcFileDateModified xmlns="http://www.microsoft.com/SDV">2013-12-15T13:08:34.6338591+03:00</SrcFileDateModified>
+  </SrcFile>
+  <SrcFile>
+    <SDVSourceFilePath xmlns="http://www.microsoft.com/SDV">D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver</SDVSourceFilePath>
+    <SDVSourceFileRelativePath xmlns="http://www.microsoft.com/SDV" />
+    <SrcFileName xmlns="http://www.microsoft.com/SDV">device.c</SrcFileName>
+    <SrcFileDestination xmlns="http://www.microsoft.com/SDV" />
+    <SrcFileObjectName xmlns="http://www.microsoft.com/SDV">D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\x64\Win8Release\device.obj</SrcFileObjectName>
+    <SrcFileCFlags xmlns="http://www.microsoft.com/SDV"> /c /I.. /I. /Ix64\Win8Release\ /Zi /nologo /W4 /WX- /Ox /Os /Oy- /D _WIN64 /D _AMD64_ /D AMD64 /D _WIN32_WINNT=0x0602 /D WINVER=0x0602 /D WINNT=1 /D NTDDI_VERSION=0x06020000 /D NDIS_WDM=1 /D NDIS630=1 /GF /Gm- /Zp8 /GS /Gy /fp:precise /Zc:wchar_t- /Zc:forScope- /GR- /Yu"precomp.h" /Fp"x64\Win8Release\NDISFilterDriver.pch" /Fo"x64\Win8Release\\" /Fd"x64\Win8Release\vc120.pdb" /Gz /wd4603 /wd4627 /wd4986 /wd4987 /wd4996 /wd4201 /wd4214 /FI"C:\Program Files (x86)\Windows Kits\8.1\Include\Shared\warning.h" /errorReport:queue /kernel -cbstring -d2epilogunwind  /d1nodatetime /d1import_no_registry /d2AllowCompatibleILVersions /d2Zi+</SrcFileCFlags>
+    <SDVLineno xmlns="http://www.microsoft.com/SDV">0</SDVLineno>
+    <SdvLibOrder xmlns="http://www.microsoft.com/SDV">0</SdvLibOrder>
+    <SDVIsValid xmlns="http://www.microsoft.com/SDV">true</SDVIsValid>
+    <SDVCPlus xmlns="http://www.microsoft.com/SDV">false</SDVCPlus>
+    <SrcFileExtension xmlns="http://www.microsoft.com/SDV">.c</SrcFileExtension>
+    <SrcFileVersion xmlns="http://www.microsoft.com/SDV" />
+    <SrcFileAuthor xmlns="http://www.microsoft.com/SDV" />
+    <SrcFileOnwer xmlns="http://www.microsoft.com/SDV" />
+    <SrcFileVendor xmlns="http://www.microsoft.com/SDV" />
+    <SrcFileCopyright xmlns="http://www.microsoft.com/SDV" />
+    <BuildType xmlns="http://www.microsoft.com/SDV" />
+    <Include xmlns="http://www.microsoft.com/SDV">D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\;C:\Program Files (x86)\Windows Kits\8.1\Include\km\crt;C:\Program Files (x86)\Windows Kits\8.1\Include\KM;C:\Program Files (x86)\Windows Kits\8.1\Include\shared</Include>
+    <SrcFileRevision xmlns="http://www.microsoft.com/SDV">0</SrcFileRevision>
+    <SrcFileReleased xmlns="http://www.microsoft.com/SDV">false</SrcFileReleased>
+    <SrcFileDateCreated xmlns="http://www.microsoft.com/SDV">2013-12-08T17:28:05.3252062+03:00</SrcFileDateCreated>
+    <SrcFileDateModified xmlns="http://www.microsoft.com/SDV">2013-12-15T07:57:14.8047233+03:00</SrcFileDateModified>
+  </SrcFile>
+  <SrcFile>
+    <SDVSourceFilePath xmlns="http://www.microsoft.com/SDV">D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver</SDVSourceFilePath>
+    <SDVSourceFileRelativePath xmlns="http://www.microsoft.com/SDV" />
+    <SrcFileName xmlns="http://www.microsoft.com/SDV">flt_dbg.c</SrcFileName>
+    <SrcFileDestination xmlns="http://www.microsoft.com/SDV" />
+    <SrcFileObjectName xmlns="http://www.microsoft.com/SDV">D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\x64\Win8Release\flt_dbg.obj</SrcFileObjectName>
+    <SrcFileCFlags xmlns="http://www.microsoft.com/SDV"> /c /I.. /I. /Ix64\Win8Release\ /Zi /nologo /W4 /WX- /Ox /Os /Oy- /D _WIN64 /D _AMD64_ /D AMD64 /D _WIN32_WINNT=0x0602 /D WINVER=0x0602 /D WINNT=1 /D NTDDI_VERSION=0x06020000 /D NDIS_WDM=1 /D NDIS630=1 /GF /Gm- /Zp8 /GS /Gy /fp:precise /Zc:wchar_t- /Zc:forScope- /GR- /Yu"precomp.h" /Fp"x64\Win8Release\NDISFilterDriver.pch" /Fo"x64\Win8Release\\" /Fd"x64\Win8Release\vc120.pdb" /Gz /wd4603 /wd4627 /wd4986 /wd4987 /wd4996 /wd4201 /wd4214 /FI"C:\Program Files (x86)\Windows Kits\8.1\Include\Shared\warning.h" /errorReport:queue /kernel -cbstring -d2epilogunwind  /d1nodatetime /d1import_no_registry /d2AllowCompatibleILVersions /d2Zi+</SrcFileCFlags>
+    <SDVLineno xmlns="http://www.microsoft.com/SDV">0</SDVLineno>
+    <SdvLibOrder xmlns="http://www.microsoft.com/SDV">0</SdvLibOrder>
+    <SDVIsValid xmlns="http://www.microsoft.com/SDV">true</SDVIsValid>
+    <SDVCPlus xmlns="http://www.microsoft.com/SDV">false</SDVCPlus>
+    <SrcFileExtension xmlns="http://www.microsoft.com/SDV">.c</SrcFileExtension>
+    <SrcFileVersion xmlns="http://www.microsoft.com/SDV" />
+    <SrcFileAuthor xmlns="http://www.microsoft.com/SDV" />
+    <SrcFileOnwer xmlns="http://www.microsoft.com/SDV" />
+    <SrcFileVendor xmlns="http://www.microsoft.com/SDV" />
+    <SrcFileCopyright xmlns="http://www.microsoft.com/SDV" />
+    <BuildType xmlns="http://www.microsoft.com/SDV" />
+    <Include xmlns="http://www.microsoft.com/SDV">D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\;C:\Program Files (x86)\Windows Kits\8.1\Include\km\crt;C:\Program Files (x86)\Windows Kits\8.1\Include\KM;C:\Program Files (x86)\Windows Kits\8.1\Include\shared</Include>
+    <SrcFileRevision xmlns="http://www.microsoft.com/SDV">0</SrcFileRevision>
+    <SrcFileReleased xmlns="http://www.microsoft.com/SDV">false</SrcFileReleased>
+    <SrcFileDateCreated xmlns="http://www.microsoft.com/SDV">2013-12-08T17:28:05.3652086+03:00</SrcFileDateCreated>
+    <SrcFileDateModified xmlns="http://www.microsoft.com/SDV">2013-11-08T16:02:00.5254625+03:00</SrcFileDateModified>
+  </SrcFile>
+</ArrayOfSrcFile>

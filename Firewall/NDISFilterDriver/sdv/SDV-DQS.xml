@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SDV CPU="Intel64 Family 6 Model 60 Stepping 3, GenuineIntel" CPUnumber="8" DateModified="12/15/2013 13:16:58" _BUILDARCH="x64" DDKBUILDENV="fre">
+  <EnvironmentVariables Variable0="HOMEPATH \Users\Administrator" Variable1="VCTargetsPath C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\" Variable2="COMPUTERNAME WIN-UH7D28VI9FT" Variable3="CommonProgramFiles(x86) C:\Program Files (x86)\Common Files" Variable4="DevEnvDir C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\" Variable5="VSINSTALLDIR C:\Program Files (x86)\Microsoft Visual Studio 12.0\" Variable6="ExtensionSdkDir C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1\ExtensionSDKs" Variable7="Framework40Version v4.0" Variable8="VS110COMNTOOLS C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\" Variable9="FrameworkVersion32 v4.0.30319" Variable10="VisualStudioEdition Microsoft Visual Studio Ultimate 2013" Variable11="USEDEBUGLIBRARIES_SDV false" Variable12="VBOX_INSTALL_PATH C:\Program Files\Oracle\VirtualBox\" Variable13="ConEmuHWND 0x00020248" Variable14="INCLUDE C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\ATLMFC\INCLUDE;C:\Program Files (x86)\Windows Kits\8.1\include\shared;C:\Program Files (x86)\Windows Kits\8.1\include\um;C:\Program Files (x86)\Windows Kits\8.1\include\winrt;" Variable15="PROCESSOR_REVISION 3c03" Variable16="USERDOMAIN_ROAMINGPROFILE WIN-UH7D28VI9FT" Variable17="PATHEXT .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" Variable18="ConEmuWorkDrive C:" Variable19="ConEmuBackHWND 0x00030224" Variable20="VS120COMNTOOLS C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\" Variable21="LIBPATH C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\LIB;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\ATLMFC\LIB;C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral;C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\References\CommonConfiguration\neutral;" Variable22="FrameworkDir C:\Windows\Microsoft.NET\Framework\" Variable23="TMP C:\Users\ADMINI~1\AppData\Local\Temp" Variable24="TEMP C:\Users\ADMINI~1\AppData\Local\Temp" Variable25="FARADMINMODE 1" Variable26="PUBLIC C:\Users\Public" Variable27="WindowsSDK_ExecutablePath_x86 C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\" Variable28="LIB C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\LIB;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\ATLMFC\LIB;C:\Program Files (x86)\Windows Kits\8.1\lib\winv6.3\um\x86;" Variable29="PROCESSOR_IDENTIFIER Intel64 Family 6 Model 60 Stepping 3, GenuineIntel" Variable30="PLATFORM_SDV x64" Variable31="ConEmuWorkDir C:\Program Files\Far Manager" Variable32="FARPROFILE C:\Users\Administrator\AppData\Roaming\Far Manager\Profile" Variable33="USERDOMAIN WIN-UH7D28VI9FT" Variable34="FrameworkDIR32 C:\Windows\Microsoft.NET\Framework\" Variable35="ConEmuDir C:\Program Files\Far Manager" Variable36="Path C:\Program Files (x86)\Windows Kits\8.1\TOOLS\SDV\bin;C:\Program Files (x86)\Windows Kits\8.1\TOOLS\SDV\bin;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\CommonExtensions\Microsoft\TestWindow;C:\Program Files (x86)\Microsoft SDKs\F#\3.1\Framework\v4.0\;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Program Files (x86)\MSBuild\12.0\bin;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\BIN;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\VCPackages;C:\Program Files (x86)\HTML Help Workshop;C:\Program Files (x86)\HTML Help Workshop;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Team Tools\Performance Tools;C:\Program Files (x86)\Windows Kits\8.1\bin\x86;C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\NativeBinaries/x86;C:\Program Files\Far Manager\ConEmu;C:\Program Files\Far Manager;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Git\cmd;.;;.;" Variable37="PROCESSOR_LEVEL 6" Variable38="MSBuildTreatAllToolsVersionsAsCurrent true" Variable39="APPDATA C:\Users\Administrator\AppData\Roaming" Variable40="PROMPT $P$G" Variable41="MSBuildLoadMicrosoftTargetsReadOnly true" Variable42="ConEmuANSI ON" Variable43="ProgramFiles(x86) C:\Program Files (x86)" Variable44="NUMBER_OF_PROCESSORS 8" Variable45="CommonProgramFiles C:\Program Files (x86)\Common Files" Variable46="FARLANG English" Variable47="FARHOME C:\Program Files\Far Manager" Variable48="VCINSTALLDIR C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\" Variable49="VisualStudioDir C:\Users\Administrator\Documents\Visual Studio 2013" Variable50="TARGETNAME_SDV NDISFilterDriver" Variable51="ConEmuConfig " Variable52="VisualStudioVersion 12.0" Variable53="DRIVERTYPE_SDV WDM" Variable54="ProgramData C:\ProgramData" Variable55="ProgramW6432 C:\Program Files" Variable56="ProgramFiles C:\Program Files (x86)" Variable57="WindowsSDK_ExecutablePath_x64 C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\x64\" Variable58="WDKCONTENTROOT_SDV C:\Program Files (x86)\Windows Kits\8.1\" Variable59="FP_NO_HOST_CHECK NO" Variable60="MSBuildProjectFile_SDV NDISFilterDriver.vcxproj" Variable61="SystemRoot C:\Windows" Variable62="ConEmuHooks Enabled" Variable63="SESSIONNAME Console" Variable64="ConEmuArgs " Variable65="LOCALAPPDATA C:\Users\Administrator\AppData\Local" Variable66="CommonProgramW6432 C:\Program Files\Common Files" Variable67="FSHARPINSTALLDIR C:\Program Files (x86)\Microsoft SDKs\F#\3.1\Framework\v4.0\" Variable68="LOGONSERVER \\WIN-UH7D28VI9FT" Variable69="ConEmuPID 3256" Variable70="USERPROFILE C:\Users\Administrator" Variable71="ConEmuDrawHWND 0x00020248" Variable72="PkgDefApplicationConfigFile C:\Users\Administrator\AppData\Local\Microsoft\VisualStudio\12.0\devenv.exe.config" Variable73="WindowsSdkDir C:\Program Files (x86)\Windows Kits\8.1\" Variable74="VSLANG 1033" Variable75="ConEmuBaseDir C:\Program Files\Far Manager\ConEmu" Variable76="SDV C:\Program Files (x86)\Windows Kits\8.1\TOOLS\SDV" Variable77="FrameworkVersion v4.0.30319" Variable78="HOMEDRIVE C:" Variable79="CONFIGURATION_SDV Win8 Release" Variable80="ConEmuDrive C:" Variable81="OS Windows_NT" Variable82="PSModulePath C:\Windows\system32\WindowsPowerShell\v1.0\Modules\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\PowerShell\Modules\" Variable83="ConEmuBuild 131202" Variable84="USERNAME Administrator" Variable85="PROCESSOR_ARCHITEW6432 AMD64" Variable86="PROCESSOR_ARCHITECTURE x86" Variable87="FARLOCALPROFILE C:\Users\Administrator\AppData\Local\Far Manager\Profile" Variable88="ComSpec C:\Windows\system32\cmd.exe" Variable89="SystemDrive C:" Variable90="windir C:\Windows" Variable91="ALLUSERSPROFILE C:\ProgramData" />
+  <SDVDriver CPlusDriver="False" LinesOfCodeInDriver="2975" BinaryName="d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\x64\win8release\ndisfilterdriver.sys" DriverSwitch="True" Spaceout="1800" Timeout="3000" EntryPointsApproved="False">
+    <EntryPoints fun_DriverEntry=" DriverEntry" fun_FILTER_ATTACH=" FilterAttach" fun_FILTER_CANCEL_OID_REQUEST=" FilterCancelOidRequest" fun_FILTER_CANCEL_SEND_NET_BUFFER_LISTS=" FilterCancelSendNetBufferLists" fun_FILTER_DETACH=" FilterDetach" fun_FILTER_DEVICE_PNP_EVENT_NOTIFY=" FilterDevicePnPEventNotify" fun_FILTER_DRIVER_UNLOAD=" FilterUnload" fun_FILTER_NET_PNP_EVENT=" FilterNetPnPEvent" fun_FILTER_OID_REQUEST=" FilterOidRequest" fun_FILTER_OID_REQUEST_COMPLETE=" FilterOidRequestComplete" fun_FILTER_PAUSE=" FilterPause" fun_FILTER_RECEIVE_NET_BUFFER_LISTS=" FilterReceiveNetBufferLists" fun_FILTER_RESTART=" FilterRestart" fun_FILTER_RETURN_NET_BUFFER_LISTS=" FilterReturnNetBufferLists" fun_FILTER_SEND_NET_BUFFER_LISTS=" FilterSendNetBufferLists" fun_FILTER_SEND_NET_BUFFER_LISTS_COMPLETE=" FilterSendNetBufferListsComplete" fun_FILTER_SET_MODULE_OPTIONS=" FilterSetModuleOptions" fun_FILTER_SET_OPTIONS=" FilterRegisterOptions" fun_FILTER_STATUS=" FilterStatus" />
+    <Sources Flags0=" /c /I.. /I. /I.. /I. /Ix64\Win8Release\ /Zi /nologo /W4 /WX- /Ox /Os /Oy- /D _WIN64 /D _AMD64_ /D AMD64 /D _WIN32_WINNT=0x0602 /D WINVER=0x0602 /D WINNT=1 /D NTDDI_VERSION=0x06020000 /D NDIS_WDM=1 /D NDIS630=1 /D NDIS_WDM=1 /GF /Gm- /Zp8 /GS /Gy /fp:precise /Zc:wchar_t- /Zc:forScope- /GR- /Yc&quot;precomp.h&quot; /Fp&quot;x64\Win8Release\NDISFilterDriver.pch&quot; /Fo&quot;x64\Win8Release\\&quot; /Fd&quot;x64\Win8Release\vc120.pdb&quot; /Gz /wd4603 /wd4627 /wd4986 /wd4987 /wd4996 /wd4201 /wd4214 /FI&quot;C:\Program Files (x86)\Windows Kits\8.1\Include\Shared\warning.h&quot; /errorReport:queue /kernel -cbstring -d2epilogunwind  /d1nodatetime /d1import_no_registry /d2AllowCompatibleILVersions /d2Zi+" Name0="precomp.c" Flags1=" /c /I.. /I. /Ix64\Win8Release\ /Zi /nologo /W4 /WX- /Ox /Os /Oy- /D _WIN64 /D _AMD64_ /D AMD64 /D _WIN32_WINNT=0x0602 /D WINVER=0x0602 /D WINNT=1 /D NTDDI_VERSION=0x06020000 /D NDIS_WDM=1 /D NDIS630=1 /GF /Gm- /Zp8 /GS /Gy /fp:precise /Zc:wchar_t- /Zc:forScope- /GR- /Yu&quot;precomp.h&quot; /Fp&quot;x64\Win8Release\NDISFilterDriver.pch&quot; /Fo&quot;x64\Win8Release\\&quot; /Fd&quot;x64\Win8Release\vc120.pdb&quot; /Gz /wd4603 /wd4627 /wd4986 /wd4987 /wd4996 /wd4201 /wd4214 /FI&quot;C:\Program Files (x86)\Windows Kits\8.1\Include\Shared\warning.h&quot; /errorReport:queue /kernel -cbstring -d2epilogunwind  /d1nodatetime /d1import_no_registry /d2AllowCompatibleILVersions /d2Zi+" Name1="filter.c" Flags2=" /c /I.. /I. /Ix64\Win8Release\ /Zi /nologo /W4 /WX- /Ox /Os /Oy- /D _WIN64 /D _AMD64_ /D AMD64 /D _WIN32_WINNT=0x0602 /D WINVER=0x0602 /D WINNT=1 /D NTDDI_VERSION=0x06020000 /D NDIS_WDM=1 /D NDIS630=1 /GF /Gm- /Zp8 /GS /Gy /fp:precise /Zc:wchar_t- /Zc:forScope- /GR- /Yu&quot;precomp.h&quot; /Fp&quot;x64\Win8Release\NDISFilterDriver.pch&quot; /Fo&quot;x64\Win8Release\\&quot; /Fd&quot;x64\Win8Release\vc120.pdb&quot; /Gz /wd4603 /wd4627 /wd4986 /wd4987 /wd4996 /wd4201 /wd4214 /FI&quot;C:\Program Files (x86)\Windows Kits\8.1\Include\Shared\warning.h&quot; /errorReport:queue /kernel -cbstring -d2epilogunwind  /d1nodatetime /d1import_no_registry /d2AllowCompatibleILVersions /d2Zi+" Name2="device.c" Flags3=" /c /I.. /I. /Ix64\Win8Release\ /Zi /nologo /W4 /WX- /Ox /Os /Oy- /D _WIN64 /D _AMD64_ /D AMD64 /D _WIN32_WINNT=0x0602 /D WINVER=0x0602 /D WINNT=1 /D NTDDI_VERSION=0x06020000 /D NDIS_WDM=1 /D NDIS630=1 /GF /Gm- /Zp8 /GS /Gy /fp:precise /Zc:wchar_t- /Zc:forScope- /GR- /Yu&quot;precomp.h&quot; /Fp&quot;x64\Win8Release\NDISFilterDriver.pch&quot; /Fo&quot;x64\Win8Release\\&quot; /Fd&quot;x64\Win8Release\vc120.pdb&quot; /Gz /wd4603 /wd4627 /wd4986 /wd4987 /wd4996 /wd4201 /wd4214 /FI&quot;C:\Program Files (x86)\Windows Kits\8.1\Include\Shared\warning.h&quot; /errorReport:queue /kernel -cbstring -d2epilogunwind  /d1nodatetime /d1import_no_registry /d2AllowCompatibleILVersions /d2Zi+" Name3="flt_dbg.c" />
+    <Rules>
+      <Rule RuleName="periodictimer">
+        <Result Message="NA" />
+      </Rule>
+      <Rule RuleName="spinlockdpr">
+        <Result Message="NA" />
+      </Rule>
+      <Rule RuleName="spinlockrelease">
+        <Result Message="NA" />
+      </Rule>
+      <Rule RuleName="ndisquerybindinstancename">
+        <Result Message="NA" />
+      </Rule>
+      <Rule RuleName="spinlock">
+        <Result Message="NA" />
+      </Rule>
+      <Rule RuleName="spinlockdprrelease">
+        <Result Message="NA" />
+      </Rule>
+      <Rule RuleName="ndismderegisterinterruptex">
+        <Result Message="NA" />
+      </Rule>
+      <Rule RuleName="ndismmapiospace">
+        <Result Message="NA" />
+      </Rule>
+      <Rule RuleName="ndismregisterioportrange">
+        <Result Message="NA" />
+      </Rule>
+      <Rule RuleName="ndismindicatestatusex">
+        <Result Message="NA" />
+      </Rule>
+      <Rule RuleName="ndisallocatenetbuffer">
+        <Result Message="NA" />
+      </Rule>
+      <Rule RuleName="ndisallocategenericobject">
+        <Result Message="NA" />
+      </Rule>
+      <Rule RuleName="irql_timer_function">
+        <Result Message="NA" />
+      </Rule>
+      <Rule RuleName="ndisallocatemdl">
+        <Result Message="NA" />
+      </Rule>
+      <Rule RuleName="irql_sendrcv_function">
+        <Result Message="NA" />
+      </Rule>
+      <Rule RuleName="irql_protocol_driver_function">
+        <Result Message="NA" />
+      </Rule>
+      <Rule RuleName="ndisopenconfigurationex">
+        <Result Message="Tool Error" />
+      </Rule>
+      <Rule RuleName="irql_miniport_driver_function">
+        <Result Message="NA" />
+      </Rule>
+      <Rule RuleName="ndisfderegisterfilterdriver">
+        <Result Message="Tool Error" />
+      </Rule>
+      <Rule RuleName="irql_mco_function">
+        <Result Message="NA" />
+      </Rule>
+      <Rule RuleName="irql_irqlsetting_function">
+        <Result Message="NA" />
+      </Rule>
+      <Rule RuleName="irql_mcm_function">
+        <Result Message="NA" />
+      </Rule>
+      <Rule RuleName="irql_interrupt_function">
+        <Result Message="NA" />
+      </Rule>
+      <Rule RuleName="irql_interfaces_function">
+        <Result Message="NA" />
+      </Rule>
+      <Rule RuleName="irql_im_function">
+        <Result Message="NA" />
+      </Rule>
+      <Rule RuleName="irql_gather_dma_function">
+        <Result Message="NA" />
+      </Rule>
+      <Rule RuleName="irql_connection_function">
+        <Result Message="NA" />
+      </Rule>
+      <Rule RuleName="irql_callmanager_function">
+        <Result Message="NA" />
+      </Rule>
+      <Rule RuleName="irql_statusindication_function">
+        <Result Message="Tool Error" />
+      </Rule>
+      <Rule RuleName="irql_oid_function">
+        <Result Message="Tool Error" />
+      </Rule>
+      <Rule RuleName="irql_miscellaneous_function">
+        <Result Message="Tool Error" />
+      </Rule>
+      <Rule RuleName="irql_synch_function">
+        <Result Message="Tool Error" />
+      </Rule>
+      <Rule RuleName="irql_netbuffer_function">
+        <Result Message="Tool Error" />
+      </Rule>
+      <Rule RuleName="spinlockbalanced">
+        <Result Message="Tool Error" />
+      </Rule>
+      <Rule RuleName="irql_filter_driver_function">
+        <Result Message="Tool Error" />
+      </Rule>
+      <Rule RuleName="doublecomplete">
+        <Result Message="NA" />
+      </Rule>
+      <Rule RuleName="doublecompleteworkitem">
+        <Result Message="NA" />
+      </Rule>
+      <Rule RuleName="flags_irql">
+        <Result Message="NA" />
+      </Rule>
+      <Rule RuleName="init_deregisterinterrupt">
+        <Result Message="NA" />
+      </Rule>
+      <Rule RuleName="init_ndisallocateioworkitem">
+        <Result Message="NA" />
+      </Rule>
+      <Rule RuleName="init_registerinterrupt">
+        <Result Message="NA" />
+      </Rule>
+      <Rule RuleName="init_registersg">
+        <Result Message="NA" />
+      </Rule>
+      <Rule RuleName="miniportpause_return">
+        <Result Message="NA" />
+      </Rule>
+      <Rule RuleName="ndisallocatememorywithtagpriority">
+        <Result Message="NA" />
+      </Rule>
+      <Rule RuleName="ndismfreesharedmemory">
+        <Result Message="NA" />
+      </Rule>
+      <Rule RuleName="ndismnetpnpeventinoidrequest">
+        <Result Message="NA" />
+      </Rule>
+      <Rule RuleName="ndisreenumerateprotocolbindings">
+        <Result Message="NA" />
+      </Rule>
+      <Rule RuleName="writeerrorlog">
+        <Result Message="NA" />
+      </Rule>
+      <Rule RuleName="pre_isminiport">
+        <Result Message="NA" />
+      </Rule>
+      <Rule RuleName="pre_isprotocol">
+        <Result Message="NA" />
+      </Rule>
+      <Rule RuleName="pre_islwf">
+        <Result Message="Error" />
+        <Defect Message="This is a filter driver">
+          <SFA SfaFileName="&quot;d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c&quot;" SfaFunctionName="DriverEntry" SfaLineNumber="306" />
+        </Defect>
+      </Rule>
+    </Rules>
+  </SDVDriver>
+</SDV>

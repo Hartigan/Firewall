@@ -407,10 +407,15 @@ VOID DelIPv4Rule(IN PFILTER_DEVICE_EXTENSION FilterDeviceExtension, IN ULONG Id)
 	PRULES_LISTS RulesLists = FilterDeviceExtension->FilterRules;
 	PRULE_IPV4 CurrentRule = RulesLists->FirstRuleIPv4;
 
-	if (CurrentRule != NULL && CurrentRule->Id == Id)
+	while (CurrentRule != NULL && CurrentRule->Id == Id)
 	{
 		RulesLists->FirstRuleIPv4 = CurrentRule->Next;
 		ExFreePool(CurrentRule);
+		CurrentRule = RulesLists->FirstRuleIPv4;
+	}
+
+	if (CurrentRule == NULL)
+	{
 		return;
 	}
 
@@ -423,7 +428,6 @@ VOID DelIPv4Rule(IN PFILTER_DEVICE_EXTENSION FilterDeviceExtension, IN ULONG Id)
 		{
 			PreviousRule->Next = CurrentRule->Next;
 			ExFreePool(CurrentRule);
-			return;
 		}
 		PreviousRule = CurrentRule;
 		CurrentRule = CurrentRule->Next;
@@ -443,10 +447,15 @@ VOID DelIPv6Rule(IN PFILTER_DEVICE_EXTENSION FilterDeviceExtension, IN ULONG Id)
 	PRULES_LISTS RulesLists = FilterDeviceExtension->FilterRules;
 	PRULE_IPV6 CurrentRule = RulesLists->FirstRuleIPv6;
 
-	if (CurrentRule != NULL && CurrentRule->Id == Id)
+	while (CurrentRule != NULL && CurrentRule->Id == Id)
 	{
 		RulesLists->FirstRuleIPv6 = CurrentRule->Next;
 		ExFreePool(CurrentRule);
+		CurrentRule = RulesLists->FirstRuleIPv4;
+	}
+
+	if (CurrentRule == NULL)
+	{
 		return;
 	}
 
@@ -459,7 +468,6 @@ VOID DelIPv6Rule(IN PFILTER_DEVICE_EXTENSION FilterDeviceExtension, IN ULONG Id)
 		{
 			PreviousRule->Next = CurrentRule->Next;
 			ExFreePool(CurrentRule);
-			return;
 		}
 		PreviousRule = CurrentRule;
 		CurrentRule = CurrentRule->Next;

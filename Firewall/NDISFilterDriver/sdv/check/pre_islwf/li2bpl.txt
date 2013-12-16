@@ -1,0 +1,133 @@
+// Li2Bpl v 0.5
+Getting global data
+Getting Proc data
+Getting CFG _sdv_init7
+Got CFG _sdv_init7
+Getting CFG SLIC_EXIT_ROUTINE
+Got CFG SLIC_EXIT_ROUTINE
+Getting CFG SLIC_ERROR_ROUTINE
+Got CFG SLIC_ERROR_ROUTINE
+Getting CFG SLIC_sdv_NdisFRegisterFilterDriver_entry
+Got CFG SLIC_sdv_NdisFRegisterFilterDriver_entry
+Getting CFG SLIC_ABORT_1_0
+Got CFG SLIC_ABORT_1_0
+Getting CFG NdisGetDeviceReservedExtension
+Got CFG NdisGetDeviceReservedExtension
+Getting CFG sdv_main_common
+Got CFG sdv_main_common
+Getting CFG ExAllocatePool
+Got CFG ExAllocatePool
+Getting CFG sdv_NdisFreeSpinLock
+Got CFG sdv_NdisFreeSpinLock
+Getting CFG sdv_NullDereferenceTrap
+Got CFG sdv_NullDereferenceTrap
+Getting CFG sdv_NdisInitUnicodeString
+Got CFG sdv_NdisInitUnicodeString
+Getting CFG _sdv_init5
+Got CFG _sdv_init5
+Getting CFG sdv_main_miniport
+Got CFG sdv_main_miniport
+Getting CFG sdv_Trap
+Got CFG sdv_Trap
+Getting CFG sdv_main_lwf
+Got CFG sdv_main_lwf
+Getting CFG sdv_NdisFRegisterFilterDriver
+Got CFG sdv_NdisFRegisterFilterDriver
+Getting CFG sdv_main_protocol
+Got CFG sdv_main_protocol
+Getting CFG sdv_NdisRegisterDeviceEx
+Got CFG sdv_NdisRegisterDeviceEx
+Getting CFG main
+Got CFG main
+Getting CFG sdv_NdisFDeregisterFilterDriver
+Got CFG sdv_NdisFDeregisterFilterDriver
+Getting CFG sdv_NdisZeroMemory
+Got CFG sdv_NdisZeroMemory
+Getting CFG sdv_NdisAllocateSpinLock
+Got CFG sdv_NdisAllocateSpinLock
+Getting CFG _sdv_init4
+Got CFG _sdv_init4
+Processing loop in DriverEntry starting at 71
+Loop is: 20 23 56 59 63 64 70 71 82 
+First block: 82
+Counter: L(bFalse,3,271,4)
+Getting CFG DriverEntry
+Got CFG DriverEntry
+Getting CFG _sdv_init3
+Got CFG _sdv_init3
+Getting CFG _sdv_init2
+Got CFG _sdv_init2
+Getting CFG NDISFilterDriverRegisterDevice
+Really ignoring function NdisGetDeviceReservedExtension
+Ignoring call to NdisGetDeviceReservedExtension because it is ignorable
+Got CFG NDISFilterDriverRegisterDevice
+Getting CFG _sdv_init1
+Got CFG _sdv_init1
+Getting CFG InitializeListHead
+Got CFG InitializeListHead
+Getting line info
+_LUID is a subset of: _LARGE_INTEGER unnamed_tag_5 
+_INITIAL_PRIVILEGE_SET is a subset of: _PRIVILEGE_SET 
+unnamed_tag_15 is a subset of: unnamed_tag_16 
+unnamed_tag_5 is a subset of: _LARGE_INTEGER 
+unnamed_tag_18 is a subset of: _SECURITY_QUALITY_OF_SERVICE _UNICODE_STRING unnamed_tag_12 unnamed_tag_13 unnamed_tag_14 unnamed_tag_15 unnamed_tag_16 unnamed_tag_17 unnamed_tag_19 unnamed_tag_27 unnamed_tag_58 unnamed_tag_62 
+_NET_BUFFER_HEADER is a subset of: _NET_BUFFER 
+_NET_BUFFER_LIST_HEADER is a subset of: _NET_BUFFER_LIST 
+unnamed_tag_28 is a subset of: _CM_PARTIAL_RESOURCE_DESCRIPTOR _CONTROLLER_OBJECT _DEVICE_OBJECT _DEVOBJ_EXTENSION _DISPATCHER_HEADER _DRIVER_OBJECT _FILE_OBJECT _IRP _KAPC _KDEVICE_QUEUE _NDIS_OBJECT_HEADER _VPB 
+_DRIVE_LAYOUT_INFORMATION_MBR is a subset of: _FILTER_DEVICE_EXTENSION 
+Processing InitializeListHead
+Processing _sdv_init1
+Processing NDISFilterDriverRegisterDevice
+Found FP map: MajorFunctions__NDIS_DEVICE_OBJECT_ATTRIBUTES
+Processing _sdv_init2
+Processing _sdv_init3
+Found FP map: SendNetBufferListsHandler__NDIS_FILTER_PARTIAL_CHARACTERISTICS
+Found FP map: SendNetBufferListsCompleteHandler__NDIS_FILTER_PARTIAL_CHARACTERISTICS
+Found FP map: CancelSendNetBufferListsHandler__NDIS_FILTER_PARTIAL_CHARACTERISTICS
+Found FP map: ReceiveNetBufferListsHandler__NDIS_FILTER_PARTIAL_CHARACTERISTICS
+Found FP map: ReturnNetBufferListsHandler__NDIS_FILTER_PARTIAL_CHARACTERISTICS
+Processing DriverEntry
+Found FP map: SetOptionsHandler__NDIS_FILTER_DRIVER_CHARACTERISTICS
+Found FP map: SetFilterModuleOptionsHandler__NDIS_FILTER_DRIVER_CHARACTERISTICS
+Found FP map: AttachHandler__NDIS_FILTER_DRIVER_CHARACTERISTICS
+Found FP map: DetachHandler__NDIS_FILTER_DRIVER_CHARACTERISTICS
+Found FP map: RestartHandler__NDIS_FILTER_DRIVER_CHARACTERISTICS
+Found FP map: PauseHandler__NDIS_FILTER_DRIVER_CHARACTERISTICS
+Found FP map: SendNetBufferListsHandler__NDIS_FILTER_DRIVER_CHARACTERISTICS
+Found FP map: SendNetBufferListsCompleteHandler__NDIS_FILTER_DRIVER_CHARACTERISTICS
+Found FP map: CancelSendNetBufferListsHandler__NDIS_FILTER_DRIVER_CHARACTERISTICS
+Found FP map: ReceiveNetBufferListsHandler__NDIS_FILTER_DRIVER_CHARACTERISTICS
+Found FP map: ReturnNetBufferListsHandler__NDIS_FILTER_DRIVER_CHARACTERISTICS
+Found FP map: OidRequestHandler__NDIS_FILTER_DRIVER_CHARACTERISTICS
+Found FP map: OidRequestCompleteHandler__NDIS_FILTER_DRIVER_CHARACTERISTICS
+Found FP map: CancelOidRequestHandler__NDIS_FILTER_DRIVER_CHARACTERISTICS
+Found FP map: DevicePnPEventNotifyHandler__NDIS_FILTER_DRIVER_CHARACTERISTICS
+Found FP map: NetPnPEventHandler__NDIS_FILTER_DRIVER_CHARACTERISTICS
+Found FP map: StatusHandler__NDIS_FILTER_DRIVER_CHARACTERISTICS
+Found FP map: DirectOidRequestHandler__NDIS_FILTER_DRIVER_CHARACTERISTICS
+Found FP map: DirectOidRequestCompleteHandler__NDIS_FILTER_DRIVER_CHARACTERISTICS
+Found FP map: CancelDirectOidRequestHandler__NDIS_FILTER_DRIVER_CHARACTERISTICS
+Found FP map: DriverUnload__DRIVER_OBJECT
+Processing _sdv_init4
+Processing sdv_NdisAllocateSpinLock
+Processing sdv_NdisZeroMemory
+Processing sdv_NdisFDeregisterFilterDriver
+Processing main
+Processing sdv_NdisRegisterDeviceEx
+Processing sdv_main_protocol
+Processing sdv_NdisFRegisterFilterDriver
+Processing sdv_main_lwf
+Processing sdv_Trap
+Processing sdv_main_miniport
+Processing _sdv_init5
+Processing sdv_NdisInitUnicodeString
+Processing sdv_NullDereferenceTrap
+Processing sdv_NdisFreeSpinLock
+Processing ExAllocatePool
+Processing sdv_main_common
+Processing NdisGetDeviceReservedExtension
+Processing SLIC_ABORT_1_0
+Processing SLIC_sdv_NdisFRegisterFilterDriver_entry
+Processing SLIC_ERROR_ROUTINE
+Processing SLIC_EXIT_ROUTINE
+Processing _sdv_init7

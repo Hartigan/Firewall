@@ -1,0 +1,21 @@
+/*
+  Copyright (c) Microsoft Corporation.  All rights reserved.
+
+    Summary:
+    NdisMFreeSharedMemory cannot be called from a MiniportShutdownEx function.
+
+    Description:
+    
+    Related Rule:
+    
+  
+*/
+
+
+#include "ntddk_slic.h"
+
+
+NdisMFreeSharedMemory.entry
+{
+  abort "$fname cannot be called from miniport shutdown";
+}

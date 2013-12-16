@@ -1,0 +1,21 @@
+/*
+    Copyright (c) Microsoft Corporation.  All rights reserved.
+    
+    Summary:
+    This rules will pass if the driver is a Filter Driver. 
+    
+    Description:
+    
+    
+    Related Rule:
+    Is_Miniport, Is_Protocol
+    
+*/
+
+
+#include "ntddk_slic.h"
+
+NdisFRegisterFilterDriver.entry
+{
+  abort "This is a filter driver";
+}

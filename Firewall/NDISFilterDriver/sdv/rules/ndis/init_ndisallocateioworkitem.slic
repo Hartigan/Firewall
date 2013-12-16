@@ -1,0 +1,84 @@
+/*
+    Copyright (c) Microsoft Corporation.  All rights reserved.
+    
+    Summary:
+    If NdisAllocateIoWorkItem is called at least once during MiniportInitilizeEx, then NdisFreeIoWorkItem should 
+        - be called at least once in MPHaltEx, if MiniportInitializeEx succeds.
+        - be called in MiniportInitilizeEx, if MiniportInitializeEx fails.
+    
+    Description:
+    All the allocation of memory done with NdisAllocateIoWorkItem need to be freed 
+      - during MiniportInitlaizeEx,if something goes wrong during initialization, 
+        or 
+      - during MiniportHaltEx, as the normal cycle of the Miniport.
+    
+    Related Rule:
+    
+*/
+
+
+#include "ntddk_slic.h"
+
+state{
+   enum {uninit, allocated, freed} s = uninit;
+   enum {in_init, in_halt} t = in_init;
+}
+watch NdisAllocateIoWorkItem.exit.$return;
+
+NdisAllocateIoWorkItem.exit[guard $return]
+{
+    if ($return!=0) 
+    {
+          s = allocated;
+    }
+    else if($return==0)
+    {
+          s = uninit;
+    }
+}
+
+NdisFreeIoWorkItem.exit[guard $1]
+{
+    if ( s == freed )
+    {
+        abort "Double freeing IoWorkItem.";
+    }
+    else if(s == uninit)
+    {
+        abort "free an uninitialized IoWorkItem.";
+    }
+    else
+    {  
+        s = freed;
+    }
+}
+
+
+[RemoveHeadList,sdv_containing_record].entry
+{
+    halt;
+}
+
+sdv_MINIPORT_INITIALIZE.exit
+{
+    if (NDIS_FAILURE($return)) 
+    {
+        if (s == allocated) 
+        {
+            abort "The $fname routines is failing without freeing a IoWorkItem.";
+        }
+    }
+    else
+    {
+        t = in_halt;
+    }
+}
+
+sdv_MINIPORT_HALT.exit
+{
+
+    if (s == allocated) 
+    {
+        abort "The $fname routines is exting without freeing a IoWorkItem.";
+    }
+}

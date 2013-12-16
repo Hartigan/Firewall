@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<Data> 
+<AssessmentScore ScoreName="NDISFilterDriver.x64.General.XMLTimeStamp" ScoreValue="0" ScoreUnit="12/15/2013 13:23:14" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.General.DriverBinary" ScoreValue="0" ScoreUnit="NDISFilterDriver.sys" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.General.BinaryTimeStamp" ScoreValue="0" ScoreUnit="12/08/2013 17:28:05" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.General.DriverType" ScoreValue="0" ScoreUnit="ndis" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.General.DriverSize" ScoreValue="2975" ScoreUnit="LOC" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.General.DriverVersion" ScoreValue="0" ScoreUnit="0" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.General.Libs" ScoreValue="0" ScoreUnit="Number of external libraries used" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.Version" ScoreValue="0" ScoreUnit="4.0.500.0" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.DriverEntry.fun_DriverEntry" ScoreValue="0" ScoreUnit="" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.DriverEntry.fun_FILTER_ATTACH" ScoreValue="0" ScoreUnit="" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.DriverEntry.fun_FILTER_CANCEL_OID_REQUEST" ScoreValue="0" ScoreUnit="" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.DriverEntry.fun_FILTER_CANCEL_SEND_NET_BUFFER_LISTS" ScoreValue="0" ScoreUnit="" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.DriverEntry.fun_FILTER_DETACH" ScoreValue="0" ScoreUnit="" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.DriverEntry.fun_FILTER_DEVICE_PNP_EVENT_NOTIFY" ScoreValue="0" ScoreUnit="" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.DriverEntry.fun_FILTER_DRIVER_UNLOAD" ScoreValue="0" ScoreUnit="" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.DriverEntry.fun_FILTER_NET_PNP_EVENT" ScoreValue="0" ScoreUnit="" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.DriverEntry.fun_FILTER_OID_REQUEST" ScoreValue="0" ScoreUnit="" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.DriverEntry.fun_FILTER_OID_REQUEST_COMPLETE" ScoreValue="0" ScoreUnit="" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.DriverEntry.fun_FILTER_PAUSE" ScoreValue="0" ScoreUnit="" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.DriverEntry.fun_FILTER_RECEIVE_NET_BUFFER_LISTS" ScoreValue="0" ScoreUnit="" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.DriverEntry.fun_FILTER_RESTART" ScoreValue="0" ScoreUnit="" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.DriverEntry.fun_FILTER_RETURN_NET_BUFFER_LISTS" ScoreValue="0" ScoreUnit="" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.DriverEntry.fun_FILTER_SEND_NET_BUFFER_LISTS" ScoreValue="0" ScoreUnit="" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.DriverEntry.fun_FILTER_SEND_NET_BUFFER_LISTS_COMPLETE" ScoreValue="0" ScoreUnit="" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.DriverEntry.fun_FILTER_SET_MODULE_OPTIONS" ScoreValue="0" ScoreUnit="" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.DriverEntry.fun_FILTER_SET_OPTIONS" ScoreValue="0" ScoreUnit="" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.DriverEntry.fun_FILTER_STATUS" ScoreValue="0" ScoreUnit="" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.ActiveRuleTotal" ScoreValue="49" ScoreUnit="Total rules available" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.Rule.irql_timer_function" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.Rule.ndisallocatenetbuffer" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.Rule.irql_statusindication_function" ScoreValue="7" ScoreUnit="SDV_NOTDONE" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.Rule.init_registersg" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.Rule.irql_interfaces_function" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.Rule.flags_irql" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.Rule.irql_callmanager_function" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.Rule.init_deregisterinterrupt" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.Rule.ndisopenconfigurationex" ScoreValue="7" ScoreUnit="SDV_NOTDONE" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.Rule.irql_netbuffer_function" ScoreValue="7" ScoreUnit="SDV_NOTDONE" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.Rule.spinlock" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.Rule.irql_im_function" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.Rule.irql_synch_function" ScoreValue="7" ScoreUnit="SDV_NOTDONE" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.Rule.ndisallocatememorywithtagpriority" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.Rule.irql_protocol_driver_function" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.Rule.spinlockrelease" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.Rule.ndismderegisterinterruptex" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.Rule.ndisreenumerateprotocolbindings" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.Rule.irql_oid_function" ScoreValue="7" ScoreUnit="SDV_NOTDONE" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.Rule.doublecomplete" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.Rule.ndisfderegisterfilterdriver" ScoreValue="7" ScoreUnit="SDV_NOTDONE" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.Rule.ndismfreesharedmemory" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.Rule.writeerrorlog" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.Rule.irql_connection_function" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.Rule.ndismmapiospace" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.Rule.ndisallocategenericobject" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.Rule.irql_mcm_function" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.Rule.ndismregisterioportrange" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.Rule.pre_isprotocol" ScoreValue="2" ScoreUnit="SDV_NA" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.Rule.spinlockdpr" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.Rule.init_registerinterrupt" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.Rule.irql_interrupt_function" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.Rule.init_ndisallocateioworkitem" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.Rule.ndisallocatemdl" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.Rule.miniportpause_return" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.Rule.irql_irqlsetting_function" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.Rule.spinlockdprrelease" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.Rule.doublecompleteworkitem" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.Rule.periodictimer" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.Rule.irql_sendrcv_function" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.Rule.irql_miscellaneous_function" ScoreValue="7" ScoreUnit="SDV_NOTDONE" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.Rule.ndismnetpnpeventinoidrequest" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.Rule.spinlockbalanced" ScoreValue="7" ScoreUnit="SDV_NOTDONE" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.Rule.irql_gather_dma_function" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.Rule.ndisquerybindinstancename" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.Rule.ndismindicatestatusex" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.Rule.irql_mco_function" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.Rule.pre_islwf" ScoreValue="1" ScoreUnit="SDV_FAILED" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.Rule.irql_filter_driver_function" ScoreValue="7" ScoreUnit="SDV_NOTDONE" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.Rule.pre_isminiport" ScoreValue="2" ScoreUnit="SDV_NA" />
+<AssessmentScore ScoreName="NDISFilterDriver.x64.SDV.Rule.irql_miniport_driver_function" ScoreValue="0" ScoreUnit="SDV_PASSED" />
+</Data>

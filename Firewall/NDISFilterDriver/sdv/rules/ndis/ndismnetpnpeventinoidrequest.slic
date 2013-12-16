@@ -1,0 +1,41 @@
+/*
+    Copyright (c) Microsoft Corporation.  All rights reserved.
+    
+    Summary:
+    This rules checks that NdisMNetPnPEvent is not called ina context of an OID request.
+    
+    Description:
+    The rules uses a binary state to decide if the surrent symbolic execution is 
+    internal tominiportOidRequest or not. In cas it is in checn ndisMPnPEvent is called 
+    then the rule witll abort.  
+    
+    Related Rule:
+    
+*/
+
+
+
+#include "ntddk_slic.h"
+
+state{
+   enum {in_oidreq, out_oidreq} s = in_oidreq;
+}
+
+
+sdv_MINIPORT_OID_REQUEST.entry
+{
+    s = in_oidreq;
+}
+
+sdv_MINIPORT_OID_REQUEST.exit
+{
+    s = out_oidreq;
+}
+
+NdisMNetPnPEvent.entry
+{
+    if ( s == in_oidreq)
+    {
+        abort "You cannot call $fname in the context of an OID request.";
+    }
+}

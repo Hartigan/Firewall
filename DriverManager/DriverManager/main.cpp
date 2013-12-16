@@ -118,7 +118,7 @@ LONG DelIPv4Rule(ULONG Id)
 	}
 	else
 	{
-		cout << "very bad" << endl;
+		cout << "fail" << endl;
 		Result = QUERY_ERROR;
 	}
 	free(buffer);
@@ -148,7 +148,7 @@ LONG AddIPv6Rule(PRULE_IPV6 Rule)
 	}
 	else
 	{
-		cout << "very bad" << endl;
+		cout << "fail" << endl;
 		Result = QUERY_ERROR;
 	}
 	free(buffer);
@@ -178,7 +178,7 @@ LONG DelIPv6Rule(ULONG Id)
 	}
 	else
 	{
-		cout << "very bad" << endl;
+		cout << "fail" << endl;
 		Result = QUERY_ERROR;
 	}
 	free(buffer);
@@ -205,7 +205,7 @@ LONG Activate()
 	}
 	else
 	{
-		cout << "very bad" << endl;
+		cout << "fail" << endl;
 		Result = QUERY_ERROR;
 	}
 
@@ -232,7 +232,7 @@ LONG Deactivate()
 	}
 	else
 	{
-		cout << "very bad" << endl;
+		cout << "fail" << endl;
 		Result = QUERY_ERROR;
 	}
 
@@ -566,6 +566,8 @@ VOID LoadState()
 			&rule->End[3]);
 		rule->Next = IPv4List;
 		IPv4List = rule;
+		DelIPv4Rule(rule->Id);
+		AddIPv4Rule(rule);
 	}
 
 	RulesCount = 0;
@@ -611,6 +613,8 @@ VOID LoadState()
 			&rule->End[15]);
 		rule->Next = IPv6List;
 		IPv6List = rule;
+		DelIPv6Rule(rule->Id);
+		AddIPv6Rule(rule);
 	}
 }
 

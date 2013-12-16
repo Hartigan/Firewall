@@ -1,0 +1,135 @@
+wlimit> Executing...
+wlimit>  log events: no
+wlimit>  allow process to breakaway: yes
+wlimit>  die in case of an unhandled exception: no
+wlimit>  ignore control-c: yes
+wlimit>  spare child processes' life at exit: no
+wlimit>  job wall clock time limit (secs): 3000
+wlimit>  job total user time limit (secs): 3000
+wlimit>  job memory limit (Mb): 1800
+wlimit>  job command: '"slam" -no_slamcl -rerun -enableQ 1400 -Qlimit 3000 1800 -platform ndis -target X64 -sdvpath D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\sdv -halt_labels -gate RunDispatchFunction -halt_labels -gate RunDispatchFunction -driver -arrays -field_pa_version nocollapse -max_fields_nocollapse 5 -sourcedir ..\..\.. -display_environment irql_netbuffer_function.fsm -tune_entry_points D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV-map.h'
+ Q is called with arguments: irql_netbuffer_function.fsm
+ Args
+   slam
+   -no_slamcl
+   -rerun
+   -enableQ
+   1400
+   -Qlimit
+   3000
+   1800
+   -platform
+   ndis
+   -target
+   X64
+   -sdvpath
+   D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\sdv
+   -halt_labels
+   -gate
+   RunDispatchFunction
+   -halt_labels
+   -gate
+   RunDispatchFunction
+   -driver
+   -arrays
+   -field_pa_version
+   nocollapse
+   -max_fields_nocollapse
+   5
+   -sourcedir
+   ..\..\..
+   -display_environment
+   irql_netbuffer_function.fsm
+   -tune_entry_points
+   D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV-map.h
+ slic files: [irql_netbuffer_function.fsm]
+ run_one_slic_file: irql_netbuffer_function.fsm
+slam Warning: createUndefinedFunction: prototype not found for undefined SLAM_DEFAULT_ROUTINE
+ Starting Function Pointer resolution
+using FieldPA implementation nocollapse
+ FieldPA_nocollapse: Setting max fields to 5.
+Field PA-nocollapse starting over
+pointer analysis took 0.191000 seconds
+slam Warning: Fptr: unreachable: DirectCall treated as IndirectCall
+ Building base linker: PA done: iter 1
+Running iflat optimization ...
+EPnames:  FilterAttach FilterRegisterOptions
+ Initialization entry point FilterRegisterOptions to be relaxed in privates:
+ Initialization entry point FilterAttach to be relaxed in privates:
+Privates: RtlFailFast FatalListEntryError InsertHeadList FilterRegisterOptions FilterAttach sdv_NdisAllocateMemoryWithTagPriority sdv_NdisFSetAttributes 
+Shared: malloc sdv_RtlCopyMemory sdv_NdisAcquireSpinLock sdv_NdisReleaseSpinLock sdv_NdisDprAcquireSpinLock sdv_NdisDprReleaseSpinLock sdv_NdisFreeMemory 
+slam Warning: Replacing sdv_RtlCopyMemory with sdv_RtlCopyMemory_sdv_private in the initialization callback
+slam Warning: Replacing sdv_NdisAcquireSpinLock with sdv_NdisAcquireSpinLock_sdv_private in the initialization callback
+slam Warning: Replacing sdv_NdisReleaseSpinLock with sdv_NdisReleaseSpinLock_sdv_private in the initialization callback
+slam Warning: Replacing sdv_NdisDprAcquireSpinLock with sdv_NdisDprAcquireSpinLock_sdv_private in the initialization callback
+slam Warning: Replacing sdv_NdisDprReleaseSpinLock with sdv_NdisDprReleaseSpinLock_sdv_private in the initialization callback
+slam Warning: Replacing sdv_NdisFreeMemory with sdv_NdisFreeMemory_sdv_private in the initialization callback
+Running iflat optimization ...
+EPnames:  FilterAttach FilterRegisterOptions
+ Initialization entry point FilterRegisterOptions to be relaxed in privates:
+ Initialization entry point FilterAttach to be relaxed in privates:
+Privates: RtlFailFast FatalListEntryError InsertHeadList FilterRegisterOptions FilterAttach sdv_RtlCopyMemory_sdv_private sdv_NdisAcquireSpinLock_sdv_private sdv_NdisReleaseSpinLock_sdv_private sdv_NdisDprAcquireSpinLock_sdv_private sdv_NdisDprReleaseSpinLock_sdv_private sdv_NdisFreeMemory_sdv_private sdv_NdisAllocateMemoryWithTagPriority_sdv_private sdv_NdisFSetAttributes_sdv_private 
+Shared: malloc 
+Running iflat optimization ...
+EPnames:  FilterAttach FilterRegisterOptions
+ Initialization entry point FilterRegisterOptions to be relaxed in privates:
+ Initialization entry point FilterAttach to be relaxed in privates:
+Privates: RtlFailFast FatalListEntryError InsertHeadList FilterRegisterOptions FilterAttach sdv_RtlCopyMemory_sdv_private sdv_NdisAcquireSpinLock_sdv_private sdv_NdisReleaseSpinLock_sdv_private sdv_NdisDprAcquireSpinLock_sdv_private sdv_NdisDprReleaseSpinLock_sdv_private sdv_NdisFreeMemory_sdv_private sdv_NdisAllocateMemoryWithTagPriority_sdv_private sdv_NdisFSetAttributes_sdv_private 
+Shared: malloc 
+ Rules after .FSM file preprocessing:
+ [sdv_NdisRetreatNetBufferListDataStart].entry [sdv_NdisRetreatNetBufferDataStart].entry [sdv_NdisQueryNetBufferPhysicalCount].entry [sdv_NdisQueryMdlOffset].entry [sdv_NdisQueryMdl].entry [sdv_NdisGetPoolFromNetBufferList].entry [sdv_NdisGetPoolFromNetBuffer].entry [sdv_NdisGetMdlPhysicalArraySize].entry [sdv_NdisGetDataBuffer].entry [sdv_NdisFreeReassembledNetBufferList].entry [sdv_NdisFreeNetBufferPool].entry [sdv_NdisFreeNetBufferListPool].entry [sdv_NdisFreeNetBufferListContext].entry [sdv_NdisFreeNetBufferList].entry [sdv_NdisFreeNetBuffer].entry [sdv_NdisFreeMdl].entry [sdv_NdisFreeFragmentNetBufferList].entry [sdv_NdisFreeCloneNetBufferList].entry [sdv_NdisCopySendNetBufferListInfo].entry [sdv_NdisCopyReceiveNetBufferListInfo].entry [sdv_NdisCopyFromNetBufferToNetBuffer].entry [sdv_NdisAllocateReassembledNetBufferList].entry [sdv_NdisAllocateNetBufferPool].entry [sdv_NdisAllocateNetBufferMdlAndData].entry [sdv_NdisAllocateNetBufferListPool].entry [sdv_NdisAllocateNetBufferListContext].entry [sdv_NdisAllocateNetBufferList].entry [sdv_NdisAllocateNetBufferAndNetBufferList].entry [sdv_NdisAllocateNetBuffer].entry [sdv_NdisAllocateMdl].entry [sdv_NdisAllocateFragmentNetBufferList].entry [sdv_NdisAllocateCloneNetBufferList].entry [sdv_NdisAdvanceNetBufferListDataStart].entry [sdv_NdisAdvanceNetBufferDataStart].entry 
+ watch_point_begin 0, iter will be 1
+ Function sdv_NdisAllocateFragmentNetBufferList is asked to be, yet not instrumented, since not called
+ Function sdv_NdisFreeFragmentNetBufferList is asked to be, yet not instrumented, since not called
+ Function sdv_NdisFreeCloneNetBufferList is asked to be, yet not instrumented, since not called
+ Function sdv_NdisAllocateNetBufferListContext is asked to be, yet not instrumented, since not called
+ Function sdv_NdisAllocateNetBufferMdlAndData is asked to be, yet not instrumented, since not called
+ Function sdv_NdisRetreatNetBufferListDataStart is asked to be, yet not instrumented, since not called
+ Function sdv_NdisAllocateNetBufferAndNetBufferList is asked to be, yet not instrumented, since not called
+ Function sdv_NdisFreeNetBufferPool is asked to be, yet not instrumented, since not called
+ Function sdv_NdisQueryMdl is asked to be, yet not instrumented, since not called
+ Function sdv_NdisGetPoolFromNetBuffer is asked to be, yet not instrumented, since not called
+ Function sdv_NdisFreeNetBufferList is asked to be, yet not instrumented, since not called
+ Function sdv_NdisCopySendNetBufferListInfo is asked to be, yet not instrumented, since not called
+ Function sdv_NdisFreeNetBufferListPool is asked to be, yet not instrumented, since not called
+ Function sdv_NdisAllocateCloneNetBufferList is asked to be, yet not instrumented, since not called
+ Function sdv_NdisAllocateNetBufferListPool is asked to be, yet not instrumented, since not called
+ Function sdv_NdisAllocateMdl is asked to be, yet not instrumented, since not called
+ Function sdv_NdisGetMdlPhysicalArraySize is asked to be, yet not instrumented, since not called
+ Function sdv_NdisAllocateReassembledNetBufferList is asked to be, yet not instrumented, since not called
+ Function sdv_NdisFreeNetBuffer is asked to be, yet not instrumented, since not called
+ Function sdv_NdisCopyFromNetBufferToNetBuffer is asked to be, yet not instrumented, since not called
+ Function sdv_NdisAllocateNetBufferPool is asked to be, yet not instrumented, since not called
+ Function sdv_NdisFreeNetBufferListContext is asked to be, yet not instrumented, since not called
+ Function sdv_NdisAllocateNetBufferList is asked to be, yet not instrumented, since not called
+ Function sdv_NdisQueryNetBufferPhysicalCount is asked to be, yet not instrumented, since not called
+ Function sdv_NdisCopyReceiveNetBufferListInfo is asked to be, yet not instrumented, since not called
+ Function sdv_NdisGetPoolFromNetBufferList is asked to be, yet not instrumented, since not called
+ Function sdv_NdisQueryMdlOffset is asked to be, yet not instrumented, since not called
+ Function sdv_NdisFreeMdl is asked to be, yet not instrumented, since not called
+ Function sdv_NdisAllocateNetBuffer is asked to be, yet not instrumented, since not called
+ Function sdv_NdisFreeReassembledNetBufferList is asked to be, yet not instrumented, since not called
+ Function sdv_NdisAdvanceNetBufferListDataStart is asked to be, yet not instrumented, since not called
+ Instrumentation done for , iter 1
+Num guards: 0
+Running li2bpl.exe with arguments li2bpl.exe  -arrays -driver > li2bpl.txt 2>&1
+li2bpl.exe took: 0.263
+Running EngineQ4Sdv: "C:\Program Files (x86)\Windows Kits\8.1\TOOLS\SDV\bin\engine\wlimit.exe" /r /c /w 1400 /u 1400 /m 1750  "C:\Program Files (x86)\Windows Kits\8.1\TOOLS\SDV\bin\engine\engineq\corral\engineq4sdv.exe" li2c_prog.bpl /platform:ndis > corral.txt
+Parsing corral's output
+Corral says correct
+UnknownError
+EngineQ took: 13.681000
+UnknownError
+ watch_point_end 0, iter 1
+Time: 14.360
+
+wlimit> Finished:
+wlimit>  Status: 0 (Success)
+wlimit>  Exit code: 0
+wlimit>  TotalWallClockTime: 14398 ms
+wlimit>  TotalUserTime: 765 ms
+wlimit>  TotalKernelTime: 93 ms
+wlimit>  TotalProcesses: 13
+wlimit>  TotalTerminatedProcesses: 0
+wlimit>  PeakProcessMemoryUsed : 19 Mb
+wlimit>  PeakJobMemoryUsed : 19 Mb

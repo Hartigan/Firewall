@@ -1,0 +1,6 @@
+filter.c
+filter.c(316) : warning C4087: 'NDISFilterDriverRegisterDevice' : declared with 'void' parameter list
+device.c
+device.c(22) : warning C4027: function declared without formal parameter list
+flt_dbg.c
+Generating Code...

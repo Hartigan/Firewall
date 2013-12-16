@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Rule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RuleName xmlns="http://www.microsoft.com/SDV">irql_mcm_function.fsm</RuleName>
+  <RoleSignature xmlns="http://www.microsoft.com/SDV" />
+  <RoleCount xmlns="http://www.microsoft.com/SDV">0</RoleCount>
+  <RuleHarnessName xmlns="http://www.microsoft.com/SDV" />
+  <RuleMessage xmlns="http://www.microsoft.com/SDV">Tool Error D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on irql_mcm_function.fsm :Fails Rule (0 errors)...</RuleMessage>
+  <RuleCleanedName xmlns="http://www.microsoft.com/SDV">irql_mcm_function</RuleCleanedName>
+  <RuleDisplayName xmlns="http://www.microsoft.com/SDV" />
+  <RuleIcon xmlns="http://www.microsoft.com/SDV">images\notapplicable.png</RuleIcon>
+  <RuleErrorMessage xmlns="http://www.microsoft.com/SDV" />
+  <RuleResult xmlns="http://www.microsoft.com/SDV">SDV_NA</RuleResult>
+  <PreconditionResult xmlns="http://www.microsoft.com/SDV">SDV_PASSED</PreconditionResult>
+  <RuleNumberOfErrors xmlns="http://www.microsoft.com/SDV">0</RuleNumberOfErrors>
+  <RuleNumberFalseErrors xmlns="http://www.microsoft.com/SDV">0</RuleNumberFalseErrors>
+  <RuleTimeTaken xmlns="http://www.microsoft.com/SDV">0.721</RuleTimeTaken>
+  <RuleType xmlns="http://www.microsoft.com/SDV">
+    <RuleType xsi:type="xsd:string">test</RuleType>
+  </RuleType>
+  <Category xmlns="http://www.microsoft.com/SDV" />
+  <OSVersion xmlns="http://www.microsoft.com/SDV" />
+  <DdkVersion xmlns="http://www.microsoft.com/SDV" />
+  <RuleDescription xmlns="http://www.microsoft.com/SDV" />
+  <RuleSlicFile xmlns="http://www.microsoft.com/SDV" />
+  <RuleVersion xmlns="http://www.microsoft.com/SDV">1.4</RuleVersion>
+  <RuleVendor xmlns="http://www.microsoft.com/SDV">Microsoft</RuleVendor>
+  <RuleCopyright xmlns="http://www.microsoft.com/SDV">Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+  <RuleSpecFile xmlns="http://www.microsoft.com/SDV" />
+  <RuleSlamVersion xmlns="http://www.microsoft.com/SDV">1.4</RuleSlamVersion>
+  <RuleOwner xmlns="http://www.microsoft.com/SDV">Microsoft</RuleOwner>
+  <RuleAuthor xmlns="http://www.microsoft.com/SDV">Microsoft</RuleAuthor>
+  <RulePath xmlns="http://www.microsoft.com/SDV">D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\irql_mcm_function</RulePath>
+  <RuleReusePath xmlns="http://www.microsoft.com/SDV">D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\irql_mcm_function</RuleReusePath>
+  <RuleDuplicateName xmlns="http://www.microsoft.com/SDV">false</RuleDuplicateName>
+  <Checking xmlns="http://www.microsoft.com/SDV">false</Checking>
+  <RuleActive xmlns="http://www.microsoft.com/SDV">true</RuleActive>
+  <RuleReleased xmlns="http://www.microsoft.com/SDV">false</RuleReleased>
+  <RuleRevision xmlns="http://www.microsoft.com/SDV">0</RuleRevision>
+  <RuleDateCreated xmlns="http://www.microsoft.com/SDV">2008-01-01T00:00:00</RuleDateCreated>
+  <RuleDateModified xmlns="http://www.microsoft.com/SDV">2008-01-01T00:00:00</RuleDateModified>
+  <RuleIsValid xmlns="http://www.microsoft.com/SDV">true</RuleIsValid>
+  <RuleCheck xmlns="http://www.microsoft.com/SDV">true</RuleCheck>
+  <PreCondition xmlns="http://www.microsoft.com/SDV">false</PreCondition>
+  <IsWarningRule xmlns="http://www.microsoft.com/SDV">false</IsWarningRule>
+  <PreProcessor xmlns="http://www.microsoft.com/SDV">false</PreProcessor>
+  <RuleHasResult xmlns="http://www.microsoft.com/SDV">true</RuleHasResult>
+  <RuleRefine xmlns="http://www.microsoft.com/SDV">false</RuleRefine>
+  <SingleDefect xmlns="http://www.microsoft.com/SDV">false</SingleDefect>
+  <RuleAutomaticEngine xmlns="http://www.microsoft.com/SDV">false</RuleAutomaticEngine>
+</Rule>

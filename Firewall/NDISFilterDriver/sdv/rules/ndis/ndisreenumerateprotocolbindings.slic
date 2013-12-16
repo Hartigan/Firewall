@@ -1,0 +1,66 @@
+/*
+	Copyright (c) Microsoft Corporation.  All rights reserved.
+
+    Summary:
+    Protocol drivers cannot call NdisReEnumerateProtocolBindings from within the 
+    context of the ProtocolBindAdapterEx, or ProtocolUnbindAdapterEx functions. 
+    Also, protocol drivers cannot call NdisReEnumerateProtocolBindings from 
+    within the context of the ProtocolNetPnPEvent function if the 
+    ProtocolBindingContext parameter of ProtocolNetPnPEvent is not NULL. 
+    However, protocol drivers can call NdisReEnumerateProtocolBindings from 
+    within the context of ProtocolNetPnPEvent if ProtocolBindingContext is NULL. 
+    A NULL ProtocolBindingContext value indicates that the event applies to all bindings.
+
+    Description:
+    
+    Related Rule:
+
+	
+*/
+
+
+#include "ntddk_slic.h"
+
+state{
+   enum {in, out} s = out;
+   enum {valid, not_valid} t = valid;
+}
+
+[
+sdv_PROTOCOL_BIND_ADAPTER_EX,
+sdv_PROTOCOL_UNBIND_ADAPTER_EX
+].entry
+{
+  s = in;
+}
+
+[
+sdv_PROTOCOL_BIND_ADAPTER_EX,
+sdv_PROTOCOL_UNBIND_ADAPTER_EX
+].exit
+{
+  s = out;
+}
+
+NdisReEnumerateProtocolBindings.exit
+{
+       if (s == in) {
+            abort "You should not call NdisReEnumerateProtocolBindings in PROTOCOL_BIND_ADAPTER_EX, PROTOCOL_UNBIND_ADAPTER_EX.";
+        }else if (t == not_valid){
+            abort "You should not call NdisReEnumerateProtocolBindings if the ProtocolBindingContext parameter of ProtocolNetPnPEvent is not NULL.";
+       }
+}
+
+sdv_PROTOCOL_NET_PNP_EVENT.entry
+{
+    if ($1 == NULL){
+        t = valid;
+    }else{
+        t = not_valid;
+    }
+}
+
+sdv_PROTOCOL_NET_PNP_EVENT.exit
+{
+    t = valid;
+}

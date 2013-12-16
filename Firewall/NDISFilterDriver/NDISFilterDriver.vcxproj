@@ -367,7 +367,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Win8 Release|x64'">
     <ClCompile>
       <WarningLevel>Level4</WarningLevel>
-      <TreatWarningAsError>true</TreatWarningAsError>
+      <TreatWarningAsError>false</TreatWarningAsError>
       <AdditionalIncludeDirectories>..;.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreProcessorDefinitions>%(PreProcessorDefinitions);NDIS_WDM=1;NDIS630=1</PreProcessorDefinitions>
       <DisableSpecificWarnings>%(DisableSpecificWarnings);4201;4214</DisableSpecificWarnings>

@@ -3,7 +3,7 @@ Inf2Cat Tool Output:
 Signability test failed.
 
 Errors:
-22.9.7: DriverVer set to incorrect date (postdated DriverVer not allowed) in \ndisfilterdriver.inf.  The current date (UTC) is 11/29/2013.
+22.9.7: DriverVer set to incorrect date (postdated DriverVer not allowed) in \ndisfilterdriver.inf.  The current date (UTC) is 12/15/2013.
 Try using /USELOCALTIME when DriverVer is postdated
 
 Warnings:

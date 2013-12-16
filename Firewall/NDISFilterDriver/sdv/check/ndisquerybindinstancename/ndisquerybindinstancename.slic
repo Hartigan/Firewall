@@ -1,0 +1,60 @@
+/*
+	Copyright (c) Microsoft Corporation.  All rights reserved.
+
+    Summary:
+    NdisQueryBindInstanceName allocates memory for the string that specifies 
+    the friendly name. After the caller finishes using this memory, the caller 
+    must call the NdisFreeMemory function to release the memory.
+    
+    Description:
+    
+    
+    Related Rule:
+    
+	
+*/
+
+
+#include "ntddk_slic.h"
+
+state{
+   enum {initial,allocated} s = initial;
+}
+watch NdisQueryBindInstanceName.exit.$1;
+
+NdisQueryBindInstanceName.exit[guard $1]
+{
+    if (NDIS_SUCCESS($return))
+    {
+        s = allocated;
+    }else{
+        s = initial;
+    }
+}
+
+NdisFreeMemory.entry[guard $1]
+{
+  s = initial;
+}
+
+[
+sdv_PROTOCOL_BIND_ADAPTER_EX,
+sdv_PROTOCOL_CLOSE_ADAPTER_COMPLETE_EX,
+sdv_PROTOCOL_DIRECT_OID_REQUEST_COMPLETE,
+sdv_PROTOCOL_NET_PNP_EVENT,
+sdv_PROTOCOL_OID_REQUEST_COMPLETE,
+sdv_PROTOCOL_OPEN_ADAPTER_COMPLETE_EX,
+sdv_PROTOCOL_RECEIVE_NET_BUFFER_LISTS,
+sdv_PROTOCOL_SEND_NET_BUFFER_LISTS_COMPLETE,
+sdv_PROTOCOL_SET_OPTIONS,
+sdv_PROTOCOL_STATUS_EX,
+sdv_PROTOCOL_UNBIND_ADAPTER_EX,
+sdv_PROTOCOL_UNINSTALL,
+sdv_PROTOCOL_UNLOAD
+].exit
+{
+  if (s == allocated)
+  {
+    abort "Buffer allocate by NdisQueryBindInstanceName should be freed.";
+  }
+}

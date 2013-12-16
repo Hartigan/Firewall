@@ -1,0 +1,77 @@
+wlimit> Executing...
+wlimit>  log events: no
+wlimit>  allow process to breakaway: yes
+wlimit>  die in case of an unhandled exception: no
+wlimit>  ignore control-c: yes
+wlimit>  spare child processes' life at exit: no
+wlimit>  job wall clock time limit (secs): 3000
+wlimit>  job total user time limit (secs): 3000
+wlimit>  job memory limit (Mb): 1800
+wlimit>  job command: '"slam" -no_slamcl -rerun -enableQ 1400 -Qlimit 3000 1800 -platform ndis -target X64 -sdvpath D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\sdv -halt_labels -gate RunDispatchFunction -halt_labels -gate RunDispatchFunction -driver -arrays -field_pa_version nocollapse -max_fields_nocollapse 5 -sourcedir ..\..\.. -display_environment ndismindicatestatusex.fsm -tune_entry_points D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV-map.h'
+ Q is called with arguments: ndismindicatestatusex.fsm
+ Args
+   slam
+   -no_slamcl
+   -rerun
+   -enableQ
+   1400
+   -Qlimit
+   3000
+   1800
+   -platform
+   ndis
+   -target
+   X64
+   -sdvpath
+   D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\sdv
+   -halt_labels
+   -gate
+   RunDispatchFunction
+   -halt_labels
+   -gate
+   RunDispatchFunction
+   -driver
+   -arrays
+   -field_pa_version
+   nocollapse
+   -max_fields_nocollapse
+   5
+   -sourcedir
+   ..\..\..
+   -display_environment
+   ndismindicatestatusex.fsm
+   -tune_entry_points
+   D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV-map.h
+ slic files: [ndismindicatestatusex.fsm]
+ run_one_slic_file: ndismindicatestatusex.fsm
+slam Warning: createUndefinedFunction: prototype not found for undefined SLAM_DEFAULT_ROUTINE
+ Starting Function Pointer resolution
+using FieldPA implementation nocollapse
+ FieldPA_nocollapse: Setting max fields to 5.
+Field PA-nocollapse starting over
+pointer analysis took 0.190000 seconds
+slam Warning: Fptr: unreachable: DirectCall treated as IndirectCall
+ Building base linker: PA done: iter 1
+ Rules after .FSM file preprocessing:
+ [sdv_MINIPORT_HALT].exit [sdv_NdisMIndicateStatusEx].entry 
+ watch_point_begin 0, iter will be 1
+ Function sdv_NdisMIndicateStatusEx is asked to be, yet not instrumented, since not called
+ Function sdv_MINIPORT_HALT is asked to be, yet not instrumented, since not called
+ Instrumentation done for , iter 1
+ Result: property not applicable - program trivially passes property  ndismindicatestatusex.fsm
+ watch_point_end 0, iter 0
+NotApplicable
+EngineQ took: 0.000000
+NotApplicable
+Time: 0.652
+
+wlimit> Finished:
+wlimit>  Status: 0 (Success)
+wlimit>  Exit code: 0
+wlimit>  TotalWallClockTime: 697 ms
+wlimit>  TotalUserTime: 625 ms
+wlimit>  TotalKernelTime: 46 ms
+wlimit>  TotalProcesses: 8
+wlimit>  TotalTerminatedProcesses: 0
+wlimit>  PeakProcessMemoryUsed : 19 Mb
+wlimit>  PeakJobMemoryUsed : 19 Mb

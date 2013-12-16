@@ -1,0 +1,56 @@
+wlimit> Executing...
+wlimit>  log events: no
+wlimit>  allow process to breakaway: no
+wlimit>  die in case of an unhandled exception: no
+wlimit>  ignore control-c: yes
+wlimit>  spare child processes' life at exit: no
+wlimit>  job wall clock time limit (secs): 1400
+wlimit>  job total user time limit (secs): 1400
+wlimit>  job memory limit (Mb): 1750
+wlimit>  job command: '"C:\Program Files (x86)\Windows Kits\8.1\TOOLS\SDV\bin\engine\engineq\corral\engineq4sdv.exe" li2c_prog.bpl /platform:ndis'
+EngineQ4Sdv: using ndis flags
+Houdini candidates: 0,2277832 s
+Unfolding recursion
+Simplify program: 0,2453819 s
+Running corral with flags: /k:1 /recursionBound:12 /main:main /useProverEvaluate /track:yogi_error /houdiniTimeLimit:20000  /catchAll /recursionBound:5 /nonUniformUnfolding /timeLimit:3000 /sdv /runHoudini /cloops /ann:PruneCounterLoop:15 /memLimit:1000 /explainError:1:30 /track:filter_state  /track:sdv_cancelFptr  /track:yogi_error  /recordScalar:filter_state 
+Corral result: correct
+Corral did not find an assertion violation up to (Concurrency Bound = 1, Recursion Bound = 12)
+
+--------- CL ----------
+Verifying 8 impls
+CL: Constant loop FilterRestart_loop_L32 
+CL: Constant loop CheckSentIPv6Header_loop_L18 (annotated)
+CL: Constant loop CheckReceiveIPv6Header_loop_L18 (annotated)
+Static analysis took 0,35 s
+Running Houdini
+Inferred 189 contracts
+Houdini took 1,73 seconds
+Verifying 13 impls
+LB: Took 0,73 s
+Verifying program while tracking: {alloc, yogi_error, filter_state}
+
+Boogie verification time: 0,98 s
+Time spent reading-writing programs: 1,76 s
+
+Time spent checking a program (0): 0,13 s
+Time spent checking a path (0): 0,00 s
+
+CLoops Time: 1,08 s
+Num refinements: 1
+Number of procedures inlined: 2
+Final tracked vars: {alloc, yogi_error, filter_state}
+Total Time: 5,80 s
+Proof computed
+
+engineq4Sdv: 6,7787724 s
+
+wlimit> Finished:
+wlimit>  Status: 0 (Success)
+wlimit>  Exit code: 0
+wlimit>  TotalWallClockTime: 6807 ms
+wlimit>  TotalUserTime: 6187 ms
+wlimit>  TotalKernelTime: 281 ms
+wlimit>  TotalProcesses: 9
+wlimit>  TotalTerminatedProcesses: 0
+wlimit>  PeakProcessMemoryUsed : 98 Mb
+wlimit>  PeakJobMemoryUsed : 117 Mb

@@ -1,0 +1,7 @@
+1
+filter_state == 1
+filter_state 2
+filter_state != 1
+filter_state == 1
+old(filter_state) != 1
+old(filter_state) == 1

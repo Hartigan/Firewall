@@ -1,0 +1,25 @@
+--------- CL ----------
+Static analysis took 0,02 s
+Running Houdini
+Inferred 14 contracts
+Houdini took 0,35 seconds
+LB: Took 0,07 s
+Verifying program while tracking: {alloc, yogi_error}
+Program has a potential bug: True bug
+
+Boogie verification time: 0,15 s
+Time spent reading-writing programs: 0,13 s
+
+Time spent checking a program (0): 0,06 s
+Time spent checking a path (0): 0,08 s
+
+CLoops Time: 0,06 s
+Num refinements: 1
+Number of procedures inlined: 19
+Final tracked vars: {alloc, yogi_error}
+Total Time: 0,91 s
+prog.c(1,1): error PF5001: This assertion can fail
+Program has bugs
+Generating data values ...Done
+Data value generation took: 0,09 s
+

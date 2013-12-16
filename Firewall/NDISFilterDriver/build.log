@@ -1,0 +1,47 @@
+Microsoft (R) Build Engine version 12.0.21005.1
+[Microsoft .NET Framework, version 4.0.30319.34003]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 15.12.2013 13:16:47.
+Project "D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\NDISFilterDriver.vcxproj" on node 1 (build target(s)).
+InitializeBuildStatus:
+  Creating "x64\Win8Release\NDISFilterDriver.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+StampInf:
+  Copying file from "NDISFilterDriver.inf" to "x64\Win8Release\NDISFilterDriver.inf".
+  C:\Program Files (x86)\Windows Kits\8.1\bin\x86\stampinf.exe -d "*" -a "amd64" -v "*" -k "1.11" -u "1.11.0" -f x64\Win8Release\NDISFilterDriver.inf 
+  Stamping x64\Win8Release\NDISFilterDriver.inf [Version] section with DriverVer=12/15/2013,13.16.47.910
+ClCompile:
+  C:\Program Files (x86)\Windows Kits\8.1\TOOLS\SDV\bin\interceptor\CL.exe /c /I.. /I. /I.. /I. /Ix64\Win8Release\ /Zi /nologo /W4 /WX- /Ox /Os /Oy- /D _WIN64 /D _AMD64_ /D AMD64 /D _WIN32_WINNT=0x0602 /D WINVER=0x0602 /D WINNT=1 /D NTDDI_VERSION=0x06020000 /D NDIS_WDM=1 /D NDIS630=1 /D NDIS_WDM=1 /GF /Gm- /Zp8 /GS /Gy /fp:precise /Zc:wchar_t- /Zc:forScope- /GR- /Yc"precomp.h" /Fp"x64\Win8Release\NDISFilterDriver.pch" /Fo"x64\Win8Release\\" /Fd"x64\Win8Release\vc120.pdb" /Gz /wd4603 /wd4627 /wd4986 /wd4987 /wd4996 /wd4201 /wd4214 /FI"C:\Program Files (x86)\Windows Kits\8.1\Include\Shared\warning.h" /errorReport:queue /kernel -cbstring -d2epilogunwind  /d1nodatetime /d1import_no_registry /d2AllowCompatibleILVersions /d2Zi+ precomp.c
+  precomp.c
+  C:\Program Files (x86)\Windows Kits\8.1\TOOLS\SDV\bin\interceptor\CL.exe /c /I.. /I. /Ix64\Win8Release\ /Zi /nologo /W4 /WX- /Ox /Os /Oy- /D _WIN64 /D _AMD64_ /D AMD64 /D _WIN32_WINNT=0x0602 /D WINVER=0x0602 /D WINNT=1 /D NTDDI_VERSION=0x06020000 /D NDIS_WDM=1 /D NDIS630=1 /GF /Gm- /Zp8 /GS /Gy /fp:precise /Zc:wchar_t- /Zc:forScope- /GR- /Yu"precomp.h" /Fp"x64\Win8Release\NDISFilterDriver.pch" /Fo"x64\Win8Release\\" /Fd"x64\Win8Release\vc120.pdb" /Gz /wd4603 /wd4627 /wd4986 /wd4987 /wd4996 /wd4201 /wd4214 /FI"C:\Program Files (x86)\Windows Kits\8.1\Include\Shared\warning.h" /errorReport:queue /kernel -cbstring -d2epilogunwind  /d1nodatetime /d1import_no_registry /d2AllowCompatibleILVersions /d2Zi+ filter.c device.c flt_dbg.c
+  filter.c
+filter.c(316): warning C4087: 'NDISFilterDriverRegisterDevice' : declared with 'void' parameter list [D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\NDISFilterDriver.vcxproj]
+  device.c
+device.c(22): warning C4027: function declared without formal parameter list [D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\NDISFilterDriver.vcxproj]
+  flt_dbg.c
+  Generating Code...
+ResourceCompile:
+  C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _WIN64 /D _AMD64_=1 /D AMD64 /D _WIN32_WINNT=0x0602 /D WINVER=0x0602 /D WINNT=1 /D NTDDI_VERSION=0x06020000 /D "SMP_ID=\"{8b1800b9-d017-4029-9785-13ef5e5b328e}\"" /l"0x0409" /I"C:\Program Files (x86)\Windows Kits\8.1\Include\UM" /Ix64\Win8Release\ /I.. /I. /nologo /fo"x64\Win8Release\filter.res" filter.rc 
+Link:
+  C:\Program Files (x86)\Windows Kits\8.1\TOOLS\SDV\bin\interceptor\link.exe /ERRORREPORT:QUEUE /OUT:"D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\x64\Win8Release\NDISFilterDriver.sys" /VERSION:"6.3" /INCREMENTAL:NO /NOLOGO /WX /SECTION:"INIT,d" "C:\Program Files (x86)\Windows Kits\8.1\lib\win8\KM\x64\BufferOverflowFastFailK.lib" "C:\Program Files (x86)\Windows Kits\8.1\lib\win8\KM\x64\ntoskrnl.lib" "C:\Program Files (x86)\Windows Kits\8.1\lib\win8\KM\x64\hal.lib" "C:\Program Files (x86)\Windows Kits\8.1\lib\win8\KM\x64\wmilib.lib" "C:\Program Files (x86)\Windows Kits\8.1\lib\win8\KM\x64\ndis.lib" /NODEFAULTLIB /MANIFEST:NO /DEBUG /PDB:"D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\x64\Win8Release\NDISFilterDriver.pdb" /SUBSYSTEM:NATIVE,"6.02" /Driver /OPT:REF /OPT:ICF /ENTRY:"GsDriverEntry" /RELEASE /IMPLIB:"D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\x64\Win8Release\NDISFilterDriver.lib" /MERGE:"_TEXT=.text;_PAGE=PAGE" /MACHINE:X64 /PROFILE /kernel /IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221,4108,4088,4218,4218,4235 /osversion:6.3 /pdbcompress /debugtype:pdata x64\Win8Release\filter.res
+  x64\Win8Release\precomp.obj
+  x64\Win8Release\filter.obj
+  x64\Win8Release\device.obj
+  x64\Win8Release\flt_dbg.obj
+  NDISFilterDriver.vcxproj -> D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\x64\Win8Release\NDISFilterDriver.sys
+FinalizeBuildStatus:
+  Deleting file "x64\Win8Release\NDISFilterDriver.tlog\unsuccessfulbuild".
+  Touching "x64\Win8Release\NDISFilterDriver.tlog\NDISFilterDriver.lastbuildstate".
+Done Building Project "D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\NDISFilterDriver.vcxproj" (build target(s)).
+
+Build succeeded.
+
+"D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\NDISFilterDriver.vcxproj" (build target) (1) ->
+(ClCompile target) -> 
+  filter.c(316): warning C4087: 'NDISFilterDriverRegisterDevice' : declared with 'void' parameter list [D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\NDISFilterDriver.vcxproj]
+  device.c(22): warning C4027: function declared without formal parameter list [D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\NDISFilterDriver.vcxproj]
+
+    2 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.31

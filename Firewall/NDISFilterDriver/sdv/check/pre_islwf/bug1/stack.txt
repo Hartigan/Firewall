@@ -1,0 +1,6 @@
+Driver is entered:
+[filter.c@252]            DriverEntry calls sdv_NdisZeroMemory
+[filter.c@302]            DriverEntry calls sdv_NdisAllocateSpinLock
+[filter.c@304]            DriverEntry calls InitializeListHead
+[filter.c@306]            DriverEntry calls sdv_NdisFRegisterFilterDriver
+Error This is a filter driver

@@ -1,0 +1,5 @@
+alloc
+SLAM_guard_O_0
+SLAM_guard_O_0_init
+yogi_error
+s

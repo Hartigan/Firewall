@@ -1,0 +1,85 @@
+/*
+    Copyright (c) Microsoft Corporation.  All rights reserved.
+
+    Summary:
+    This rule verifies that synchronization related DDIs are only called at proper IRQL levels.
+    
+    Description:
+    Check for the proper IRQL when the function is entering.
+    
+    Related Rule:
+    
+*/
+
+#include "ntddk_slic.h"
+
+NDIS_RELEASE_MUTEX.entry
+{
+    if ( sdv_irql_current != PASSIVE_LEVEL ) {
+        abort "$fname should only be called at IRQL  = PASSIVE_LEVEL.";
+    }
+}
+
+NDIS_WAIT_FOR_MUTEX.entry
+{
+    if ( sdv_irql_current != PASSIVE_LEVEL ) {
+        abort "$fname should only be called at IRQL  = PASSIVE_LEVEL.";
+    }
+}
+
+NdisAcquireReadWriteLock.entry
+{
+    if ( SDV_IRQL_ELEVATED_LEVEL(sdv_irql_current) ) {
+        abort "$fname should only be called at IRQL <= DISPATCH_LEVEL.";
+    }
+}
+
+NdisAcquireSpinLock.entry
+{
+    if ( SDV_IRQL_ELEVATED_LEVEL(sdv_irql_current) ) {
+        abort "$fname should only be called at IRQL <= DISPATCH_LEVEL.";
+    }
+}
+
+NdisDprAcquireSpinLock.entry
+{
+    if ( sdv_irql_current != DISPATCH_LEVEL ) {
+        abort "$fname should only be called at IRQL  = DISPATCH_LEVEL.";
+    }
+}
+
+NdisDprReleaseSpinLock.entry
+{
+    if ( sdv_irql_current != DISPATCH_LEVEL ) {
+        abort "$fname should only be called at IRQL  = DISPATCH_LEVEL.";
+    }
+}
+
+NdisReleaseReadWriteLock.entry
+{
+    if ( sdv_irql_current != DISPATCH_LEVEL ) {
+        abort "$fname should only be called at IRQL  = DISPATCH_LEVEL.";
+    }
+}
+
+NdisReleaseSpinLock.entry
+{
+    if ( sdv_irql_current != DISPATCH_LEVEL ) {
+        abort "$fname should only be called at IRQL  = DISPATCH_LEVEL.";
+    }
+}
+
+NdisResetEvent.entry
+{
+    if ( SDV_IRQL_ELEVATED_LEVEL(sdv_irql_current) ) {
+        abort "$fname should only be called at IRQL <= DISPATCH_LEVEL.";
+    }
+}
+
+NdisSetEvent.entry
+{
+    if ( SDV_IRQL_ELEVATED_LEVEL(sdv_irql_current) ) {
+        abort "$fname should only be called at IRQL <= DISPATCH_LEVEL.";
+    }
+}
+

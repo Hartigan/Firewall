@@ -1,0 +1,97 @@
+slamcl {
+slamcl ESP
+slamcl slamcl {invoked with args ['--output|sdv\compile\slamdrv.obj|/D_SDV_|-ID:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver|-ID:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\scan|-IC:\Program Files (x86)\Windows Kits\8.1\TOOLS\SDV\osmodel\ndis|/FIC:\Program Files (x86)\Windows Kits\8.1\TOOLS\SDV\osmodel\ndis\SDV_cl_frontend.h|/c|/I..|/I.|/I..|/I.|/Ix64/Win8Release/|/Zi|/nologo|/W4|/WX-|/Ox|/Os|/Oy-|/D|_WIN64|/D|_AMD64_|/D|AMD64|/D|_WIN32_WINNT=0x0602|/D|WINVER=0x0602|/D|WINNT=1|/D|NTDDI_VERSION=0x06020000|/D|NDIS_WDM=1|/D|NDIS630=1|/D|NDIS_WDM=1|/GF|/Gm-|/Zp8|/GS|/Gy|/fp:precise|/Zc:wchar_t-|/Zc:forScope-|/GR-|/Fox64/Win8Release//|/Fdx64/Win8Release/vc120.pdb|/Gz|/wd4603|/wd4627|/wd4986|/wd4987|/wd4996|/wd4201|/wd4214|/FIC:/Program Files (x86)/Windows Kits/8.1/Include/Shared/warning.h|/errorReport:queue|/kernel|-cbstring|-d2epilogunwind|/d1import_no_registry|d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\precomp.c|d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c|d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\device.c|d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\flt_dbg.c']
+slamcl cl {
+slamcl cl stdout {
+ precomp.c
+ c:\program files (x86)\windows kits\8.1\tools\sdv\osmodel\ndis\sdv_wdm.h(447) : warning C28251: Inconsistent annotation for 'sdv_KeLowerIrql': this instance has no annotations. See c:\program files (x86)\windows kits\8.1\tools\sdv\osmodel\ndis\sdv_wdm.h(433). 
+ c:\program files (x86)\windows kits\8.1\tools\sdv\osmodel\ndis\sdv_wdm.h(1068) : warning C28301: No annotations for first declaration of 'sdv_ExInterlockedInsertTailList'. See c:\program files (x86)\windows kits\8.1\tools\sdv\osmodel\ndis\sdv_wdm.h(638). 
+ c:\program files (x86)\windows kits\8.1\tools\sdv\osmodel\ndis\sdv_wdm.h(1232) : warning C28252: Inconsistent annotation for 'sdv_ExInterlockedPopEntrySList': _Param_(2) has 'SAL_pre SAL_notref SAL_null(__no) SAL_pre SAL_valid SAL_post SAL_valid' on the prior instance. See c:\program files (x86)\windows kits\8.1\tools\sdv\osmodel\ndis\sdv_wdm.h(1081). 
+ c:\program files (x86)\windows kits\8.1\tools\sdv\osmodel\ndis\sdv_wdm.h(1242) : warning C28251: Inconsistent annotation for 'sdv_ExInterlockedPushEntrySList': this instance has no annotations. See c:\program files (x86)\windows kits\8.1\tools\sdv\osmodel\ndis\sdv_wdm.h(1093). 
+ filter.c
+ c:\program files (x86)\windows kits\8.1\tools\sdv\osmodel\ndis\sdv_wdm.h(447) : warning C28251: Inconsistent annotation for 'sdv_KeLowerIrql': this instance has no annotations. See c:\program files (x86)\windows kits\8.1\tools\sdv\osmodel\ndis\sdv_wdm.h(433). 
+ c:\program files (x86)\windows kits\8.1\tools\sdv\osmodel\ndis\sdv_wdm.h(1068) : warning C28301: No annotations for first declaration of 'sdv_ExInterlockedInsertTailList'. See c:\program files (x86)\windows kits\8.1\tools\sdv\osmodel\ndis\sdv_wdm.h(638). 
+ c:\program files (x86)\windows kits\8.1\tools\sdv\osmodel\ndis\sdv_wdm.h(1232) : warning C28252: Inconsistent annotation for 'sdv_ExInterlockedPopEntrySList': _Param_(2) has 'SAL_pre SAL_notref SAL_null(__no) SAL_pre SAL_valid SAL_post SAL_valid' on the prior instance. See c:\program files (x86)\windows kits\8.1\tools\sdv\osmodel\ndis\sdv_wdm.h(1081). 
+ c:\program files (x86)\windows kits\8.1\tools\sdv\osmodel\ndis\sdv_wdm.h(1242) : warning C28251: Inconsistent annotation for 'sdv_ExInterlockedPushEntrySList': this instance has no annotations. See c:\program files (x86)\windows kits\8.1\tools\sdv\osmodel\ndis\sdv_wdm.h(1093). 
+ d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c(56) : warning C28213: The _Use_decl_annotations_ annotation must be used to reference, without modification, a prior declaration. No prior declaration found.
+ d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c(87) : warning C28213: The _Use_decl_annotations_ annotation must be used to reference, without modification, a prior declaration. No prior declaration found.
+ d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c(121) : warning C6340: Mismatch on sign: 'unsigned char' passed as _Param_(2) when some signed type is required in call to 'DbgPrint'.
+ d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c(121) : warning C6340: Mismatch on sign: 'unsigned char' passed as _Param_(3) when some signed type is required in call to 'DbgPrint'.
+ d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c(121) : warning C6340: Mismatch on sign: 'unsigned char' passed as _Param_(4) when some signed type is required in call to 'DbgPrint'.
+ d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c(121) : warning C6340: Mismatch on sign: 'unsigned char' passed as _Param_(5) when some signed type is required in call to 'DbgPrint'.
+ d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c(121) : warning C6340: Mismatch on sign: 'unsigned char' passed as _Param_(6) when some signed type is required in call to 'DbgPrint'.
+ d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c(121) : warning C6340: Mismatch on sign: 'unsigned char' passed as _Param_(7) when some signed type is required in call to 'DbgPrint'.
+ d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c(121) : warning C6340: Mismatch on sign: 'unsigned char' passed as _Param_(8) when some signed type is required in call to 'DbgPrint'.
+ d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c(121) : warning C6340: Mismatch on sign: 'unsigned char' passed as _Param_(9) when some signed type is required in call to 'DbgPrint'.
+ d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c(181) : warning C6340: Mismatch on sign: 'unsigned char' passed as _Param_(2) when some signed type is required in call to 'DbgPrint'.
+ d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c(181) : warning C6340: Mismatch on sign: 'unsigned char' passed as _Param_(3) when some signed type is required in call to 'DbgPrint'.
+ d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c(181) : warning C6340: Mismatch on sign: 'unsigned char' passed as _Param_(4) when some signed type is required in call to 'DbgPrint'.
+ d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c(181) : warning C6340: Mismatch on sign: 'unsigned char' passed as _Param_(5) when some signed type is required in call to 'DbgPrint'.
+ d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c(181) : warning C6340: Mismatch on sign: 'unsigned char' passed as _Param_(6) when some signed type is required in call to 'DbgPrint'.
+ d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c(181) : warning C6340: Mismatch on sign: 'unsigned char' passed as _Param_(7) when some signed type is required in call to 'DbgPrint'.
+ d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c(181) : warning C6340: Mismatch on sign: 'unsigned char' passed as _Param_(8) when some signed type is required in call to 'DbgPrint'.
+ d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c(181) : warning C6340: Mismatch on sign: 'unsigned char' passed as _Param_(9) when some signed type is required in call to 'DbgPrint'.
+ d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c(776) : warning C28197: Possibly leaking memory 'FilterModuleContext'. : Lines: 798, 799, 818, 824, 825, 826, 831, 834
+ d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c(2237) : warning C6201: Index '15' is out of valid index range '0' to '3' for possibly stack allocated buffer 'CurrentRule->Begin'.
+ d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c(2238) : warning C6201: Index '15' is out of valid index range '0' to '3' for possibly stack allocated buffer 'CurrentRule->End'.
+ d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c(2352) : warning C6201: Index '15' is out of valid index range '0' to '3' for possibly stack allocated buffer 'CurrentRule->Begin'.
+ d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c(2353) : warning C6201: Index '15' is out of valid index range '0' to '3' for possibly stack allocated buffer 'CurrentRule->End'.
+ device.c
+ c:\program files (x86)\windows kits\8.1\tools\sdv\osmodel\ndis\sdv_wdm.h(447) : warning C28251: Inconsistent annotation for 'sdv_KeLowerIrql': this instance has no annotations. See c:\program files (x86)\windows kits\8.1\tools\sdv\osmodel\ndis\sdv_wdm.h(433). 
+ c:\program files (x86)\windows kits\8.1\tools\sdv\osmodel\ndis\sdv_wdm.h(1068) : warning C28301: No annotations for first declaration of 'sdv_ExInterlockedInsertTailList'. See c:\program files (x86)\windows kits\8.1\tools\sdv\osmodel\ndis\sdv_wdm.h(638). 
+ c:\program files (x86)\windows kits\8.1\tools\sdv\osmodel\ndis\sdv_wdm.h(1232) : warning C28252: Inconsistent annotation for 'sdv_ExInterlockedPopEntrySList': _Param_(2) has 'SAL_pre SAL_notref SAL_null(__no) SAL_pre SAL_valid SAL_post SAL_valid' on the prior instance. See c:\program files (x86)\windows kits\8.1\tools\sdv\osmodel\ndis\sdv_wdm.h(1081). 
+ c:\program files (x86)\windows kits\8.1\tools\sdv\osmodel\ndis\sdv_wdm.h(1242) : warning C28251: Inconsistent annotation for 'sdv_ExInterlockedPushEntrySList': this instance has no annotations. See c:\program files (x86)\windows kits\8.1\tools\sdv\osmodel\ndis\sdv_wdm.h(1093). 
+ d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\device.c(73) : warning C28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging.
+ d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\device.c(74) : warning C6011: Dereferencing NULL pointer 'FilterRules'. : Lines: 23, 24, 25, 26, 27, 28, 29, 34, 36, 37, 38, 39, 42, 43, 48, 50, 51, 52, 54, 55, 56, 57, 59, 67, 69, 71, 72, 73, 74
+ d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\device.c(110) : warning C6244: Local declaration of 'DeviceObject' hides previous declaration at line '49' of 'd:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.h'.: Lines: d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.h:49
+ d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\device.c(145) : warning C6244: Local declaration of 'DeviceObject' hides previous declaration at line '49' of 'd:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.h'.: Lines: d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.h:49
+ d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\device.c(192) : warning C28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging.
+ d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\device.c(219) : warning C28159: Consider using 'ExAllocatePoolWithTag' instead of 'ExAllocatePool'. Reason: No tag interferes with debugging.
+ d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\device.c(192) : warning C28197: Possibly leaking memory 'pRuleIPv4'. : Lines: 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 164, 167, 169, 175, 179, 181, 183, 184, 185, 186, 187, 192, 193, 194, 195, 333, 334, 336, 338
+ d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\device.c(219) : warning C28197: Possibly leaking memory 'pRuleIPv6'. : Lines: 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 164, 167, 169, 175, 179, 181, 210, 211, 212, 213, 214, 219, 220, 221, 222, 333, 334, 336, 338
+ d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\device.c(384) : warning C6340: Mismatch on sign: 'unsigned char' passed as _Param_(3) when some signed type is required in call to 'DbgPrint'.
+ d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\device.c(384) : warning C6340: Mismatch on sign: 'unsigned char' passed as _Param_(4) when some signed type is required in call to 'DbgPrint'.
+ d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\device.c(384) : warning C6340: Mismatch on sign: 'unsigned char' passed as _Param_(5) when some signed type is required in call to 'DbgPrint'.
+ d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\device.c(384) : warning C6340: Mismatch on sign: 'unsigned char' passed as _Param_(6) when some signed type is required in call to 'DbgPrint'.
+ d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\device.c(384) : warning C6340: Mismatch on sign: 'unsigned char' passed as _Param_(7) when some signed type is required in call to 'DbgPrint'.
+ d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\device.c(384) : warning C6340: Mismatch on sign: 'unsigned char' passed as _Param_(8) when some signed type is required in call to 'DbgPrint'.
+ d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\device.c(384) : warning C6340: Mismatch on sign: 'unsigned char' passed as _Param_(9) when some signed type is required in call to 'DbgPrint'.
+ d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\device.c(384) : warning C6340: Mismatch on sign: 'unsigned char' passed as _Param_(10) when some signed type is required in call to 'DbgPrint'.
+ d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\device.c(415) : warning C6011: Dereferencing NULL pointer 'CurrentRule'. : Lines: 402, 403, 404, 405, 407, 414, 415
+ d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\device.c(421) : warning C28182: Dereferencing NULL pointer. 'PreviousRule' contains the same NULL value as 'CurrentRule' did. See line 415 for an earlier location where this can occur: Lines: 402, 403, 404, 405, 407, 414, 415, 417, 419, 421
+ d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\device.c(451) : warning C6011: Dereferencing NULL pointer 'CurrentRule'. : Lines: 440, 441, 443, 450, 451
+ d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\device.c(457) : warning C28182: Dereferencing NULL pointer. 'PreviousRule' contains the same NULL value as 'CurrentRule' did. See line 451 for an earlier location where this can occur: Lines: 440, 441, 443, 450, 451, 453, 455, 457
+ flt_dbg.c
+ c:\program files (x86)\windows kits\8.1\tools\sdv\osmodel\ndis\sdv_wdm.h(447) : warning C28251: Inconsistent annotation for 'sdv_KeLowerIrql': this instance has no annotations. See c:\program files (x86)\windows kits\8.1\tools\sdv\osmodel\ndis\sdv_wdm.h(433). 
+ c:\program files (x86)\windows kits\8.1\tools\sdv\osmodel\ndis\sdv_wdm.h(1068) : warning C28301: No annotations for first declaration of 'sdv_ExInterlockedInsertTailList'. See c:\program files (x86)\windows kits\8.1\tools\sdv\osmodel\ndis\sdv_wdm.h(638). 
+ c:\program files (x86)\windows kits\8.1\tools\sdv\osmodel\ndis\sdv_wdm.h(1232) : warning C28252: Inconsistent annotation for 'sdv_ExInterlockedPopEntrySList': _Param_(2) has 'SAL_pre SAL_notref SAL_null(__no) SAL_pre SAL_valid SAL_post SAL_valid' on the prior instance. See c:\program files (x86)\windows kits\8.1\tools\sdv\osmodel\ndis\sdv_wdm.h(1081). 
+ c:\program files (x86)\windows kits\8.1\tools\sdv\osmodel\ndis\sdv_wdm.h(1242) : warning C28251: Inconsistent annotation for 'sdv_ExInterlockedPushEntrySList': this instance has no annotations. See c:\program files (x86)\windows kits\8.1\tools\sdv\osmodel\ndis\sdv_wdm.h(1093). 
+slamcl cl stdout }
+slamcl cl succeeded
+slamcl cl }
+slamcl Scanning for modules {
+slamcl Modules: [x64\Win8Release\\precomp.c x64\Win8Release\\filter.c x64\Win8Release\\device.c x64\Win8Release\\flt_dbg.c]
+slamcl Scanning for modules }
+slamcl translate x64\Win8Release\\flt_dbg.c {
+ translate' {
+slamcl Warning: File "c:\program files (x86)\windows kits\8.1\include\km\wdm.h", line 118, function: "KeGetCurrentThread": Imprecise translation: Intrinsic function call ignored
+slamcl translate' }
+slamcl translate x64\Win8Release\\flt_dbg.c }
+slamcl translate x64\Win8Release\\device.c {
+ translate' {
+slamcl Warning: File "c:\program files (x86)\windows kits\8.1\include\km\wdm.h", line 118, function: "KeGetCurrentThread": Imprecise translation: Intrinsic function call ignored
+slamcl translate' }
+slamcl translate x64\Win8Release\\device.c }
+slamcl translate x64\Win8Release\\filter.c {
+ translate' {
+slamcl Warning: File "c:\program files (x86)\windows kits\8.1\include\km\wdm.h", line 118, function: "KeGetCurrentThread": Imprecise translation: Intrinsic function call ignored
+slamcl translate' }
+slamcl translate x64\Win8Release\\filter.c }
+slamcl translate x64\Win8Release\\precomp.c {
+ translate' {
+slamcl Warning: File "c:\program files (x86)\windows kits\8.1\include\km\wdm.h", line 118, function: "KeGetCurrentThread": Imprecise translation: Intrinsic function call ignored
+slamcl translate' }
+slamcl translate x64\Win8Release\\precomp.c }
+slamcl slamcl }
+slamcl exit with 0 from phase 2} slamcl
+slamcl }

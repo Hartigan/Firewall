@@ -1,0 +1,26 @@
+slamscan SLAMSCAN
+slamscan {
+slamscan Warning: Ignored unannotated: DRIVER_DISPATCH, Function: NDISFilterDriverDispatch defined at d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\device.c, line 110.
+slamscan Warning: Ignored unannotated: DRIVER_DISPATCH, Function: NDISFilterDriverDeviceIoControl defined at d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\device.c, line 145.
+slamscan Discovered entry point: fun_FILTER_DEVICE_PNP_EVENT_NOTIFY, Function: FilterDevicePnPEventNotify defined at d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c, line 1230.
+slamscan Discovered entry point: fun_FILTER_STATUS, Function: FilterStatus defined at d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c, line 1170.
+slamscan Discovered entry point: fun_FILTER_RESTART, Function: FilterRestart defined at d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c, line 610.
+slamscan Discovered entry point: fun_FILTER_SEND_NET_BUFFER_LISTS_COMPLETE, Function: FilterSendNetBufferListsComplete defined at d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c, line 1334.
+slamscan Discovered entry point: fun_FILTER_OID_REQUEST_COMPLETE, Function: FilterOidRequestComplete defined at d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c, line 1075.
+slamscan Discovered entry point: fun_FILTER_RETURN_NET_BUFFER_LISTS, Function: FilterReturnNetBufferLists defined at d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c, line 1552.
+slamscan Discovered entry point: fun_FILTER_DRIVER_UNLOAD, Function: FilterUnload defined at d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c, line 839.
+slamscan Discovered entry point: fun_FILTER_SET_OPTIONS, Function: FilterRegisterOptions defined at d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c, line 338.
+slamscan Discovered entry point: fun_DriverEntry, Function: DriverEntry defined at d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c, line 211.
+slamscan Discovered entry point: fun_FILTER_SET_MODULE_OPTIONS, Function: FilterSetModuleOptions defined at d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c, line 1861.
+slamscan Discovered entry point: fun_FILTER_ATTACH, Function: FilterAttach defined at d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c, line 384.
+slamscan Discovered entry point: fun_FILTER_CANCEL_SEND_NET_BUFFER_LISTS, Function: FilterCancelSendNetBufferLists defined at d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c, line 1828.
+slamscan Discovered entry point: fun_FILTER_SEND_NET_BUFFER_LISTS, Function: FilterSendNetBufferLists defined at d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c, line 1413.
+slamscan Discovered entry point: fun_FILTER_CANCEL_OID_REQUEST, Function: FilterCancelOidRequest defined at d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c, line 1016.
+slamscan Discovered entry point: fun_FILTER_RECEIVE_NET_BUFFER_LISTS, Function: FilterReceiveNetBufferLists defined at d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c, line 1641.
+slamscan Discovered entry point: fun_FILTER_PAUSE, Function: FilterPause defined at d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c, line 542.
+slamscan Discovered entry point: fun_FILTER_DETACH, Function: FilterDetach defined at d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c, line 776.
+slamscan Discovered entry point: fun_FILTER_NET_PNP_EVENT, Function: FilterNetPnPEvent defined at d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c, line 1297.
+slamscan Discovered entry point: fun_FILTER_OID_REQUEST, Function: FilterOidRequest defined at d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c, line 892.
+slamscan Discovered 19 entry point(s)
+slamscan exit with 0} slamscan
+slamscan }

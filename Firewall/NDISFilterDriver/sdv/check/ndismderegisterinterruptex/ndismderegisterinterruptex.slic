@@ -1,0 +1,43 @@
+/*
+  Copyright (c) Microsoft Corporation.  All rights reserved.
+
+    Summary:
+    After NdisMDeregisterInterruptEx returns control, the miniport driver cannot 
+    call the NdisMSynchronizeWithInterruptEx function
+
+    Description:
+    
+    
+    Related Rule:
+    
+  
+*/
+
+
+#include "ntddk_slic.h"
+
+state{
+    enum { init, registered, unregistered } s = init;
+}
+
+
+NdisMRegisterInterruptEx.exit
+{
+    if (NDIS_SUCCESS($return))
+    { 
+        s = registered;
+    }
+}
+
+NdisMDeregisterInterruptEx.exit
+{
+    s = unregistered;
+}
+
+NdisMSynchronizeWithInterruptEx.entry
+{
+  if (s == unregistered)
+  {
+    abort "You cannot call $fname after you have deregistered the interrupt handle";
+  } 
+}

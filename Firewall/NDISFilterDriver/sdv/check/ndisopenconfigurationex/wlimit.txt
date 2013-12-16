@@ -1,0 +1,90 @@
+wlimit> Executing...
+wlimit>  log events: no
+wlimit>  allow process to breakaway: yes
+wlimit>  die in case of an unhandled exception: no
+wlimit>  ignore control-c: yes
+wlimit>  spare child processes' life at exit: no
+wlimit>  job wall clock time limit (secs): 3000
+wlimit>  job total user time limit (secs): 3000
+wlimit>  job memory limit (Mb): 1800
+wlimit>  job command: '"slam" -no_slamcl -rerun -enableQ 1400 -Qlimit 3000 1800 -platform ndis -target X64 -sdvpath D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\sdv -halt_labels -gate RunDispatchFunction -halt_labels -gate RunDispatchFunction -driver -arrays -field_pa_version nocollapse -max_fields_nocollapse 5 -sourcedir ..\..\.. -display_environment ndisopenconfigurationex.fsm -tune_entry_points D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV-map.h'
+ Q is called with arguments: ndisopenconfigurationex.fsm
+ Args
+   slam
+   -no_slamcl
+   -rerun
+   -enableQ
+   1400
+   -Qlimit
+   3000
+   1800
+   -platform
+   ndis
+   -target
+   X64
+   -sdvpath
+   D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\sdv
+   -halt_labels
+   -gate
+   RunDispatchFunction
+   -halt_labels
+   -gate
+   RunDispatchFunction
+   -driver
+   -arrays
+   -field_pa_version
+   nocollapse
+   -max_fields_nocollapse
+   5
+   -sourcedir
+   ..\..\..
+   -display_environment
+   ndisopenconfigurationex.fsm
+   -tune_entry_points
+   D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV-map.h
+ slic files: [ndisopenconfigurationex.fsm]
+ run_one_slic_file: ndisopenconfigurationex.fsm
+slam Warning: createUndefinedFunction: prototype not found for undefined SLAM_DEFAULT_ROUTINE
+ Starting Function Pointer resolution
+using FieldPA implementation nocollapse
+ FieldPA_nocollapse: Setting max fields to 5.
+Field PA-nocollapse starting over
+pointer analysis took 0.197000 seconds
+slam Warning: Fptr: unreachable: DirectCall treated as IndirectCall
+ Building base linker: PA done: iter 1
+ Rules after .FSM file preprocessing:
+ [sdv_MINIPORT_HALT].exit [sdv_NdisCloseConfiguration].exit [sdv_NdisOpenConfigurationEx].exit 
+using FieldPA implementation nocollapse
+ FieldPA_nocollapse: Setting max fields to 5.
+Field PA-nocollapse starting over
+pointer analysis took 0.172000 seconds
+ Rules after .FSM file preprocessing:
+ [sdv_MINIPORT_HALT].exit [sdv_NdisCloseConfiguration].exit [sdv_NdisOpenConfigurationEx].exit 
+ watch_point_begin 1, iter will be 1
+ Function sdv_MINIPORT_HALT is asked to be, yet not instrumented, since not called
+ Instrumentation done for sdv_NdisOpenConfigurationEx # entry # $2 # ConfigurationHandle @ FilterRestart `filter //line 652, iter 1
+Guard constraint: SLAM_guard_O_0 G(SLAM_guard_O_0_init,0,0,0)
+Guard constraint: SLAM_guard_O_0 G(SLAM_guard_O_0_init,0,0,0)
+Num guards: 1
+Looking for initialization of SLAM_guard_O_0 in FilterRestart 5
+Running li2bpl.exe with arguments li2bpl.exe  -arrays -driver > li2bpl.txt 2>&1
+li2bpl.exe took: 0.217
+Running EngineQ4Sdv: "C:\Program Files (x86)\Windows Kits\8.1\TOOLS\SDV\bin\engine\wlimit.exe" /r /c /w 1400 /u 1400 /m 1750  "C:\Program Files (x86)\Windows Kits\8.1\TOOLS\SDV\bin\engine\engineq\corral\engineq4sdv.exe" li2c_prog.bpl /platform:ndis > corral.txt
+Parsing corral's output
+Corral says correct
+UnknownError
+EngineQ took: 6.234000
+UnknownError
+ watch_point_end 1, iter 1
+Time: 7.135
+
+wlimit> Finished:
+wlimit>  Status: 0 (Success)
+wlimit>  Exit code: 0
+wlimit>  TotalWallClockTime: 7234 ms
+wlimit>  TotalUserTime: 1062 ms
+wlimit>  TotalKernelTime: 109 ms
+wlimit>  TotalProcesses: 13
+wlimit>  TotalTerminatedProcesses: 0
+wlimit>  PeakProcessMemoryUsed : 20 Mb
+wlimit>  PeakJobMemoryUsed : 23 Mb

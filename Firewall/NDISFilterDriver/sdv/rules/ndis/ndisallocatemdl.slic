@@ -1,0 +1,52 @@
+/*
+    Copyright (c) Microsoft Corporation.  All rights reserved.
+    
+    Summary:
+    This rule checks that NdisAllocateMdl and NdisFreeMdl are called 
+    in alternate order. The ultimate goal is to make sure all Mdls are freed
+    when MiniportHaltEx ends.
+    
+    Description:
+    The rule uses three different states. state changes when a Mdl is allocated or freed.
+    If a Mdl is still allocated when the MiniportHaltEx exits, then the rule will fail. 
+    
+    Related Rule:
+    
+*/
+
+
+#include "ntddk_slic.h"
+
+state{
+   enum {initial, allocated, free} s = initial;
+}
+watch NdisAllocateMdl.exit.$return;
+
+NdisAllocateMdl.exit[guard $return]
+{  
+    if ($return != 0)
+    {  
+        s = allocated;
+    }
+    
+}
+
+NdisFreeMdl.exit[guard $1]
+{
+    if ( s == free)
+    {
+        abort "Freeing a MDL that was not allocated.";
+    }
+  
+    s = free;
+}
+
+[sdv_MINIPORT_HALT,
+sdv_FILTER_DETACH,
+sdv_PROTOCOL_UNBIND_ADAPTER_EX].exit
+{
+    if (s == allocated) 
+    {
+        abort "You are halting the miniport but still have a MDL allocated.";
+    }
+}

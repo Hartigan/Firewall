@@ -1,0 +1,7 @@
+alloc
+Mem_T.INT4
+yogi_error
+sdv_irql_previous_2
+sdv_irql_previous_3
+sdv_irql_previous
+sdv_irql_current

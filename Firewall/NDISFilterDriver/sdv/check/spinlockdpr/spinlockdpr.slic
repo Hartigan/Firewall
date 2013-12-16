@@ -1,0 +1,140 @@
+/*
+	Copyright (c) Microsoft Corporation.  All rights reserved.
+
+    Summary:
+    The SpinLockDpr rule verifies the correct use of the NDIS SpinLock interface.
+    This rule specifies that calls to NdisDprAcquireSpinLock are made only when the SpinLock is in the unlocked state. 
+    This rule also verifies that the SpinLock is released before the miniport handler routine exits.
+
+    
+    Description:
+    The SpinLockDpr rule verifies the correct use of the NDIS SpinLock interface.
+    This rule specifies that calls to NdisDprAcquireSpinLock are made only when the SpinLock is in the unlocked state. 
+    This rule also verifies that the SpinLock is released before the miniport handler routine exits.
+    
+    Related Rule:
+    SpinLock
+	
+*/
+
+#include "ntddk_slic.h"
+
+state{
+   enum {initial,unlocked,locked} s = initial;
+}
+watch NdisAllocateSpinLock.exit.$1;
+
+
+[NdisAcquireSpinLock,NdisDprAcquireSpinLock].exit[guard $1]
+{  
+        if (s == locked) {
+            abort "The driver is calling $fname after already acquiring the spinlock.";
+        } else {
+            s = locked;
+        }
+}
+
+[NdisReleaseSpinLock,NdisDprReleaseSpinLock].entry[guard $1]
+{
+        s = unlocked;
+}
+
+[sdv_FILTER_ATTACH,
+sdv_FILTER_DIRECT_CANCEL_OID_REQUESTS,
+sdv_FILTER_CANCEL_OID_REQUEST,
+sdv_FILTER_CANCEL_SEND_NET_BUFFER_LISTS,
+sdv_FILTER_DETACH,
+sdv_FILTER_DEVICE_PNP_EVENT_NOTIFY,
+sdv_FILTER_DIRECT_OID_REQUEST,
+sdv_FILTER_DIRECT_OID_REQUEST_COMPLETE,
+sdv_FILTER_DRIVER_UNLOAD,
+sdv_FILTER_NET_PNP_EVENT,
+sdv_FILTER_OID_REQUEST,
+sdv_FILTER_OID_REQUEST_COMPLETE,
+sdv_FILTER_PAUSE,
+sdv_FILTER_RECEIVE_NET_BUFFER_LISTS,
+sdv_FILTER_RESTART,
+sdv_FILTER_RETURN_NET_BUFFER_LISTS,
+sdv_FILTER_SEND_NET_BUFFER_LISTS,
+sdv_FILTER_NET_SEND_NET_BUFFER_LISTS_COMPLETE,
+sdv_FILTER_SET_MODULE_OPTIONS,
+sdv_FILTER_SET_OPTIONS,
+sdv_FILTER_STATUS,
+sdv_PROTOCOL_BIND_ADAPTER_EX,
+sdv_PROTOCOL_CLOSE_ADAPTER_COMPLETE_EX,
+sdv_PROTOCOL_DIRECT_OID_REQUEST_COMPLETE,
+sdv_PROTOCOL_NET_PNP_EVENT,
+sdv_PROTOCOL_OID_REQUEST_COMPLETE,
+sdv_PROTOCOL_OPEN_ADAPTER_COMPLETE_EX,
+sdv_PROTOCOL_RECEIVE_NET_BUFFER_LISTS,
+sdv_PROTOCOL_SEND_NET_BUFFER_LISTS_COMPLETE,
+sdv_PROTOCOL_SET_OPTIONS,
+sdv_PROTOCOL_STATUS_EX,
+sdv_PROTOCOL_UNBIND_ADAPTER_EX,
+sdv_PROTOCOL_UNINSTALL,
+sdv_PROTOCOL_UNLOAD,
+sdv_PROTOCOL_CL_ADD_PARTY_COMPLETE,
+sdv_PROTOCOL_CL_CALL_CONNECTED,
+sdv_PROTOCOL_CL_CLOSE_AF_COMPLETE,
+sdv_PROTOCOL_CL_CLOSE_CALL_COMPLETE,
+sdv_PROTOCOL_CL_DEREGISTER_SAP_COMPLETE,
+sdv_PROTOCOL_CL_DROP_PARTY_COMPLETE,
+sdv_PROTOCOL_CL_INCOMING_CALL,
+sdv_PROTOCOL_CL_INCOMING_CALL_QOS_CHANGE,
+sdv_PROTOCOL_CL_INCOMING_CLOSE_CALL,
+sdv_PROTOCOL_CL_INCOMING_DROP_PARTY,
+sdv_PROTOCOL_CL_MAKE_CALL_COMPLETE,
+sdv_PROTOCOL_CL_MODIFY_CALL_QOS_COMPLETE,
+sdv_PROTOCOL_CL_NOTIFY_CLOSE_AF,
+sdv_PROTOCOL_CL_OPEN_AF_COMPLETE,
+sdv_PROTOCOL_CL_OPEN_AF_COMPLETE_EX,
+sdv_PROTOCOL_CL_REGISTER_SAP_COMPLETE,
+sdv_PROTOCOL_CM_ACTVATE_VC_COMPLETE,
+sdv_PROTOCOL_CM_ADD_PARTY,
+sdv_PROTOCOL_CM_CLOSE_AF,
+sdv_PROTOCOL_CM_CLOSE_CALL,
+sdv_PROTOCOL_CM_DEACTIVATE_VC_COMPLETE,
+sdv_PROTOCOL_CM_DEREGISTER_SAP,
+sdv_PROTOCOL_CM_DROP_PARTY,
+sdv_PROTOCOL_CM_INCOMING_CALL_COMPLETE,
+sdv_PROTOCOL_CM_MAKE_CALL,
+sdv_PROTOCOL_CM_MODIFY_CALL_QOS,
+sdv_PROTOCOL_CM_NOTIFY_CLOSE_AF_COMPLETE,
+sdv_PROTOCOL_CM_OPEN_AF,
+sdv_PROTOCOL_CM_REG_SAP,
+sdv_PROTOCOL_CO_AF_REGISTER_NOTIFY,
+sdv_PROTOCOL_CO_CREATE_VC,
+sdv_PROTOCOL_CO_DELETE_VC,
+sdv_PROTOCOL_CO_OID_REQUEST,
+sdv_PROTOCOL_CO_OID_REQUEST_COMPLETE,
+sdv_PROTOCOL_CO_RECEIVE_NET_BUFFER_LISTS,
+sdv_PROTOCOL_CO_SEND_NET_BUFFER_LISTS_COMPLETE,
+sdv_PROTOCOL_CO_STATUS_EX,
+sdv_MINIPORT_RESET,
+sdv_MINIPORT_PAUSE,
+sdv_MINIPORT_RESTART,
+sdv_MINIPORT_SET_OPTIONS,
+sdv_MINIPORT_INITIALIZE,
+sdv_MINIPORT_ENABLE_INTERRUPT,
+sdv_MINIPORT_ALLOCATE_SHARED_MEM_COMPLETE,
+sdv_MINIPORT_UNLOAD,
+sdv_MINIPORT_INTERRUPT_DPC,
+sdv_MINIPORT_DEVICE_PNP_EVENT_NOTIFY,
+sdv_MINIPORT_OID_REQUEST,
+sdv_MINIPORT_CANCEL_SEND,
+sdv_MINIPORT_ISR,
+sdv_MINIPORT_CANCEL_OID_REQUEST,
+sdv_MINIPORT_SEND_NET_BUFFER_LISTS,
+sdv_MINIPORT_SHUTDOWN,
+sdv_MINIPORT_RETURN_NET_BUFFER_LISTS,
+sdv_MINIPORT_DISABLE_INTERRUPT,
+sdv_MINIPORT_HALT,
+sdv_MINIPORT_PROCESS_SG_LIST,
+sdv_MINIPORT_CHECK_FOR_HANG,
+sdv_NDIS_IO_WORKITEM_FUNCTION,
+sdv_NDIS_TIMER_FUNCTION].exit
+{
+        if (s == locked) {
+            abort "The dispatch routine has returned without releasing a spinlock.";
+        }
+}

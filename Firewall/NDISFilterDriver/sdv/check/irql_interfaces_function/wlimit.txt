@@ -1,0 +1,110 @@
+wlimit> Executing...
+wlimit>  log events: no
+wlimit>  allow process to breakaway: yes
+wlimit>  die in case of an unhandled exception: no
+wlimit>  ignore control-c: yes
+wlimit>  spare child processes' life at exit: no
+wlimit>  job wall clock time limit (secs): 3000
+wlimit>  job total user time limit (secs): 3000
+wlimit>  job memory limit (Mb): 1800
+wlimit>  job command: '"slam" -no_slamcl -rerun -enableQ 1400 -Qlimit 3000 1800 -platform ndis -target X64 -sdvpath D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\sdv -halt_labels -gate RunDispatchFunction -halt_labels -gate RunDispatchFunction -driver -arrays -field_pa_version nocollapse -max_fields_nocollapse 5 -sourcedir ..\..\.. -display_environment irql_interfaces_function.fsm -tune_entry_points D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV-map.h'
+ Q is called with arguments: irql_interfaces_function.fsm
+ Args
+   slam
+   -no_slamcl
+   -rerun
+   -enableQ
+   1400
+   -Qlimit
+   3000
+   1800
+   -platform
+   ndis
+   -target
+   X64
+   -sdvpath
+   D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\sdv
+   -halt_labels
+   -gate
+   RunDispatchFunction
+   -halt_labels
+   -gate
+   RunDispatchFunction
+   -driver
+   -arrays
+   -field_pa_version
+   nocollapse
+   -max_fields_nocollapse
+   5
+   -sourcedir
+   ..\..\..
+   -display_environment
+   irql_interfaces_function.fsm
+   -tune_entry_points
+   D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV-map.h
+ slic files: [irql_interfaces_function.fsm]
+ run_one_slic_file: irql_interfaces_function.fsm
+slam Warning: createUndefinedFunction: prototype not found for undefined SLAM_DEFAULT_ROUTINE
+ Starting Function Pointer resolution
+using FieldPA implementation nocollapse
+ FieldPA_nocollapse: Setting max fields to 5.
+Field PA-nocollapse starting over
+pointer analysis took 0.216000 seconds
+slam Warning: Fptr: unreachable: DirectCall treated as IndirectCall
+ Building base linker: PA done: iter 1
+Running iflat optimization ...
+EPnames:  FilterAttach FilterRegisterOptions
+ Initialization entry point FilterRegisterOptions to be relaxed in privates:
+ Initialization entry point FilterAttach to be relaxed in privates:
+Privates: RtlFailFast FatalListEntryError InsertHeadList FilterRegisterOptions FilterAttach sdv_NdisAllocateMemoryWithTagPriority sdv_NdisFSetAttributes 
+Shared: malloc sdv_RtlCopyMemory sdv_NdisAcquireSpinLock sdv_NdisReleaseSpinLock sdv_NdisDprAcquireSpinLock sdv_NdisDprReleaseSpinLock sdv_NdisFreeMemory 
+slam Warning: Replacing sdv_RtlCopyMemory with sdv_RtlCopyMemory_sdv_private in the initialization callback
+slam Warning: Replacing sdv_NdisAcquireSpinLock with sdv_NdisAcquireSpinLock_sdv_private in the initialization callback
+slam Warning: Replacing sdv_NdisReleaseSpinLock with sdv_NdisReleaseSpinLock_sdv_private in the initialization callback
+slam Warning: Replacing sdv_NdisDprAcquireSpinLock with sdv_NdisDprAcquireSpinLock_sdv_private in the initialization callback
+slam Warning: Replacing sdv_NdisDprReleaseSpinLock with sdv_NdisDprReleaseSpinLock_sdv_private in the initialization callback
+slam Warning: Replacing sdv_NdisFreeMemory with sdv_NdisFreeMemory_sdv_private in the initialization callback
+Running iflat optimization ...
+EPnames:  FilterAttach FilterRegisterOptions
+ Initialization entry point FilterRegisterOptions to be relaxed in privates:
+ Initialization entry point FilterAttach to be relaxed in privates:
+Privates: RtlFailFast FatalListEntryError InsertHeadList FilterRegisterOptions FilterAttach sdv_RtlCopyMemory_sdv_private sdv_NdisAcquireSpinLock_sdv_private sdv_NdisReleaseSpinLock_sdv_private sdv_NdisDprAcquireSpinLock_sdv_private sdv_NdisDprReleaseSpinLock_sdv_private sdv_NdisFreeMemory_sdv_private sdv_NdisAllocateMemoryWithTagPriority_sdv_private sdv_NdisFSetAttributes_sdv_private 
+Shared: malloc 
+Running iflat optimization ...
+EPnames:  FilterAttach FilterRegisterOptions
+ Initialization entry point FilterRegisterOptions to be relaxed in privates:
+ Initialization entry point FilterAttach to be relaxed in privates:
+Privates: RtlFailFast FatalListEntryError InsertHeadList FilterRegisterOptions FilterAttach sdv_RtlCopyMemory_sdv_private sdv_NdisAcquireSpinLock_sdv_private sdv_NdisReleaseSpinLock_sdv_private sdv_NdisDprAcquireSpinLock_sdv_private sdv_NdisDprReleaseSpinLock_sdv_private sdv_NdisFreeMemory_sdv_private sdv_NdisAllocateMemoryWithTagPriority_sdv_private sdv_NdisFSetAttributes_sdv_private 
+Shared: malloc 
+ Rules after .FSM file preprocessing:
+ [sdv_NdisIfRegisterProvider].entry [sdv_NdisIfRegisterInterface].entry [sdv_NdisIfQueryBindingIfIndex].entry [sdv_NdisIfGetNetLuidFromInterfaceIndex].entry [sdv_NdisIfGetInterfaceIndexFromNetLuid].entry [sdv_NdisIfFreeNetLuidIndex].entry [sdv_NdisIfDeregisterProvider].entry [sdv_NdisIfDeregisterInterface].entry [sdv_NdisIfDeleteIfStackEntry].entry [sdv_NdisIfAllocateNetLuidIndex].entry [sdv_NdisIfAddIfStackEntry].entry 
+ watch_point_begin 0, iter will be 1
+ Function sdv_NdisIfAddIfStackEntry is asked to be, yet not instrumented, since not called
+ Function sdv_NdisIfDeregisterProvider is asked to be, yet not instrumented, since not called
+ Function sdv_NdisIfQueryBindingIfIndex is asked to be, yet not instrumented, since not called
+ Function sdv_NdisIfAllocateNetLuidIndex is asked to be, yet not instrumented, since not called
+ Function sdv_NdisIfDeregisterInterface is asked to be, yet not instrumented, since not called
+ Function sdv_NdisIfDeleteIfStackEntry is asked to be, yet not instrumented, since not called
+ Function sdv_NdisIfGetNetLuidFromInterfaceIndex is asked to be, yet not instrumented, since not called
+ Function sdv_NdisIfRegisterInterface is asked to be, yet not instrumented, since not called
+ Function sdv_NdisIfFreeNetLuidIndex is asked to be, yet not instrumented, since not called
+ Function sdv_NdisIfRegisterProvider is asked to be, yet not instrumented, since not called
+ Function sdv_NdisIfGetInterfaceIndexFromNetLuid is asked to be, yet not instrumented, since not called
+ Instrumentation done for , iter 1
+ Result: property not applicable - program trivially passes property  irql_interfaces_function.fsm
+ watch_point_end 0, iter 0
+NotApplicable
+EngineQ took: 0.000000
+NotApplicable
+Time: 0.724
+
+wlimit> Finished:
+wlimit>  Status: 0 (Success)
+wlimit>  Exit code: 0
+wlimit>  TotalWallClockTime: 881 ms
+wlimit>  TotalUserTime: 609 ms
+wlimit>  TotalKernelTime: 62 ms
+wlimit>  TotalProcesses: 8
+wlimit>  TotalTerminatedProcesses: 0
+wlimit>  PeakProcessMemoryUsed : 20 Mb
+wlimit>  PeakJobMemoryUsed : 20 Mb

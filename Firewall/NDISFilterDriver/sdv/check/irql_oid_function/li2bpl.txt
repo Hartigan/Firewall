@@ -1,0 +1,600 @@
+// Li2Bpl v 0.5
+Getting global data
+Getting Proc data
+Getting CFG SLIC_sdv_NdisMOidRequestComplete_entry
+Got CFG SLIC_sdv_NdisMOidRequestComplete_entry
+Getting CFG SLIC_ABORT_3_0
+Got CFG SLIC_ABORT_3_0
+Getting CFG SLIC_sdv_NdisFOidRequest_entry
+Got CFG SLIC_sdv_NdisFOidRequest_entry
+Getting CFG SLIC_ABORT_13_0
+Got CFG SLIC_ABORT_13_0
+Getting CFG SLIC_ABORT_9_0
+Got CFG SLIC_ABORT_9_0
+Getting CFG SLIC_sdv_NdisFCancelOidRequest_entry
+Got CFG SLIC_sdv_NdisFCancelOidRequest_entry
+Getting CFG SLIC_sdv_NdisAllocateCloneOidRequest_entry
+Got CFG SLIC_sdv_NdisAllocateCloneOidRequest_entry
+Getting CFG SLIC_ABORT_5_0
+Got CFG SLIC_ABORT_5_0
+Getting CFG _sdv_init7
+Got CFG _sdv_init7
+Getting CFG SLIC_EXIT_ROUTINE
+Got CFG SLIC_EXIT_ROUTINE
+Getting CFG SLIC_ERROR_ROUTINE
+Got CFG SLIC_ERROR_ROUTINE
+Getting CFG SLIC_sdv_NdisCancelOidRequest_entry
+Got CFG SLIC_sdv_NdisCancelOidRequest_entry
+Getting CFG SLIC_ABORT_1_0
+Got CFG SLIC_ABORT_1_0
+Getting CFG SLIC_ABORT_11_0
+Got CFG SLIC_ABORT_11_0
+Getting CFG SLIC_ABORT_7_0
+Got CFG SLIC_ABORT_7_0
+Getting CFG SLIC_sdv_NdisFOidRequestComplete_entry
+Got CFG SLIC_sdv_NdisFOidRequestComplete_entry
+Getting CFG SLIC_sdv_NdisFreeCloneOidRequest_entry
+Got CFG SLIC_sdv_NdisFreeCloneOidRequest_entry
+Getting CFG DbgPrint
+Got CFG DbgPrint
+Getting CFG sdv_NdisFReturnNetBufferLists
+Got CFG sdv_NdisFReturnNetBufferLists
+Getting CFG sdv_FILTER_DETACH
+Got CFG sdv_FILTER_DETACH
+Getting CFG sdv_NdisCloseConfiguration
+Got CFG sdv_NdisCloseConfiguration
+Getting CFG sdv_main_common
+Got CFG sdv_main_common
+Getting CFG sdv_NdisReleaseSpinLock
+Got CFG sdv_NdisReleaseSpinLock
+Getting CFG sdv_NdisDprAcquireSpinLock
+Got CFG sdv_NdisDprAcquireSpinLock
+Getting CFG sdv_NdisReleaseSpinLock_sdv_private
+Got CFG sdv_NdisReleaseSpinLock_sdv_private
+Getting CFG sdv_NdisDprReleaseSpinLock_sdv_private
+Got CFG sdv_NdisDprReleaseSpinLock_sdv_private
+Getting CFG sdv_NdisAcquireSpinLock_sdv_private
+Got CFG sdv_NdisAcquireSpinLock_sdv_private
+Getting CFG sdv_NdisDprAcquireSpinLock_sdv_private
+Got CFG sdv_NdisDprAcquireSpinLock_sdv_private
+Getting CFG sdv_NdisFreeSpinLock
+Got CFG sdv_NdisFreeSpinLock
+Getting CFG sdv_NdisFCancelSendNetBufferLists
+Got CFG sdv_NdisFCancelSendNetBufferLists
+Getting CFG sdv_NullDereferenceTrap
+Got CFG sdv_NullDereferenceTrap
+Getting CFG sdv_FILTER_DEVICE_PNP_EVENT_NOTIFY
+Got CFG sdv_FILTER_DEVICE_PNP_EVENT_NOTIFY
+Getting CFG sdv_RemoveEntryList
+Got CFG sdv_RemoveEntryList
+Getting CFG sdv_NdisAllocateCloneOidRequest
+Got CFG sdv_NdisAllocateCloneOidRequest
+Getting CFG sdv_NdisFNetPnPEvent
+Got CFG sdv_NdisFNetPnPEvent
+Getting CFG sdv_NdisFIndicateReceiveNetBufferLists
+Got CFG sdv_NdisFIndicateReceiveNetBufferLists
+Getting CFG sdv_NdisFOidRequest
+Got CFG sdv_NdisFOidRequest
+Getting CFG sdv_NdisFreeMemory
+Got CFG sdv_NdisFreeMemory
+Getting CFG sdv_NdisFSendNetBufferListsComplete
+Got CFG sdv_NdisFSendNetBufferListsComplete
+Getting CFG sdv_NdisDprReleaseSpinLock
+Got CFG sdv_NdisDprReleaseSpinLock
+Getting CFG sdv_NdisSetOptionalHandlers
+Got CFG sdv_NdisSetOptionalHandlers
+Getting CFG _sdv_init5
+Got CFG _sdv_init5
+Getting CFG sdv_NdisFSendNetBufferLists
+Got CFG sdv_NdisFSendNetBufferLists
+Getting CFG sdv_main_miniport
+Got CFG sdv_main_miniport
+Getting CFG sdv_FILTER_RETURN_NET_BUFFER_LISTS
+Got CFG sdv_FILTER_RETURN_NET_BUFFER_LISTS
+Getting CFG sdv_NdisFDevicePnPEventNotify
+Got CFG sdv_NdisFDevicePnPEventNotify
+Getting CFG sdv_NdisFIndicateStatus
+Got CFG sdv_NdisFIndicateStatus
+Getting CFG sdv_NdisAdvanceNetBufferDataStart
+Got CFG sdv_NdisAdvanceNetBufferDataStart
+Getting CFG sdv_FILTER_SET_MODULE_OPTIONS
+Got CFG sdv_FILTER_SET_MODULE_OPTIONS
+Getting CFG sdv_FILTER_CANCEL_OID_REQUESTS
+Got CFG sdv_FILTER_CANCEL_OID_REQUESTS
+Getting CFG sdv_FILTER_DRIVER_UNLOAD
+Got CFG sdv_FILTER_DRIVER_UNLOAD
+Getting CFG sdv_NdisFreeCloneOidRequest
+Got CFG sdv_NdisFreeCloneOidRequest
+Getting CFG sdv_RtlCopyMemory
+Got CFG sdv_RtlCopyMemory
+Getting CFG sdv_FILTER_ATTACH
+Got CFG sdv_FILTER_ATTACH
+Getting CFG sdv_Trap
+Got CFG sdv_Trap
+Getting CFG sdv_FILTER_SEND_NET_BUFFER_LISTS_COMPLETE
+Got CFG sdv_FILTER_SEND_NET_BUFFER_LISTS_COMPLETE
+Getting CFG sdv_NdisDeregisterDeviceEx
+Got CFG sdv_NdisDeregisterDeviceEx
+Getting CFG sdv_FILTER_DIRECT_CANCEL_OID_REQUESTS
+Got CFG sdv_FILTER_DIRECT_CANCEL_OID_REQUESTS
+Getting CFG sdv_FILTER_OID_REQUEST
+Got CFG sdv_FILTER_OID_REQUEST
+Getting CFG sdv_main_lwf
+Got CFG sdv_main_lwf
+Getting CFG sdv_NDIS_DoNothing
+Got CFG sdv_NDIS_DoNothing
+Getting CFG sdv_FILTER_NET_PNP_EVENT
+Got CFG sdv_FILTER_NET_PNP_EVENT
+Getting CFG sdv_FILTER_RESTART
+Got CFG sdv_FILTER_RESTART
+Getting CFG sdv_main_protocol
+Got CFG sdv_main_protocol
+Getting CFG sdv_FILTER_DIRECT_OID_REQUEST_COMPLETE
+Got CFG sdv_FILTER_DIRECT_OID_REQUEST_COMPLETE
+Getting CFG sdv_FILTER_OID_REQUEST_COMPLETE
+Got CFG sdv_FILTER_OID_REQUEST_COMPLETE
+Getting CFG main
+Got CFG main
+Getting CFG sdv_NdisAllocateMemoryWithTagPriority_sdv_private
+Got CFG sdv_NdisAllocateMemoryWithTagPriority_sdv_private
+Getting CFG sdv_FILTER_CANCEL_SEND_NET_BUFFER_LISTS
+Got CFG sdv_FILTER_CANCEL_SEND_NET_BUFFER_LISTS
+Getting CFG sdv_NdisSetEvent
+Got CFG sdv_NdisSetEvent
+Getting CFG sdv_NdisFDeregisterFilterDriver
+Got CFG sdv_NdisFDeregisterFilterDriver
+Getting CFG sdv_NdisZeroMemory
+Got CFG sdv_NdisZeroMemory
+Getting CFG sdv_FILTER_SEND_NET_BUFFER_LISTS
+Got CFG sdv_FILTER_SEND_NET_BUFFER_LISTS
+Getting CFG sdv_NdisAcquireSpinLock
+Got CFG sdv_NdisAcquireSpinLock
+Getting CFG sdv_NdisFOidRequestComplete
+Got CFG sdv_NdisFOidRequestComplete
+Getting CFG sdv_FILTER_DIRECT_OID_REQUEST
+Got CFG sdv_FILTER_DIRECT_OID_REQUEST
+Getting CFG sdv_NdisOpenConfigurationEx
+Got CFG sdv_NdisOpenConfigurationEx
+Getting CFG sdv_FILTER_STATUS
+Got CFG sdv_FILTER_STATUS
+Getting CFG sdv_NdisRetreatNetBufferDataStart
+Got CFG sdv_NdisRetreatNetBufferDataStart
+Getting CFG sdv_NdisGetDataBuffer
+Got CFG sdv_NdisGetDataBuffer
+Getting CFG sdv_FILTER_PAUSE
+Got CFG sdv_FILTER_PAUSE
+Getting CFG sdv_FILTER_SET_OPTIONS
+Got CFG sdv_FILTER_SET_OPTIONS
+Getting CFG sdv_FILTER_RECEIVE_NET_BUFFER_LISTS
+Got CFG sdv_FILTER_RECEIVE_NET_BUFFER_LISTS
+Getting CFG sdv_containing_record
+Got CFG sdv_containing_record
+Getting CFG _sdv_init4
+Got CFG _sdv_init4
+Processing loop in FilterOidRequest starting at 42
+Loop is: 13 17 18 41 42 43 46 57 59 
+First block: 59
+Counter: L(bFalse,3,278,4)
+Getting CFG FilterOidRequest
+Got CFG FilterOidRequest
+Getting CFG FilterNetPnPEvent
+Got CFG FilterNetPnPEvent
+Getting CFG FilterDetach
+Got CFG FilterDetach
+Getting CFG FilterPause
+Got CFG FilterPause
+Processing loop in FilterReceiveNetBufferLists starting at 36
+Loop is: 36 41 45 46 47 51 52 53 55 56 
+First block: 41
+Counter: L(CurrentNetBufferLists,3,287,6)
+Pre block: 35
+Loop counter mode: Id
+Processing loop in FilterReceiveNetBufferLists starting at 45
+Loop is: 45 47 51 52 53 55 56 
+First block: 47
+Counter: L(CurrentNetBuffer,3,287,7)
+Pre block: 41
+Loop counter mode: Id
+Processing loop in FilterReceiveNetBufferLists starting at 67
+Loop is: 15 19 20 23 26 29 32 35 36 37 41 45 46 47 51 52 53 55 56 65 67 68 69 70 73 76 79 82 86 87 88 89 
+First block: 89
+Counter: L(bFalse,3,287,3)
+Getting CFG FilterReceiveNetBufferLists
+Really ignoring function DbgPrint
+Ignoring call to DbgPrint because it is ignorable
+Really ignoring function DbgPrint
+Ignoring call to DbgPrint because it is ignorable
+Really ignoring function DbgPrint
+Ignoring call to DbgPrint because it is ignorable
+Got CFG FilterReceiveNetBufferLists
+Processing loop in FilterSendNetBufferLists starting at 27
+Loop is: 27 29 
+First block: 29
+Counter: L(CurrNbl,3,285,5)
+Pre block: 26
+Loop counter mode: Incr
+Processing loop in FilterSendNetBufferLists starting at 38
+Loop is: 38 42 46 50 51 52 56 57 58 60 61 
+First block: 42
+Counter: L(CurrentNetBufferLists,3,285,6)
+Pre block: 37
+Loop counter mode: Id
+Processing loop in FilterSendNetBufferLists starting at 50
+Loop is: 50 52 56 57 58 60 61 
+First block: 52
+Counter: L(CurrentNetBuffer,3,285,9)
+Pre block: 46
+Loop counter mode: Id
+Processing loop in FilterSendNetBufferLists starting at 76
+Loop is: 15 19 20 23 26 27 28 29 31 34 37 38 39 42 46 50 51 52 56 57 58 60 61 70 73 76 78 79 
+First block: 79
+Counter: L(bFalse,3,285,3)
+Getting CFG FilterSendNetBufferLists
+Really ignoring function DbgPrint
+Ignoring call to DbgPrint because it is ignorable
+Really ignoring function DbgPrint
+Ignoring call to DbgPrint because it is ignorable
+Really ignoring function DbgPrint
+Ignoring call to DbgPrint because it is ignorable
+Really ignoring function DbgPrint
+Ignoring call to DbgPrint because it is ignorable
+Really ignoring function DbgPrint
+Ignoring call to DbgPrint because it is ignorable
+Really ignoring function DbgPrint
+Ignoring call to DbgPrint because it is ignorable
+Got CFG FilterSendNetBufferLists
+Getting CFG CheckReceivePacket
+Really ignoring function DbgPrint
+Ignoring call to DbgPrint because it is ignorable
+Really ignoring function DbgPrint
+Ignoring call to DbgPrint because it is ignorable
+Really ignoring function DbgPrint
+Ignoring call to DbgPrint because it is ignorable
+Got CFG CheckReceivePacket
+Getting CFG FilterCancelSendNetBufferLists
+Got CFG FilterCancelSendNetBufferLists
+Processing loop in CheckReceiveArpHeader starting at 12
+Loop is: 12 15 18 19 20 21 22 23 24 25 31 32 33 34 
+First block: 15
+Counter: L(CurrentRule,3,299,3)
+Pre block: 7
+Loop counter mode: Incr
+Processing loop in CheckReceiveArpHeader starting at 18
+Loop is: 18 20 21 22 23 24 25 31 32 33 
+First block: 20
+Counter: L(i,3,299,6)
+Pre block: 15
+Loop counter mode: Incr
+Loop counter init, limit: 0, 4
+Found counter loop {name = CheckReceiveArpHeader, head = 18, first  = 20, limit = 4, counter = L(i,3,299,6)}
+Getting CFG CheckReceiveArpHeader
+Really ignoring function DbgPrint
+Ignoring call to DbgPrint because it is ignorable
+Got CFG CheckReceiveArpHeader
+Processing loop in FilterAttach starting at 11
+Loop is: 11 12 21 22 23 29 32 35 42 49 56 63 74 75 78 81 84 87 88 91 94 99 100 101 104 
+Getting CFG FilterAttach
+Got CFG FilterAttach
+Processing loop in CheckSentArpHeader starting at 12
+Loop is: 12 15 18 19 20 21 22 23 24 25 31 32 33 34 
+First block: 15
+Counter: L(CurrentRule,3,295,3)
+Pre block: 7
+Loop counter mode: Incr
+Processing loop in CheckSentArpHeader starting at 18
+Loop is: 18 20 21 22 23 24 25 31 32 33 
+First block: 20
+Counter: L(i,3,295,6)
+Pre block: 15
+Loop counter mode: Incr
+Loop counter init, limit: 0, 4
+Found counter loop {name = CheckSentArpHeader, head = 18, first  = 20, limit = 4, counter = L(i,3,295,6)}
+Getting CFG CheckSentArpHeader
+Really ignoring function DbgPrint
+Ignoring call to DbgPrint because it is ignorable
+Got CFG CheckSentArpHeader
+Getting CFG FilterSetModuleOptions
+Got CFG FilterSetModuleOptions
+Getting CFG FilterRegisterOptions
+Got CFG FilterRegisterOptions
+Processing loop in CheckReceiveIPv6Header starting at 12
+Loop is: 12 15 18 19 20 21 22 23 24 25 31 32 33 34 
+First block: 15
+Counter: L(CurrentRule,3,298,3)
+Pre block: 7
+Loop counter mode: Incr
+Processing loop in CheckReceiveIPv6Header starting at 18
+Loop is: 18 20 21 22 23 24 25 31 32 33 
+First block: 20
+Counter: L(i,3,298,6)
+Pre block: 15
+Loop counter mode: Incr
+Loop counter init, limit: 0, 16
+Found counter loop {name = CheckReceiveIPv6Header, head = 18, first  = 20, limit = 16, counter = L(i,3,298,6)}
+Getting CFG CheckReceiveIPv6Header
+Really ignoring function DbgPrint
+Ignoring call to DbgPrint because it is ignorable
+Got CFG CheckReceiveIPv6Header
+Getting CFG FilterUnload
+Got CFG FilterUnload
+Getting CFG filterInternalRequestComplete
+Got CFG filterInternalRequestComplete
+Getting CFG check
+Really ignoring function DbgPrint
+Ignoring call to DbgPrint because it is ignorable
+Really ignoring function DbgPrint
+Ignoring call to DbgPrint because it is ignorable
+Really ignoring function DbgPrint
+Ignoring call to DbgPrint because it is ignorable
+Really ignoring function DbgPrint
+Ignoring call to DbgPrint because it is ignorable
+Got CFG check
+Getting CFG _sdv_init3
+Got CFG _sdv_init3
+Getting CFG CheckSentPacket
+Really ignoring function DbgPrint
+Ignoring call to DbgPrint because it is ignorable
+Really ignoring function DbgPrint
+Ignoring call to DbgPrint because it is ignorable
+Really ignoring function DbgPrint
+Ignoring call to DbgPrint because it is ignorable
+Got CFG CheckSentPacket
+Processing loop in CheckSentIPv6Header starting at 12
+Loop is: 12 15 18 19 20 21 22 23 24 25 31 32 33 34 
+First block: 15
+Counter: L(CurrentRule,3,294,3)
+Pre block: 7
+Loop counter mode: Incr
+Processing loop in CheckSentIPv6Header starting at 18
+Loop is: 18 20 21 22 23 24 25 31 32 33 
+First block: 20
+Counter: L(i,3,294,6)
+Pre block: 15
+Loop counter mode: Incr
+Loop counter init, limit: 0, 16
+Found counter loop {name = CheckSentIPv6Header, head = 18, first  = 20, limit = 16, counter = L(i,3,294,6)}
+Getting CFG CheckSentIPv6Header
+Really ignoring function DbgPrint
+Ignoring call to DbgPrint because it is ignorable
+Got CFG CheckSentIPv6Header
+Getting CFG PrintStatus
+Really ignoring function DbgPrint
+Ignoring call to DbgPrint because it is ignorable
+Really ignoring function DbgPrint
+Ignoring call to DbgPrint because it is ignorable
+Really ignoring function DbgPrint
+Ignoring call to DbgPrint because it is ignorable
+Really ignoring function DbgPrint
+Ignoring call to DbgPrint because it is ignorable
+Really ignoring function DbgPrint
+Ignoring call to DbgPrint because it is ignorable
+Really ignoring function DbgPrint
+Ignoring call to DbgPrint because it is ignorable
+Really ignoring function DbgPrint
+Ignoring call to DbgPrint because it is ignorable
+Really ignoring function DbgPrint
+Ignoring call to DbgPrint because it is ignorable
+Got CFG PrintStatus
+Processing loop in FilterReturnNetBufferLists starting at 21
+Loop is: 21 22 
+First block: 22
+Counter: L(CurrNbl,3,286,3)
+Pre block: 45
+Loop counter mode: Incr
+Getting CFG FilterReturnNetBufferLists
+Really ignoring function DbgPrint
+Ignoring call to DbgPrint because it is ignorable
+Got CFG FilterReturnNetBufferLists
+Getting CFG FilterOidRequestComplete
+Got CFG FilterOidRequestComplete
+Processing loop in FilterSendNetBufferListsComplete starting at 20
+Loop is: 20 22 
+First block: 22
+Counter: L(CurrNbl,3,284,4)
+Pre block: 19
+Loop counter mode: Incr
+Getting CFG FilterSendNetBufferListsComplete
+Really ignoring function DbgPrint
+Ignoring call to DbgPrint because it is ignorable
+Got CFG FilterSendNetBufferListsComplete
+Processing loop in CheckReceiveIPv4Header starting at 12
+Loop is: 12 15 18 19 20 21 22 23 24 25 30 31 32 33 
+First block: 15
+Counter: L(CurrentRule,3,297,3)
+Pre block: 7
+Loop counter mode: Incr
+Processing loop in CheckReceiveIPv4Header starting at 18
+Loop is: 18 20 21 22 23 24 25 30 31 32 
+First block: 20
+Counter: L(i,3,297,6)
+Pre block: 15
+Loop counter mode: Incr
+Loop counter init, limit: 0, 4
+Found counter loop {name = CheckReceiveIPv4Header, head = 18, first  = 20, limit = 4, counter = L(i,3,297,6)}
+Getting CFG CheckReceiveIPv4Header
+Really ignoring function DbgPrint
+Ignoring call to DbgPrint because it is ignorable
+Got CFG CheckReceiveIPv4Header
+Processing loop in FilterRestart starting at 32
+Loop is: 32 33 
+First block: 33
+Counter: L(NextAttributes,3,275,8)
+Pre block: 29
+Loop counter mode: Id
+Getting CFG FilterRestart
+Got CFG FilterRestart
+Processing loop in CheckSentIPv4Header starting at 12
+Loop is: 12 15 18 19 20 21 22 23 24 25 31 32 33 34 
+First block: 15
+Counter: L(CurrentRule,3,293,3)
+Pre block: 7
+Loop counter mode: Incr
+Processing loop in CheckSentIPv4Header starting at 18
+Loop is: 18 20 21 22 23 24 25 31 32 33 
+First block: 20
+Counter: L(i,3,293,6)
+Pre block: 15
+Loop counter mode: Incr
+Loop counter init, limit: 0, 4
+Found counter loop {name = CheckSentIPv4Header, head = 18, first  = 20, limit = 4, counter = L(i,3,293,6)}
+Getting CFG CheckSentIPv4Header
+Really ignoring function DbgPrint
+Ignoring call to DbgPrint because it is ignorable
+Got CFG CheckSentIPv4Header
+Getting CFG FilterStatus
+Got CFG FilterStatus
+Getting CFG FilterDevicePnPEventNotify
+Got CFG FilterDevicePnPEventNotify
+Getting CFG NDISFilterDriverDeregisterDevice
+Got CFG NDISFilterDriverDeregisterDevice
+Getting CFG _sdv_init2
+Got CFG _sdv_init2
+Getting CFG _sdv_init1
+Got CFG _sdv_init1
+Getting CFG FatalListEntryError
+Got CFG FatalListEntryError
+Getting CFG RtlFailFast
+Got CFG RtlFailFast
+Getting CFG InsertHeadList
+Got CFG InsertHeadList
+Getting line info
+unnamed_tag_75 is a subset of: unnamed_tag_71 unnamed_tag_76 
+_INITIAL_PRIVILEGE_SET is a subset of: _PRIVILEGE_SET 
+_NET_BUFFER_LIST_HEADER is a subset of: _NET_BUFFER_LIST 
+_NDIS_FILTER_ATTRIBUTES is a subset of: _NDIS_FILTER_PARTIAL_CHARACTERISTICS _NDIS_FILTER_PAUSE_PARAMETERS _NDIS_NIC_SWITCH_CAPABILITIES _NDIS_RECEIVE_FILTER_CAPABILITIES _NDIS_SRIOV_CAPABILITIES 
+_DRIVE_LAYOUT_INFORMATION_MBR is a subset of: _FILTER_DEVICE_EXTENSION 
+unnamed_tag_5 is a subset of: _LARGE_INTEGER 
+unnamed_tag_15 is a subset of: unnamed_tag_16 
+unnamed_tag_18 is a subset of: _SECURITY_QUALITY_OF_SERVICE _UNICODE_STRING unnamed_tag_12 unnamed_tag_13 unnamed_tag_14 unnamed_tag_15 unnamed_tag_16 unnamed_tag_17 unnamed_tag_19 unnamed_tag_27 unnamed_tag_58 unnamed_tag_62 
+unnamed_tag_28 is a subset of: _CM_PARTIAL_RESOURCE_DESCRIPTOR _CONTROLLER_OBJECT _DEVICE_OBJECT _DEVOBJ_EXTENSION _DISPATCHER_HEADER _DRIVER_OBJECT _FILE_OBJECT _IRP _KAPC _KDEVICE_QUEUE _NDIS_OBJECT_HEADER _VPB 
+_NDIS_DRIVER_OPTIONAL_HANDLERS is a subset of: _NDIS_CONFIGURATION_OBJECT _NDIS_FILTER_ATTACH_PARAMETERS _NDIS_FILTER_ATTRIBUTES _NDIS_FILTER_PARTIAL_CHARACTERISTICS _NDIS_FILTER_PAUSE_PARAMETERS _NDIS_FILTER_RESTART_PARAMETERS _NDIS_HD_SPLIT_CURRENT_CONFIG _NDIS_NIC_SWITCH_CAPABILITIES _NDIS_NIC_SWITCH_INFO_ARRAY _NDIS_OFFLOAD _NDIS_OID_REQUEST _NDIS_RECEIVE_FILTER_CAPABILITIES _NDIS_RECEIVE_SCALE_CAPABILITIES _NDIS_RESTART_GENERAL_ATTRIBUTES _NDIS_SRIOV_CAPABILITIES _NDIS_STATUS_INDICATION _NET_DEVICE_PNP_EVENT _NET_PNP_EVENT_NOTIFICATION 
+_LUID is a subset of: _LARGE_INTEGER unnamed_tag_5 
+_NET_BUFFER_HEADER is a subset of: _NET_BUFFER 
+Unifying field-type: Data__NDIS_RESTART_ATTRIBUTES with PINT4 (FilterRestart)
+Unifying field-type: Lock__MS_FILTER with _NDIS_SPIN_LOCK (FilterSendNetBufferListsComplete)
+Unifying field-type: FilterModuleLink__MS_FILTER with _LIST_ENTRY (FilterAttach)
+Processing InsertHeadList
+Processing RtlFailFast
+Processing FatalListEntryError
+Processing _sdv_init1
+Processing _sdv_init2
+Processing NDISFilterDriverDeregisterDevice
+Processing FilterDevicePnPEventNotify
+Processing FilterStatus
+Processing CheckSentIPv4Header
+Processing FilterRestart
+Processing CheckReceiveIPv4Header
+Processing FilterSendNetBufferListsComplete
+Processing FilterOidRequestComplete
+Processing FilterReturnNetBufferLists
+Processing PrintStatus
+Processing CheckSentIPv6Header
+Processing CheckSentPacket
+Processing _sdv_init3
+Found FP map: SendNetBufferListsHandler__NDIS_FILTER_PARTIAL_CHARACTERISTICS
+Found FP map: SendNetBufferListsCompleteHandler__NDIS_FILTER_PARTIAL_CHARACTERISTICS
+Found FP map: CancelSendNetBufferListsHandler__NDIS_FILTER_PARTIAL_CHARACTERISTICS
+Found FP map: ReceiveNetBufferListsHandler__NDIS_FILTER_PARTIAL_CHARACTERISTICS
+Found FP map: ReturnNetBufferListsHandler__NDIS_FILTER_PARTIAL_CHARACTERISTICS
+Processing check
+Processing filterInternalRequestComplete
+Processing FilterUnload
+Processing CheckReceiveIPv6Header
+Processing FilterRegisterOptions
+Processing FilterSetModuleOptions
+Processing CheckSentArpHeader
+Processing FilterAttach
+Processing CheckReceiveArpHeader
+Processing FilterCancelSendNetBufferLists
+Processing CheckReceivePacket
+Processing FilterSendNetBufferLists
+Processing FilterReceiveNetBufferLists
+Processing FilterPause
+Processing FilterDetach
+Processing FilterNetPnPEvent
+Processing FilterOidRequest
+Processing _sdv_init4
+Processing sdv_containing_record
+Processing sdv_FILTER_RECEIVE_NET_BUFFER_LISTS
+Processing sdv_FILTER_SET_OPTIONS
+Processing sdv_FILTER_PAUSE
+Processing sdv_NdisGetDataBuffer
+Processing sdv_NdisRetreatNetBufferDataStart
+Processing sdv_FILTER_STATUS
+Processing sdv_NdisOpenConfigurationEx
+Processing sdv_FILTER_DIRECT_OID_REQUEST
+Processing sdv_NdisFOidRequestComplete
+Processing sdv_NdisAcquireSpinLock
+Processing sdv_FILTER_SEND_NET_BUFFER_LISTS
+Processing sdv_NdisZeroMemory
+Processing sdv_NdisFDeregisterFilterDriver
+Processing sdv_NdisSetEvent
+Processing sdv_FILTER_CANCEL_SEND_NET_BUFFER_LISTS
+Processing sdv_NdisAllocateMemoryWithTagPriority_sdv_private
+Processing main
+Processing sdv_FILTER_OID_REQUEST_COMPLETE
+Processing sdv_FILTER_DIRECT_OID_REQUEST_COMPLETE
+Processing sdv_main_protocol
+Processing sdv_FILTER_RESTART
+Processing sdv_FILTER_NET_PNP_EVENT
+Processing sdv_NDIS_DoNothing
+Processing sdv_main_lwf
+Processing sdv_FILTER_OID_REQUEST
+Processing sdv_FILTER_DIRECT_CANCEL_OID_REQUESTS
+Processing sdv_NdisDeregisterDeviceEx
+Processing sdv_FILTER_SEND_NET_BUFFER_LISTS_COMPLETE
+Processing sdv_Trap
+Processing sdv_FILTER_ATTACH
+Processing sdv_RtlCopyMemory
+Processing sdv_NdisFreeCloneOidRequest
+Processing sdv_FILTER_DRIVER_UNLOAD
+Processing sdv_FILTER_CANCEL_OID_REQUESTS
+Processing sdv_FILTER_SET_MODULE_OPTIONS
+Processing sdv_NdisAdvanceNetBufferDataStart
+Processing sdv_NdisFIndicateStatus
+Processing sdv_NdisFDevicePnPEventNotify
+Processing sdv_FILTER_RETURN_NET_BUFFER_LISTS
+Processing sdv_main_miniport
+Processing sdv_NdisFSendNetBufferLists
+Processing _sdv_init5
+Processing sdv_NdisSetOptionalHandlers
+Processing sdv_NdisDprReleaseSpinLock
+Processing sdv_NdisFSendNetBufferListsComplete
+Processing sdv_NdisFreeMemory
+Processing sdv_NdisFOidRequest
+Processing sdv_NdisFIndicateReceiveNetBufferLists
+Processing sdv_NdisFNetPnPEvent
+Processing sdv_NdisAllocateCloneOidRequest
+Processing sdv_RemoveEntryList
+Processing sdv_FILTER_DEVICE_PNP_EVENT_NOTIFY
+Processing sdv_NullDereferenceTrap
+Processing sdv_NdisFCancelSendNetBufferLists
+Processing sdv_NdisFreeSpinLock
+Processing sdv_NdisDprAcquireSpinLock_sdv_private
+Processing sdv_NdisAcquireSpinLock_sdv_private
+Processing sdv_NdisDprReleaseSpinLock_sdv_private
+Processing sdv_NdisReleaseSpinLock_sdv_private
+Processing sdv_NdisDprAcquireSpinLock
+Processing sdv_NdisReleaseSpinLock
+Processing sdv_main_common
+Processing sdv_NdisCloseConfiguration
+Processing sdv_FILTER_DETACH
+Processing sdv_NdisFReturnNetBufferLists
+Processing DbgPrint
+Processing SLIC_sdv_NdisFreeCloneOidRequest_entry
+Processing SLIC_sdv_NdisFOidRequestComplete_entry
+Processing SLIC_ABORT_7_0
+Processing SLIC_ABORT_11_0
+Processing SLIC_ABORT_1_0
+Processing SLIC_sdv_NdisCancelOidRequest_entry
+Processing SLIC_ERROR_ROUTINE
+Processing SLIC_EXIT_ROUTINE
+Processing _sdv_init7
+Processing SLIC_ABORT_5_0
+Processing SLIC_sdv_NdisAllocateCloneOidRequest_entry
+Processing SLIC_sdv_NdisFCancelOidRequest_entry
+Processing SLIC_ABORT_9_0
+Processing SLIC_ABORT_13_0
+Processing SLIC_sdv_NdisFOidRequest_entry
+Processing SLIC_ABORT_3_0
+Processing SLIC_sdv_NdisMOidRequestComplete_entry

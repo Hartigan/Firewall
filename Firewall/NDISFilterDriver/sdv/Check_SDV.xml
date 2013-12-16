@@ -1,0 +1,3887 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SDV xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SDVExitCode xmlns="http://www.microsoft.com/SDV">0</SDVExitCode>
+  <SDVExitCodeDescription xmlns="http://www.microsoft.com/SDV">SDV encountered no errors and completed successfully.</SDVExitCodeDescription>
+  <SDVDDKPath xmlns="http://www.microsoft.com/SDV">C:\Program Files (x86)\Windows Kits\8.1\</SDVDDKPath>
+  <SDV_Wdm_Headers xmlns="http://www.microsoft.com/SDV">wdm.h</SDV_Wdm_Headers>
+  <SDV_Wdm_Headers xmlns="http://www.microsoft.com/SDV">wdmsec.h</SDV_Wdm_Headers>
+  <SDV_Wdm_Headers xmlns="http://www.microsoft.com/SDV">ntifs.h</SDV_Wdm_Headers>
+  <SDV_Wdm_Headers xmlns="http://www.microsoft.com/SDV">csq.h</SDV_Wdm_Headers>
+  <SDV_Wdm_Headers xmlns="http://www.microsoft.com/SDV">ntddk.h</SDV_Wdm_Headers>
+  <SDV_Wdm_Headers xmlns="http://www.microsoft.com/SDV">ntosp.h</SDV_Wdm_Headers>
+  <IncludePath xmlns="http://www.microsoft.com/SDV">C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\ATLMFC\INCLUDE;C:\Program Files (x86)\Windows Kits\8.1\include\shared;C:\Program Files (x86)\Windows Kits\8.1\include\um;C:\Program Files (x86)\Windows Kits\8.1\include\winrt;</IncludePath>
+  <SDVIFSPath xmlns="http://www.microsoft.com/SDV" />
+  <SDVBuildLog xmlns="http://www.microsoft.com/SDV">msbuild.log</SDVBuildLog>
+  <SDVWDMPATH xmlns="http://www.microsoft.com/SDV">inc\ddk\wdm\wnet</SDVWDMPATH>
+  <SDVNTDdkPath xmlns="http://www.microsoft.com/SDV">inc\ddk\wnet</SDVNTDdkPath>
+  <KmdfIncludePath xmlns="http://www.microsoft.com/SDV" />
+  <SDVSlamDisplayEnvironmentBebopOption xmlns="http://www.microsoft.com/SDV">-display_enironment</SDVSlamDisplayEnvironmentBebopOption>
+  <SDV_PUBLIC_ROOT xmlns="http://www.microsoft.com/SDV" />
+  <SDVDestinationBackup xmlns="http://www.microsoft.com/SDV">..\..\..</SDVDestinationBackup>
+  <SDVArch xmlns="http://www.microsoft.com/SDV">x86</SDVArch>
+  <SDVBuildType xmlns="http://www.microsoft.com/SDV">fre</SDVBuildType>
+  <SDVBuildArch xmlns="http://www.microsoft.com/SDV">x64</SDVBuildArch>
+  <SlamEnvironment xmlns="http://www.microsoft.com/SDV">WDK</SlamEnvironment>
+  <SDVPagefile xmlns="http://www.microsoft.com/SDV" />
+  <SDVSDVPath xmlns="http://www.microsoft.com/SDV">D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver</SDVSDVPath>
+  <SDVType xmlns="http://www.microsoft.com/SDV" />
+  <SDVEnvironmentVersion xmlns="http://www.microsoft.com/SDV">0</SDVEnvironmentVersion>
+  <SDVMaxLoc xmlns="http://www.microsoft.com/SDV">0</SDVMaxLoc>
+  <SDVSlic2XDV xmlns="http://www.microsoft.com/SDV">false</SDVSlic2XDV>
+  <SDVScan xmlns="http://www.microsoft.com/SDV">true</SDVScan>
+  <SDV_cplus_Support xmlns="http://www.microsoft.com/SDV">true</SDV_cplus_Support>
+  <SDVBuild xmlns="http://www.microsoft.com/SDV">true</SDVBuild>
+  <SDVCompile xmlns="http://www.microsoft.com/SDV">true</SDVCompile>
+  <SDVCheck xmlns="http://www.microsoft.com/SDV">false</SDVCheck>
+  <SDVBuildConfigRequired xmlns="http://www.microsoft.com/SDV">false</SDVBuildConfigRequired>
+  <SDVReport xmlns="http://www.microsoft.com/SDV">false</SDVReport>
+  <SDVUniqueRules xsi:type="xsd:string" xmlns="http://www.microsoft.com/SDV">doublecomplete.fsm</SDVUniqueRules>
+  <SDVUniqueRules xsi:type="xsd:string" xmlns="http://www.microsoft.com/SDV">doublecompleteworkitem.fsm</SDVUniqueRules>
+  <SDVUniqueRules xsi:type="xsd:string" xmlns="http://www.microsoft.com/SDV">flags_irql.fsm</SDVUniqueRules>
+  <SDVUniqueRules xsi:type="xsd:string" xmlns="http://www.microsoft.com/SDV">init_deregisterinterrupt.fsm</SDVUniqueRules>
+  <SDVUniqueRules xsi:type="xsd:string" xmlns="http://www.microsoft.com/SDV">init_ndisallocateioworkitem.fsm</SDVUniqueRules>
+  <SDVUniqueRules xsi:type="xsd:string" xmlns="http://www.microsoft.com/SDV">init_registerinterrupt.fsm</SDVUniqueRules>
+  <SDVUniqueRules xsi:type="xsd:string" xmlns="http://www.microsoft.com/SDV">init_registersg.fsm</SDVUniqueRules>
+  <SDVUniqueRules xsi:type="xsd:string" xmlns="http://www.microsoft.com/SDV">irql_callmanager_function.fsm</SDVUniqueRules>
+  <SDVUniqueRules xsi:type="xsd:string" xmlns="http://www.microsoft.com/SDV">irql_connection_function.fsm</SDVUniqueRules>
+  <SDVUniqueRules xsi:type="xsd:string" xmlns="http://www.microsoft.com/SDV">irql_filter_driver_function.fsm</SDVUniqueRules>
+  <SDVUniqueRules xsi:type="xsd:string" xmlns="http://www.microsoft.com/SDV">irql_gather_dma_function.fsm</SDVUniqueRules>
+  <SDVUniqueRules xsi:type="xsd:string" xmlns="http://www.microsoft.com/SDV">irql_im_function.fsm</SDVUniqueRules>
+  <SDVUniqueRules xsi:type="xsd:string" xmlns="http://www.microsoft.com/SDV">irql_interfaces_function.fsm</SDVUniqueRules>
+  <SDVUniqueRules xsi:type="xsd:string" xmlns="http://www.microsoft.com/SDV">irql_interrupt_function.fsm</SDVUniqueRules>
+  <SDVUniqueRules xsi:type="xsd:string" xmlns="http://www.microsoft.com/SDV">irql_irqlsetting_function.fsm</SDVUniqueRules>
+  <SDVUniqueRules xsi:type="xsd:string" xmlns="http://www.microsoft.com/SDV">irql_mcm_function.fsm</SDVUniqueRules>
+  <SDVUniqueRules xsi:type="xsd:string" xmlns="http://www.microsoft.com/SDV">irql_mco_function.fsm</SDVUniqueRules>
+  <SDVUniqueRules xsi:type="xsd:string" xmlns="http://www.microsoft.com/SDV">irql_miniport_driver_function.fsm</SDVUniqueRules>
+  <SDVUniqueRules xsi:type="xsd:string" xmlns="http://www.microsoft.com/SDV">irql_miscellaneous_function.fsm</SDVUniqueRules>
+  <SDVUniqueRules xsi:type="xsd:string" xmlns="http://www.microsoft.com/SDV">irql_netbuffer_function.fsm</SDVUniqueRules>
+  <SDVUniqueRules xsi:type="xsd:string" xmlns="http://www.microsoft.com/SDV">irql_oid_function.fsm</SDVUniqueRules>
+  <SDVUniqueRules xsi:type="xsd:string" xmlns="http://www.microsoft.com/SDV">irql_protocol_driver_function.fsm</SDVUniqueRules>
+  <SDVUniqueRules xsi:type="xsd:string" xmlns="http://www.microsoft.com/SDV">irql_sendrcv_function.fsm</SDVUniqueRules>
+  <SDVUniqueRules xsi:type="xsd:string" xmlns="http://www.microsoft.com/SDV">irql_statusindication_function.fsm</SDVUniqueRules>
+  <SDVUniqueRules xsi:type="xsd:string" xmlns="http://www.microsoft.com/SDV">irql_synch_function.fsm</SDVUniqueRules>
+  <SDVUniqueRules xsi:type="xsd:string" xmlns="http://www.microsoft.com/SDV">irql_timer_function.fsm</SDVUniqueRules>
+  <SDVUniqueRules xsi:type="xsd:string" xmlns="http://www.microsoft.com/SDV">miniportpause_return.fsm</SDVUniqueRules>
+  <SDVUniqueRules xsi:type="xsd:string" xmlns="http://www.microsoft.com/SDV">ndisallocategenericobject.fsm</SDVUniqueRules>
+  <SDVUniqueRules xsi:type="xsd:string" xmlns="http://www.microsoft.com/SDV">ndisallocatemdl.fsm</SDVUniqueRules>
+  <SDVUniqueRules xsi:type="xsd:string" xmlns="http://www.microsoft.com/SDV">ndisallocatememorywithtagpriority.fsm</SDVUniqueRules>
+  <SDVUniqueRules xsi:type="xsd:string" xmlns="http://www.microsoft.com/SDV">ndisallocatenetbuffer.fsm</SDVUniqueRules>
+  <SDVUniqueRules xsi:type="xsd:string" xmlns="http://www.microsoft.com/SDV">ndisfderegisterfilterdriver.fsm</SDVUniqueRules>
+  <SDVUniqueRules xsi:type="xsd:string" xmlns="http://www.microsoft.com/SDV">ndismderegisterinterruptex.fsm</SDVUniqueRules>
+  <SDVUniqueRules xsi:type="xsd:string" xmlns="http://www.microsoft.com/SDV">ndismfreesharedmemory.fsm</SDVUniqueRules>
+  <SDVUniqueRules xsi:type="xsd:string" xmlns="http://www.microsoft.com/SDV">ndismindicatestatusex.fsm</SDVUniqueRules>
+  <SDVUniqueRules xsi:type="xsd:string" xmlns="http://www.microsoft.com/SDV">ndismmapiospace.fsm</SDVUniqueRules>
+  <SDVUniqueRules xsi:type="xsd:string" xmlns="http://www.microsoft.com/SDV">ndismnetpnpeventinoidrequest.fsm</SDVUniqueRules>
+  <SDVUniqueRules xsi:type="xsd:string" xmlns="http://www.microsoft.com/SDV">ndismregisterioportrange.fsm</SDVUniqueRules>
+  <SDVUniqueRules xsi:type="xsd:string" xmlns="http://www.microsoft.com/SDV">ndisopenconfigurationex.fsm</SDVUniqueRules>
+  <SDVUniqueRules xsi:type="xsd:string" xmlns="http://www.microsoft.com/SDV">ndisquerybindinstancename.fsm</SDVUniqueRules>
+  <SDVUniqueRules xsi:type="xsd:string" xmlns="http://www.microsoft.com/SDV">ndisreenumerateprotocolbindings.fsm</SDVUniqueRules>
+  <SDVUniqueRules xsi:type="xsd:string" xmlns="http://www.microsoft.com/SDV">periodictimer.fsm</SDVUniqueRules>
+  <SDVUniqueRules xsi:type="xsd:string" xmlns="http://www.microsoft.com/SDV">spinlock.fsm</SDVUniqueRules>
+  <SDVUniqueRules xsi:type="xsd:string" xmlns="http://www.microsoft.com/SDV">spinlockbalanced.fsm</SDVUniqueRules>
+  <SDVUniqueRules xsi:type="xsd:string" xmlns="http://www.microsoft.com/SDV">spinlockdpr.fsm</SDVUniqueRules>
+  <SDVUniqueRules xsi:type="xsd:string" xmlns="http://www.microsoft.com/SDV">spinlockdprrelease.fsm</SDVUniqueRules>
+  <SDVUniqueRules xsi:type="xsd:string" xmlns="http://www.microsoft.com/SDV">spinlockrelease.fsm</SDVUniqueRules>
+  <SDVUniqueRules xsi:type="xsd:string" xmlns="http://www.microsoft.com/SDV">writeerrorlog.fsm</SDVUniqueRules>
+  <SDVUniqueRules xsi:type="xsd:string" xmlns="http://www.microsoft.com/SDV">pre_isminiport.fsm</SDVUniqueRules>
+  <SDVUniqueRules xsi:type="xsd:string" xmlns="http://www.microsoft.com/SDV">pre_isprotocol.fsm</SDVUniqueRules>
+  <SDVUniqueRules xsi:type="xsd:string" xmlns="http://www.microsoft.com/SDV">pre_islwf.fsm</SDVUniqueRules>
+  <SDVActiveRules xsi:type="xsd:string" xmlns="http://www.microsoft.com/SDV">ddiusage.sdv.fsm</SDVActiveRules>
+  <SDVActiveRules xsi:type="xsd:string" xmlns="http://www.microsoft.com/SDV">irql.sdv.fsm</SDVActiveRules>
+  <SDVActiveRules xsi:type="xsd:string" xmlns="http://www.microsoft.com/SDV">locking.sdv.fsm</SDVActiveRules>
+  <SDVActiveRules xsi:type="xsd:string" xmlns="http://www.microsoft.com/SDV">memoryusage.sdv.fsm</SDVActiveRules>
+  <SDVActiveRules xsi:type="xsd:string" xmlns="http://www.microsoft.com/SDV">miscellaneous.sdv.fsm</SDVActiveRules>
+  <SDVActiveRules xsi:type="xsd:string" xmlns="http://www.microsoft.com/SDV">oidprocessing.sdv.fsm</SDVActiveRules>
+  <SDVActiveRules xsi:type="xsd:string" xmlns="http://www.microsoft.com/SDV">warning.sdv.fsm</SDVActiveRules>
+  <SDVActiveRules xsi:type="xsd:string" xmlns="http://www.microsoft.com/SDV">.fsm</SDVActiveRules>
+  <SDVDrivers xmlns="http://www.microsoft.com/SDV">
+    <DriverDDKPath>C:\Program Files (x86)\Windows Kits\8.1\</DriverDDKPath>
+    <INCLUDE>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\;C:\Program Files (x86)\Windows Kits\8.1\Include\km\crt;C:\Program Files (x86)\Windows Kits\8.1\Include\KM;C:\Program Files (x86)\Windows Kits\8.1\Include\shared</INCLUDE>
+    <DriverCflags>/c /I.. /I. /I.. /I. /Ix64/Win8Release/ /Zi /nologo /W4 /WX- /Ox /Os /Oy- /D _WIN64 /D _AMD64_ /D AMD64 /D _WIN32_WINNT=0x0602 /D WINVER=0x0602 /D WINNT=1 /D NTDDI_VERSION=0x06020000 /D NDIS_WDM=1 /D NDIS630=1 /D NDIS_WDM=1 /GF /Gm- /Zp8 /GS /Gy /fp:precise /Zc:wchar_t- /Zc:forScope- /GR-  /Fo"x64/Win8Release//" /Fd"x64/Win8Release/vc120.pdb" /Gz /wd4603 /wd4627 /wd4986 /wd4987 /wd4996 /wd4201 /wd4214 /FI"C:/Program Files (x86)/Windows Kits/8.1/Include/Shared/warning.h" /errorReport:queue /kernel -cbstring -d2epilogunwind  /d1import_no_registry</DriverCflags>
+    <DriverMCCommand />
+    <DriverMCFilename />
+    <DriverName>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver</DriverName>
+    <DriverDescription />
+    <NewDriverPath>NDISFilterDriver</NewDriverPath>
+    <DriverPath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver</DriverPath>
+    <DriverType>ndis</DriverType>
+    <DriverLoc>2975</DriverLoc>
+    <DriverCFiles>
+      <SDVSourceFilePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver</SDVSourceFilePath>
+      <SDVSourceFileRelativePath />
+      <SrcFileName>precomp.c</SrcFileName>
+      <SrcFileDestination />
+      <SrcFileObjectName>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\x64\Win8Release\precomp.obj</SrcFileObjectName>
+      <SrcFileCFlags> /c /I.. /I. /I.. /I. /Ix64\Win8Release\ /Zi /nologo /W4 /WX- /Ox /Os /Oy- /D _WIN64 /D _AMD64_ /D AMD64 /D _WIN32_WINNT=0x0602 /D WINVER=0x0602 /D WINNT=1 /D NTDDI_VERSION=0x06020000 /D NDIS_WDM=1 /D NDIS630=1 /D NDIS_WDM=1 /GF /Gm- /Zp8 /GS /Gy /fp:precise /Zc:wchar_t- /Zc:forScope- /GR- /Yc"precomp.h" /Fp"x64\Win8Release\NDISFilterDriver.pch" /Fo"x64\Win8Release\\" /Fd"x64\Win8Release\vc120.pdb" /Gz /wd4603 /wd4627 /wd4986 /wd4987 /wd4996 /wd4201 /wd4214 /FI"C:\Program Files (x86)\Windows Kits\8.1\Include\Shared\warning.h" /errorReport:queue /kernel -cbstring -d2epilogunwind  /d1nodatetime /d1import_no_registry /d2AllowCompatibleILVersions /d2Zi+</SrcFileCFlags>
+      <SDVLineno>0</SDVLineno>
+      <SdvLibOrder>0</SdvLibOrder>
+      <SDVIsValid>true</SDVIsValid>
+      <SDVCPlus>false</SDVCPlus>
+      <SrcFileExtension>.c</SrcFileExtension>
+      <SrcFileVersion />
+      <SrcFileAuthor />
+      <SrcFileOnwer />
+      <SrcFileVendor />
+      <SrcFileCopyright />
+      <BuildType />
+      <Include>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\;C:\Program Files (x86)\Windows Kits\8.1\Include\km\crt;C:\Program Files (x86)\Windows Kits\8.1\Include\KM;C:\Program Files (x86)\Windows Kits\8.1\Include\shared</Include>
+      <SrcFileRevision>0</SrcFileRevision>
+      <SrcFileReleased>false</SrcFileReleased>
+      <SrcFileDateCreated>2013-12-08T17:28:05.4092109+03:00</SrcFileDateCreated>
+      <SrcFileDateModified>2013-11-08T16:02:00.5264397+03:00</SrcFileDateModified>
+    </DriverCFiles>
+    <DriverCFiles>
+      <SDVSourceFilePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver</SDVSourceFilePath>
+      <SDVSourceFileRelativePath />
+      <SrcFileName>filter.c</SrcFileName>
+      <SrcFileDestination />
+      <SrcFileObjectName>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\x64\Win8Release\filter.obj</SrcFileObjectName>
+      <SrcFileCFlags> /c /I.. /I. /Ix64\Win8Release\ /Zi /nologo /W4 /WX- /Ox /Os /Oy- /D _WIN64 /D _AMD64_ /D AMD64 /D _WIN32_WINNT=0x0602 /D WINVER=0x0602 /D WINNT=1 /D NTDDI_VERSION=0x06020000 /D NDIS_WDM=1 /D NDIS630=1 /GF /Gm- /Zp8 /GS /Gy /fp:precise /Zc:wchar_t- /Zc:forScope- /GR- /Yu"precomp.h" /Fp"x64\Win8Release\NDISFilterDriver.pch" /Fo"x64\Win8Release\\" /Fd"x64\Win8Release\vc120.pdb" /Gz /wd4603 /wd4627 /wd4986 /wd4987 /wd4996 /wd4201 /wd4214 /FI"C:\Program Files (x86)\Windows Kits\8.1\Include\Shared\warning.h" /errorReport:queue /kernel -cbstring -d2epilogunwind  /d1nodatetime /d1import_no_registry /d2AllowCompatibleILVersions /d2Zi+</SrcFileCFlags>
+      <SDVLineno>0</SDVLineno>
+      <SdvLibOrder>0</SdvLibOrder>
+      <SDVIsValid>true</SDVIsValid>
+      <SDVCPlus>false</SDVCPlus>
+      <SrcFileExtension>.c</SrcFileExtension>
+      <SrcFileVersion />
+      <SrcFileAuthor />
+      <SrcFileOnwer />
+      <SrcFileVendor />
+      <SrcFileCopyright />
+      <BuildType />
+      <Include>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\;C:\Program Files (x86)\Windows Kits\8.1\Include\km\crt;C:\Program Files (x86)\Windows Kits\8.1\Include\KM;C:\Program Files (x86)\Windows Kits\8.1\Include\shared</Include>
+      <SrcFileRevision>0</SrcFileRevision>
+      <SrcFileReleased>false</SrcFileReleased>
+      <SrcFileDateCreated>2013-12-14T13:42:18.4737393+03:00</SrcFileDateCreated>
+      <SrcFileDateModified>2013-12-15T13:08:34.6338591+03:00</SrcFileDateModified>
+    </DriverCFiles>
+    <DriverCFiles>
+      <SDVSourceFilePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver</SDVSourceFilePath>
+      <SDVSourceFileRelativePath />
+      <SrcFileName>device.c</SrcFileName>
+      <SrcFileDestination />
+      <SrcFileObjectName>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\x64\Win8Release\device.obj</SrcFileObjectName>
+      <SrcFileCFlags> /c /I.. /I. /Ix64\Win8Release\ /Zi /nologo /W4 /WX- /Ox /Os /Oy- /D _WIN64 /D _AMD64_ /D AMD64 /D _WIN32_WINNT=0x0602 /D WINVER=0x0602 /D WINNT=1 /D NTDDI_VERSION=0x06020000 /D NDIS_WDM=1 /D NDIS630=1 /GF /Gm- /Zp8 /GS /Gy /fp:precise /Zc:wchar_t- /Zc:forScope- /GR- /Yu"precomp.h" /Fp"x64\Win8Release\NDISFilterDriver.pch" /Fo"x64\Win8Release\\" /Fd"x64\Win8Release\vc120.pdb" /Gz /wd4603 /wd4627 /wd4986 /wd4987 /wd4996 /wd4201 /wd4214 /FI"C:\Program Files (x86)\Windows Kits\8.1\Include\Shared\warning.h" /errorReport:queue /kernel -cbstring -d2epilogunwind  /d1nodatetime /d1import_no_registry /d2AllowCompatibleILVersions /d2Zi+</SrcFileCFlags>
+      <SDVLineno>0</SDVLineno>
+      <SdvLibOrder>0</SdvLibOrder>
+      <SDVIsValid>true</SDVIsValid>
+      <SDVCPlus>false</SDVCPlus>
+      <SrcFileExtension>.c</SrcFileExtension>
+      <SrcFileVersion />
+      <SrcFileAuthor />
+      <SrcFileOnwer />
+      <SrcFileVendor />
+      <SrcFileCopyright />
+      <BuildType />
+      <Include>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\;C:\Program Files (x86)\Windows Kits\8.1\Include\km\crt;C:\Program Files (x86)\Windows Kits\8.1\Include\KM;C:\Program Files (x86)\Windows Kits\8.1\Include\shared</Include>
+      <SrcFileRevision>0</SrcFileRevision>
+      <SrcFileReleased>false</SrcFileReleased>
+      <SrcFileDateCreated>2013-12-08T17:28:05.3252062+03:00</SrcFileDateCreated>
+      <SrcFileDateModified>2013-12-15T07:57:14.8047233+03:00</SrcFileDateModified>
+    </DriverCFiles>
+    <DriverCFiles>
+      <SDVSourceFilePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver</SDVSourceFilePath>
+      <SDVSourceFileRelativePath />
+      <SrcFileName>flt_dbg.c</SrcFileName>
+      <SrcFileDestination />
+      <SrcFileObjectName>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\x64\Win8Release\flt_dbg.obj</SrcFileObjectName>
+      <SrcFileCFlags> /c /I.. /I. /Ix64\Win8Release\ /Zi /nologo /W4 /WX- /Ox /Os /Oy- /D _WIN64 /D _AMD64_ /D AMD64 /D _WIN32_WINNT=0x0602 /D WINVER=0x0602 /D WINNT=1 /D NTDDI_VERSION=0x06020000 /D NDIS_WDM=1 /D NDIS630=1 /GF /Gm- /Zp8 /GS /Gy /fp:precise /Zc:wchar_t- /Zc:forScope- /GR- /Yu"precomp.h" /Fp"x64\Win8Release\NDISFilterDriver.pch" /Fo"x64\Win8Release\\" /Fd"x64\Win8Release\vc120.pdb" /Gz /wd4603 /wd4627 /wd4986 /wd4987 /wd4996 /wd4201 /wd4214 /FI"C:\Program Files (x86)\Windows Kits\8.1\Include\Shared\warning.h" /errorReport:queue /kernel -cbstring -d2epilogunwind  /d1nodatetime /d1import_no_registry /d2AllowCompatibleILVersions /d2Zi+</SrcFileCFlags>
+      <SDVLineno>0</SDVLineno>
+      <SdvLibOrder>0</SdvLibOrder>
+      <SDVIsValid>true</SDVIsValid>
+      <SDVCPlus>false</SDVCPlus>
+      <SrcFileExtension>.c</SrcFileExtension>
+      <SrcFileVersion />
+      <SrcFileAuthor />
+      <SrcFileOnwer />
+      <SrcFileVendor />
+      <SrcFileCopyright />
+      <BuildType />
+      <Include>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\;C:\Program Files (x86)\Windows Kits\8.1\Include\km\crt;C:\Program Files (x86)\Windows Kits\8.1\Include\KM;C:\Program Files (x86)\Windows Kits\8.1\Include\shared</Include>
+      <SrcFileRevision>0</SrcFileRevision>
+      <SrcFileReleased>false</SrcFileReleased>
+      <SrcFileDateCreated>2013-12-08T17:28:05.3652086+03:00</SrcFileDateCreated>
+      <SrcFileDateModified>2013-11-08T16:02:00.5254625+03:00</SrcFileDateModified>
+    </DriverCFiles>
+    <DriverRules>
+      <RuleName>periodictimer.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName />
+      <RuleMessage>Tool Error D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on periodictimer.fsm :Fails Rule (0 errors)...</RuleMessage>
+      <RuleCleanedName>periodictimer</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\notapplicable.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>SDV_NA</RuleResult>
+      <PreconditionResult>SDV_PASSED</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>0.63</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\periodictimer</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\periodictimer</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>false</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverRules>
+    <DriverRules>
+      <RuleName>spinlockdpr.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName />
+      <RuleMessage>Tool Error D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on spinlockdpr.fsm :Fails Rule (0 errors)...</RuleMessage>
+      <RuleCleanedName>spinlockdpr</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\notapplicable.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>SDV_NA</RuleResult>
+      <PreconditionResult>SDV_PASSED</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>0.633</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\spinlockdpr</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\spinlockdpr</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>false</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverRules>
+    <DriverRules>
+      <RuleName>spinlockrelease.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName />
+      <RuleMessage>Tool Error D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on spinlockrelease.fsm :Fails Rule (0 errors)...</RuleMessage>
+      <RuleCleanedName>spinlockrelease</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\notapplicable.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>SDV_NA</RuleResult>
+      <PreconditionResult>SDV_PASSED</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>0.683</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\spinlockrelease</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\spinlockrelease</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>false</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverRules>
+    <DriverRules>
+      <RuleName>ndisquerybindinstancename.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName />
+      <RuleMessage>Tool Error D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on ndisquerybindinstancename.fsm :Fails Rule (0 errors)...</RuleMessage>
+      <RuleCleanedName>ndisquerybindinstancename</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\notapplicable.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>SDV_NA</RuleResult>
+      <PreconditionResult>SDV_PASSED</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>0.686</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\ndisquerybindinstancename</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\ndisquerybindinstancename</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>false</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverRules>
+    <DriverRules>
+      <RuleName>spinlock.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName>SDV_IFLAT_HARNESS.h</RuleHarnessName>
+      <RuleMessage>Tool Error D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on spinlock.fsm :Fails Rule (0 errors)...</RuleMessage>
+      <RuleCleanedName>spinlock</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\notapplicable.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>SDV_NA</RuleResult>
+      <PreconditionResult>SDV_PASSED</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>0.684</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\spinlock</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\spinlock</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>false</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverRules>
+    <DriverRules>
+      <RuleName>spinlockdprrelease.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName>SDV_IFLAT_HARNESS.h</RuleHarnessName>
+      <RuleMessage>Tool Error D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on spinlockdprrelease.fsm :Fails Rule (0 errors)...</RuleMessage>
+      <RuleCleanedName>spinlockdprrelease</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\notapplicable.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>SDV_NA</RuleResult>
+      <PreconditionResult>SDV_PASSED</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>0.703</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\spinlockdprrelease</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\spinlockdprrelease</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>false</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverRules>
+    <DriverRules>
+      <RuleName>ndismderegisterinterruptex.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName />
+      <RuleMessage>Tool Error D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on ndismderegisterinterruptex.fsm :Fails Rule (0 errors)...</RuleMessage>
+      <RuleCleanedName>ndismderegisterinterruptex</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\notapplicable.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>SDV_NA</RuleResult>
+      <PreconditionResult>SDV_PASSED</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>0.623</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\ndismderegisterinterruptex</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\ndismderegisterinterruptex</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>false</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverRules>
+    <DriverRules>
+      <RuleName>ndismmapiospace.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName />
+      <RuleMessage>Tool Error D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on ndismmapiospace.fsm :Fails Rule (0 errors)...</RuleMessage>
+      <RuleCleanedName>ndismmapiospace</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\notapplicable.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>SDV_NA</RuleResult>
+      <PreconditionResult>SDV_PASSED</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>0.634</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\ndismmapiospace</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\ndismmapiospace</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>false</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverRules>
+    <DriverRules>
+      <RuleName>ndismregisterioportrange.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName />
+      <RuleMessage>Tool Error D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on ndismregisterioportrange.fsm :Fails Rule (0 errors)...</RuleMessage>
+      <RuleCleanedName>ndismregisterioportrange</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\notapplicable.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>SDV_NA</RuleResult>
+      <PreconditionResult>SDV_PASSED</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>0.643</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\ndismregisterioportrange</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\ndismregisterioportrange</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>false</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverRules>
+    <DriverRules>
+      <RuleName>ndismindicatestatusex.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName />
+      <RuleMessage>Tool Error D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on ndismindicatestatusex.fsm :Fails Rule (0 errors)...</RuleMessage>
+      <RuleCleanedName>ndismindicatestatusex</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\notapplicable.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>SDV_NA</RuleResult>
+      <PreconditionResult>SDV_PASSED</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>0.646</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\ndismindicatestatusex</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\ndismindicatestatusex</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>false</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverRules>
+    <DriverRules>
+      <RuleName>ndisallocatenetbuffer.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName />
+      <RuleMessage>Tool Error D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on ndisallocatenetbuffer.fsm :Fails Rule (0 errors)...</RuleMessage>
+      <RuleCleanedName>ndisallocatenetbuffer</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\notapplicable.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>SDV_NA</RuleResult>
+      <PreconditionResult>SDV_PASSED</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>0.659</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\ndisallocatenetbuffer</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\ndisallocatenetbuffer</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>false</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverRules>
+    <DriverRules>
+      <RuleName>ndisallocategenericobject.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName />
+      <RuleMessage>Tool Error D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on ndisallocategenericobject.fsm :Fails Rule (0 errors)...</RuleMessage>
+      <RuleCleanedName>ndisallocategenericobject</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\notapplicable.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>SDV_NA</RuleResult>
+      <PreconditionResult>SDV_PASSED</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>0.614</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\ndisallocategenericobject</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\ndisallocategenericobject</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>false</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverRules>
+    <DriverRules>
+      <RuleName>irql_timer_function.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName />
+      <RuleMessage>Tool Error D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on irql_timer_function.fsm :Fails Rule (0 errors)...</RuleMessage>
+      <RuleCleanedName>irql_timer_function</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\notapplicable.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>SDV_NA</RuleResult>
+      <PreconditionResult>SDV_PASSED</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>0.657</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\irql_timer_function</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\irql_timer_function</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>false</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverRules>
+    <DriverRules>
+      <RuleName>ndisallocatemdl.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName />
+      <RuleMessage>Tool Error D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on ndisallocatemdl.fsm :Fails Rule (0 errors)...</RuleMessage>
+      <RuleCleanedName>ndisallocatemdl</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\notapplicable.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>SDV_NA</RuleResult>
+      <PreconditionResult>SDV_PASSED</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>0.684</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\ndisallocatemdl</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\ndisallocatemdl</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>false</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverRules>
+    <DriverRules>
+      <RuleName>irql_sendrcv_function.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName />
+      <RuleMessage>Tool Error D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on irql_sendrcv_function.fsm :Fails Rule (0 errors)...</RuleMessage>
+      <RuleCleanedName>irql_sendrcv_function</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\notapplicable.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>SDV_NA</RuleResult>
+      <PreconditionResult>SDV_PASSED</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>0.625</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\irql_sendrcv_function</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\irql_sendrcv_function</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>false</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverRules>
+    <DriverRules>
+      <RuleName>irql_protocol_driver_function.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName />
+      <RuleMessage>Tool Error D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on irql_protocol_driver_function.fsm :Fails Rule (0 errors)...</RuleMessage>
+      <RuleCleanedName>irql_protocol_driver_function</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\notapplicable.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>SDV_NA</RuleResult>
+      <PreconditionResult>SDV_PASSED</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>0.63</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\irql_protocol_driver_function</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\irql_protocol_driver_function</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>false</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverRules>
+    <DriverRules>
+      <RuleName>ndisopenconfigurationex.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName />
+      <RuleMessage>Tool Error D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on ndisopenconfigurationex.fsm :Fails Rule (0 errors)...</RuleMessage>
+      <RuleCleanedName>ndisopenconfigurationex</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\warning.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>NOTDONE</RuleResult>
+      <PreconditionResult>SDV_NOTDONE</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>7.128</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\ndisopenconfigurationex</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\ndisopenconfigurationex</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>false</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverRules>
+    <DriverRules>
+      <RuleName>irql_miniport_driver_function.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName />
+      <RuleMessage>Tool Error D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on irql_miniport_driver_function.fsm :Fails Rule (0 errors)...</RuleMessage>
+      <RuleCleanedName>irql_miniport_driver_function</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\notapplicable.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>SDV_NA</RuleResult>
+      <PreconditionResult>SDV_PASSED</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>0.644</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\irql_miniport_driver_function</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\irql_miniport_driver_function</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>false</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverRules>
+    <DriverRules>
+      <RuleName>ndisfderegisterfilterdriver.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName />
+      <RuleMessage>Tool Error D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on ndisfderegisterfilterdriver.fsm :Fails Rule (0 errors)...</RuleMessage>
+      <RuleCleanedName>ndisfderegisterfilterdriver</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\warning.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>NOTDONE</RuleResult>
+      <PreconditionResult>SDV_NOTDONE</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>7.805</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\ndisfderegisterfilterdriver</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\ndisfderegisterfilterdriver</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>false</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverRules>
+    <DriverRules>
+      <RuleName>irql_mco_function.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName />
+      <RuleMessage>Tool Error D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on irql_mco_function.fsm :Fails Rule (0 errors)...</RuleMessage>
+      <RuleCleanedName>irql_mco_function</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\notapplicable.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>SDV_NA</RuleResult>
+      <PreconditionResult>SDV_PASSED</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>0.658</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\irql_mco_function</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\irql_mco_function</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>false</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverRules>
+    <DriverRules>
+      <RuleName>irql_irqlsetting_function.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName />
+      <RuleMessage>Tool Error D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on irql_irqlsetting_function.fsm :Fails Rule (0 errors)...</RuleMessage>
+      <RuleCleanedName>irql_irqlsetting_function</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\notapplicable.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>SDV_NA</RuleResult>
+      <PreconditionResult>SDV_PASSED</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>0.655</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\irql_irqlsetting_function</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\irql_irqlsetting_function</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>false</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverRules>
+    <DriverRules>
+      <RuleName>irql_mcm_function.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName />
+      <RuleMessage>Tool Error D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on irql_mcm_function.fsm :Fails Rule (0 errors)...</RuleMessage>
+      <RuleCleanedName>irql_mcm_function</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\notapplicable.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>SDV_NA</RuleResult>
+      <PreconditionResult>SDV_PASSED</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>0.721</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\irql_mcm_function</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\irql_mcm_function</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>false</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverRules>
+    <DriverRules>
+      <RuleName>irql_interrupt_function.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName />
+      <RuleMessage>Tool Error D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on irql_interrupt_function.fsm :Fails Rule (0 errors)...</RuleMessage>
+      <RuleCleanedName>irql_interrupt_function</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\notapplicable.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>SDV_NA</RuleResult>
+      <PreconditionResult>SDV_PASSED</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>0.68</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\irql_interrupt_function</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\irql_interrupt_function</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>false</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverRules>
+    <DriverRules>
+      <RuleName>irql_interfaces_function.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName />
+      <RuleMessage>Tool Error D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on irql_interfaces_function.fsm :Fails Rule (0 errors)...</RuleMessage>
+      <RuleCleanedName>irql_interfaces_function</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\notapplicable.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>SDV_NA</RuleResult>
+      <PreconditionResult>SDV_PASSED</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>0.673</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\irql_interfaces_function</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\irql_interfaces_function</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>false</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverRules>
+    <DriverRules>
+      <RuleName>irql_im_function.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName />
+      <RuleMessage>Tool Error D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on irql_im_function.fsm :Fails Rule (0 errors)...</RuleMessage>
+      <RuleCleanedName>irql_im_function</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\notapplicable.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>SDV_NA</RuleResult>
+      <PreconditionResult>SDV_PASSED</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>0.663</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\irql_im_function</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\irql_im_function</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>false</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverRules>
+    <DriverRules>
+      <RuleName>irql_gather_dma_function.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName />
+      <RuleMessage>Tool Error D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on irql_gather_dma_function.fsm :Fails Rule (0 errors)...</RuleMessage>
+      <RuleCleanedName>irql_gather_dma_function</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\notapplicable.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>SDV_NA</RuleResult>
+      <PreconditionResult>SDV_PASSED</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>0.67</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\irql_gather_dma_function</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\irql_gather_dma_function</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>false</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverRules>
+    <DriverRules>
+      <RuleName>irql_connection_function.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName />
+      <RuleMessage>Tool Error D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on irql_connection_function.fsm :Fails Rule (0 errors)...</RuleMessage>
+      <RuleCleanedName>irql_connection_function</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\notapplicable.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>SDV_NA</RuleResult>
+      <PreconditionResult>SDV_PASSED</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>0.711</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\irql_connection_function</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\irql_connection_function</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>false</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverRules>
+    <DriverRules>
+      <RuleName>irql_callmanager_function.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName />
+      <RuleMessage>Tool Error D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on irql_callmanager_function.fsm :Fails Rule (0 errors)...</RuleMessage>
+      <RuleCleanedName>irql_callmanager_function</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\notapplicable.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>SDV_NA</RuleResult>
+      <PreconditionResult>SDV_PASSED</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>0.663</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\irql_callmanager_function</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\irql_callmanager_function</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>false</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverRules>
+    <DriverRules>
+      <RuleName>irql_statusindication_function.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName />
+      <RuleMessage>Tool Error D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on irql_statusindication_function.fsm :Fails Rule (0 errors)...</RuleMessage>
+      <RuleCleanedName>irql_statusindication_function</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\warning.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>NOTDONE</RuleResult>
+      <PreconditionResult>SDV_NOTDONE</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>12.395</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\irql_statusindication_function</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\irql_statusindication_function</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>false</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverRules>
+    <DriverRules>
+      <RuleName>irql_oid_function.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName />
+      <RuleMessage>Tool Error D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on irql_oid_function.fsm :Fails Rule (0 errors)...</RuleMessage>
+      <RuleCleanedName>irql_oid_function</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\warning.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>NOTDONE</RuleResult>
+      <PreconditionResult>SDV_NOTDONE</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>13.069</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\irql_oid_function</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\irql_oid_function</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>false</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverRules>
+    <DriverRules>
+      <RuleName>irql_miscellaneous_function.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName />
+      <RuleMessage>Tool Error D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on irql_miscellaneous_function.fsm :Fails Rule (0 errors)...</RuleMessage>
+      <RuleCleanedName>irql_miscellaneous_function</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\warning.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>NOTDONE</RuleResult>
+      <PreconditionResult>SDV_NOTDONE</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>13.078</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\irql_miscellaneous_function</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\irql_miscellaneous_function</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>false</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverRules>
+    <DriverRules>
+      <RuleName>irql_synch_function.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName />
+      <RuleMessage>Tool Error D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on irql_synch_function.fsm :Fails Rule (0 errors)...</RuleMessage>
+      <RuleCleanedName>irql_synch_function</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\warning.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>NOTDONE</RuleResult>
+      <PreconditionResult>SDV_NOTDONE</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>15.827</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\irql_synch_function</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\irql_synch_function</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>false</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverRules>
+    <DriverRules>
+      <RuleName>irql_netbuffer_function.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName />
+      <RuleMessage>Tool Error D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on irql_netbuffer_function.fsm :Fails Rule (0 errors)...</RuleMessage>
+      <RuleCleanedName>irql_netbuffer_function</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\warning.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>NOTDONE</RuleResult>
+      <PreconditionResult>SDV_NOTDONE</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>14.356</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\irql_netbuffer_function</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\irql_netbuffer_function</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>false</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverRules>
+    <DriverRules>
+      <RuleName>spinlockbalanced.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName />
+      <RuleMessage>Tool Error D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on spinlockbalanced.fsm :Fails Rule (0 errors)...</RuleMessage>
+      <RuleCleanedName>spinlockbalanced</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\warning.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>NOTDONE</RuleResult>
+      <PreconditionResult>SDV_NOTDONE</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>19.469</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\spinlockbalanced</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\spinlockbalanced</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>false</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverRules>
+    <DriverRules>
+      <RuleName>irql_filter_driver_function.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName />
+      <RuleMessage>Tool Error D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on irql_filter_driver_function.fsm :Fails Rule (0 errors)...</RuleMessage>
+      <RuleCleanedName>irql_filter_driver_function</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\warning.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>NOTDONE</RuleResult>
+      <PreconditionResult>SDV_NOTDONE</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>10.047</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\irql_filter_driver_function</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\irql_filter_driver_function</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>false</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverRules>
+    <DriverRules>
+      <RuleName>doublecomplete.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName>SDV_MP_PNP_HARNESS_OID_REQUEST.h</RuleHarnessName>
+      <RuleMessage>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on doublecomplete.fsm : This rule is not applicable.</RuleMessage>
+      <RuleCleanedName>doublecomplete</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\notapplicable.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>SDV_NA</RuleResult>
+      <PreconditionResult>SDV_PASSED</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>0</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\doublecomplete</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\doublecomplete</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>true</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverRules>
+    <DriverRules>
+      <RuleName>doublecompleteworkitem.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName>SDV_MP_PNP_HARNESS_OID_REQUEST.h</RuleHarnessName>
+      <RuleMessage>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on doublecompleteworkitem.fsm : This rule is not applicable.</RuleMessage>
+      <RuleCleanedName>doublecompleteworkitem</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\notapplicable.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>SDV_NA</RuleResult>
+      <PreconditionResult>SDV_PASSED</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>0</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\doublecompleteworkitem</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\doublecompleteworkitem</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>true</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverRules>
+    <DriverRules>
+      <RuleName>flags_irql.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName>SDV_IFLAT_HARNESS.h</RuleHarnessName>
+      <RuleMessage>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on flags_irql.fsm : This rule is not applicable.</RuleMessage>
+      <RuleCleanedName>flags_irql</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\notapplicable.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>SDV_NA</RuleResult>
+      <PreconditionResult>SDV_PASSED</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>0</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\flags_irql</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\flags_irql</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>true</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverRules>
+    <DriverRules>
+      <RuleName>init_deregisterinterrupt.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName>SDV_PNP_HARNESS_INIT.h</RuleHarnessName>
+      <RuleMessage>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on init_deregisterinterrupt.fsm : This rule is not applicable.</RuleMessage>
+      <RuleCleanedName>init_deregisterinterrupt</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\notapplicable.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>SDV_NA</RuleResult>
+      <PreconditionResult>SDV_PASSED</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>0</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\init_deregisterinterrupt</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\init_deregisterinterrupt</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>true</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverRules>
+    <DriverRules>
+      <RuleName>init_ndisallocateioworkitem.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName>SDV_PNP_HARNESS_INIT.h</RuleHarnessName>
+      <RuleMessage>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on init_ndisallocateioworkitem.fsm : This rule is not applicable.</RuleMessage>
+      <RuleCleanedName>init_ndisallocateioworkitem</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\notapplicable.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>SDV_NA</RuleResult>
+      <PreconditionResult>SDV_PASSED</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>0</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\init_ndisallocateioworkitem</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\init_ndisallocateioworkitem</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>true</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverRules>
+    <DriverRules>
+      <RuleName>init_registerinterrupt.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName>SDV_PNP_HARNESS_INIT.h</RuleHarnessName>
+      <RuleMessage>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on init_registerinterrupt.fsm : This rule is not applicable.</RuleMessage>
+      <RuleCleanedName>init_registerinterrupt</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\notapplicable.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>SDV_NA</RuleResult>
+      <PreconditionResult>SDV_PASSED</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>0</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\init_registerinterrupt</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\init_registerinterrupt</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>true</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverRules>
+    <DriverRules>
+      <RuleName>init_registersg.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName>SDV_PNP_HARNESS_INIT.h</RuleHarnessName>
+      <RuleMessage>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on init_registersg.fsm : This rule is not applicable.</RuleMessage>
+      <RuleCleanedName>init_registersg</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\notapplicable.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>SDV_NA</RuleResult>
+      <PreconditionResult>SDV_PASSED</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>0</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\init_registersg</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\init_registersg</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>true</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverRules>
+    <DriverRules>
+      <RuleName>miniportpause_return.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName>SDV_PNP_HARNESS_PAUSE.h</RuleHarnessName>
+      <RuleMessage>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on miniportpause_return.fsm : This rule is not applicable.</RuleMessage>
+      <RuleCleanedName>miniportpause_return</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\notapplicable.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>SDV_NA</RuleResult>
+      <PreconditionResult>SDV_PASSED</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>0</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\miniportpause_return</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\miniportpause_return</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>true</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverRules>
+    <DriverRules>
+      <RuleName>ndisallocatememorywithtagpriority.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName>SDV_IFLAT_HARNESS.h</RuleHarnessName>
+      <RuleMessage>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on ndisallocatememorywithtagpriority.fsm : This rule is not applicable.</RuleMessage>
+      <RuleCleanedName>ndisallocatememorywithtagpriority</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\notapplicable.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>SDV_NA</RuleResult>
+      <PreconditionResult>SDV_PASSED</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>0</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\ndisallocatememorywithtagpriority</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\ndisallocatememorywithtagpriority</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>true</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverRules>
+    <DriverRules>
+      <RuleName>ndismfreesharedmemory.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName>SDV_MP_PNP_HARNESS_SHUTDOWN.h</RuleHarnessName>
+      <RuleMessage>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on ndismfreesharedmemory.fsm : This rule is not applicable.</RuleMessage>
+      <RuleCleanedName>ndismfreesharedmemory</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\notapplicable.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>SDV_NA</RuleResult>
+      <PreconditionResult>SDV_PASSED</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>0</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\ndismfreesharedmemory</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\ndismfreesharedmemory</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>true</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverRules>
+    <DriverRules>
+      <RuleName>ndismnetpnpeventinoidrequest.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName>SDV_MP_PNP_HARNESS_OID_REQUEST.h</RuleHarnessName>
+      <RuleMessage>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on ndismnetpnpeventinoidrequest.fsm : This rule is not applicable.</RuleMessage>
+      <RuleCleanedName>ndismnetpnpeventinoidrequest</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\notapplicable.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>SDV_NA</RuleResult>
+      <PreconditionResult>SDV_PASSED</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>0</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\ndismnetpnpeventinoidrequest</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\ndismnetpnpeventinoidrequest</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>true</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverRules>
+    <DriverRules>
+      <RuleName>ndisreenumerateprotocolbindings.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName>SDV_PROT_PNP_HARNESS_BINDING.h</RuleHarnessName>
+      <RuleMessage>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on ndisreenumerateprotocolbindings.fsm : This rule is not applicable.</RuleMessage>
+      <RuleCleanedName>ndisreenumerateprotocolbindings</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\notapplicable.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>SDV_NA</RuleResult>
+      <PreconditionResult>SDV_PASSED</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>0</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\ndisreenumerateprotocolbindings</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\ndisreenumerateprotocolbindings</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>true</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverRules>
+    <DriverRules>
+      <RuleName>writeerrorlog.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName>SDV_MP_PNP_HARNESS_INIT.h</RuleHarnessName>
+      <RuleMessage>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on writeerrorlog.fsm : This rule is not applicable.</RuleMessage>
+      <RuleCleanedName>writeerrorlog</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\notapplicable.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>SDV_NA</RuleResult>
+      <PreconditionResult>SDV_PASSED</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>0</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\writeerrorlog</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\writeerrorlog</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>true</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverRules>
+    <DriverRules>
+      <RuleName>pre_isminiport.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName />
+      <RuleMessage>Tool Error D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on pre_isminiport.fsm :Fails Rule (0 errors)...</RuleMessage>
+      <RuleCleanedName>pre_isminiport</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\notapplicable.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>SDV_NA</RuleResult>
+      <PreconditionResult>SDV_NA</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>0.288</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\pre_isminiport</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\pre_isminiport</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>true</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>false</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverRules>
+    <DriverRules>
+      <RuleName>pre_isprotocol.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName />
+      <RuleMessage>Tool Error D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on pre_isprotocol.fsm :Fails Rule (0 errors)...</RuleMessage>
+      <RuleCleanedName>pre_isprotocol</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\notapplicable.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>SDV_NA</RuleResult>
+      <PreconditionResult>SDV_NA</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>0.31</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\pre_isprotocol</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\pre_isprotocol</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>true</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>false</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverRules>
+    <DriverRules>
+      <RuleName>pre_islwf.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName />
+      <RuleMessage>Tool Error D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on pre_islwf.fsm :Fails Rule (0 errors)...</RuleMessage>
+      <RuleCleanedName>pre_islwf</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\error.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>COMPLETED</RuleResult>
+      <PreconditionResult>SDV_FAILED</PreconditionResult>
+      <RuleNumberOfErrors>1</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>1.876</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\pre_islwf</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\pre_islwf</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <ResultCollection>
+        <Result xmlns="http://www.microsoft.com/StaticDV">This is a filter driver</Result>
+        <ResultNumberFalseErrors xmlns="http://www.microsoft.com/StaticDV">0</ResultNumberFalseErrors>
+        <ResultError xmlns="http://www.microsoft.com/StaticDV">1</ResultError>
+        <ResultIterations xmlns="http://www.microsoft.com/StaticDV">1</ResultIterations>
+        <ResultRunTime xmlns="http://www.microsoft.com/StaticDV">1.859</ResultRunTime>
+        <ResultName xmlns="http://www.microsoft.com/StaticDV" />
+        <ResultDescription xmlns="http://www.microsoft.com/StaticDV">This is a filter driver</ResultDescription>
+        <ResultIconFile xmlns="http://www.microsoft.com/StaticDV">images\error.png</ResultIconFile>
+        <ResultHaveTrace xmlns="http://www.microsoft.com/StaticDV">true</ResultHaveTrace>
+        <ResultDefect xmlns="http://www.microsoft.com/StaticDV">
+          <DefectPath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\pre_islwf\bug1</DefectPath>
+          <DefectMd5Value />
+          <DefectXmlFile />
+          <DefectMessage>This is a filter driver</DefectMessage>
+          <DefectSfaCollection>
+            <SfaFileName>"d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c"</SfaFileName>
+            <SfaFunctionName>DriverEntry</SfaFunctionName>
+            <SfaLineNumber>306</SfaLineNumber>
+          </DefectSfaCollection>
+          <DefectRank>0</DefectRank>
+          <DefectSeverity>0</DefectSeverity>
+          <DefectPriority>0</DefectPriority>
+          <DefectCertainty>0</DefectCertainty>
+        </ResultDefect>
+      </ResultCollection>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>true</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>false</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>true</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverRules>
+    <DriverPreConditionRules>
+      <RuleName>pre_isminiport.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName />
+      <RuleMessage>Tool Error D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on pre_isminiport.fsm :Fails Rule (0 errors)...</RuleMessage>
+      <RuleCleanedName>pre_isminiport</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\notapplicable.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>SDV_NA</RuleResult>
+      <PreconditionResult>SDV_NA</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>0.288</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\pre_isminiport</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\pre_isminiport</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>true</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>false</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverPreConditionRules>
+    <DriverPreConditionRules>
+      <RuleName>pre_isprotocol.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName />
+      <RuleMessage>Tool Error D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on pre_isprotocol.fsm :Fails Rule (0 errors)...</RuleMessage>
+      <RuleCleanedName>pre_isprotocol</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\notapplicable.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>SDV_NA</RuleResult>
+      <PreconditionResult>SDV_NA</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>0.31</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\pre_isprotocol</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\pre_isprotocol</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>true</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>false</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverPreConditionRules>
+    <DriverPreConditionRules>
+      <RuleName>pre_islwf.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName />
+      <RuleMessage>Tool Error D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on pre_islwf.fsm :Fails Rule (0 errors)...</RuleMessage>
+      <RuleCleanedName>pre_islwf</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\error.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>COMPLETED</RuleResult>
+      <PreconditionResult>SDV_FAILED</PreconditionResult>
+      <RuleNumberOfErrors>1</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>1.876</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\pre_islwf</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\pre_islwf</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <ResultCollection>
+        <Result xmlns="http://www.microsoft.com/StaticDV">This is a filter driver</Result>
+        <ResultNumberFalseErrors xmlns="http://www.microsoft.com/StaticDV">0</ResultNumberFalseErrors>
+        <ResultError xmlns="http://www.microsoft.com/StaticDV">1</ResultError>
+        <ResultIterations xmlns="http://www.microsoft.com/StaticDV">1</ResultIterations>
+        <ResultRunTime xmlns="http://www.microsoft.com/StaticDV">1.859</ResultRunTime>
+        <ResultName xmlns="http://www.microsoft.com/StaticDV" />
+        <ResultDescription xmlns="http://www.microsoft.com/StaticDV">This is a filter driver</ResultDescription>
+        <ResultIconFile xmlns="http://www.microsoft.com/StaticDV">images\error.png</ResultIconFile>
+        <ResultHaveTrace xmlns="http://www.microsoft.com/StaticDV">true</ResultHaveTrace>
+        <ResultDefect xmlns="http://www.microsoft.com/StaticDV">
+          <DefectPath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\pre_islwf\bug1</DefectPath>
+          <DefectMd5Value />
+          <DefectXmlFile />
+          <DefectMessage>This is a filter driver</DefectMessage>
+          <DefectSfaCollection>
+            <SfaFileName>"d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c"</SfaFileName>
+            <SfaFunctionName>DriverEntry</SfaFunctionName>
+            <SfaLineNumber>306</SfaLineNumber>
+          </DefectSfaCollection>
+          <DefectRank>0</DefectRank>
+          <DefectSeverity>0</DefectSeverity>
+          <DefectPriority>0</DefectPriority>
+          <DefectCertainty>0</DefectCertainty>
+        </ResultDefect>
+      </ResultCollection>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>true</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>false</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>true</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverPreConditionRules>
+    <DriverPreprocessedRules>
+      <RuleName>doublecomplete.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName>SDV_MP_PNP_HARNESS_OID_REQUEST.h</RuleHarnessName>
+      <RuleMessage>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on doublecomplete.fsm : This rule is not applicable.</RuleMessage>
+      <RuleCleanedName>doublecomplete</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\notapplicable.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>SDV_NA</RuleResult>
+      <PreconditionResult>SDV_PASSED</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>0</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\doublecomplete</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\doublecomplete</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>true</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverPreprocessedRules>
+    <DriverPreprocessedRules>
+      <RuleName>doublecompleteworkitem.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName>SDV_MP_PNP_HARNESS_OID_REQUEST.h</RuleHarnessName>
+      <RuleMessage>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on doublecompleteworkitem.fsm : This rule is not applicable.</RuleMessage>
+      <RuleCleanedName>doublecompleteworkitem</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\notapplicable.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>SDV_NA</RuleResult>
+      <PreconditionResult>SDV_PASSED</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>0</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\doublecompleteworkitem</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\doublecompleteworkitem</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>true</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverPreprocessedRules>
+    <DriverPreprocessedRules>
+      <RuleName>flags_irql.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName>SDV_IFLAT_HARNESS.h</RuleHarnessName>
+      <RuleMessage>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on flags_irql.fsm : This rule is not applicable.</RuleMessage>
+      <RuleCleanedName>flags_irql</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\notapplicable.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>SDV_NA</RuleResult>
+      <PreconditionResult>SDV_PASSED</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>0</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\flags_irql</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\flags_irql</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>true</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverPreprocessedRules>
+    <DriverPreprocessedRules>
+      <RuleName>init_deregisterinterrupt.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName>SDV_PNP_HARNESS_INIT.h</RuleHarnessName>
+      <RuleMessage>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on init_deregisterinterrupt.fsm : This rule is not applicable.</RuleMessage>
+      <RuleCleanedName>init_deregisterinterrupt</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\notapplicable.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>SDV_NA</RuleResult>
+      <PreconditionResult>SDV_PASSED</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>0</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\init_deregisterinterrupt</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\init_deregisterinterrupt</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>true</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverPreprocessedRules>
+    <DriverPreprocessedRules>
+      <RuleName>init_ndisallocateioworkitem.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName>SDV_PNP_HARNESS_INIT.h</RuleHarnessName>
+      <RuleMessage>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on init_ndisallocateioworkitem.fsm : This rule is not applicable.</RuleMessage>
+      <RuleCleanedName>init_ndisallocateioworkitem</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\notapplicable.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>SDV_NA</RuleResult>
+      <PreconditionResult>SDV_PASSED</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>0</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\init_ndisallocateioworkitem</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\init_ndisallocateioworkitem</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>true</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverPreprocessedRules>
+    <DriverPreprocessedRules>
+      <RuleName>init_registerinterrupt.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName>SDV_PNP_HARNESS_INIT.h</RuleHarnessName>
+      <RuleMessage>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on init_registerinterrupt.fsm : This rule is not applicable.</RuleMessage>
+      <RuleCleanedName>init_registerinterrupt</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\notapplicable.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>SDV_NA</RuleResult>
+      <PreconditionResult>SDV_PASSED</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>0</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\init_registerinterrupt</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\init_registerinterrupt</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>true</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverPreprocessedRules>
+    <DriverPreprocessedRules>
+      <RuleName>init_registersg.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName>SDV_PNP_HARNESS_INIT.h</RuleHarnessName>
+      <RuleMessage>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on init_registersg.fsm : This rule is not applicable.</RuleMessage>
+      <RuleCleanedName>init_registersg</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\notapplicable.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>SDV_NA</RuleResult>
+      <PreconditionResult>SDV_PASSED</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>0</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\init_registersg</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\init_registersg</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>true</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverPreprocessedRules>
+    <DriverPreprocessedRules>
+      <RuleName>miniportpause_return.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName>SDV_PNP_HARNESS_PAUSE.h</RuleHarnessName>
+      <RuleMessage>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on miniportpause_return.fsm : This rule is not applicable.</RuleMessage>
+      <RuleCleanedName>miniportpause_return</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\notapplicable.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>SDV_NA</RuleResult>
+      <PreconditionResult>SDV_PASSED</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>0</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\miniportpause_return</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\miniportpause_return</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>true</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverPreprocessedRules>
+    <DriverPreprocessedRules>
+      <RuleName>ndisallocatememorywithtagpriority.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName>SDV_IFLAT_HARNESS.h</RuleHarnessName>
+      <RuleMessage>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on ndisallocatememorywithtagpriority.fsm : This rule is not applicable.</RuleMessage>
+      <RuleCleanedName>ndisallocatememorywithtagpriority</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\notapplicable.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>SDV_NA</RuleResult>
+      <PreconditionResult>SDV_PASSED</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>0</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\ndisallocatememorywithtagpriority</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\ndisallocatememorywithtagpriority</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>true</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverPreprocessedRules>
+    <DriverPreprocessedRules>
+      <RuleName>ndismfreesharedmemory.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName>SDV_MP_PNP_HARNESS_SHUTDOWN.h</RuleHarnessName>
+      <RuleMessage>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on ndismfreesharedmemory.fsm : This rule is not applicable.</RuleMessage>
+      <RuleCleanedName>ndismfreesharedmemory</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\notapplicable.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>SDV_NA</RuleResult>
+      <PreconditionResult>SDV_PASSED</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>0</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\ndismfreesharedmemory</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\ndismfreesharedmemory</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>true</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverPreprocessedRules>
+    <DriverPreprocessedRules>
+      <RuleName>ndismnetpnpeventinoidrequest.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName>SDV_MP_PNP_HARNESS_OID_REQUEST.h</RuleHarnessName>
+      <RuleMessage>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on ndismnetpnpeventinoidrequest.fsm : This rule is not applicable.</RuleMessage>
+      <RuleCleanedName>ndismnetpnpeventinoidrequest</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\notapplicable.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>SDV_NA</RuleResult>
+      <PreconditionResult>SDV_PASSED</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>0</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\ndismnetpnpeventinoidrequest</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\ndismnetpnpeventinoidrequest</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>true</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverPreprocessedRules>
+    <DriverPreprocessedRules>
+      <RuleName>ndisreenumerateprotocolbindings.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName>SDV_PROT_PNP_HARNESS_BINDING.h</RuleHarnessName>
+      <RuleMessage>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on ndisreenumerateprotocolbindings.fsm : This rule is not applicable.</RuleMessage>
+      <RuleCleanedName>ndisreenumerateprotocolbindings</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\notapplicable.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>SDV_NA</RuleResult>
+      <PreconditionResult>SDV_PASSED</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>0</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\ndisreenumerateprotocolbindings</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\ndisreenumerateprotocolbindings</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>true</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverPreprocessedRules>
+    <DriverPreprocessedRules>
+      <RuleName>writeerrorlog.fsm</RuleName>
+      <RoleSignature />
+      <RoleCount>0</RoleCount>
+      <RuleHarnessName>SDV_MP_PNP_HARNESS_INIT.h</RuleHarnessName>
+      <RuleMessage>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver on writeerrorlog.fsm : This rule is not applicable.</RuleMessage>
+      <RuleCleanedName>writeerrorlog</RuleCleanedName>
+      <RuleDisplayName />
+      <RuleIcon>images\notapplicable.png</RuleIcon>
+      <RuleErrorMessage />
+      <RuleResult>SDV_NA</RuleResult>
+      <PreconditionResult>SDV_PASSED</PreconditionResult>
+      <RuleNumberOfErrors>0</RuleNumberOfErrors>
+      <RuleNumberFalseErrors>0</RuleNumberFalseErrors>
+      <RuleTimeTaken>0</RuleTimeTaken>
+      <RuleType>
+        <RuleType xsi:type="xsd:string">test</RuleType>
+      </RuleType>
+      <Category />
+      <OSVersion />
+      <DdkVersion />
+      <RuleDescription />
+      <RuleSlicFile />
+      <RuleVersion>1.4</RuleVersion>
+      <RuleVendor>Microsoft</RuleVendor>
+      <RuleCopyright>Copyright (C) Microsoft Corporation.  All rights reserved.</RuleCopyright>
+      <RuleSpecFile />
+      <RuleSlamVersion>1.4</RuleSlamVersion>
+      <RuleOwner>Microsoft</RuleOwner>
+      <RuleAuthor>Microsoft</RuleAuthor>
+      <RulePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\check\writeerrorlog</RulePath>
+      <RuleReusePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\reuse\writeerrorlog</RuleReusePath>
+      <RuleDuplicateName>false</RuleDuplicateName>
+      <Checking>false</Checking>
+      <RuleActive>true</RuleActive>
+      <RuleReleased>false</RuleReleased>
+      <RuleRevision>0</RuleRevision>
+      <RuleDateCreated>2008-01-01T00:00:00</RuleDateCreated>
+      <RuleDateModified>2008-01-01T00:00:00</RuleDateModified>
+      <RuleIsValid>true</RuleIsValid>
+      <RuleCheck>true</RuleCheck>
+      <PreCondition>false</PreCondition>
+      <IsWarningRule>false</IsWarningRule>
+      <PreProcessor>true</PreProcessor>
+      <RuleHasResult>true</RuleHasResult>
+      <RuleRefine>false</RuleRefine>
+      <SingleDefect>false</SingleDefect>
+      <RuleAutomaticEngine>false</RuleAutomaticEngine>
+    </DriverPreprocessedRules>
+    <DriverScan>true</DriverScan>
+    <Driver_Debug>false</Driver_Debug>
+    <Driver_Local>false</Driver_Local>
+    <Approved>false</Approved>
+    <DriverBuild>true</DriverBuild>
+    <DriverCompile>true</DriverCompile>
+    <DriverUnsupported>false</DriverUnsupported>
+    <DriverCheck>true</DriverCheck>
+    <DriverReport>false</DriverReport>
+    <DriverLink>true</DriverLink>
+    <SlamLinkCalled>false</SlamLinkCalled>
+    <DriverLib>false</DriverLib>
+    <DriverIsValid>true</DriverIsValid>
+    <DriverCPlus>false</DriverCPlus>
+    <DriverEntries>true</DriverEntries>
+    <SDVEntryPoints>
+      <SDVEntryPointName>fun_DriverEntry</SDVEntryPointName>
+      <SDVEntryPointAdd>false</SDVEntryPointAdd>
+      <SDVEntryPointRemove>false</SDVEntryPointRemove>
+      <SDVEntryPointFunctionNames xsi:type="xsd:string">DriverEntry</SDVEntryPointFunctionNames>
+    </SDVEntryPoints>
+    <SDVEntryPoints>
+      <SDVEntryPointName>fun_FILTER_ATTACH</SDVEntryPointName>
+      <SDVEntryPointAdd>false</SDVEntryPointAdd>
+      <SDVEntryPointRemove>false</SDVEntryPointRemove>
+      <SDVEntryPointFunctionNames xsi:type="xsd:string">FilterAttach</SDVEntryPointFunctionNames>
+    </SDVEntryPoints>
+    <SDVEntryPoints>
+      <SDVEntryPointName>fun_FILTER_CANCEL_OID_REQUEST</SDVEntryPointName>
+      <SDVEntryPointAdd>false</SDVEntryPointAdd>
+      <SDVEntryPointRemove>false</SDVEntryPointRemove>
+      <SDVEntryPointFunctionNames xsi:type="xsd:string">FilterCancelOidRequest</SDVEntryPointFunctionNames>
+    </SDVEntryPoints>
+    <SDVEntryPoints>
+      <SDVEntryPointName>fun_FILTER_CANCEL_SEND_NET_BUFFER_LISTS</SDVEntryPointName>
+      <SDVEntryPointAdd>false</SDVEntryPointAdd>
+      <SDVEntryPointRemove>false</SDVEntryPointRemove>
+      <SDVEntryPointFunctionNames xsi:type="xsd:string">FilterCancelSendNetBufferLists</SDVEntryPointFunctionNames>
+    </SDVEntryPoints>
+    <SDVEntryPoints>
+      <SDVEntryPointName>fun_FILTER_DETACH</SDVEntryPointName>
+      <SDVEntryPointAdd>false</SDVEntryPointAdd>
+      <SDVEntryPointRemove>false</SDVEntryPointRemove>
+      <SDVEntryPointFunctionNames xsi:type="xsd:string">FilterDetach</SDVEntryPointFunctionNames>
+    </SDVEntryPoints>
+    <SDVEntryPoints>
+      <SDVEntryPointName>fun_FILTER_DEVICE_PNP_EVENT_NOTIFY</SDVEntryPointName>
+      <SDVEntryPointAdd>false</SDVEntryPointAdd>
+      <SDVEntryPointRemove>false</SDVEntryPointRemove>
+      <SDVEntryPointFunctionNames xsi:type="xsd:string">FilterDevicePnPEventNotify</SDVEntryPointFunctionNames>
+    </SDVEntryPoints>
+    <SDVEntryPoints>
+      <SDVEntryPointName>fun_FILTER_DRIVER_UNLOAD</SDVEntryPointName>
+      <SDVEntryPointAdd>false</SDVEntryPointAdd>
+      <SDVEntryPointRemove>false</SDVEntryPointRemove>
+      <SDVEntryPointFunctionNames xsi:type="xsd:string">FilterUnload</SDVEntryPointFunctionNames>
+    </SDVEntryPoints>
+    <SDVEntryPoints>
+      <SDVEntryPointName>fun_FILTER_NET_PNP_EVENT</SDVEntryPointName>
+      <SDVEntryPointAdd>false</SDVEntryPointAdd>
+      <SDVEntryPointRemove>false</SDVEntryPointRemove>
+      <SDVEntryPointFunctionNames xsi:type="xsd:string">FilterNetPnPEvent</SDVEntryPointFunctionNames>
+    </SDVEntryPoints>
+    <SDVEntryPoints>
+      <SDVEntryPointName>fun_FILTER_OID_REQUEST</SDVEntryPointName>
+      <SDVEntryPointAdd>false</SDVEntryPointAdd>
+      <SDVEntryPointRemove>false</SDVEntryPointRemove>
+      <SDVEntryPointFunctionNames xsi:type="xsd:string">FilterOidRequest</SDVEntryPointFunctionNames>
+    </SDVEntryPoints>
+    <SDVEntryPoints>
+      <SDVEntryPointName>fun_FILTER_OID_REQUEST_COMPLETE</SDVEntryPointName>
+      <SDVEntryPointAdd>false</SDVEntryPointAdd>
+      <SDVEntryPointRemove>false</SDVEntryPointRemove>
+      <SDVEntryPointFunctionNames xsi:type="xsd:string">FilterOidRequestComplete</SDVEntryPointFunctionNames>
+    </SDVEntryPoints>
+    <SDVEntryPoints>
+      <SDVEntryPointName>fun_FILTER_PAUSE</SDVEntryPointName>
+      <SDVEntryPointAdd>false</SDVEntryPointAdd>
+      <SDVEntryPointRemove>false</SDVEntryPointRemove>
+      <SDVEntryPointFunctionNames xsi:type="xsd:string">FilterPause</SDVEntryPointFunctionNames>
+    </SDVEntryPoints>
+    <SDVEntryPoints>
+      <SDVEntryPointName>fun_FILTER_RECEIVE_NET_BUFFER_LISTS</SDVEntryPointName>
+      <SDVEntryPointAdd>false</SDVEntryPointAdd>
+      <SDVEntryPointRemove>false</SDVEntryPointRemove>
+      <SDVEntryPointFunctionNames xsi:type="xsd:string">FilterReceiveNetBufferLists</SDVEntryPointFunctionNames>
+    </SDVEntryPoints>
+    <SDVEntryPoints>
+      <SDVEntryPointName>fun_FILTER_RESTART</SDVEntryPointName>
+      <SDVEntryPointAdd>false</SDVEntryPointAdd>
+      <SDVEntryPointRemove>false</SDVEntryPointRemove>
+      <SDVEntryPointFunctionNames xsi:type="xsd:string">FilterRestart</SDVEntryPointFunctionNames>
+    </SDVEntryPoints>
+    <SDVEntryPoints>
+      <SDVEntryPointName>fun_FILTER_RETURN_NET_BUFFER_LISTS</SDVEntryPointName>
+      <SDVEntryPointAdd>false</SDVEntryPointAdd>
+      <SDVEntryPointRemove>false</SDVEntryPointRemove>
+      <SDVEntryPointFunctionNames xsi:type="xsd:string">FilterReturnNetBufferLists</SDVEntryPointFunctionNames>
+    </SDVEntryPoints>
+    <SDVEntryPoints>
+      <SDVEntryPointName>fun_FILTER_SEND_NET_BUFFER_LISTS</SDVEntryPointName>
+      <SDVEntryPointAdd>false</SDVEntryPointAdd>
+      <SDVEntryPointRemove>false</SDVEntryPointRemove>
+      <SDVEntryPointFunctionNames xsi:type="xsd:string">FilterSendNetBufferLists</SDVEntryPointFunctionNames>
+    </SDVEntryPoints>
+    <SDVEntryPoints>
+      <SDVEntryPointName>fun_FILTER_SEND_NET_BUFFER_LISTS_COMPLETE</SDVEntryPointName>
+      <SDVEntryPointAdd>false</SDVEntryPointAdd>
+      <SDVEntryPointRemove>false</SDVEntryPointRemove>
+      <SDVEntryPointFunctionNames xsi:type="xsd:string">FilterSendNetBufferListsComplete</SDVEntryPointFunctionNames>
+    </SDVEntryPoints>
+    <SDVEntryPoints>
+      <SDVEntryPointName>fun_FILTER_SET_MODULE_OPTIONS</SDVEntryPointName>
+      <SDVEntryPointAdd>false</SDVEntryPointAdd>
+      <SDVEntryPointRemove>false</SDVEntryPointRemove>
+      <SDVEntryPointFunctionNames xsi:type="xsd:string">FilterSetModuleOptions</SDVEntryPointFunctionNames>
+    </SDVEntryPoints>
+    <SDVEntryPoints>
+      <SDVEntryPointName>fun_FILTER_SET_OPTIONS</SDVEntryPointName>
+      <SDVEntryPointAdd>false</SDVEntryPointAdd>
+      <SDVEntryPointRemove>false</SDVEntryPointRemove>
+      <SDVEntryPointFunctionNames xsi:type="xsd:string">FilterRegisterOptions</SDVEntryPointFunctionNames>
+    </SDVEntryPoints>
+    <SDVEntryPoints>
+      <SDVEntryPointName>fun_FILTER_STATUS</SDVEntryPointName>
+      <SDVEntryPointAdd>false</SDVEntryPointAdd>
+      <SDVEntryPointRemove>false</SDVEntryPointRemove>
+      <SDVEntryPointFunctionNames xsi:type="xsd:string">FilterStatus</SDVEntryPointFunctionNames>
+    </SDVEntryPoints>
+    <SDVDriverSlamConfigObject>
+      <SlamFlags>-halt_labels -gate RunDispatchFunction -halt_labels -gate RunDispatchFunction -driver -arrays   -field_pa_version nocollapse -max_fields_nocollapse 5</SlamFlags>
+      <SlamclFlags> /D_SDV_ "-ID:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver" "-ID:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\scan" "-IC:\Program Files (x86)\Windows Kits\8.1\TOOLS\SDV\osmodel\ndis" "/FIC:\Program Files (x86)\Windows Kits\8.1\TOOLS\SDV\osmodel\ndis\SDV_cl_frontend.h"</SlamclFlags>
+      <ScannerFlags>  --input slamall.obj --output slamscanner.obj --entry_points_base "C:\Program Files (x86)\Windows Kits\8.1\TOOLS\SDV\osmodel\ndis\dispatch_routines.h" /D_SDV_</ScannerFlags>
+      <SlamCFlags> --input slamdrv.obj --entry_points_base "C:\Program Files (x86)\Windows Kits\8.1\TOOLS\SDV\osmodel\ndis\dispatch_routines.h" /D_SDV_</SlamCFlags>
+      <SDV_SlamConfig_Maximum_Driver_Size>100000</SDV_SlamConfig_Maximum_Driver_Size>
+      <SDV_SlamConfig_Timeout>3000</SDV_SlamConfig_Timeout>
+      <SDV_SlamConfig_Spaceout>1800</SDV_SlamConfig_Spaceout>
+      <SDV_SlamConfig_NumberOfThreads>8</SDV_SlamConfig_NumberOfThreads>
+      <SDV_SlamConfig_Model_Export_Libraries />
+      <SDV_SlamConfig_Osmodel_Libraries>no_cfg_support.lib,bufferoverflowfastfailk.lib,csq.lib,int64.lib,ndis.lib,rtlver.lib,ntstrsafe.lib,sehupd.lib,wdmsec.lib,wdm.lib,ntoskrnl.lib,BufferOverflowK.lib,hal.lib,wmilib.lib,memcmp.lib,armrt.lib</SDV_SlamConfig_Osmodel_Libraries>
+      <SDV_engine>C:\Program Files (x86)\Windows Kits\8.1\TOOLS\SDV\bin\engine\engineq</SDV_engine>
+      <SDV_engine_backup />
+      <SDV_frontend>esp</SDV_frontend>
+    </SDVDriverSlamConfigObject>
+    <DriverTimeTaken>0</DriverTimeTaken>
+    <DriverBuildLog />
+    <DriverCompileLog />
+    <DriverScanLog />
+    <DriverMapFile />
+    <DriverStartTime>2003-01-01T00:00:00</DriverStartTime>
+    <DriverEndTime>2003-01-01T00:00:00</DriverEndTime>
+    <DriverBuildStartTime>2003-01-01T00:00:00</DriverBuildStartTime>
+    <DriverBuildEndTime>2003-01-01T00:00:00</DriverBuildEndTime>
+    <DriverCompileStartTime>2003-01-01T00:00:00</DriverCompileStartTime>
+    <DriverCompileEndTime>2003-01-01T00:00:00</DriverCompileEndTime>
+    <DriverScanStartTime>2003-01-01T00:00:00</DriverScanStartTime>
+    <DriverScanEndTime>2003-01-01T00:00:00</DriverScanEndTime>
+    <DriverCheckStartaTime>2003-01-01T00:00:00</DriverCheckStartaTime>
+    <DriverCheckEndTime>2003-01-01T00:00:00</DriverCheckEndTime>
+    <DriverReportStartTime>2003-01-01T00:00:00</DriverReportStartTime>
+    <DriverReportEndTime>2003-01-01T00:00:00</DriverReportEndTime>
+    <DriverDateCreated>2003-01-01T00:00:00</DriverDateCreated>
+    <DriverDateModified>2003-01-01T00:00:00</DriverDateModified>
+    <DriverVersion />
+    <DriverAuthor />
+    <DriverOnwer />
+    <DriverVendor />
+    <DriverCopyright />
+    <DriverRevision>0</DriverRevision>
+    <DriverReleased>false</DriverReleased>
+    <SDVDriverLink>
+      <SDVLinkName>d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\x64\win8release\ndisfilterdriver.sys</SDVLinkName>
+      <SDVLinkCommand> /ERRORREPORT:QUEUE /VERSION:"6.3" /INCREMENTAL:NO /NOLOGO /WX /SECTION:"INIT,d" /NODEFAULTLIB /MANIFEST:NO /DEBUG /PDB:"D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\x64\Win8Release\NDISFilterDriver.pdb" /SUBSYSTEM:NATIVE,"6.02" /Driver /OPT:REF /OPT:ICF /ENTRY:"GsDriverEntry" /RELEASE /IMPLIB:"D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\x64\Win8Release\NDISFilterDriver.lib" /MERGE:"_TEXT=.text;_PAGE=PAGE" /MACHINE:X64 /PROFILE /kernel /IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221,4108,4088,4218,4218,4235 /osversion:6.3 /pdbcompress /debugtype:pdata</SDVLinkCommand>
+      <SDVLinkEntry>/ENTRY:"GsDriverEntry"</SDVLinkEntry>
+      <SDVLinkSubSystem>/SUBSYSTEM:NATIVE,"6.02"</SDVLinkSubSystem>
+      <SDVLinkBase />
+      <SDVLinkStack />
+      <SDVLinkVersion>/VERSION:"6.3"</SDVLinkVersion>
+      <SDVLinkOsVersion>6.3</SDVLinkOsVersion>
+      <SDVLinkIncremental>NO</SDVLinkIncremental>
+      <SDVLinkOpt>REF ICF</SDVLinkOpt>
+      <SDVLinkSection>REF ICF</SDVLinkSection>
+      <SDVLinkMerge>"_TEXT=.text;_PAGE=PAGE"</SDVLinkMerge>
+      <SDVTemporaryName />
+      <SDVLinkPath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver</SDVLinkPath>
+      <SDVLinkRelativePath />
+      <SDVLinkSwitchIgnore>4198,4010,4037,4039,4065,4070,4078,4087,4089,4221,4108,4088,4218,4218,4235</SDVLinkSwitchIgnore>
+      <SDVLinkSwitchMachine />
+      <SDVLinkSwitchDebugType>pdata</SDVLinkSwitchDebugType>
+      <SDVLinkObjects>
+        <SdvObjectPath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver</SdvObjectPath>
+        <SdvObjectRelativePath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\x64\Win8Release\precomp.obj#D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\x64\Win8Release\filter.obj#D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\x64\Win8Release\device.obj#D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\x64\Win8Release\</SdvObjectRelativePath>
+        <SdvObjectName>flt_dbg.obj#</SdvObjectName>
+        <SdvObjectSrcName />
+        <SdvObjectSrcPath />
+        <SdvLibOrder>0</SdvLibOrder>
+        <SDVExternal>false</SDVExternal>
+      </SDVLinkObjects>
+      <SDVLinkLinkLibraries>
+        <DriverMapFile />
+        <SDV_Plugin_Model />
+        <Include />
+        <SDVCFlags />
+        <LibLoc>0</LibLoc>
+        <SDVLibraryName>bufferoverflowfastfailk.lib</SDVLibraryName>
+        <SdvLibMCNew />
+        <SdvLibMCOld />
+        <SDVTemporaryName />
+        <Vcxproj />
+        <NewLibPath>NDISFilterDriver</NewLibPath>
+        <SdvLibPath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver</SdvLibPath>
+        <SdvLibRelativePath>C:\PROGRAM FILES (X86)\WINDOWS KITS\8.1\LIB\WIN8\KM\X64\BUFFEROVERFLOWFASTFAILK.LIB</SdvLibRelativePath>
+        <SdvLibSwitchIgnore />
+        <SdvLibSwitchMachine />
+        <SdvLibSwitchDefFile />
+        <SdvLibLibOrder>0</SdvLibLibOrder>
+        <SdvLibCPlus>false</SdvLibCPlus>
+        <SdvLibIsValid>true</SdvLibIsValid>
+        <SdvLibBuild>true</SdvLibBuild>
+        <SdvLibScan>true</SdvLibScan>
+        <SdvLibCompile>true</SdvLibCompile>
+        <SdvLibUnSupported>false</SdvLibUnSupported>
+        <SdvLibLink>true</SdvLibLink>
+        <SdvLibFound>false</SdvLibFound>
+        <SdvLibObjectsFound>false</SdvLibObjectsFound>
+        <SdvLibrariesFound>false</SdvLibrariesFound>
+        <SDVDdkLib>false</SDVDdkLib>
+        <SdvLibExternalDependency>false</SdvLibExternalDependency>
+        <SdvLibSwitchWX>false</SdvLibSwitchWX>
+        <SdvLibSwitchNoDefaultLib>false</SdvLibSwitchNoDefaultLib>
+        <SdvLibDate />
+        <SdvLibout />
+        <SdvLibDestination />
+        <SdvLibLab />
+        <SdvLibThirdParty>false</SdvLibThirdParty>
+        <SdvLibObj>0</SdvLibObj>
+      </SDVLinkLinkLibraries>
+      <SDVLinkLinkLibraries>
+        <DriverMapFile />
+        <SDV_Plugin_Model />
+        <Include />
+        <SDVCFlags />
+        <LibLoc>0</LibLoc>
+        <SDVLibraryName>ndis.lib</SDVLibraryName>
+        <SdvLibMCNew />
+        <SdvLibMCOld />
+        <SDVTemporaryName />
+        <Vcxproj />
+        <NewLibPath>NDISFilterDriver</NewLibPath>
+        <SdvLibPath>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver</SdvLibPath>
+        <SdvLibRelativePath>C:\PROGRAM FILES (X86)\WINDOWS KITS\8.1\LIB\WIN8\KM\X64\NDIS.LIB</SdvLibRelativePath>
+        <SdvLibSwitchIgnore />
+        <SdvLibSwitchMachine />
+        <SdvLibSwitchDefFile />
+        <SdvLibLibOrder>0</SdvLibLibOrder>
+        <SdvLibCPlus>false</SdvLibCPlus>
+        <SdvLibIsValid>true</SdvLibIsValid>
+        <SdvLibBuild>true</SdvLibBuild>
+        <SdvLibScan>true</SdvLibScan>
+        <SdvLibCompile>true</SdvLibCompile>
+        <SdvLibUnSupported>false</SdvLibUnSupported>
+        <SdvLibLink>true</SdvLibLink>
+        <SdvLibFound>false</SdvLibFound>
+        <SdvLibObjectsFound>false</SdvLibObjectsFound>
+        <SdvLibrariesFound>false</SdvLibrariesFound>
+        <SDVDdkLib>false</SDVDdkLib>
+        <SdvLibExternalDependency>false</SdvLibExternalDependency>
+        <SdvLibSwitchWX>false</SdvLibSwitchWX>
+        <SdvLibSwitchNoDefaultLib>false</SdvLibSwitchNoDefaultLib>
+        <SdvLibDate />
+        <SdvLibout />
+        <SdvLibDestination />
+        <SdvLibLab />
+        <SdvLibThirdParty>false</SdvLibThirdParty>
+        <SdvLibObj>0</SdvLibObj>
+      </SDVLinkLinkLibraries>
+      <SDVDdkLib>false</SDVDdkLib>
+      <SDVLinkObjectsFound>false</SDVLinkObjectsFound>
+      <SDVLinkLibrariesFound>false</SDVLinkLibrariesFound>
+      <SDVLinkSwitchWX>true</SDVLinkSwitchWX>
+      <SDVLinkSwitchNoDefaultLib>true</SDVLinkSwitchNoDefaultLib>
+      <SDVLinkDebug>true</SDVLinkDebug>
+      <SDVLinkPdbCompress>true</SDVLinkPdbCompress>
+      <SDVLinkDriver>true</SDVLinkDriver>
+      <SDVLinkRelease>true</SDVLinkRelease>
+      <SDVLinkFullBuild>false</SDVLinkFullBuild>
+      <LibDate />
+      <linkout>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\x64\Win8Release\NDISFilterDriver.sys</linkout>
+      <SDVDestination>D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\x64\Win8Release\NDISFilterDriver.sys</SDVDestination>
+      <SDVlab>LAB01_N</SDVlab>
+      <SDVThirdParty>false</SDVThirdParty>
+      <SDVLinkObj>0</SDVLinkObj>
+      <SDVLinkSwitchDef />
+    </SDVDriverLink>
+    <DRIVER_OBJECT_ROOT />
+  </SDVDrivers>
+  <SpaceRequired xmlns="http://www.microsoft.com/SDV">0</SpaceRequired>
+  <RamRequired xmlns="http://www.microsoft.com/SDV">0</RamRequired>
+  <ProcessorRequired xmlns="http://www.microsoft.com/SDV">0</ProcessorRequired>
+  <SDVTimeTaken xmlns="http://www.microsoft.com/SDV">0</SDVTimeTaken>
+  <SDVStartTime xmlns="http://www.microsoft.com/SDV">2013-12-15T13:16:58.9591282+03:00</SDVStartTime>
+  <SDVEndTime xmlns="http://www.microsoft.com/SDV">2013-12-15T13:23:14.3491374+03:00</SDVEndTime>
+  <SDVVersion xmlns="http://www.microsoft.com/SDV">4.0.500.0</SDVVersion>
+  <SlamVersion xmlns="http://www.microsoft.com/SDV" />
+  <SDVSlamWlimit xmlns="http://www.microsoft.com/SDV" />
+  <SDVSlamMetaData xmlns="http://www.microsoft.com/SDV" />
+  <SDVSlamSlicGen xmlns="http://www.microsoft.com/SDV" />
+  <SDVNumberOfChecks xmlns="http://www.microsoft.com/SDV">0</SDVNumberOfChecks>
+  <SDVNumberOfErrors xmlns="http://www.microsoft.com/SDV">0</SDVNumberOfErrors>
+  <SDVNumberOfGiveUp xmlns="http://www.microsoft.com/SDV">0</SDVNumberOfGiveUp>
+  <SDVNumberOfNA xmlns="http://www.microsoft.com/SDV">39</SDVNumberOfNA>
+  <SDVNumberOfRuleWarnings xmlns="http://www.microsoft.com/SDV">0</SDVNumberOfRuleWarnings>
+  <SDVNumberOfOOR xmlns="http://www.microsoft.com/SDV">0</SDVNumberOfOOR>
+  <SDVNumberOfSpaceOut xmlns="http://www.microsoft.com/SDV">0</SDVNumberOfSpaceOut>
+  <SDVNumberOfSlicError xmlns="http://www.microsoft.com/SDV">0</SDVNumberOfSlicError>
+  <SDVNumberOfTimeout xmlns="http://www.microsoft.com/SDV">0</SDVNumberOfTimeout>
+  <SDVNumberOfTooManyIterations xmlns="http://www.microsoft.com/SDV">0</SDVNumberOfTooManyIterations>
+  <SDVNumberOfUNKnownError xmlns="http://www.microsoft.com/SDV">9</SDVNumberOfUNKnownError>
+  <SDVNumberOfNumberOfOK xmlns="http://www.microsoft.com/SDV">0</SDVNumberOfNumberOfOK>
+  <SDVNumberOfNotStarted xmlns="http://www.microsoft.com/SDV">-35</SDVNumberOfNotStarted>
+  <SDVNumberOfToolError xmlns="http://www.microsoft.com/SDV">38</SDVNumberOfToolError>
+  <SDVNumberOfUnsupported xmlns="http://www.microsoft.com/SDV">0</SDVNumberOfUnsupported>
+  <SDVNumberOfWarnings xmlns="http://www.microsoft.com/SDV">0</SDVNumberOfWarnings>
+  <SDVNumberOfMultiError xmlns="http://www.microsoft.com/SDV">0</SDVNumberOfMultiError>
+  <SDVNumberOfDriversBuild xmlns="http://www.microsoft.com/SDV">1</SDVNumberOfDriversBuild>
+  <SDVNumberOfDriversCompile xmlns="http://www.microsoft.com/SDV">0</SDVNumberOfDriversCompile>
+  <SDVNumberOfDriversScan xmlns="http://www.microsoft.com/SDV">1</SDVNumberOfDriversScan>
+  <SDVNumberOfErrorCount xmlns="http://www.microsoft.com/SDV">0</SDVNumberOfErrorCount>
+  <SDVNumberOfChecking xmlns="http://www.microsoft.com/SDV">-127</SDVNumberOfChecking>
+  <SDVSlamConfigObject xmlns="http://www.microsoft.com/SDV">
+    <SlamFlags>-halt_labels -gate RunDispatchFunction -halt_labels -gate RunDispatchFunction -driver -arrays   -field_pa_version nocollapse -max_fields_nocollapse 5</SlamFlags>
+    <SlamclFlags> /D_SDV_ "-ID:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver" "-ID:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\scan" "-IC:\Program Files (x86)\Windows Kits\8.1\TOOLS\SDV\osmodel\ndis" "/FIC:\Program Files (x86)\Windows Kits\8.1\TOOLS\SDV\osmodel\ndis\SDV_cl_frontend.h"</SlamclFlags>
+    <ScannerFlags>  --input slamall.obj --output slamscanner.obj --entry_points_base "C:\Program Files (x86)\Windows Kits\8.1\TOOLS\SDV\osmodel\ndis\dispatch_routines.h" /D_SDV_</ScannerFlags>
+    <SlamCFlags> --input slamdrv.obj --entry_points_base "C:\Program Files (x86)\Windows Kits\8.1\TOOLS\SDV\osmodel\ndis\dispatch_routines.h" /D_SDV_</SlamCFlags>
+    <SDV_SlamConfig_Maximum_Driver_Size>100000</SDV_SlamConfig_Maximum_Driver_Size>
+    <SDV_SlamConfig_Timeout>3000</SDV_SlamConfig_Timeout>
+    <SDV_SlamConfig_Spaceout>1800</SDV_SlamConfig_Spaceout>
+    <SDV_SlamConfig_NumberOfThreads>8</SDV_SlamConfig_NumberOfThreads>
+    <SDV_SlamConfig_Model_Export_Libraries />
+    <SDV_SlamConfig_Osmodel_Libraries>no_cfg_support.lib,bufferoverflowfastfailk.lib,csq.lib,int64.lib,ndis.lib,rtlver.lib,ntstrsafe.lib,sehupd.lib,wdmsec.lib,wdm.lib,ntoskrnl.lib,BufferOverflowK.lib,hal.lib,wmilib.lib,memcmp.lib,armrt.lib</SDV_SlamConfig_Osmodel_Libraries>
+    <SDV_engine>C:\Program Files (x86)\Windows Kits\8.1\TOOLS\SDV\bin\engine\engineq</SDV_engine>
+    <SDV_engine_backup />
+    <SDV_frontend>esp</SDV_frontend>
+  </SDVSlamConfigObject>
+  <SDVRam xmlns="http://www.microsoft.com/SDV" />
+  <SDVInstallPath xmlns="http://www.microsoft.com/SDV">C:\Program Files (x86)\Windows Kits\8.1\TOOLS\SDV</SDVInstallPath>
+  <Parser xmlns="http://www.microsoft.com/SDV">C:\Program Files (x86)\Microsoft Visual Studio 12.0\\VC\bin\x86_amd64;C:\Program Files (x86)\Microsoft Visual Studio 12.0\\VC\bin;C:\Program Files (x86)\Microsoft Visual Studio 12.0\\common7\ide\</Parser>
+</SDV>

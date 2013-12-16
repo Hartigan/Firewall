@@ -1,0 +1,28 @@
+/*
+    Copyright (c) Microsoft Corporation.  All rights reserved.
+    
+    Summary:
+    This rules will pass if the driver is a Miniport Driver. 
+    
+    Description:
+    
+    
+    Related Rule:
+    Is_Protocol, Is_LWF
+    
+*/
+
+
+#include "ntddk_slic.h"
+
+NdisMRegisterMiniportDriver.exit
+{
+  if($4->Flags & NDIS_INTERMEDIATE_DRIVER)
+  {
+      halt;
+  }
+  else
+  {
+        abort "This is a miniport driver";
+  }
+}

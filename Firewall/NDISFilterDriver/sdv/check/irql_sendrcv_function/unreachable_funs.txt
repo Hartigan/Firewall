@@ -1,0 +1,5 @@
+sdv_RtlCopyMemory_sdv_private x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisFSetAttributes x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisAllocateMemoryWithTagPriority x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisFSetAttributes_sdv_private x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisFreeMemory_sdv_private x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c

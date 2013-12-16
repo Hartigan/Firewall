@@ -1,0 +1,43 @@
+/*
+    Copyright (c) Microsoft Corporation.  All rights reserved.
+    
+    Summary:
+    This rules will pass if the driver is a Protocol Driver. 
+    
+    Description:
+    
+    
+    Related Rule:
+    Is_Miniport, Is_LWF
+    
+*/
+
+
+#include "ntddk_slic.h"
+
+state
+{
+      enum {initial,im_driver} drivertype = initial;
+}
+
+
+NdisRegisterProtocolDriver.entry
+{
+  if(drivertype!=im_driver)
+  {
+    abort "This is a protocol driver";
+  }
+}
+
+
+NdisMRegisterMiniportDriver.exit
+{
+  if($4->Flags & NDIS_INTERMEDIATE_DRIVER)
+  {
+      halt;
+  }
+  else
+  {
+        drivertype=im_driver;
+  }
+}

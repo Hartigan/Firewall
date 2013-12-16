@@ -1,0 +1,1344 @@
+IN6_IS_ADDR_V4TRANSLATED x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\ws2ipdef.h
+ReadRaw64 x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+PtrToLong x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\basetsd.h
+ReadUCharAcquire x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+ULongToPtr x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\basetsd.h
+KeRaiseIrqlToDpcLevel x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\ntddk.h
+EventDescZero x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\evntprov.h
+IoAllocateAdapterChannel x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+wcsnlen_s_sdv_static_function_1 x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\crt\string.h
+READ_REGISTER_USHORT x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+IN6_IS_ADDR_SUBNET_ROUTER_ANYCAST x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\ws2ipdef.h
+IN6_IS_ADDR_EUI64 x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\ws2ipdef.h
+IN6_IS_ADDR_MULTICAST x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\ws2ipdef.h
+EventDescSetOpcode x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\evntprov.h
+RtlLargeIntegerShiftLeft x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+WriteUCharRelease x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+RtlLargeIntegerDivide x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\ntddk.h
+IN6_IS_ADDR_MC_SITELOCAL x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\ws2ipdef.h
+RtlEmptyBucketsHashTable x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\ntddk.h
+Ptr32ToPtr x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\basetsd.h
+RtlReleaseHashTableContext x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\ntddk.h
+EventDescSetId x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\evntprov.h
+EventDescGetKeyword x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\evntprov.h
+IN6ADDR_ISEQUAL x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\ws2ipdef.h
+MultiplyExtract128 x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+ExFreeToLookasideListEx x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+ExInitializeDriverRuntime x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+IN6_IS_ADDR_V4COMPAT x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\ws2ipdef.h
+READ_REGISTER_BUFFER_ULONG x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+IN6_IS_ADDR_GLOBAL x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\ws2ipdef.h
+IN6_IS_ADDR_SUBNET_RESERVED_ANYCAST x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\ws2ipdef.h
+RtlLargeIntegerArithmeticShift x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+EventDescSetKeyword x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\evntprov.h
+RemoveEntryList x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+PtrToUint x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\basetsd.h
+IN6_IS_ADDR_MC_NODELOCAL x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\ws2ipdef.h
+IoRequestDpc x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+READ_REGISTER_BUFFER_UCHAR x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+ReadULong64NoFence x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+IoMarkIrpPending x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+WRITE_REGISTER_USHORT x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+WriteNoFence16 x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+KeGetPcr x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\ntddk.h
+_ExInterlockedIncrementLong x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\ntddk.h
+EventDescCreate x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\evntprov.h
+RtlConvertUlongToLuid x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\ntddk.h
+MmGetSystemAddressForMdlSafe x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+WriteUCharNoFence x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+ReadULong64Acquire x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+IN6ADDR_ISANY x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\ws2ipdef.h
+WRITE_PORT_ULONG x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+__AssumeValidated x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\specstrings.h
+WriteRelease64 x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+NdisInitializeNPagedLookasideList x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\ndis.h
+EventDataDescCreate x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\evntprov.h
+WheaFindNextErrorRecordSection x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\ntddk.h
+ReadULong64Raw x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+ExAllocateFromNPagedLookasideList x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+RtlCheckBit x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+IoFlushAdapterBuffers x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+ExAllocateFromPagedLookasideList x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+WRITE_PORT_UCHAR x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+IoSetCompletionRoutine x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+ReadNoFence16 x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+RtlInitEmptyAnsiString x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+EventDescGetTask x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\evntprov.h
+WriteNoFence8 x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+RtlNonEmptyBucketsHashTable x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\ntddk.h
+WriteRaw64 x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+ReadULongRaw x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+ExInitializeFastMutex x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+PushEntryList x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+KeGetCurrentThread x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+IoMapTransfer x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+MmPrepareMdlForReuse x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+ReadULongNoFence x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+HalFreeCommonBuffer x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+UnsignedMultiplyExtract128 x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+WriteUShortRaw x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+READ_PORT_BUFFER_USHORT x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+ReadPointerRaw x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+PtrToShort x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\basetsd.h
+AppendTailList x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+PtrToUshort x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\basetsd.h
+RtlInsertAsLeftChild x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\ntddk.h
+WriteRaw x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+ReadAcquire16 x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+WriteUCharRaw x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+ReadULongAcquire x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+RtlInitializeSplayLinks x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\ntddk.h
+EventDescSetLevel x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\evntprov.h
+IoInitializeDpcRequest x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+ReadRaw8 x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+IoFreeAdapterChannel x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+WriteULongRelease x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+IN6_IS_ADDR_MC_ORGLOCAL x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\ws2ipdef.h
+RtlLargeIntegerNegate x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+READ_REGISTER_ULONG x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+ReadUShortRaw x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+ReadAcquire8 x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+EventDescGetId x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\evntprov.h
+ReadPointerNoFence x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+RtlLargeIntegerAdd x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+READ_REGISTER_UCHAR x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+KeMemoryBarrier x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+__SAL_dummy_2 x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+__SAL_dummy_3 x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\ndis.h
+HalAllocateCommonBuffer x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+RtlConvertUlongToLargeInteger x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+_InterlockedAdd x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+RemoveHeadList x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+ReadPointerAcquire x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+READ_PORT_BUFFER_ULONG x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+RtlTotalEntriesHashTable x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\ntddk.h
+HalGetDmaAlignment x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+WRITE_PORT_USHORT x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+ULongToHandle x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\basetsd.h
+RtlEnlargedUnsignedMultiply x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+RtlInitHashTableContext x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\ntddk.h
+IoSkipCurrentIrpStackLocation x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+READ_PORT_BUFFER_UCHAR x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+RtlEnlargedIntegerMultiply x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+WheaIsValidErrorRecordSignature x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\ntddk.h
+UIntToPtr x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\basetsd.h
+KeRaiseIrqlToSynchLevel x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\ntddk.h
+IN6_IS_ADDR_V4MAPPED x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\ws2ipdef.h
+WriteULongNoFence x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+RtlxQueryRegistryValues x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+ListEntry32To64 x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\ntdef.h
+IN6_IS_ADDR_MC_GLOBAL x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\ws2ipdef.h
+MmMapLockedPagesSpecifyCache_NXOptIn x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+PopEntryList x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+RtlActiveEnumeratorsHashTable x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\ntddk.h
+IN6ADDR_ISUNSPECIFIED x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\ws2ipdef.h
+Handle32ToHandle x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\basetsd.h
+WheaGetErrPacketFromErrRecord x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\ntddk.h
+NdisAllocateSpinLock x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\ndis.h
+IN6_SET_ADDR_LOOPBACK x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\ws2ipdef.h
+KeGetCurrentProcessorIndex x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+IntToPtr x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\basetsd.h
+MmInitializeMdl x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+aggregate_static_initializer_sdv_static_function_1 x64/Win8Release//flt_dbg.c x64/Win8Release//flt_dbg.c
+NET_BUFFER_LIST_SET_HASH_TYPE x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\ndis.h
+InsertTailList x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+EventDescSetChannel x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\evntprov.h
+EventDescGetChannel x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\evntprov.h
+WriteUShortRelease x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+EventDescOrKeyword x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\evntprov.h
+NdisFreeSpinLock x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\ndis.h
+RtlConvertLongToLuid x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\ntddk.h
+ReadRaw16 x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+WheaFindErrorRecordSection x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\ntddk.h
+WRITE_PORT_BUFFER_ULONG x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+WriteULong64Release x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+WriteNoFence64 x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+WriteRaw8 x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+ReadNoFence x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+LongToPtr x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\basetsd.h
+ReadNoFence8 x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+KeSaveFloatingPointState x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+RtlInsertAsRightChild x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\ntddk.h
+WRITE_PORT_BUFFER_UCHAR x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+IoGetNextIrpStackLocation x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+IoInitializeDriverCreateContext x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\ntddk.h
+ReadAcquire x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+IN6_IS_ADDR_ANYCAST x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\ws2ipdef.h
+PsGetCurrentThread x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+NdisCurrentProcessorIndex x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\ndis.h
+ReadNoFence64 x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+ExFreeToPagedLookasideList x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+ReadUCharRaw x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+RtlConvertLongToLargeInteger x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+_ExInterlockedExchangeUlong x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\ntddk.h
+READ_REGISTER_BUFFER_USHORT x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+IN6ADDR_SETANY x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\ws2ipdef.h
+WriteUShortNoFence x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+IoSetNextIrpStackLocation x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+_ExInterlockedDecrementLong x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\ntddk.h
+RtlExtendedMagicDivide x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+READ_PORT_ULONG x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+RtlEnlargedUnsignedDivide x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+ListEntry64To32 x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\ntdef.h
+WriteRelease x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+ReadAcquire64 x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+WriteULong64NoFence x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+READ_PORT_UCHAR x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+RtlLargeIntegerShiftRight x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+EventDescSetVersion x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\evntprov.h
+EventDescGetVersion x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\evntprov.h
+HandleToULong x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\basetsd.h
+RtlExtendedIntegerMultiply x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+ReadUShortNoFence x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+WriteULong64Raw x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+__AssumeBoundInt x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\specstrings.h
+WRITE_REGISTER_ULONG x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+WriteRelease16 x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+PtrToUlong x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\basetsd.h
+WRITE_REGISTER_BUFFER_ULONG64 x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+RemoveTailList x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+IoFreeMapRegisters x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+RtlInitHashTableContextFromEnumerator x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\ntddk.h
+RtlSecureZeroMemory x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+RtlTotalBucketsHashTable x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\ntddk.h
+IN6_ADDR_EQUAL x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\ws2ipdef.h
+PtrToInt x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\basetsd.h
+IsListEmpty x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+KeGetCurrentProcessorNumber x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\ntddk.h
+IoCopyCurrentIrpStackLocationToNext x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+IoGetRemainingStackSize x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+WRITE_REGISTER_UCHAR x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+ExInitializeNPagedLookasideList_NXPoolOptIn x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+WriteRelease8 x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+KeGetCurrentIrql x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+IoGetCurrentIrpStackLocation x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+ReadUShortAcquire x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+_InterlockedAdd64 x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+WritePointerRelease x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+IoInitializeThreadedDpcRequest x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+aggregate_dynamic_initializer_sdv_static_function_1 x64/Win8Release//flt_dbg.c x64/Win8Release//flt_dbg.c
+READ_REGISTER_ULONG64 x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+WriteRaw16 x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+WritePointerRaw x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+READ_REGISTER_BUFFER_ULONG64 x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+EventDescGetLevel x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\evntprov.h
+IoSetCancelRoutine x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+EventDescSetTask x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\evntprov.h
+IN6_IS_ADDR_LINKLOCAL x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\ws2ipdef.h
+PtrToPtr32 x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\basetsd.h
+WriteNoFence x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+NET_BUFFER_LIST_SET_HASH_FUNCTION x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\ndis.h
+WRITE_PORT_BUFFER_USHORT x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+ExFreeToNPagedLookasideList x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+ReadRaw x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+InitializeListHead x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+HandleToLong x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\basetsd.h
+__FallThrough x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\sal.h
+RtlExtendedLargeIntegerDivide x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+IN6_SET_ADDR_UNSPECIFIED x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\ws2ipdef.h
+RtlpCheckListEntry x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+ExAllocateFromLookasideListEx x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+LongToHandle x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\basetsd.h
+WriteULongRaw x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+MapWakeDepthToDstate x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+WRITE_REGISTER_BUFFER_USHORT x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+READ_PORT_USHORT x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+HalReadDmaCounter x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+strnlen_s_sdv_static_function_1 x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\crt\string.h
+IN6_IS_ADDR_UNSPECIFIED x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\ws2ipdef.h
+WRITE_REGISTER_BUFFER_ULONG x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+RtlLargeIntegerSubtract x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+IN6_IS_ADDR_SITELOCAL x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\ws2ipdef.h
+WRITE_REGISTER_ULONG64 x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+WritePointerNoFence x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+IN6_IS_ADDR_LOOPBACK x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\ws2ipdef.h
+IN6ADDR_SETLOOPBACK x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\ws2ipdef.h
+WRITE_REGISTER_BUFFER_UCHAR x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+KeRestoreFloatingPointState x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+EventDescGetOpcode x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\evntprov.h
+IN6ADDR_ISLOOPBACK x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\ws2ipdef.h
+RemoveEntryListUnsafe x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+ReadUCharNoFence x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+IN6_IS_ADDR_MC_LINKLOCAL x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\shared\ws2ipdef.h
+ExInitializeWorkItem x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+RtlInitEmptyUnicodeString x64/Win8Release//flt_dbg.c c:\program files (x86)\windows kits\8.1\include\km\wdm.h
+aggregate_static_initializer_sdv_static_function_2 x64/Win8Release//device.c x64/Win8Release//device.c
+NDISFilterDriverDispatch x64/Win8Release//device.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\device.c
+NDISFilterDriverRegisterDevice x64/Win8Release//device.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\device.c
+DelIPv6Rule x64/Win8Release//device.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\device.c
+AddIPv4Rule x64/Win8Release//device.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\device.c
+aggregate_dynamic_initializer_sdv_static_function_2 x64/Win8Release//device.c x64/Win8Release//device.c
+NDISFilterDriverDeviceIoControl x64/Win8Release//device.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\device.c
+filterFindFilterModule x64/Win8Release//device.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\device.c
+ActivateRules x64/Win8Release//device.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\device.c
+DelIPv4Rule x64/Win8Release//device.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\device.c
+wcsnlen_s_sdv_static_function_2 x64/Win8Release//device.c c:\program files (x86)\windows kits\8.1\include\km\crt\string.h
+DeactivateRules x64/Win8Release//device.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\device.c
+strnlen_s_sdv_static_function_2 x64/Win8Release//device.c c:\program files (x86)\windows kits\8.1\include\km\crt\string.h
+AddIPv6Rule x64/Win8Release//device.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\device.c
+aggregate_static_initializer_sdv_static_function_3 x64/Win8Release//filter.c x64/Win8Release//filter.c
+filterDoInternalRequest x64/Win8Release//filter.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c
+sdv_hash_643398325_sdv_static_function_3 x64/Win8Release//filter.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c
+aggregate_dynamic_initializer_sdv_static_function_3 x64/Win8Release//filter.c x64/Win8Release//filter.c
+DriverEntry x64/Win8Release//filter.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c
+wcsnlen_s_sdv_static_function_3 x64/Win8Release//filter.c c:\program files (x86)\windows kits\8.1\include\km\crt\string.h
+strnlen_s_sdv_static_function_3 x64/Win8Release//filter.c c:\program files (x86)\windows kits\8.1\include\km\crt\string.h
+FilterCancelOidRequest x64/Win8Release//filter.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c
+sdv_hash_159491646_sdv_static_function_3 x64/Win8Release//filter.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c
+sdv_hash_14335092_sdv_static_function_3 x64/Win8Release//filter.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\filter.c
+aggregate_static_initializer_sdv_static_function_4 x64/Win8Release//precomp.c x64/Win8Release//precomp.c
+aggregate_dynamic_initializer_sdv_static_function_4 x64/Win8Release//precomp.c x64/Win8Release//precomp.c
+wcsnlen_s_sdv_static_function_4 x64/Win8Release//precomp.c c:\program files (x86)\windows kits\8.1\include\km\crt\string.h
+strnlen_s_sdv_static_function_4 x64/Win8Release//precomp.c c:\program files (x86)\windows kits\8.1\include\km\crt\string.h
+sdv_NdisResetEvent x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_RunDispatchPnp x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_IoAcquireRemoveLock x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisFreeNetBuffer x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoFreeWorkItem x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+MmMapLockedPagesWithReservedMapping x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwFlushKey x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwSetEaFile x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeInitializeGuardedMutex x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwOpenKeyTransacted x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisFPauseComplete x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMAllocateSharedMemoryAsyncEx x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisReleaseReadWriteLock x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoWMIHandleToInstanceName x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMPauseComplete x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisCompleteUnbindAdapterEx x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwSetInformationKey x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoUnregisterShutdownNotification x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExReleaseResourceForThreadLite x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+MmAllocateContiguousMemorySpecifyCache x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMCmNotifyCloseAddressFamily x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisCloseFile x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+RtlVolumeDeviceToDosName x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_IoGetRemainingStackSize x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoDisconnectInterrupt x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_CheckDispatchRoutines x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwSetSecurityObject x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMDeregisterDmaChannel x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoCancelIrp x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMOidRequestComplete x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoReportResourceUsage x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+RtlCompareMemory x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExfInterlockedCompareExchange64 x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+RtlFreeUnicodeString x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_PROTOCOL_OPEN_ADAPTER_COMPLETE_EX x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMSetMiniportAttributes x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwOpenTimer x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMAllocateNetBufferSGList x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeQueryPriorityThread x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisAllocateNetBuffer x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisFRestartFilter x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoRaiseHardError x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_MmMapLockedPagesSpecifyCache x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisCoOidRequest x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisCmModifyCallQoSComplete x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoFreeErrorLogEntry x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoWMISetSingleInstance x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KfLowerIrql x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwCommitTransaction x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMDeregisterScatterGatherDma x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+RtlCharToInteger x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisWritePortBufferUlong x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+MmGetPhysicalMemoryRanges x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_hash_996005273_sdv_static_function_5 x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeReadStateMutex x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_IoCsqInsertIrp x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ProbeForWrite x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_hash_326682289_sdv_static_function_5 x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisFreeString x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisAllocateSpinLock x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_IoAssignArcName x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_hash_996008883_sdv_static_function_5 x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoRegisterLastChanceShutdownNotification x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_RtlQueryRegistryValues x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMGetBusData x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisAllocateGenericObject x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoAttachDevice x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IofCompleteRequest x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NT_ERROR x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+RtlSetDaclSecurityDescriptor x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoAllocateIrp x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExReleaseRundownProtectionCacheAware x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_hash_326501537_sdv_static_function_5 x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoGetAttachedDeviceReference x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeWaitForMultipleObjects x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwOpenEvent x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisIfGetNetLuidFromInterfaceIndex x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExReleaseRundownProtectionEx x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_IoCallDriver x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_IoGetNextIrpStackLocation x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisFreeNetBufferListContext x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoGetRequestorSessionId x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_RunDispatchCleanup x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisInitializeString x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwClose x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoCreateController x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisQueryMdlOffset x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisSystemProcessorCount x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwOpenTransactionManager x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoCreateNotificationEvent x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+MmAddPhysicalMemory x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_InterlockedCompareExchangeAcquire x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoUninitializeWorkItem x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoEnumerateDeviceObjectList x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+RtlWriteRegistryValue x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisDeregisterProtocolDriver x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_hash_875348616_sdv_static_function_5 x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeReadStateSemaphore x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoWMISetSingleItem x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_MINIPORT_REMOVE_DEVICE x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisFreeIoWorkItem x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_ExAllocateFromNPagedLookasideList x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_KeAcquireSpinLock x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoVerifyPartitionTable x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoDetachDevice x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExDeleteResourceLite x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMCoIndicateStatusEx x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExAcquireRundownProtectionCacheAwareEx x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+wcsnlen_s_sdv_static_function_5 x64/Win8Release//sdv-harness.c c:\program files (x86)\windows kits\8.1\include\km\crt\string.h
+sdv_NdisAllocateReassembledNetBufferList x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExInitializePagedLookasideList x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoGetDeviceInterfaceAlias x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+MmUnsecureVirtualMemory x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoRegisterDriverReinitialization x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+RtlWalkFrameChain x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMCreateLog x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwQueryInformationResourceManager x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeInitializeMutant x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoBuildSynchronousFsdRequest x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+MmCreateMirror x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_CheckIsrRoutines x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwQueryValueKey x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwAllocateVirtualMemory x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExSetTimerResolution x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwRenameKey x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoRemoveShareAccess x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExIsResourceAcquiredExclusiveLite x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisWriteErrorLogEntry x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NDIS_RAISE_IRQL_TO_DISPATCH x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+RtlStringFromGUID x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoCreateUnprotectedSymbolicLink x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_save_context_area x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisGetVersion x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoUpdateShareAccess x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExRaiseStatus x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_RunSurpriseRemoveDevice x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisQueryAdapterInstanceName x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoFreeIrp x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_ExIsResourceAcquired x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeRemoveByKeyDeviceQueue x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+VerSetConditionMask x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoInvalidateDeviceRelations x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+RtlDowncaseUnicodeString x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisInterlockedPopEntryList x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisIfAllocateNetLuidIndex x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_MmLockPagableCodeSection x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwOpenTransaction x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisCmActivateVc x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_hash_982256719_sdv_static_function_5 x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_hash_63925748_sdv_static_function_5 x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisEqualString x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+NtWriteFile x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+SdvExit x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwQuerySecurityObject x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeInitializeTimer x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoAllocateErrorLogEntry x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMCmOidRequestComplete x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisIMInitializeDeviceInstanceEx x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_PROTOCOL_UNBIND_ADAPTER_EX x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExRaiseDatatypeMisalignment x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+RtlU_shortByteSwap x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoWMIRegistrationControl x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExReleaseFastMutex x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_MINIPORT_UNLOAD x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_IoGetFunctionCodeFromCtlCode x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisReadPortUshort x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeInitializeTimerEx x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_ExAcquireSpinLockAtDpcLevel x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_IoFlushAdapterBuffers x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_RunIoQueueWorkItems x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwOpenEnlistment x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoInitializePriorityInfo x64/Win8Release//sdv-harness.c c:\program files (x86)\windows kits\8.1\include\km\ntifs.h
+IoRegisterShutdownNotification x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeRegisterNmiCallback x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisGetRoutineAddress x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisFreeNetBufferList x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KefAcquireSpinLockAtDpcLevel x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisInterlockedDecrement x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_hash_60276760_sdv_static_function_5 x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+RtlAnsiStringToUnicodeString x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExiAcquireFastMutex x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeRemoveQueueDpc x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+NtCreateFile x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+RtlFreeAnsiString x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisGetPoolFromNetBufferList x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeTryToAcquireQueuedSpinLock x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeSetTimer x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_hash_860798854_sdv_static_function_5 x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_IoWMIDeviceObjectToProviderId x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisInterlockedAddUlong x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoInitializeTimer x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeReleaseQueuedSpinLock x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_KeGetCurrentProcessorNumber x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoReportDetectedDevice x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeInitializeEvent x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwRollforwardTransactionManager x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_hash_996361016_sdv_static_function_5 x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_MINIPORT_SEND_NET_BUFFER_LISTS x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisCancelOidRequest x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_MINIPORT_SYNCHRONIZE_INTERRUPT x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NDIS_CURRENT_IRQL x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_hash_290057510_sdv_static_function_5 x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+MmLockPagableDataSection x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_ExInterlockedPushEntrySList x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+RtlU_longlongByteSwap x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoSetPartitionInformationEx x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoInitializeWorkItem x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMRestartComplete x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeAcquireInStackQueuedSpinLockAtDpcLevel x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExWaitForRundownProtectionReleaseCacheAware x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExfInterlockedInsertTailList x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_IoInitializeRemoveLock x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisReadPortBufferUchar x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeBugCheck x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_MINIPORT_ALLOCATE_SHARED_MEM_COMPLETE x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMCmDispatchCallConnected x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisInterlockedInsertTailList x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_KeWaitForMutexObject x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwDeleteFile x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_hash_913069432_sdv_static_function_5 x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeAcquireQueuedSpinLock x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisFCancelOidRequest x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_IoCsqRemoveIrp x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_hash_560934809_sdv_static_function_5 x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisIfRegisterInterface x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMCmCreateVc x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_SetIrpMinorFunctionNonBusDriver x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoGetRelatedDeviceObject x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisFreeGenericObject x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeSetEvent x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeCancelTimer x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExIsResourceAcquiredSharedLite x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMNetPnPEvent x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_MINIPORT_DIRECT_OID_REQUEST x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisSendNetBufferLists x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+RtlUpcaseUnicodeString x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_ExInterlockedRemoveHeadList x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_hash_243609744_sdv_static_function_5 x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisCmRegisterSapComplete x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_ExAcquireSpinLock x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoReadPartitionTable x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoWMIQuerySingleInstance x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisAllocateFragmentNetBufferList x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwSetTimer x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMCoOidRequestComplete x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMCmOpenAddressFamilyComplete x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_SetPowerIrpMinorFunctionSetPower x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMCoSendNetBufferListsComplete x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMQueueDpc x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_hash_116389161_sdv_static_function_5 x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+aggregate_dynamic_initializer_sdv_static_function_5 x64/Win8Release//sdv-harness.c x64/Win8Release//sdv-harness.c
+KeReleaseGuardedMutexUnsafe x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_RunAddDevice x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoIsWdmVersionAvailable x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_RunDispatchWrite x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_PROTOCOL_RECEIVE_NET_BUFFER_LISTS x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwUnloadDriver x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisSetTimerObject x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisAcquireReadWriteLock x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMGetDeviceProperty x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoAttachDeviceToDeviceStack x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+EtwWrite x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwSetInformationFile x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoAttachDeviceToDeviceStackSafe x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+RtlFindMostSignificantBit x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_MINIPORT_OID_REQUEST x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExAcquireResourceExclusiveLite x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_IoCsqRemoveNextIrp x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+RtlCheckRegistryKey x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NetFreeMdl x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_IoReleaseRemoveLockAndWait x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoGetInitialStack x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+RtlVerifyVersionInfo x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMCmDeregisterSapComplete x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExDeleteLookasideListEx x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_KeRaiseIrql x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisInitializeListHead x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoReleaseRemoveLockAndWaitEx x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+aggregate_static_initializer_sdv_static_function_5 x64/Win8Release//sdv-harness.c x64/Win8Release//sdv-harness.c
+sdv_IoSkipCurrentIrpStackLocation x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisCoCreateVc x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_hash_208946364_sdv_static_function_5 x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwSetEvent x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_ExAllocateFromPagedLookasideList x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisCoGetTapiCallId x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisCoAssignInstanceName x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoCreateSymbolicLink x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisCmNotifyCloseAddressFamily x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExAllocatePoolWithTagPriority x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisGeneratePartialCancelId x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwDeleteKey x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeInsertDeviceQueue x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisAcquireRWLockWrite x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisAcquireRWLockRead x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_RunQueryDeviceState x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+MmAllocatePagesForMdlEx x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_hash_1703027_sdv_static_function_5 x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMReadDmaCounter x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ProbeForRead x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoGetConfigurationInformation x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_dpc_dummy x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_hash_849677042_sdv_static_function_5 x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+RtlInt64ToUnicodeString x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+MmCreateMdl x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+RtlUpcaseUnicodeStringToCountedOemString x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwQueryMultipleValueKey x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisFreeNetBufferListPool x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisIfGetInterfaceIndexFromNetLuid x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_RunSetPowerDown x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeRemoveDeviceQueue x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisWaitEvent x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisStallExecution x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoCheckEaBufferValidity x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_SetPowerRequestIrpMinorFunction x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_CheckDriverUnload x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_ExInterlockedInsertHeadList x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoOpenDeviceRegistryKey x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisCmDispatchIncomingCloseCall x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeReleaseSpinLockForDpc x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExEnterCriticalRegionAndAcquireSharedWaitForExclusive x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisUnicodeStringToAnsiString x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoReportResourceForDetection x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_hash_460656452_sdv_static_function_5 x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisWritePortBufferUchar x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwCreateSection x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoWMIWriteEvent x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoCreateFile x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_RunQueryDeviceRelations x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisCmDispatchCallConnected x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExAcquireRundownProtection x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisGetSharedDataAlignment x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisIMCancelInitializeDeviceInstance x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMCmDropPartyComplete x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoAcquireVpbSpinLock x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_ExReleaseSpinLockFromDpcLevel x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+SdvAssumeSoft x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMFreeNetBufferSGList x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+RtlFindLeastSignificantBit x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoInitializeIrp x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+RtlCreateSecurityDescriptor x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoGetDiskDeviceObject x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeAcquireSpinLockForDpc x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoSetPartitionInformation x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_RunDispatchShutdown x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisIfDeregisterInterface x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NDIS_RELEASE_MUTEX x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMSetBusData x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExiTryToAcquireFastMutex x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisCoSendNetBufferLists x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+RtlUpcaseUnicodeStringToOemString x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_RunQueryCapRequirements x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoQueueWorkItemEx x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_hash_224292428_sdv_static_function_5 x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwMapViewOfSection x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoAssignResources x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoWMIExecuteMethod x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisRegisterDeviceEx x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoSetDeviceToVerify x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoConnectInterruptEx x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_PROTOCOL_SET_OPTIONS x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoFreeController x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_IoFreeAdapterChannel x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExfInterlockedPopEntryList x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisIfDeregisterProvider x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_hash_132860570_sdv_static_function_5 x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeReleaseMutex x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_MmGetMdlPfnArray x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisAllocateFromNPagedLookasideList x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+MmUnmapIoSpace x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMCmRegisterSapComplete x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoAllocateDriverObjectExtension x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoWriteErrorLogEntry x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_RunUnload x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwCreateKey x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_ExIsResourceAcquiredExclusive x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisFreeMdl x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwQueryInformationFile x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_MINIPORT_DISABLE_INTERRUPT x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_MINIPORT_RESTART x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisCmDeregisterSapComplete x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoGetDeviceNumaNode x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NDIS_LOWER_IRQL x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisIMAssociateMiniport x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_IoCsqInsertIrpEx x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+RtlFindLastBackwardRunClear x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisAllocateNetBufferMdlAndData x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisGetCurrentProcessorCounts x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_hash_82179065_sdv_static_function_5 x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisClOpenAddressFamilyEx x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_KeRaiseIrqlToSynchLevel x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+SdvMakeChoice x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExInterlockedAddLargeInteger x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMCmOidRequest x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_IoCompletionRoutines x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_InterlockedPopEntrySList x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_isr_dummy x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMCmDeactivateVc x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_CheckIrpMjPower x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeQueryRuntimeThread x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_ExFreeToPagedLookasideList x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeInitializeDeviceQueue x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisFreeNetBufferPool x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+RtlInitUnicodeStringEx x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMDeregisterInterruptEx x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwCreateTransaction x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMapFile x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoSetStartIoAttributes x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMCoActivateVcComplete x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisAllocateIoWorkItem x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExAcquireFastMutex x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwNotifyChangeMultipleKeys x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+MmAllocateContiguousMemory x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+RtlLengthSecurityDescriptor x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_RunKSynchronizeRoutines x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwOpenProcess x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMCoIndicateReceiveNetBufferLists x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeAcquireGuardedMutex x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisCmRegisterAddressFamilyEx x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMSleep x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoIs32bitProcess x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_hash_861162605_sdv_static_function_5 x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwUnlockFile x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoWMIQueryAllData x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeEnterCriticalRegion x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeInitializeMutex x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeReleaseSemaphore x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisAllocateNetBufferAndNetBufferList x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_hash_129353289_sdv_static_function_5 x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_MINIPORT_ADD_DEVICE x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisClCloseCall x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_MINIPORT_INITIALIZE x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoReadPartitionTableEx x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwOpenDirectoryObject x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoSetSystemPartition x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoGetDeviceObjectPointer x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwWriteFile x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+RtlULongLongToULong x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwPrepareComplete x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_SetIrpMinorFunctionBusDriver x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_RunDispatchSystemControl x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMDeregisterIoPortRange x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwCreateFile x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoAllocateMdl x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisCmMakeCallComplete x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwQueryFullAttributesFile x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+MmPageEntireDriver x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_PROTOCOL_DIRECT_OID_REQUEST_COMPLETE x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExIsProcessorFeaturePresent x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoGetFileObjectGenericMapping x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisFreeCloneNetBufferList x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoReuseIrp x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_io_dpc_dummy x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisAllocateMdl x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisCmDispatchIncomingDropParty x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoSetThreadHardErrorMode x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoReportTargetDeviceChangeAsynchronous x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoStartTimer x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+RtlUnicodeStringToOemString x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+RtlAssert x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+FsRtlSetupAdvancedHeader x64/Win8Release//sdv-harness.c c:\program files (x86)\windows kits\8.1\include\km\ntifs.h
+RtlValidRelativeSecurityDescriptor x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_CheckWorkerRoutines x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+RtlInitUnicodeString x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+RtlInitString x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoStartNextPacket x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeReleaseInStackQueuedSpinLockFromDpcLevel x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwCreateResourceManager x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_MINIPORT_CANCEL_DIRECT_OID_REQUEST x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_SetPowerIrpMinorFunction x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_hash_426481028_sdv_static_function_5 x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_hash_411811237_sdv_static_function_5 x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMRemoveMiniport x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeInsertQueueDpc x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_ExInterlockedFlushSList x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_RtlMoveMemory x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwUnmapViewOfSection x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExAcquireRundownProtectionCacheAware x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExReleaseRundownProtection x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisUnbindAdapter x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeAcquireSpinLockRaiseToDpc x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExInitializeLookasideListEx x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_MINIPORT_FILTER_RESOURCE_REQUIREMENTS x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExEnterCriticalRegionAndAcquireResourceShared x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+MmGetSystemRoutineAddress x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_MINIPORT_CHECK_FOR_HANG x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExAcquireResourceSharedLite x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExDeleteNPagedLookasideList x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_hash_625613753_sdv_static_function_5 x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExGetSharedWaiterCount x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_MINIPORT_CANCEL_OID_REQUEST x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMQueryAdapterInstanceName x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoWMIAllocateInstanceIds x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_MakeStartDeviceIrp x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwOpenKeyEx x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_IofCompleteRequest x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoGetDevicePropertyData x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_hash_1002281911_sdv_static_function_5 x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwFsControlFile x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoWMISetNotificationCallback x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_IoCompleteRequest x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_MINIPORT_SHUTDOWN x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoQueryDeviceDescription x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExReleaseResourceLite x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_InterlockedDecrement x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoSetShareAccess x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisFRegisterFilterDriver x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwMakeTemporaryObject x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoGetDmaAdapter x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+EtwWriteEndScenario x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_IoCsqInitialize x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwOpenThreadTokenEx x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_MINIPORT_INTERRUPT_DPC x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_PROTOCOL_OID_REQUEST_COMPLETE x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+RtlInitAnsiString x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+RtlDuplicateUnicodeString x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_MmGetMdlByteCount x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMWriteLogData x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMCmDispatchIncomingCall x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeReleaseInStackQueuedSpinLock x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisCmCloseCallComplete x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_IoSetCancelRoutine x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisRetreatNetBufferListDataStart x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoFreeMdl x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoReadDiskSignature x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExWaitForRundownProtectionRelease x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwCreateEnlistment x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_hash_161891172_sdv_static_function_5 x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwSinglePhaseReject x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NetAllocateMdl x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisReadPortUlong x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_MINIPORT_MESSAGE_INTERRUPT x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_RunIoDpcRoutines x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoStartNextPacketByKey x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoWritePartitionTableEx x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMRegisterScatterGatherDma x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoWMIQuerySingleInstanceMultiple x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_hash_681647511_sdv_static_function_5 x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_IoInitializeDpcRequest x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeWaitForSingleObject x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwCommitEnlistment x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwQuerySymbolicLinkObject x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeSetSystemAffinityThread x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisCancelTimerObject x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoGetDeviceToVerify x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwReadFile x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoUnregisterPlugPlayNotificationEx x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_MINIPORT_RESET x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_IoSetCompletionRoutine x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoBuildAsynchronousFsdRequest x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwSetVolumeInformationFile x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+RtlIntegerToUnicodeString x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoWMISuggestInstanceName x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwSetInformationEnlistment x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExRaiseAccessViolation x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisAllocateMemoryWithTag x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoGetBootDiskInformation x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoRegisterDeviceInterface x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMIndicateStatusEx x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisIfFreeNetLuidIndex x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisAllocateNetBufferListContext x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisClDropParty x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwRollbackTransaction x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_hash_544153382_sdv_static_function_5 x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisAdvanceNetBufferListDataStart x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_IoSizeofWorkItem x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_MINIPORT_ISR x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+MmUnlockPagableImageSection x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_ExIsResourceAcquiredShared x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_ExInterlockedInsertTailList x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoInvalidateDeviceState x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisIMDeInitializeDeviceInstance x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisWriteConfiguration x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisReadConfiguration x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExFreePoolWithTag x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_PROTOCOL_UNINSTALL x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_RunDispatchRead x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMCoDeactivateVcComplete x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_IsListEmpty x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMCmRegisterAddressFamilyEx x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeReleaseInStackQueuedSpinLockForDpc x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisCloseAdapterEx x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMCmDeleteVc x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeSetSystemGroupAffinityThread x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_hash_908877691_sdv_static_function_5 x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_RunQueryPowerDown x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_PROTOCOL_NET_PNP_EVENT x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_RunQueryPowerUpDevice x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisReadNetworkAddress x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoCreateDisk x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwQueryEaFile x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMCompleteDmaTransfer x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoGetStackLimits x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExConvertExclusiveToSharedLite x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMCmActivateVc x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeReleaseGuardedMutex x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisFreeFragmentNetBufferList x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_IoFreeMapRegisters x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_MakeRemoveDeviceIrp x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisInitializeSListHead x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoSetFileOrigin x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoQueryFileDosDeviceName x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExAllocatePoolWithTag x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwOpenProcessTokenEx x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeTryToAcquireGuardedMutex x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KfReleaseSpinLock x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+MmRemovePhysicalMemory x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwEnumerateKey x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_KeAcquireSpinLockAtDpcLevel x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+RtlFillMemoryUlong x64/Win8Release//sdv-harness.c c:\program files (x86)\windows kits\8.1\include\km\ntifs.h
+sdv_CheckCancelRoutines x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoWritePartitionTable x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoSetHardErrorOrVerifyDevice x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+RtlCreateRegistryKey x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KefReleaseSpinLockFromDpcLevel x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMUnmapIoSpace x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisDeleteNPagedLookasideList x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+WdmlibIoCreateDeviceSecure x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+assume x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_IoAllocateAdapterChannel x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoAllocateWorkItem x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+RtlMapGenericMask x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisIfQueryBindingIfIndex x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisCoDeleteVc x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwRecoverEnlistment x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_MINIPORT_MESSAGE_INTERRUPT_DPC x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_MmGetMdlByteOffset x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_RunKeDpcRoutines x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_IoCopyCurrentIrpStackLocationToNext x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisIfDeleteIfStackEntry x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoWMIOpenBlock x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisCmAddPartyComplete x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+NtReadFile x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisCmDeactivateVc x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+MmUnlockPages x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+RtlU_longByteSwap x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+RtlGetVersion x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeTestSpinLock x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_CheckIoDpcRoutines x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_SetMajorFunction x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+RtlGUIDFromString x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisOpenConfigurationKeyByName x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_MINIPORT_START_DEVICE x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_KeReleaseSpinLock x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_ExInitializeResource x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisEnumerateFilterModules x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_hash_191394097_sdv_static_function_5 x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_hash_508759147_sdv_static_function_5 x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisInterlockedIncrement x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeEnterGuardedRegion x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_hash_330582242_sdv_static_function_5 x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeSynchronizeExecution x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisClDeregisterSap x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+MmProbeAndLockProcessPages x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwGetNotificationResourceManager x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_IoRequestDpc x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_MINIPORT_RETURN_NET_BUFFER_LISTS x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMRegisterDmaChannel x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_hash_733000986_sdv_static_function_5 x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisWritePortUlong x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisWriteEventLogEntry x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwSetInformationTransaction x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_SetStatus x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_hash_879144055_sdv_static_function_5 x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwPowerInformation x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisReEnumerateProtocolBindings x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_RtlZeroMemory x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+RtlCreateUnicodeString x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisClNotifyCloseAddressFamilyComplete x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMAllocateSharedMemory x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoReleaseVpbSpinLock x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_hash_480847699_sdv_static_function_5 x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExSetResourceOwnerPointer x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoRegisterBootDriverReinitialization x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_KeReleaseSpinLockFromDpcLevel x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoSetCompletionRoutineEx x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeAcquireInStackQueuedSpinLock x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExAcquireRundownProtectionEx x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMMapIoSpace x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+RtlOemStringToCountedUnicodeString x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoAttachDeviceByPointer x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_MINIPORT_ENABLE_MESSAGE_INTERRUPT x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExReleaseResourceAndLeaveCriticalRegion x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisCopySendNetBufferListInfo x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisWritePortBufferUshort x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwOpenSymbolicLinkObject x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisFreeReassembledNetBufferList x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoDeleteController x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_hash_696480423_sdv_static_function_5 x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_hash_657201532_sdv_static_function_5 x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMSynchronizeWithInterruptEx x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwQueryInformationTransaction x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_RunSetPowerUpDevice x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMCmDispatchIncomingDropParty x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisOpenConfigurationKeyByIndex x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMSendNetBufferListsComplete x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_PROTOCOL_BIND_ADAPTER_EX x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwQueryInformationTransactionManager x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwSetValueKey x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwSetTimerEx x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExAcquireFastMutexUnsafe x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwQueryVolumeInformationFile x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_ExQueueWorkItem x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisRegisterProtocolDriver x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwQueryInformationEnlistment x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+RtlUnicodeStringToCountedOemString x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoAcquireRemoveLockEx x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwReadOnlyEnlistment x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExReleaseFastMutexUnsafe x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisCompleteBindAdapterEx x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisAnsiStringToUnicodeString x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMCmCloseAddressFamilyComplete x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_RunRemoveDevice x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisGetMdlPhysicalArraySize x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_KeLowerIrql x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExCreateCallback x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+SdvKeepChoice x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_RunStartDevice x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMCmModifyCallQoSComplete x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisInitUnicodeString x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwPrePrepareComplete x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwDuplicateObject x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisUnmapFile x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_AbnormalTermination x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwOpenSection x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisAllocateNetBufferListPool x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeQueryActiveProcessors x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwOpenKey x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisIfRegisterProvider x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwAllocateLocallyUniqueId x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoUnregisterPlugPlayNotification x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMCmMakeCallComplete x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_RunSetPowerUp x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeReleaseMutant x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMFlushLog x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_hash_405916869_sdv_static_function_5 x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_MINIPORT_DISABLE_MESSAGE_INTERRUPT x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwRollbackEnlistment x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_CheckDpcRoutines x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_RunPowerCompletionRoutines x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoGetDriverObjectExtension x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoRequestDeviceEject x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_CheckAddDevice x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExAcquireSharedWaitForExclusive x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExGetExclusiveWaiterCount x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NDIS_IO_WORKITEM_FUNCTION x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExDeletePagedLookasideList x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_PROTOCOL_UNLOAD x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoGetDeviceInterfaces x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisEqualUnicodeString x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwOpenKeyTransactedEx x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_ExInterlockedPopEntryList x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwSetInformationTransactionManager x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoCreateDevice x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_RunISRRoutines x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+MmAllocatePagesForMdl x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_CheckCancelRoutines1 x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+MmResetDriverPaging x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwEnumerateTransactionObject x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+RtlValidSecurityDescriptor x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisQueryMdl x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_hash_141426569_sdv_static_function_5 x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisCopyReceiveNetBufferListInfo x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_hash_598167117_sdv_static_function_5 x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_ExInterlockedPushEntryList x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwDisplayString x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoStopTimer x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoDeleteSymbolicLink x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisQueryDepthSList x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeResetEvent x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExReinitializeResourceLite x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMCmDispatchIncomingCloseCall x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+DbgBreakPointWithStatus x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisFRestartComplete x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoDeleteDevice x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_hash_996010537_sdv_static_function_5 x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwCreateTimer x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoSetDevicePropertyData x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_MINIPORT_DEVICE_PNP_EVENT_NOTIFY x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwPrepareEnlistment x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KePulseEvent x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoBuildPartialMdl x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_DbgBreakPoint x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExUnregisterCallback x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoCreateFileSpecifyDeviceObjectHint x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisIMGetBindingContext x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoSetDeviceInterfaceState x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_PROTOCOL_CLOSE_ADAPTER_COMPLETE_EX x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_RunIoCompletionRoutines x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoOpenDeviceInterfaceRegistryKey x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwDeleteValueKey x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_MINIPORT_CANCEL_SEND x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisReadPortUchar x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisQueryNetBufferPhysicalCount x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+EtwUnregister x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoGetCurrentProcess x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwQueryDirectoryFile x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoWMIDeviceObjectToInstanceName x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+MmAllocateNonCachedMemory x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+RtlDeleteRegistryValue x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+MmLockPagableSectionByHandle x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisOpenAdapterEx x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisClMakeCall x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisAllocateNetBufferList x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_RunQueryPowerUp x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+RtlOemStringToUnicodeString x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwSetQuotaInformationFile x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisClGetProtocolVcContextFromTapiCallId x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExAllocatePoolWithQuotaTag x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_IoCsqInitializeEx x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisInterlockedPushEntryList x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoReleaseCancelSpinLock x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoReportTargetDeviceChange x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_RunExQueueWorkItems x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_MmGetMdlVirtualAddress x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+RtlCopyMemory32 x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwRecoverTransactionManager x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_PROTOCOL_SEND_NET_BUFFER_LISTS_COMPLETE x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+MmFreeNonCachedMemory x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisCompleteNetPnPEvent x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeReadStateTimer x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMRegisterMiniportDriver x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_RunDispatchCreate x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwCreateEvent x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeAcquireInterruptSpinLock x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwWaitForSingleObject x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+RtlUpperChar x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisCmCloseAddressFamilyComplete x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisReturnNetBufferLists x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoAllocateController x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwLoadDriver x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeBugCheckEx x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_MINIPORT_PROCESS_SG_LIST x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwFlushBuffersFile x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_hash_715272384_sdv_static_function_5 x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+HEAP_MAKE_TAG_FLAGS x64/Win8Release//sdv-harness.c c:\program files (x86)\windows kits\8.1\include\km\ntifs.h
+ExUuidCreate x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_IoIsErrorUserInduced x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_RunCancelFunction x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisCoOidRequestComplete x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_KeGetCurrentIrql x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_hash_986885393_sdv_static_function_5 x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+MmUnmapLockedPages x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_hash_276989299_sdv_static_function_5 x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoAcquireCancelSpinLock x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_PROTOCOL_STATUS_EX x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+MmFreePagesFromMdl x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwSetInformationResourceManager x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoInitializeRemoveLockEx x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwLockFile x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExTryToAcquireFastMutex x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_ExInitializeNPagedLookasideList_NXPoolOptIn x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwCommitComplete x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwCreateKeyTransacted x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExReleaseRundownProtectionCacheAwareEx x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeDelayExecutionThread x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KfAcquireSpinLock x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisReadPortBufferUshort x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMFreePort x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisIfAddIfStackEntry x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisEqualMemory x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisQueueIoWorkItem x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwCancelTimer x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeReadStateEvent x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoGetDeviceProperty x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_ExInterlockedCompareExchange64 x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExRegisterCallback x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeRevertToUserAffinityThreadEx x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExSetResourceOwnerPointerEx x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_CheckStartIoRoutines x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_ExReleaseResourceForThread x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_IoReleaseRemoveLockAndWaitEx x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_MINIPORT_PAUSE x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExAllocatePoolWithQuota x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_RunResRequirements x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_IoMapTransfer x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeTryToAcquireSpinLockAtDpcLevel x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_hash_212761540_sdv_static_function_5 x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwEnumerateValueKey x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeInsertByKeyDeviceQueue x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_KeGetCurrentThread x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeAcquireGuardedMutexUnsafe x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_hash_460656451_sdv_static_function_5 x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExEnterCriticalRegionAndAcquireResourceExclusive x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwFreeVirtualMemory x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_RunStartIo x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_InitializeObjectAttributes x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoVolumeDeviceToDosName x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisCmDispatchIncomingCall x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+MmMapIoSpace x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisInterlockedPushEntrySList x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+MmMapLockedPages x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_RunDispatchClose x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwFlushVirtualMemory x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisClModifyCallQoS x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExfInterlockedPushEntryList x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_ExInterlockedPopEntrySList x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_IoGetCurrentIrpStackLocation x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+SdvAssume x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeRemoveEntryDeviceQueue x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoWMIQueryAllDataMultiple x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwTerminateProcess x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoEnumerateRegisteredFiltersList x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMCmCloseCallComplete x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_RunDispatchPower x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeClearEvent x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_ExInitializeFastMutex x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_RunDispatchInternalDeviceControl x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_RunIoQueueWorkItemsEx x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExfInterlockedRemoveHeadList x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwCreateDirectoryObject x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwPrePrepareEnlistment x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoReleaseRemoveLockEx x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisUpcaseUnicodeString x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisFreeTimerObject x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMResetComplete x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisInterlockedRemoveHeadList x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+EtwWriteStartScenario x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoRegisterPlugPlayNotification x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMDeregisterMiniportDriver x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisInterlockedFlushSList x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeFlushQueuedDpcs x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_MmGetSystemAddressForMdlSafe x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisClRegisterSap x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisClCloseAddressFamily x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_hash_456860598_sdv_static_function_5 x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_MINIPORT_ENABLE_INTERRUPT x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExAcquireSharedStarveExclusive x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_KeFlushIoBuffers x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NDIS_TIMER_FUNCTION x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMFreeSharedMemory x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisInterlockedPopEntrySList x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeLeaveGuardedRegion x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoVerifyVolume x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_CheckIrpMjPnp x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisWritePortUshort x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExInitializeResourceLite x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExpInterlockedPushEntrySList x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisAllocateTimerObject x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoMakeAssociatedIrp x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_MINIPORT_HALT x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExAllocatePool x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+MmFreeContiguousMemory x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoDisconnectInterruptEx x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_hash_189958360_sdv_static_function_5 x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisWritePortUchar x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_IoSizeOfIrp x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMGetDmaAlignment x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_hash_629457446_sdv_static_function_5 x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisCopyFromNetBufferToNetBuffer x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+EtwRegister x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeAreApcsDisabled x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoQueueWorkItem x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoReplacePartitionUnit x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IofCallDriver x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_InterlockedPushEntrySList x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisAllocateCloneNetBufferList x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_IoSetNextIrpStackLocation x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisOpenFile x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMCmAddPartyComplete x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_hash_1014301616_sdv_static_function_5 x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeLeaveCriticalRegion x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_MINIPORT_SYNCHRONIZE_MESSAGE_INTERRUPT x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_KeInitializeSpinLock x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisCmDropPartyComplete x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoConnectInterrupt x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeDeregisterNmiCallback x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisReadPortBufferUlong x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NDIS_WAIT_FOR_MUTEX x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisCancelSendNetBufferLists x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMRegisterInterruptEx x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_IoReleaseRemoveLockEx x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeSetTimerEx x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExiReleaseFastMutex x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisReleaseRWLock x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_DoNothing x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoRaiseInformationalHardError x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExfInterlockedInsertHeadList x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+MmDoesFileHaveUserWritableReferences x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwOpenFile x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_InterlockedIncrement x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisInterlockedInsertHeadList x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeReleaseInterruptSpinLock x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_IoMarkIrpPending x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwDeviceIoControlFile x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_hash_163199782_sdv_static_function_5 x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisClIncomingCallComplete x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_IoCreateDeviceSecure x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_RunDispatchFunction x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeAreAllApcsDisabled x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoSetShareAccessEx x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMIndicateReceiveNetBufferLists x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeAcquireInStackQueuedSpinLockForDpc x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeInitializeThreadedDpc x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoValidateDeviceIoControlAccess x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+MmSecureVirtualMemory x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoForwardIrpSynchronously x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwNotifyChangeKey x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+KeInitializeDpc x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_hash_394249868_sdv_static_function_5 x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_ExFreePool x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwSetInformationThread x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_IoAdjustPagingPathCount x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisClAddParty x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisGetPoolFromNetBuffer x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_RunDispatchDeviceControl x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisCmDispatchIncomingCallQoSChange x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoCheckShareAccess x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwOpenResourceManager x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_RunQueryRemoveDevice x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoBuildDeviceIoControlRequest x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisInitializeNPagedLookasideList x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwQueryKey x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMCmDispatchIncomingCallQoSChange x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisInterlockedAddLargeStatistic x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisInitAnsiString x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_MmPrepareMdlForReuse x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoStartPacket x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+RtlUnicodeStringToAnsiString x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMRegisterIoPortRange x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwCreateTransactionManager x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+MmProbeAndLockPages x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_MINIPORT_SET_OPTIONS x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisMSetupDmaTransfer x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisCmOpenAddressFamilyComplete x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_ExReleaseSpinLock x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_ExIsResourceAcquiredLite x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+strnlen_s_sdv_static_function_5 x64/Win8Release//sdv-harness.c c:\program files (x86)\windows kits\8.1\include\km\crt\string.h
+KeInitializeSemaphore x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+IoCreateSynchronizationEvent x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_NdisAllocateNetBufferPool x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ZwRollbackComplete x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_hash_170820546_sdv_static_function_5 x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+sdv_IoDeassignArcName x64/Win8Release//sdv-harness.c d:\labs\myfirewall\firewall\firewall\ndisfilterdriver\sdv\sdv-harness.c
+ExQueryDepthSList __undefined_functions__.c __undefined_functions__.c
+sdv_stub_startio_begin __undefined_functions__.c __undefined_functions__.c
+sdv_stub_dispatch_end __undefined_functions__.c __undefined_functions__.c
+MmMapLockedPagesSpecifyCache __undefined_functions__.c __undefined_functions__.c
+sdv_stub_startio_end __undefined_functions__.c __undefined_functions__.c
+NdisGetDeviceReservedExtension __undefined_functions__.c __undefined_functions__.c
+ExInitializeNPagedLookasideList __undefined_functions__.c __undefined_functions__.c
+KfRaiseIrql __undefined_functions__.c __undefined_functions__.c
+sdv_stub_add_end __undefined_functions__.c __undefined_functions__.c
+wcsnlen __undefined_functions__.c __undefined_functions__.c
+SLAM_DEFAULT_ROUTINE __undefined_functions__.c __undefined_functions__.c
+strnlen __undefined_functions__.c __undefined_functions__.c
+NdisInitializeEvent __undefined_functions__.c __undefined_functions__.c
+OneOfTwoBOOLEAN __undefined_functions__.c __undefined_functions__.c
+sdv_stub_add_begin __undefined_functions__.c __undefined_functions__.c
+sdv_stub_dispatch_begin __undefined_functions__.c __undefined_functions__.c
+NdisGetVersion __undefined_functions__.c __undefined_functions__.c
+RtlQueryRegistryValues __undefined_functions__.c __undefined_functions__.c
+ExpInterlockedPopEntrySList __undefined_functions__.c __undefined_functions__.c

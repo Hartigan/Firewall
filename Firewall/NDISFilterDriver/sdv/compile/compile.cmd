@@ -1,0 +1,6 @@
+set PATH=C:\Program Files (x86)\Windows Kits\8.1\TOOLS\SDV\bin\engine;%PATH%
+set PATH=C:\Program Files (x86)\Microsoft Visual Studio 12.0\\VC\bin\x86_amd64;C:\Program Files (x86)\Microsoft Visual Studio 12.0\\VC\bin;C:\Program Files (x86)\Microsoft Visual Studio 12.0\\common7\ide\;%PATH%
+
+set INCLUDE=D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\;C:\Program Files (x86)\Windows Kits\8.1\Include\km\crt;C:\Program Files (x86)\Windows Kits\8.1\Include\KM;C:\Program Files (x86)\Windows Kits\8.1\Include\shared
+
+slamcl  --output sdv\compile\slamdrv.obj  /D_SDV_ "-ID:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver" "-ID:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\SDV\scan" "-IC:\Program Files (x86)\Windows Kits\8.1\TOOLS\SDV\osmodel\ndis" "/FIC:\Program Files (x86)\Windows Kits\8.1\TOOLS\SDV\osmodel\ndis\SDV_cl_frontend.h" "@D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\sdv\compile\\sdv_cl.rsp" "@D:\labs\myFirewall\Firewall\Firewall\NDISFilterDriver\sdv\compile\\cfiles.txt"

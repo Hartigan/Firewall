@@ -1,0 +1,27 @@
+--------- CL ----------
+Verifying 8 impls
+CL: Constant loop FilterRestart_loop_L32 
+CL: Constant loop CheckSentIPv6Header_loop_L18 (annotated)
+CL: Constant loop CheckReceiveIPv6Header_loop_L18 (annotated)
+Static analysis took 0,35 s
+Running Houdini
+Inferred 189 contracts
+Houdini took 1,73 seconds
+Verifying 13 impls
+LB: Took 0,73 s
+Verifying program while tracking: {alloc, yogi_error, filter_state}
+
+Boogie verification time: 0,98 s
+Time spent reading-writing programs: 1,76 s
+
+Time spent checking a program (0): 0,13 s
+Time spent checking a path (0): 0,00 s
+
+CLoops Time: 1,08 s
+Num refinements: 1
+Number of procedures inlined: 2
+Final tracked vars: {alloc, yogi_error, filter_state}
+Total Time: 5,80 s
+No bugs found
+Proof computed
+

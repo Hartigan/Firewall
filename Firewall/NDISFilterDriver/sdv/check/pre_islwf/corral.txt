@@ -1,0 +1,54 @@
+wlimit> Executing...
+wlimit>  log events: no
+wlimit>  allow process to breakaway: no
+wlimit>  die in case of an unhandled exception: no
+wlimit>  ignore control-c: yes
+wlimit>  spare child processes' life at exit: no
+wlimit>  job wall clock time limit (secs): 1400
+wlimit>  job total user time limit (secs): 1400
+wlimit>  job memory limit (Mb): 1750
+wlimit>  job command: '"C:\Program Files (x86)\Windows Kits\8.1\TOOLS\SDV\bin\engine\engineq\corral\engineq4sdv.exe" li2c_prog.bpl /precheck /platform:ndis'
+EngineQ4Sdv: using precheck flags
+Houdini candidates: 0,0850524 s
+Unfolding recursion
+Simplify program: 0,0938513 s
+Running corral with flags: /k:1 /recursionBound:12 /main:main /useProverEvaluate /track:yogi_error /houdiniTimeLimit:20000  /catchAll /recursionBound:6 /timeLimit:3000 /sdv /runHoudini /cloops /ann:PruneCounterLoop:15 /memLimit:1000 /track:sdv_cancelFptr  /track:yogi_error  /runHoudini:2 
+Corral result: bug
+prog.c(1,1): error PF5001: This assertion can fail
+
+--------- CL ----------
+Static analysis took 0,02 s
+Running Houdini
+Inferred 14 contracts
+Houdini took 0,35 seconds
+LB: Took 0,07 s
+Verifying program while tracking: {alloc, yogi_error}
+Program has a potential bug: True bug
+
+Boogie verification time: 0,15 s
+Time spent reading-writing programs: 0,13 s
+
+Time spent checking a program (0): 0,06 s
+Time spent checking a path (0): 0,08 s
+
+CLoops Time: 0,06 s
+Num refinements: 1
+Number of procedures inlined: 19
+Final tracked vars: {alloc, yogi_error}
+Total Time: 0,91 s
+Program has bugs
+Generating data values ...Done
+Data value generation took: 0,09 s
+
+engineq4Sdv: 1,4439359 s
+
+wlimit> Finished:
+wlimit>  Status: 0 (Success)
+wlimit>  Exit code: 0
+wlimit>  TotalWallClockTime: 1469 ms
+wlimit>  TotalUserTime: 1390 ms
+wlimit>  TotalKernelTime: 156 ms
+wlimit>  TotalProcesses: 12
+wlimit>  TotalTerminatedProcesses: 0
+wlimit>  PeakProcessMemoryUsed : 33 Mb
+wlimit>  PeakJobMemoryUsed : 49 Mb

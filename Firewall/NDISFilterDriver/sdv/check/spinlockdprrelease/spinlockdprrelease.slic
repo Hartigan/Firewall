@@ -1,0 +1,36 @@
+/*
+	Copyright (c) Microsoft Corporation.  All rights reserved.
+
+    Summary:
+    The SpinLockDprRelease rule specifies that a driver must not release a SpinLock without first acquiring it. 
+    
+    Description:
+    The SpinLockDprRelease rule specifies that a driver must not release a SpinLock without first acquiring it. 
+    
+    Related Rule:
+    SpinLockRelease
+	
+*/
+
+#include "ntddk_slic.h"
+
+state{
+   enum {initial,unlocked,locked} s = initial;
+}
+watch NdisAllocateSpinLock.entry.$1;
+
+
+[NdisReleaseSpinLock,NdisDprReleaseSpinLock].exit[guard $1]
+{
+        if ((s == unlocked) || (s == initial)) {
+            abort "The driver is calling $fname without first acquiring the spinlock.";
+        } else {
+            s = unlocked;
+        }
+}
+
+[NdisAcquireSpinLock,NdisDprAcquireSpinLock].exit[guard $1]
+{  
+  s = locked;
+}
+
